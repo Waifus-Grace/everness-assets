@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AKDirctorWeightDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AKDirctorWeightRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Start": 0,
+        "End": 500,
+        "Weight": 100
+      },
+      "NewRow_0": {
+        "Start": 500,
+        "End": 1500,
+        "Weight": 90
+      },
+      "NewRow_1": {
+        "Start": 1500,
+        "End": 3000,
+        "Weight": 80
+      },
+      "NewRow_2": {
+        "Start": 3000,
+        "End": 5000,
+        "Weight": 70
+      },
+      "NewRow_3": {
+        "Start": 5000,
+        "End": 10000,
+        "Weight": 60
+      }
+    }
+  }
+]

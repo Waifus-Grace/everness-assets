@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SubRoleReviewQuestDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'SubRoleReviewQuestData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "QuestSectionDes": {
+          "Namespace": "",
+          "Key": "7BA699714295946DBFF92CBC3343C564",
+          "SourceString": "萨达萨达",
+          "LocalizedString": "萨达萨达"
+        },
+        "TitleDes": {
+          "Namespace": "",
+          "Key": "60611C114504CF5E7352438CDEEBC80E",
+          "SourceString": "打发士大夫",
+          "LocalizedString": "打发士大夫"
+        },
+        "PlotDes": {
+          "Namespace": "",
+          "Key": "F260746A42FDDBA02F36A0BC394CAB98",
+          "SourceString": "打发打发大师傅士大夫撒旦发士大夫士大夫士大夫飒飒打撒阿萨阿松大",
+          "LocalizedString": "打发打发大师傅士大夫撒旦发士大夫士大夫士大夫飒飒打撒阿萨阿松大"
+        },
+        "RoleIndex": 1,
+        "UnlockQuestId": "q110002",
+        "SectionImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ImageIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YH_PlotReview_PrincipalLine_Button_Select_images_01.UI_YH_PlotReview_PrincipalLine_Button_Select_images_01",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_0": {
+        "QuestSectionDes": {
+          "Namespace": "",
+          "Key": "5BDA877D4A9A2D8234900A919FC6E263",
+          "SourceString": "大撒大撒大苏打",
+          "LocalizedString": "大撒大撒大苏打"
+        },
+        "TitleDes": {
+          "Namespace": "",
+          "Key": "96AF2E6A43C95ED6791569B752ACC449",
+          "SourceString": "发士大夫s'da's",
+          "LocalizedString": "发士大夫s'da's"
+        },
+        "PlotDes": {
+          "Namespace": "",
+          "Key": "5565C5EC49A119CDCC54159974E4BDAB",
+          "SourceString": "   萨达萨达阿松大阿萨俺滴阿萨打算房东地方给对方g'd",
+          "LocalizedString": "   萨达萨达阿松大阿萨俺滴阿萨打算房东地方给对方g'd"
+        },
+        "RoleIndex": 2,
+        "UnlockQuestId": "q110003",
+        "SectionImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ImageIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YH_PlotReview_PrincipalLine_Button_Select_images_01.UI_YH_PlotReview_PrincipalLine_Button_Select_images_01",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_1": {
+        "QuestSectionDes": {
+          "Namespace": "",
+          "Key": "4C68598746443298D999BA96F3C721E8",
+          "SourceString": "时代苟富贵",
+          "LocalizedString": "时代苟富贵"
+        },
+        "TitleDes": {
+          "Namespace": "",
+          "Key": "8E216E494331EF586B8E058A704AE99C",
+          "SourceString": "的给当首付a",
+          "LocalizedString": "的给当首付a"
+        },
+        "PlotDes": {
+          "Namespace": "",
+          "Key": "FDAE44464440D19CFC628898550CA06B",
+          "SourceString": "时代双方的的风格风格合法化大师傅大师傅士大夫梵蒂冈地方官的说法是的风格的法国队",
+          "LocalizedString": "时代双方的的风格风格合法化大师傅大师傅士大夫梵蒂冈地方官的说法是的风格的法国队"
+        },
+        "RoleIndex": 3,
+        "UnlockQuestId": "q110004",
+        "SectionImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ImageIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YH_PlotReview_PrincipalLine_Button_Select_images_01.UI_YH_PlotReview_PrincipalLine_Button_Select_images_01",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_2": {
+        "QuestSectionDes": {
+          "Namespace": "",
+          "Key": "C3974ABB4158F96F6DA632BD6F9DA9AD",
+          "SourceString": "萨达萨达",
+          "LocalizedString": "萨达萨达"
+        },
+        "TitleDes": {
+          "Namespace": "",
+          "Key": "2174DF4E45B089B239E710A628C54FD0",
+          "SourceString": "啊实打实",
+          "LocalizedString": "啊实打实"
+        },
+        "PlotDes": {
+          "Namespace": "",
+          "Key": "BD327B3042A36C6EECDD1798B696E02A",
+          "SourceString": "十大十大首富山豆根地方撒旦撒打算大阿松大阿萨da's'da's'd",
+          "LocalizedString": "十大十大首富山豆根地方撒旦撒打算大阿松大阿萨da's'da's'd"
+        },
+        "RoleIndex": 4,
+        "UnlockQuestId": "q110005",
+        "SectionImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ImageIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YH_PlotReview_PrincipalLine_Button_Select_images_01.UI_YH_PlotReview_PrincipalLine_Button_Select_images_01",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

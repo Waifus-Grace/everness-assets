@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestSpecialSettleData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'SpecialQuestSettleData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "q110001_0": {
+        "QuestId": "q110001_0",
+        "QuestIcon": {
+          "AssetPathName": "/Game/Characters/Player/lusm/zang/8/1.1",
+          "SubPathString": ""
+        },
+        "bHasExtraDesc": true,
+        "ExQuestDesc": {
+          "Namespace": "",
+          "Key": "94759415465C6E3B8157D98FBFFD0CE2",
+          "SourceString": "extraDesc",
+          "LocalizedString": "extraDesc"
+        },
+        "MiniMapFixIconName": "None"
+      },
+      "q110103": {
+        "QuestId": "q110103",
+        "QuestIcon": {
+          "AssetPathName": "/Game/Environment/Building/Interior/Antiquestore/Build_Yiboen/Textures/01.01",
+          "SubPathString": ""
+        },
+        "bHasExtraDesc": true,
+        "ExQuestDesc": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_huixianglieche_des1",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "MiniMapFixIconName": "Test2"
+      }
+    }
+  }
+]

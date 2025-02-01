@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_City",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CityData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {}
+  }
+]

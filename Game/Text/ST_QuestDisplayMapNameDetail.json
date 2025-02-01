@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_QuestDisplayMapNameDetail",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_QuestDisplayMapNameDetail",
+      "KeysToEntries": {
+        "City001": "海特洛市",
+        "Region001": "老城区",
+        "Region002": "新赫兰德区",
+        "Region003": "半港区",
+        "Region004": "游檩廊道",
+        "Region005": "冷木林",
+        "Area001": "桥间地",
+        "Area002": "未闻浦 ",
+        "Area003": "绘空町",
+        "Area00102": "提卡尔大桥",
+        "Area00103": "鸢尾大桥",
+        "Area00101": "半角街",
+        "Area00104": "Z42环海公路",
+        "Area00105": "蓝胡子路",
+        "Area00106": "火炬木大道",
+        "Area00107": "水梨子大道",
+        "Area00108": "狐窗街",
+        "Area00109": "姆咪街",
+        "Area00110": "白鹦鹉街",
+        "Area00111": "林中路",
+        "Area0010101": "月光当铺",
+        "Area0010102": "照相馆",
+        "Region006": "M10区",
+        "Area000": "M10区",
+        "SubArea00201": "奥利哈刚「理想馆」",
+        "SubArea00202": "塞润尼缇庄园",
+        "SubArea00203": "露天影院",
+        "SubArea00101": "绿墙坡",
+        "SubArea00204": "新越车行",
+        "SubArea00205": "一咖舍",
+        "SubArea00206": "克莱门学园"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

@@ -1,0 +1,408 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterBreakthroughDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterBreakthroughData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Female_Breakthrough_0": {
+        "MaxCharacterLevel": 20,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "Female_stage_0"
+      },
+      "Female_Breakthrough_1": {
+        "MaxCharacterLevel": 30,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "Female_stage_1"
+      },
+      "Female_Breakthrough_2": {
+        "MaxCharacterLevel": 40,
+        "NeedMaxWorldLevel": 1,
+        "NeedItems": "Worldboss_material_01:2,OrdinaryMonMaterial_01_lv1:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "Female_stage_2"
+      },
+      "Female_Breakthrough_3": {
+        "MaxCharacterLevel": 50,
+        "NeedMaxWorldLevel": 2,
+        "NeedItems": "WorldMaterial_05:1,Worldboss_material_01:6,OrdinaryMonMaterial_01_lv2:3",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "Female_stage_3"
+      },
+      "Female_Breakthrough_4": {
+        "MaxCharacterLevel": 60,
+        "NeedMaxWorldLevel": 3,
+        "NeedItems": "WorldMaterial_05:3,Worldboss_material_01:9,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:80000",
+        "ModifyPackID": "Female_stage_4"
+      },
+      "Female_Breakthrough_5": {
+        "MaxCharacterLevel": 70,
+        "NeedMaxWorldLevel": 4,
+        "NeedItems": "WorldMaterial_05:7,Worldboss_material_01:13,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:100000",
+        "ModifyPackID": "Female_stage_5"
+      },
+      "Female_Breakthrough_6": {
+        "MaxCharacterLevel": 80,
+        "NeedMaxWorldLevel": 5,
+        "NeedItems": "WorldMaterial_05:12,Worldboss_material_01:18,OrdinaryMonMaterial_01_lv3:8",
+        "NeedGolds": "gold:120000",
+        "ModifyPackID": "Female_stage_6"
+      },
+      "Mint_Breakthrough_0": {
+        "MaxCharacterLevel": 20,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "Mint_stage_0"
+      },
+      "Mint_Breakthrough_1": {
+        "MaxCharacterLevel": 30,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "Mint_stage_1"
+      },
+      "Mint_Breakthrough_2": {
+        "MaxCharacterLevel": 40,
+        "NeedMaxWorldLevel": 1,
+        "NeedItems": "Worldboss_material_01:2,OrdinaryMonMaterial_01_lv1:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "Mint_stage_2"
+      },
+      "Mint_Breakthrough_3": {
+        "MaxCharacterLevel": 50,
+        "NeedMaxWorldLevel": 2,
+        "NeedItems": "WorldMaterial_05:1,Worldboss_material_01:6,OrdinaryMonMaterial_01_lv2:3",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "Mint_stage_3"
+      },
+      "Mint_Breakthrough_4": {
+        "MaxCharacterLevel": 60,
+        "NeedMaxWorldLevel": 3,
+        "NeedItems": "WorldMaterial_05:3,Worldboss_material_01:9,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:80000",
+        "ModifyPackID": "Mint_stage_4"
+      },
+      "Mint_Breakthrough_5": {
+        "MaxCharacterLevel": 70,
+        "NeedMaxWorldLevel": 4,
+        "NeedItems": "WorldMaterial_05:7,Worldboss_material_01:13,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:100000",
+        "ModifyPackID": "Mint_stage_5"
+      },
+      "Mint_Breakthrough_6": {
+        "MaxCharacterLevel": 80,
+        "NeedMaxWorldLevel": 5,
+        "NeedItems": "WorldMaterial_05:12,Worldboss_material_01:18,OrdinaryMonMaterial_01_lv3:8",
+        "NeedGolds": "gold:120000",
+        "ModifyPackID": "Mint_stage_6"
+      },
+      "Sagiri_Breakthrough_0": {
+        "MaxCharacterLevel": 20,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "Sagiri_stage_0"
+      },
+      "Sagiri_Breakthrough_1": {
+        "MaxCharacterLevel": 30,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "Sagiri_stage_1"
+      },
+      "Sagiri_Breakthrough_2": {
+        "MaxCharacterLevel": 40,
+        "NeedMaxWorldLevel": 1,
+        "NeedItems": "Worldboss_material_01:2,OrdinaryMonMaterial_01_lv1:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "Sagiri_stage_2"
+      },
+      "Sagiri_Breakthrough_3": {
+        "MaxCharacterLevel": 50,
+        "NeedMaxWorldLevel": 2,
+        "NeedItems": "WorldMaterial_05:1,Worldboss_material_01:6,OrdinaryMonMaterial_01_lv2:3",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "Sagiri_stage_3"
+      },
+      "Sagiri_Breakthrough_4": {
+        "MaxCharacterLevel": 60,
+        "NeedMaxWorldLevel": 3,
+        "NeedItems": "WorldMaterial_05:3,Worldboss_material_01:9,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:80000",
+        "ModifyPackID": "Sagiri_stage_4"
+      },
+      "Sagiri_Breakthrough_5": {
+        "MaxCharacterLevel": 70,
+        "NeedMaxWorldLevel": 4,
+        "NeedItems": "WorldMaterial_05:7,Worldboss_material_01:13,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:100000",
+        "ModifyPackID": "Sagiri_stage_5"
+      },
+      "Sagiri_Breakthrough_6": {
+        "MaxCharacterLevel": 80,
+        "NeedMaxWorldLevel": 5,
+        "NeedItems": "WorldMaterial_05:12,Worldboss_material_01:18,OrdinaryMonMaterial_01_lv3:8",
+        "NeedGolds": "gold:120000",
+        "ModifyPackID": "Sagiri_stage_6"
+      },
+      "Nanally_Breakthrough_0": {
+        "MaxCharacterLevel": 20,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "Nanally_stage_0"
+      },
+      "Nanally_Breakthrough_1": {
+        "MaxCharacterLevel": 30,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "Nanally_stage_1"
+      },
+      "Nanally_Breakthrough_2": {
+        "MaxCharacterLevel": 40,
+        "NeedMaxWorldLevel": 1,
+        "NeedItems": "Worldboss_material_01:2,OrdinaryMonMaterial_01_lv1:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "Nanally_stage_2"
+      },
+      "Nanally_Breakthrough_3": {
+        "MaxCharacterLevel": 50,
+        "NeedMaxWorldLevel": 2,
+        "NeedItems": "WorldMaterial_05:1,Worldboss_material_01:6,OrdinaryMonMaterial_01_lv2:3",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "Nanally_stage_3"
+      },
+      "Nanally_Breakthrough_4": {
+        "MaxCharacterLevel": 60,
+        "NeedMaxWorldLevel": 3,
+        "NeedItems": "WorldMaterial_05:3,Worldboss_material_01:9,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:80000",
+        "ModifyPackID": "Nanally_stage_4"
+      },
+      "Nanally_Breakthrough_5": {
+        "MaxCharacterLevel": 70,
+        "NeedMaxWorldLevel": 4,
+        "NeedItems": "WorldMaterial_05:7,Worldboss_material_01:13,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:100000",
+        "ModifyPackID": "Nanally_stage_5"
+      },
+      "Nanally_Breakthrough_6": {
+        "MaxCharacterLevel": 80,
+        "NeedMaxWorldLevel": 5,
+        "NeedItems": "WorldMaterial_05:12,Worldboss_material_01:18,OrdinaryMonMaterial_01_lv3:8",
+        "NeedGolds": "gold:120000",
+        "ModifyPackID": "Nanally_stage_6"
+      },
+      "Adler_Breakthrough_0": {
+        "MaxCharacterLevel": 20,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "Adler_stage_0"
+      },
+      "Adler_Breakthrough_1": {
+        "MaxCharacterLevel": 30,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "Adler_stage_1"
+      },
+      "Adler_Breakthrough_2": {
+        "MaxCharacterLevel": 40,
+        "NeedMaxWorldLevel": 1,
+        "NeedItems": "Worldboss_material_02:2,OrdinaryMonMaterial_01_lv1:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "Adler_stage_2"
+      },
+      "Adler_Breakthrough_3": {
+        "MaxCharacterLevel": 50,
+        "NeedMaxWorldLevel": 2,
+        "NeedItems": "WorldMaterial_05:1,Worldboss_material_02:6,OrdinaryMonMaterial_01_lv2:3",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "Adler_stage_3"
+      },
+      "Adler_Breakthrough_4": {
+        "MaxCharacterLevel": 60,
+        "NeedMaxWorldLevel": 3,
+        "NeedItems": "WorldMaterial_05:3,Worldboss_material_02:9,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:80000",
+        "ModifyPackID": "Adler_stage_4"
+      },
+      "Adler_Breakthrough_5": {
+        "MaxCharacterLevel": 70,
+        "NeedMaxWorldLevel": 4,
+        "NeedItems": "WorldMaterial_05:7,Worldboss_material_02:13,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:100000",
+        "ModifyPackID": "Adler_stage_5"
+      },
+      "Adler_Breakthrough_6": {
+        "MaxCharacterLevel": 80,
+        "NeedMaxWorldLevel": 5,
+        "NeedItems": "WorldMaterial_05:12,Worldboss_material_02:18,OrdinaryMonMaterial_01_lv3:8",
+        "NeedGolds": "gold:120000",
+        "ModifyPackID": "Adler_stage_6"
+      },
+      "lacrimosa_Breakthrough_0": {
+        "MaxCharacterLevel": 20,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "lacrimosa_stage_0"
+      },
+      "lacrimosa_Breakthrough_1": {
+        "MaxCharacterLevel": 30,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "lacrimosa_stage_1"
+      },
+      "lacrimosa_Breakthrough_2": {
+        "MaxCharacterLevel": 40,
+        "NeedMaxWorldLevel": 1,
+        "NeedItems": "Worldboss_material_02:2,OrdinaryMonMaterial_01_lv1:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "lacrimosa_stage_2"
+      },
+      "lacrimosa_Breakthrough_3": {
+        "MaxCharacterLevel": 50,
+        "NeedMaxWorldLevel": 2,
+        "NeedItems": "WorldMaterial_05:1,Worldboss_material_02:6,OrdinaryMonMaterial_01_lv2:3",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "lacrimosa_stage_3"
+      },
+      "lacrimosa_Breakthrough_4": {
+        "MaxCharacterLevel": 60,
+        "NeedMaxWorldLevel": 3,
+        "NeedItems": "WorldMaterial_05:3,Worldboss_material_02:9,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:80000",
+        "ModifyPackID": "lacrimosa_stage_4"
+      },
+      "lacrimosa_Breakthrough_5": {
+        "MaxCharacterLevel": 70,
+        "NeedMaxWorldLevel": 4,
+        "NeedItems": "WorldMaterial_05:7,Worldboss_material_02:13,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:100000",
+        "ModifyPackID": "lacrimosa_stage_5"
+      },
+      "lacrimosa_Breakthrough_6": {
+        "MaxCharacterLevel": 80,
+        "NeedMaxWorldLevel": 5,
+        "NeedItems": "WorldMaterial_05:12,Worldboss_material_02:18,OrdinaryMonMaterial_01_lv3:8",
+        "NeedGolds": "gold:120000",
+        "ModifyPackID": "lacrimosa_stage_6"
+      },
+      "skia_Breakthrough_0": {
+        "MaxCharacterLevel": 20,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "skia_stage_0"
+      },
+      "skia_Breakthrough_1": {
+        "MaxCharacterLevel": 30,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "skia_stage_1"
+      },
+      "skia_Breakthrough_2": {
+        "MaxCharacterLevel": 40,
+        "NeedMaxWorldLevel": 1,
+        "NeedItems": "Worldboss_material_02:2,OrdinaryMonMaterial_01_lv1:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "skia_stage_2"
+      },
+      "skia_Breakthrough_3": {
+        "MaxCharacterLevel": 50,
+        "NeedMaxWorldLevel": 2,
+        "NeedItems": "WorldMaterial_05:1,Worldboss_material_02:6,OrdinaryMonMaterial_01_lv2:3",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "skia_stage_3"
+      },
+      "skia_Breakthrough_4": {
+        "MaxCharacterLevel": 60,
+        "NeedMaxWorldLevel": 3,
+        "NeedItems": "WorldMaterial_05:3,Worldboss_material_02:9,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:80000",
+        "ModifyPackID": "skia_stage_4"
+      },
+      "skia_Breakthrough_5": {
+        "MaxCharacterLevel": 70,
+        "NeedMaxWorldLevel": 4,
+        "NeedItems": "WorldMaterial_05:7,Worldboss_material_02:13,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:100000",
+        "ModifyPackID": "skia_stage_5"
+      },
+      "skia_Breakthrough_6": {
+        "MaxCharacterLevel": 80,
+        "NeedMaxWorldLevel": 5,
+        "NeedItems": "WorldMaterial_05:12,Worldboss_material_02:18,OrdinaryMonMaterial_01_lv3:8",
+        "NeedGolds": "gold:120000",
+        "ModifyPackID": "skia_stage_6"
+      },
+      "fadia_Breakthrough_0": {
+        "MaxCharacterLevel": 20,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "skia_stage_0"
+      },
+      "fadia_Breakthrough_1": {
+        "MaxCharacterLevel": 30,
+        "NeedMaxWorldLevel": 0,
+        "NeedItems": "OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "skia_stage_1"
+      },
+      "fadia_Breakthrough_2": {
+        "MaxCharacterLevel": 40,
+        "NeedMaxWorldLevel": 1,
+        "NeedItems": "Worldboss_material_02:2,OrdinaryMonMaterial_01_lv1:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "skia_stage_2"
+      },
+      "fadia_Breakthrough_3": {
+        "MaxCharacterLevel": 50,
+        "NeedMaxWorldLevel": 2,
+        "NeedItems": "WorldMaterial_05:1,Worldboss_material_02:6,OrdinaryMonMaterial_01_lv2:3",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "skia_stage_3"
+      },
+      "fadia_Breakthrough_4": {
+        "MaxCharacterLevel": 60,
+        "NeedMaxWorldLevel": 3,
+        "NeedItems": "WorldMaterial_05:3,Worldboss_material_02:9,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:80000",
+        "ModifyPackID": "skia_stage_4"
+      },
+      "fadia_Breakthrough_5": {
+        "MaxCharacterLevel": 70,
+        "NeedMaxWorldLevel": 4,
+        "NeedItems": "WorldMaterial_05:7,Worldboss_material_02:13,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:100000",
+        "ModifyPackID": "skia_stage_5"
+      },
+      "fadia_Breakthrough_6": {
+        "MaxCharacterLevel": 80,
+        "NeedMaxWorldLevel": 5,
+        "NeedItems": "WorldMaterial_05:12,Worldboss_material_02:18,OrdinaryMonMaterial_01_lv3:8",
+        "NeedGolds": "gold:120000",
+        "ModifyPackID": "skia_stage_6"
+      }
+    }
+  }
+]

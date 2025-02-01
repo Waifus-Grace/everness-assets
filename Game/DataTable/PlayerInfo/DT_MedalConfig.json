@@ -1,0 +1,302 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MedalConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'HTMedalConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "quest_001": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_quest_001",
+          "SourceString": "伊波恩鉴定师",
+          "LocalizedString": "伊波恩鉴定师"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_mainquest_02",
+          "SourceString": "完成本篇-生意经与招财宝",
+          "LocalizedString": "完成本篇-生意经与招财宝"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_appraiser.YH_UI_icon_stickers_appraiser",
+          "SubPathString": ""
+        }
+      },
+      "quest_002": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_quest_002",
+          "SourceString": "心愿，价值几何",
+          "LocalizedString": "心愿，价值几何"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_mainquest_03",
+          "SourceString": "完成本篇-「写作『既定』的谜面」",
+          "LocalizedString": "完成本篇-「写作『既定』的谜面」"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_libra.YH_UI_icon_stickers_libra",
+          "SubPathString": ""
+        }
+      },
+      "quest_003": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_quest_003",
+          "SourceString": "真心的形状",
+          "LocalizedString": "真心的形状"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_love.YH_UI_icon_stickers_love",
+          "SubPathString": ""
+        }
+      },
+      "quest_004": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_quest_004",
+          "SourceString": "名单外的客人",
+          "LocalizedString": "名单外的客人"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_intruder.YH_UI_icon_stickers_intruder",
+          "SubPathString": ""
+        }
+      },
+      "quest_005": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_quest_005",
+          "SourceString": "不灭的业火",
+          "LocalizedString": "不灭的业火"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_inferno.YH_UI_icon_stickers_inferno",
+          "SubPathString": ""
+        }
+      },
+      "vehicle_001": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_vehicle_001",
+          "SourceString": "雷加利亚-Griffin",
+          "LocalizedString": "雷加利亚-Griffin"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_grifffin.YH_UI_icon_stickers_grifffin",
+          "SubPathString": ""
+        }
+      },
+      "vehicle_002": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_vehicle_002",
+          "SourceString": "雷加利亚-Griffin Spider",
+          "LocalizedString": "雷加利亚-Griffin Spider"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_grifffin_spider.YH_UI_icon_stickers_grifffin_spider",
+          "SubPathString": ""
+        }
+      },
+      "vehicle_003": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_vehicle_003",
+          "SourceString": "奈布拉-G3",
+          "LocalizedString": "奈布拉-G3"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_g3.YH_UI_icon_stickers_g3",
+          "SubPathString": ""
+        }
+      },
+      "vehicle_004": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_vehicle_004",
+          "SourceString": "奈布拉-C2000",
+          "LocalizedString": "奈布拉-C2000"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_c2000.YH_UI_icon_stickers_c2000",
+          "SubPathString": ""
+        }
+      },
+      "realestate_001": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_realestate_001",
+          "SourceString": "伊登公寓",
+          "LocalizedString": "伊登公寓"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_apartment.YH_UI_icon_stickers_apartment",
+          "SubPathString": ""
+        }
+      },
+      "realestate_003": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_realestate_003",
+          "SourceString": "loft公寓",
+          "LocalizedString": "loft公寓"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_loft.YH_UI_icon_stickers_loft",
+          "SubPathString": ""
+        }
+      },
+      "achievement_002": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_achievement_002",
+          "SourceString": "大胃王",
+          "LocalizedString": "大胃王"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_eaters.YH_UI_icon_stickers_eaters",
+          "SubPathString": ""
+        }
+      },
+      "achievement_003": {
+        "Name": {
+          "TableId": "/Game/Text/PersonalInfo/ST_Sticker.ST_Sticker",
+          "Key": "personalinfo_sticker_achievement_003",
+          "SourceString": "百万富翁",
+          "LocalizedString": "百万富翁"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "sticker_test",
+          "SourceString": "暂未推出，敬请期待",
+          "LocalizedString": "暂未推出，敬请期待"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/YH_UI_icon_stickers_millionaire.YH_UI_icon_stickers_millionaire",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

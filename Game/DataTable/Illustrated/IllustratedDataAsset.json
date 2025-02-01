@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "HT_IllustratedDataAsset",
+    "Name": "IllustratedDataAsset",
+    "Class": "UScriptClass'HT_IllustratedDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DT_Illustrated": {
+        "ObjectName": "DataTable'IllustratedDataTable'",
+        "ObjectPath": "HT/Content/DataTable/Illustrated/IllustratedDataTable.0"
+      }
+    }
+  }
+]

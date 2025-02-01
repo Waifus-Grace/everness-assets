@@ -1,0 +1,1611 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DirectionHitWhiteDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'DirectionHitWhiteParam'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "HitRed_Left": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Cosmos.PlayerHitColorCurve_Cosmos",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Cosmos_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Cosmos.PlayerHitColorCurve_Cosmos",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Cosmos_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Cosmos.PlayerHitColorCurve_Cosmos",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Cosmos_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Cosmos.PlayerHitColorCurve_Cosmos",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Chaos_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Chaos.PlayerHitColorCurve_Chaos",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Chaos_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Chaos.PlayerHitColorCurve_Chaos",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Chaos_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Chaos.PlayerHitColorCurve_Chaos",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Incantation_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Incantation.PlayerHitColorCurve_Incantation",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Incantation_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Incantation.PlayerHitColorCurve_Incantation",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Incantation_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Incantation.PlayerHitColorCurve_Incantation",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Lakshana_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Lakshana.PlayerHitColorCurve_Lakshana",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Lakshana_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Lakshana.PlayerHitColorCurve_Lakshana",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Lakshana_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Lakshana.PlayerHitColorCurve_Lakshana",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Psyche_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Psyche.PlayerHitColorCurve_Psyche",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Psyche_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Psyche.PlayerHitColorCurve_Psyche",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Psyche_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Psyche.PlayerHitColorCurve_Psyche",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Nature_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Nature.PlayerHitColorCurve_Nature",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Nature_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Nature.PlayerHitColorCurve_Nature",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Nature_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Nature.PlayerHitColorCurve_Nature",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.2
+      },
+      "Blue_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.5,
+          "G": 1.499999,
+          "B": 10.0,
+          "A": 1.0,
+          "Hex": "BCFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 2.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "00FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Orange_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 10.0,
+          "G": 1.500002,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "HitColorMul2": {
+          "R": 10.0,
+          "G": 1.0,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Green_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.375,
+          "G": 3.0,
+          "B": 2.25,
+          "A": 1.0,
+          "Hex": "A5FFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.554245,
+          "G": 6.0,
+          "B": 5.160799,
+          "A": 1.0,
+          "Hex": "C5FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "White_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Red_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 15.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 8.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Black_HitFront": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.400007,
+          "G": 0.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "HitColorMul2": {
+          "R": 7.5,
+          "G": 0.0,
+          "B": 15.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Blue_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.5,
+          "G": 1.499999,
+          "B": 10.0,
+          "A": 1.0,
+          "Hex": "BCFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 2.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "00FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Orange_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 10.0,
+          "G": 1.500002,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "HitColorMul2": {
+          "R": 10.0,
+          "G": 1.0,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Green_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.375,
+          "G": 3.0,
+          "B": 2.25,
+          "A": 1.0,
+          "Hex": "A5FFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.554245,
+          "G": 6.0,
+          "B": 5.160799,
+          "A": 1.0,
+          "Hex": "C5FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "White_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Red_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 15.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 8.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Black_HitLeft": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.400007,
+          "G": 0.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "HitColorMul2": {
+          "R": 7.5,
+          "G": 0.0,
+          "B": 15.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Blue_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.5,
+          "G": 1.499999,
+          "B": 10.0,
+          "A": 1.0,
+          "Hex": "BCFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 2.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "00FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Orange_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 10.0,
+          "G": 1.500002,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "HitColorMul2": {
+          "R": 10.0,
+          "G": 1.0,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Green_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.375,
+          "G": 3.0,
+          "B": 2.25,
+          "A": 1.0,
+          "Hex": "A5FFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.554245,
+          "G": 6.0,
+          "B": 5.160799,
+          "A": 1.0,
+          "Hex": "C5FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "White_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Red_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 15.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 8.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Black_HitRight": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_All.PlayerHitColorCurve_All",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.400007,
+          "G": 0.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "HitColorMul2": {
+          "R": 7.5,
+          "G": 0.0,
+          "B": 15.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.3
+      },
+      "Blue_HitFrontShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.5,
+          "G": 1.499999,
+          "B": 10.0,
+          "A": 1.0,
+          "Hex": "BCFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 2.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "00FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Orange_HitFrontShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 10.0,
+          "G": 1.500002,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "HitColorMul2": {
+          "R": 10.0,
+          "G": 1.0,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Green_HitFrontShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.375,
+          "G": 3.0,
+          "B": 2.25,
+          "A": 1.0,
+          "Hex": "A5FFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.554245,
+          "G": 6.0,
+          "B": 5.160799,
+          "A": 1.0,
+          "Hex": "C5FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "White_HitFrontShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Red_HitFrontShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 15.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 8.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Black_HitFrontShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.400007,
+          "G": 0.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "HitColorMul2": {
+          "R": 7.5,
+          "G": 0.0,
+          "B": 15.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 90.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Blue_HitLeftShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.5,
+          "G": 1.499999,
+          "B": 10.0,
+          "A": 1.0,
+          "Hex": "BCFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 2.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "00FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Orange_HitLeftShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 10.0,
+          "G": 1.500002,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "HitColorMul2": {
+          "R": 10.0,
+          "G": 1.0,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Green_HitLeftShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.375,
+          "G": 3.0,
+          "B": 2.25,
+          "A": 1.0,
+          "Hex": "A5FFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.554245,
+          "G": 6.0,
+          "B": 5.160799,
+          "A": 1.0,
+          "Hex": "C5FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "White_HitLeftShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Red_HitLeftShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 15.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 8.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Black_HitLeftShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.400007,
+          "G": 0.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "HitColorMul2": {
+          "R": 7.5,
+          "G": 0.0,
+          "B": 15.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": -90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Blue_HitRightShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.5,
+          "G": 1.499999,
+          "B": 10.0,
+          "A": 1.0,
+          "Hex": "BCFFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.0,
+          "G": 2.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "00FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Orange_HitRightShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 10.0,
+          "G": 1.500002,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "HitColorMul2": {
+          "R": 10.0,
+          "G": 1.0,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "FFFFBC"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Green_HitRightShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 0.375,
+          "G": 3.0,
+          "B": 2.25,
+          "A": 1.0,
+          "Hex": "A5FFFF"
+        },
+        "HitColorMul2": {
+          "R": 0.554245,
+          "G": 6.0,
+          "B": 5.160799,
+          "A": 1.0,
+          "Hex": "C5FFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "White_HitRightShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 2.5,
+          "G": 2.5,
+          "B": 2.5,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Red_HitRightShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 15.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "HitColorMul2": {
+          "R": 8.0,
+          "G": 2.0,
+          "B": 2.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      },
+      "Black_HitRightShort": {
+        "ParameterName": "HitColor",
+        "ParameterName2": "HitColorFresnel",
+        "WhiteColorCurve": {
+          "AssetPathName": "/Game/Curve/SkillEffectCurve/PlayerHitColorCurve_Short.PlayerHitColorCurve_Short",
+          "SubPathString": ""
+        },
+        "HitColorMul1": {
+          "R": 2.400007,
+          "G": 0.0,
+          "B": 20.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "HitColorMul2": {
+          "R": 7.5,
+          "G": 0.0,
+          "B": 15.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "DirectionParameterName": "HitDirection",
+        "PlayDirection": {
+          "Pitch": 0.0,
+          "Yaw": 90.0,
+          "Roll": 0.0
+        },
+        "Duration": 0.05
+      }
+    }
+  }
+]

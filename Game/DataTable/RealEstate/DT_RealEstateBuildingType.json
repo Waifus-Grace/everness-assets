@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RealEstateBuildingType",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'RealEstateBuildingTypeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Villa": {
+        "BuildingTypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstateBuildingType_1",
+          "SourceString": "LLL型",
+          "LocalizedString": "LLL型"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Lv_LLL.Lv_LLL",
+          "SubPathString": ""
+        }
+      },
+      "Apartment": {
+        "BuildingTypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstateBuildingType_2",
+          "SourceString": "LL型",
+          "LocalizedString": "LL型"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Lv_LL.Lv_LL",
+          "SubPathString": ""
+        }
+      },
+      "OfficeBuilding": {
+        "BuildingTypeName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstateBuildingType_3",
+          "SourceString": "L型",
+          "LocalizedString": "L型"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Lv_L.Lv_L",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

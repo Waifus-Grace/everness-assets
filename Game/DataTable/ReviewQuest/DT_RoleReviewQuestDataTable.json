@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RoleReviewQuestDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'RoleReviewQuestData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "RoleIndex": 1,
+        "RoleImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YHzhezhao_BG1.UI_YHzhezhao_BG1",
+          "SubPathString": ""
+        },
+        "RoleDes": {
+          "Namespace": "",
+          "Key": "722C60C6424C732F49520F86BE3DE053",
+          "SourceString": "张三的故事",
+          "LocalizedString": "张三的故事"
+        },
+        "RoleSmallHeadImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_0": {
+        "RoleIndex": 2,
+        "RoleImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YHzhezhao_BG1.UI_YHzhezhao_BG1",
+          "SubPathString": ""
+        },
+        "RoleDes": {
+          "Namespace": "",
+          "Key": "4677A43949D8D614151D139CE9221C04",
+          "SourceString": "李四的故事",
+          "LocalizedString": "李四的故事"
+        },
+        "RoleSmallHeadImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004.player_004",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_1": {
+        "RoleIndex": 3,
+        "RoleImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YHzhezhao_BG1.UI_YHzhezhao_BG1",
+          "SubPathString": ""
+        },
+        "RoleDes": {
+          "Namespace": "",
+          "Key": "EA5D57F74C09196F48F24AA5603E751B",
+          "SourceString": "休闲的故事",
+          "LocalizedString": "休闲的故事"
+        },
+        "RoleSmallHeadImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_2": {
+        "RoleIndex": 4,
+        "RoleImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YHzhezhao_BG1.UI_YHzhezhao_BG1",
+          "SubPathString": ""
+        },
+        "RoleDes": {
+          "Namespace": "",
+          "Key": "3C88E7BC418CF2F1D164ACAC391D5636",
+          "SourceString": "修仙的故事",
+          "LocalizedString": "修仙的故事"
+        },
+        "RoleSmallHeadImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_002.player_002",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_3": {
+        "RoleIndex": 5,
+        "RoleImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YHzhezhao_BG1.UI_YHzhezhao_BG1",
+          "SubPathString": ""
+        },
+        "RoleDes": {
+          "Namespace": "",
+          "Key": "14BD3861412229AB517310ADFD792D0A",
+          "SourceString": "跋涉",
+          "LocalizedString": "跋涉"
+        },
+        "RoleSmallHeadImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_4": {
+        "RoleIndex": 6,
+        "RoleImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YHzhezhao_BG1.UI_YHzhezhao_BG1",
+          "SubPathString": ""
+        },
+        "RoleDes": {
+          "Namespace": "",
+          "Key": "5E0BE90144426194AE3B14B8053364F8",
+          "SourceString": "仙界的故事",
+          "LocalizedString": "仙界的故事"
+        },
+        "RoleSmallHeadImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_5": {
+        "RoleIndex": 7,
+        "RoleImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YHzhezhao_BG1.UI_YHzhezhao_BG1",
+          "SubPathString": ""
+        },
+        "RoleDes": {
+          "Namespace": "",
+          "Key": "184A8548474E342518B64BB12D8762F5",
+          "SourceString": "神界的故事",
+          "LocalizedString": "神界的故事"
+        },
+        "RoleSmallHeadImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

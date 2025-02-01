@@ -1,0 +1,719 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LikeabilityChatItemData_H_NPC_014_1027",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LikeabilityChatItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "H_NPC_014_1027_a_1": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": true,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": true,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_1",
+          "SourceString": "好，以后有什么消息就直接在群里说啦！",
+          "LocalizedString": "好，以后有什么消息就直接在群里说啦！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_2",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::Notice"
+      },
+      "H_NPC_014_1027_a_2": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_2",
+          "SourceString": "为什么我也被拉进来了？",
+          "LocalizedString": "为什么我也被拉进来了？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_3",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_3": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_3",
+          "SourceString": "呃，因为感觉凛会有很多需要通过群聊告诉我们的话？",
+          "LocalizedString": "呃，因为感觉凛会有很多需要通过群聊告诉我们的话？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_4",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_4": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_4",
+          "SourceString": "好吧，不过确实有要告诉你们的事",
+          "LocalizedString": "好吧，不过确实有要告诉你们的事"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_5",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_5": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_5",
+          "SourceString": "店长答应你们在livehouse还没有开始营业的时候在livehouse里练习了，乐器呢也可以先用店里的，不过每次练习之后必须在开店之前把东西都收拾好",
+          "LocalizedString": "店长答应你们在livehouse还没有开始营业的时候在livehouse里练习了，乐器呢也可以先用店里的，不过每次练习之后必须在开店之前把东西都收拾好"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_6",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_6": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_6",
+          "SourceString": "太好了，我就知道拜托凛一定是没问题的！",
+          "LocalizedString": "太好了，我就知道拜托凛一定是没问题的！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "H_NPC_014_1027_a_6_1",
+              "SourceString": "不愧是凛啊",
+              "LocalizedString": "不愧是凛啊"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "H_NPC_014_1027_a_7"
+          }
+        ],
+        "NextSetenceID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_7": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_7",
+          "SourceString": "不愧是凛啊",
+          "LocalizedString": "不愧是凛啊"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_8",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_8": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_8",
+          "SourceString": "还有，你们现在只有吉他和鼓，其他的成员准备怎么办。",
+          "LocalizedString": "还有，你们现在只有吉他和鼓，其他的成员准备怎么办。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_9",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_9": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_9",
+          "SourceString": "诶？凛不一起来吗？",
+          "LocalizedString": "诶？凛不一起来吗？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_10",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_10": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_10",
+          "SourceString": "……请不要擅自把我算上，谢谢。",
+          "LocalizedString": "……请不要擅自把我算上，谢谢。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "H_NPC_014_1027_a_10_1",
+              "SourceString": "我跟哈尼娅…",
+              "LocalizedString": "我跟哈尼娅…"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "H_NPC_014_1027_a_11"
+          }
+        ],
+        "NextSetenceID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_11": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_11",
+          "SourceString": "我跟哈尼娅都是零基础，先开始学习吧",
+          "LocalizedString": "我跟哈尼娅都是零基础，先开始学习吧"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_12",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_12": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_12",
+          "SourceString": "对对对，我们先开始学着嘛，其他成员什么的慢慢想办法！",
+          "LocalizedString": "对对对，我们先开始学着嘛，其他成员什么的慢慢想办法！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_13",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_13": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_13",
+          "SourceString": "也好，那你们想好练什么歌了吗？",
+          "LocalizedString": "也好，那你们想好练什么歌了吗？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "H_NPC_014_1027_a_13_1",
+              "SourceString": "哈尼娅决定吧",
+              "LocalizedString": "哈尼娅决定吧"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "H_NPC_014_1027_a_14_1"
+          },
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "H_NPC_014_1027_a_13_2",
+              "SourceString": "那就…",
+              "LocalizedString": "那就…"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "H_NPC_014_1027_a_14_2"
+          }
+        ],
+        "NextSetenceID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_14_1": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_14_1",
+          "SourceString": "哈尼娅决定吧",
+          "LocalizedString": "哈尼娅决定吧"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_15",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_14_2": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_14_2",
+          "SourceString": "「Sirius」里的歌曲怎么样？",
+          "LocalizedString": "「Sirius」里的歌曲怎么样？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_15",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_15": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_014",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_15",
+          "SourceString": "就「Sirius」的主题曲「一等星」吧！",
+          "LocalizedString": "就「Sirius」的主题曲「一等星」吧！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_16",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_16": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_16",
+          "SourceString": "好，那明天上午见吧",
+          "LocalizedString": "好，那明天上午见吧"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "H_NPC_014_1027_a_17",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      },
+      "H_NPC_014_1027_a_17": {
+        "ChatID": "H_NPC_014_1027_a",
+        "RoleId": "H_NPC_1027",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": true,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": true,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": true,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_014_1027_a_17",
+          "SourceString": "别迟到哦",
+          "LocalizedString": "别迟到哦"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None"
+      }
+    }
+  }
+]

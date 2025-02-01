@@ -1,0 +1,436 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ForkBreakthroughData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ForkBreakthroughData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Breakthrough_pack_fork_wushoutieyu_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_wushoutieyu_rank5_stage0"
+      },
+      "Breakthrough_pack_fork_wushoutieyu_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:5,OrdinaryMonMaterial_01_lv1:5",
+        "NeedGolds": "gold:15000",
+        "ModifyPackID": "fork_wushoutieyu_rank5_stage1"
+      },
+      "Breakthrough_pack_fork_wushoutieyu_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:15,OrdinaryMonMaterial_01_lv1:10",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_wushoutieyu_rank5_stage2"
+      },
+      "Breakthrough_pack_fork_wushoutieyu_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:6,OrdinaryMonMaterial_01_lv2:6",
+        "NeedGolds": "gold:45000",
+        "ModifyPackID": "fork_wushoutieyu_rank5_stage3"
+      },
+      "Breakthrough_pack_fork_wushoutieyu_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:18,OrdinaryMonMaterial_01_lv2:10",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_wushoutieyu_rank5_stage4"
+      },
+      "Breakthrough_pack_fork_wushoutieyu_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:5,OrdinaryMonMaterial_01_lv3:3",
+        "NeedGolds": "gold:75000",
+        "ModifyPackID": "fork_wushoutieyu_rank5_stage5"
+      },
+      "Breakthrough_pack_fork_wushoutieyu_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:8,OrdinaryMonMaterial_01_lv3:9",
+        "NeedGolds": "gold:90000",
+        "ModifyPackID": "fork_wushoutieyu_rank5_stage6"
+      },
+      "Breakthrough_pack_fork_yuren_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_yuren_rank4_stage0"
+      },
+      "Breakthrough_pack_fork_yuren_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:3,OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:10000",
+        "ModifyPackID": "fork_yuren_rank4_stage1"
+      },
+      "Breakthrough_pack_fork_yuren_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:9,OrdinaryMonMaterial_01_lv1:6",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "fork_yuren_rank4_stage2"
+      },
+      "Breakthrough_pack_fork_yuren_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:4,OrdinaryMonMaterial_01_lv2:4",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_yuren_rank4_stage3"
+      },
+      "Breakthrough_pack_fork_yuren_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:12,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "fork_yuren_rank4_stage4"
+      },
+      "Breakthrough_pack_fork_yuren_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:4,OrdinaryMonMaterial_01_lv3:2",
+        "NeedGolds": "gold:50000",
+        "ModifyPackID": "fork_yuren_rank4_stage5"
+      },
+      "Breakthrough_pack_fork_yuren_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:6,OrdinaryMonMaterial_01_lv3:7",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_yuren_rank4_stage6"
+      },
+      "Breakthrough_pack_fork_bopu_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_bopu_rank4_stage0"
+      },
+      "Breakthrough_pack_fork_bopu_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:3,OrdinaryMonMaterial_02_lv1:3",
+        "NeedGolds": "gold:10000",
+        "ModifyPackID": "fork_bopu_rank4_stage1"
+      },
+      "Breakthrough_pack_fork_bopu_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:9,OrdinaryMonMaterial_02_lv1:6",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "fork_bopu_rank4_stage2"
+      },
+      "Breakthrough_pack_fork_bopu_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:4,OrdinaryMonMaterial_02_lv2:4",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_bopu_rank4_stage3"
+      },
+      "Breakthrough_pack_fork_bopu_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:12,OrdinaryMonMaterial_02_lv2:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "fork_bopu_rank4_stage4"
+      },
+      "Breakthrough_pack_fork_bopu_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:4,OrdinaryMonMaterial_02_lv3:2",
+        "NeedGolds": "gold:50000",
+        "ModifyPackID": "fork_bopu_rank4_stage5"
+      },
+      "Breakthrough_pack_fork_bopu_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:6,OrdinaryMonMaterial_02_lv3:7",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_bopu_rank4_stage6"
+      },
+      "Breakthrough_pack_fork_mofeikesi_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_mofeikesi_rank5_stage0"
+      },
+      "Breakthrough_pack_fork_mofeikesi_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:5,OrdinaryMonMaterial_02_lv1:5",
+        "NeedGolds": "gold:15000",
+        "ModifyPackID": "fork_mofeikesi_rank5_stage1"
+      },
+      "Breakthrough_pack_fork_mofeikesi_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:15,OrdinaryMonMaterial_02_lv1:10",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_mofeikesi_rank5_stage2"
+      },
+      "Breakthrough_pack_fork_mofeikesi_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:6,OrdinaryMonMaterial_02_lv2:6",
+        "NeedGolds": "gold:45000",
+        "ModifyPackID": "fork_mofeikesi_rank5_stage3"
+      },
+      "Breakthrough_pack_fork_mofeikesi_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:18,OrdinaryMonMaterial_02_lv2:10",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_mofeikesi_rank5_stage4"
+      },
+      "Breakthrough_pack_fork_mofeikesi_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:5,OrdinaryMonMaterial_02_lv3:3",
+        "NeedGolds": "gold:75000",
+        "ModifyPackID": "fork_mofeikesi_rank5_stage5"
+      },
+      "Breakthrough_pack_fork_mofeikesi_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:8,OrdinaryMonMaterial_02_lv3:9",
+        "NeedGolds": "gold:90000",
+        "ModifyPackID": "fork_mofeikesi_rank5_stage6"
+      },
+      "Breakthrough_pack_fork_jiaojuan_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_jiaojuan_rank4_stage0"
+      },
+      "Breakthrough_pack_fork_jiaojuan_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:3,OrdinaryMonMaterial_03_lv1:3",
+        "NeedGolds": "gold:10000",
+        "ModifyPackID": "fork_jiaojuan_rank4_stage1"
+      },
+      "Breakthrough_pack_fork_jiaojuan_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:9,OrdinaryMonMaterial_03_lv1:6",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "fork_jiaojuan_rank4_stage2"
+      },
+      "Breakthrough_pack_fork_jiaojuan_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:4,OrdinaryMonMaterial_03_lv2:4",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_jiaojuan_rank4_stage3"
+      },
+      "Breakthrough_pack_fork_jiaojuan_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:12,OrdinaryMonMaterial_03_lv2:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "fork_jiaojuan_rank4_stage4"
+      },
+      "Breakthrough_pack_fork_jiaojuan_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:4,OrdinaryMonMaterial_03_lv3:2",
+        "NeedGolds": "gold:50000",
+        "ModifyPackID": "fork_jiaojuan_rank4_stage5"
+      },
+      "Breakthrough_pack_fork_jiaojuan_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:6,OrdinaryMonMaterial_03_lv3:7",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_jiaojuan_rank4_stage6"
+      },
+      "Breakthrough_pack_fork_wuhuakuang_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_wuhuakuang_rank4_stage0"
+      },
+      "Breakthrough_pack_fork_wuhuakuang_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:3,OrdinaryMonMaterial_04_lv1:3",
+        "NeedGolds": "gold:10000",
+        "ModifyPackID": "fork_wuhuakuang_rank4_stage1"
+      },
+      "Breakthrough_pack_fork_wuhuakuang_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:9,OrdinaryMonMaterial_04_lv1:6",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "fork_wuhuakuang_rank4_stage2"
+      },
+      "Breakthrough_pack_fork_wuhuakuang_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:4,OrdinaryMonMaterial_04_lv2:4",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_wuhuakuang_rank4_stage3"
+      },
+      "Breakthrough_pack_fork_wuhuakuang_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:12,OrdinaryMonMaterial_04_lv2:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "fork_wuhuakuang_rank4_stage4"
+      },
+      "Breakthrough_pack_fork_wuhuakuang_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:4,OrdinaryMonMaterial_04_lv3:2",
+        "NeedGolds": "gold:50000",
+        "ModifyPackID": "fork_wuhuakuang_rank4_stage5"
+      },
+      "Breakthrough_pack_fork_wuhuakuang_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:6,OrdinaryMonMaterial_04_lv3:7",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_wuhuakuang_rank4_stage6"
+      },
+      "Breakthrough_pack_fork_jingmotingyuan_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_jingmotingyuan_rank5_stage0"
+      },
+      "Breakthrough_pack_fork_jingmotingyuan_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:5,OrdinaryMonMaterial_03_lv1:5",
+        "NeedGolds": "gold:15000",
+        "ModifyPackID": "fork_jingmotingyuan_rank5_stage1"
+      },
+      "Breakthrough_pack_fork_jingmotingyuan_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:15,OrdinaryMonMaterial_03_lv1:10",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_jingmotingyuan_rank5_stage2"
+      },
+      "Breakthrough_pack_fork_jingmotingyuan_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:6,OrdinaryMonMaterial_03_lv2:6",
+        "NeedGolds": "gold:45000",
+        "ModifyPackID": "fork_jingmotingyuan_rank5_stage3"
+      },
+      "Breakthrough_pack_fork_jingmotingyuan_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:18,OrdinaryMonMaterial_03_lv2:10",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_jingmotingyuan_rank5_stage4"
+      },
+      "Breakthrough_pack_fork_jingmotingyuan_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:5,OrdinaryMonMaterial_03_lv3:3",
+        "NeedGolds": "gold:75000",
+        "ModifyPackID": "fork_jingmotingyuan_rank5_stage5"
+      },
+      "Breakthrough_pack_fork_jingmotingyuan_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:8,OrdinaryMonMaterial_03_lv3:9",
+        "NeedGolds": "gold:90000",
+        "ModifyPackID": "fork_jingmotingyuan_rank5_stage6"
+      },
+      "Breakthrough_pack_fork_oulaquantao_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_oulaquantao_rank4_stage0"
+      },
+      "Breakthrough_pack_fork_oulaquantao_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:3,OrdinaryMonMaterial_03_lv1:3",
+        "NeedGolds": "gold:10000",
+        "ModifyPackID": "fork_oulaquantao_rank4_stage1"
+      },
+      "Breakthrough_pack_fork_oulaquantao_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_01_lv1:9,OrdinaryMonMaterial_03_lv1:6",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "fork_oulaquantao_rank4_stage2"
+      },
+      "Breakthrough_pack_fork_oulaquantao_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:4,OrdinaryMonMaterial_03_lv2:4",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_oulaquantao_rank4_stage3"
+      },
+      "Breakthrough_pack_fork_oulaquantao_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_01_lv2:12,OrdinaryMonMaterial_03_lv2:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "fork_oulaquantao_rank4_stage4"
+      },
+      "Breakthrough_pack_fork_oulaquantao_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:4,OrdinaryMonMaterial_03_lv3:2",
+        "NeedGolds": "gold:50000",
+        "ModifyPackID": "fork_oulaquantao_rank4_stage5"
+      },
+      "Breakthrough_pack_fork_oulaquantao_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_01_lv3:6,OrdinaryMonMaterial_03_lv3:7",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_oulaquantao_rank4_stage6"
+      },
+      "Breakthrough_pack_fork_lingganzhongjiezhe_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_lingganzhongjiezhe_rank4_stage0"
+      },
+      "Breakthrough_pack_fork_lingganzhongjiezhe_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:3,OrdinaryMonMaterial_01_lv1:3",
+        "NeedGolds": "gold:10000",
+        "ModifyPackID": "fork_lingganzhongjiezhe_rank4_stage1"
+      },
+      "Breakthrough_pack_fork_lingganzhongjiezhe_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:9,OrdinaryMonMaterial_01_lv1:6",
+        "NeedGolds": "gold:20000",
+        "ModifyPackID": "fork_lingganzhongjiezhe_rank4_stage2"
+      },
+      "Breakthrough_pack_fork_lingganzhongjiezhe_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:4,OrdinaryMonMaterial_01_lv2:4",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_lingganzhongjiezhe_rank4_stage3"
+      },
+      "Breakthrough_pack_fork_lingganzhongjiezhe_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:12,OrdinaryMonMaterial_01_lv2:8",
+        "NeedGolds": "gold:40000",
+        "ModifyPackID": "fork_lingganzhongjiezhe_rank4_stage4"
+      },
+      "Breakthrough_pack_fork_lingganzhongjiezhe_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:4,OrdinaryMonMaterial_01_lv3:2",
+        "NeedGolds": "gold:50000",
+        "ModifyPackID": "fork_lingganzhongjiezhe_rank4_stage5"
+      },
+      "Breakthrough_pack_fork_lingganzhongjiezhe_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:6,OrdinaryMonMaterial_01_lv3:7",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_lingganzhongjiezhe_rank4_stage6"
+      },
+      "Breakthrough_pack_fork_rishi_0": {
+        "MaxForkLevel": 20,
+        "NeedItems": "",
+        "NeedGolds": "",
+        "ModifyPackID": "fork_rishi_rank5_stage0"
+      },
+      "Breakthrough_pack_fork_rishi_1": {
+        "MaxForkLevel": 30,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:5,OrdinaryMonMaterial_04_lv1:5",
+        "NeedGolds": "gold:15000",
+        "ModifyPackID": "fork_rishi_rank5_stage1"
+      },
+      "Breakthrough_pack_fork_rishi_2": {
+        "MaxForkLevel": 40,
+        "NeedItems": "WeaponBreakMaterial_02_lv1:15,OrdinaryMonMaterial_04_lv1:10",
+        "NeedGolds": "gold:30000",
+        "ModifyPackID": "fork_rishi_rank5_stage2"
+      },
+      "Breakthrough_pack_fork_rishi_3": {
+        "MaxForkLevel": 50,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:6,OrdinaryMonMaterial_04_lv2:6",
+        "NeedGolds": "gold:45000",
+        "ModifyPackID": "fork_rishi_rank5_stage3"
+      },
+      "Breakthrough_pack_fork_rishi_4": {
+        "MaxForkLevel": 60,
+        "NeedItems": "WeaponBreakMaterial_02_lv2:18,OrdinaryMonMaterial_04_lv2:10",
+        "NeedGolds": "gold:60000",
+        "ModifyPackID": "fork_rishi_rank5_stage4"
+      },
+      "Breakthrough_pack_fork_rishi_5": {
+        "MaxForkLevel": 70,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:5,OrdinaryMonMaterial_04_lv3:3",
+        "NeedGolds": "gold:75000",
+        "ModifyPackID": "fork_rishi_rank5_stage5"
+      },
+      "Breakthrough_pack_fork_rishi_6": {
+        "MaxForkLevel": 80,
+        "NeedItems": "WeaponBreakMaterial_02_lv3:8,OrdinaryMonMaterial_04_lv3:9",
+        "NeedGolds": "gold:90000",
+        "ModifyPackID": "fork_rishi_rank5_stage6"
+      }
+    }
+  }
+]

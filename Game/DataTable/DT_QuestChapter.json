@@ -1,0 +1,253 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestChapter",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'QuestChapterData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "MP01": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MP01",
+          "SourceString": "不虞亦先兆",
+          "LocalizedString": "不虞亦先兆"
+        },
+        "ChapterDesc": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MP01_des",
+          "SourceString": "序章-上",
+          "LocalizedString": "序章-上"
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "MP02": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MP02",
+          "SourceString": "生意经与招财宝",
+          "LocalizedString": "生意经与招财宝"
+        },
+        "ChapterDesc": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MP02_des",
+          "SourceString": "序章-下",
+          "LocalizedString": "序章-下"
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "MU01": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MU01",
+          "SourceString": "「写作『既定』的谜面」",
+          "LocalizedString": "「写作『既定』的谜面」"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "MU01_01": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MU01_01",
+          "SourceString": "月光当铺",
+          "LocalizedString": "月光当铺"
+        },
+        "ChapterDesc": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MU01_01_des",
+          "SourceString": "「写作『既定』的谜面」",
+          "LocalizedString": "「写作『既定』的谜面」"
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "MU01_02": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MU01_02",
+          "SourceString": "从捏造开始的恋爱大作战",
+          "LocalizedString": "从捏造开始的恋爱大作战"
+        },
+        "ChapterDesc": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MU01_02_des",
+          "SourceString": "「写作『既定』的谜面」",
+          "LocalizedString": "「写作『既定』的谜面」"
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU001": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU001",
+          "SourceString": "我们！意念！合一！",
+          "LocalizedString": "我们！意念！合一！"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU002": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU002",
+          "SourceString": "魔法传送装置？「神」隐绵绵！",
+          "LocalizedString": "魔法传送装置？「神」隐绵绵！"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU003": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU003",
+          "SourceString": "幽灵列车的好乘客指南",
+          "LocalizedString": "幽灵列车的好乘客指南"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU004": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU004",
+          "SourceString": "超变身~嘿嘿咯咯！",
+          "LocalizedString": "超变身~嘿嘿咯咯！"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU005": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU005",
+          "SourceString": "无名的音乐收藏家",
+          "LocalizedString": "无名的音乐收藏家"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU006": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU006",
+          "SourceString": "突发性暴雨预警",
+          "LocalizedString": "突发性暴雨预警"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU007": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU007",
+          "SourceString": "眼不见为实",
+          "LocalizedString": "眼不见为实"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU008": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU008",
+          "SourceString": "冒犯与艺术，一墙之隔",
+          "LocalizedString": "冒犯与艺术，一墙之隔"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SU009": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "SU009",
+          "SourceString": "「苦蛋糕」与「贪吃鬼」",
+          "LocalizedString": "「苦蛋糕」与「贪吃鬼」"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "LC01": {
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "LC01",
+          "SourceString": "不言不知秋",
+          "LocalizedString": "不言不知秋"
+        },
+        "ChapterDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

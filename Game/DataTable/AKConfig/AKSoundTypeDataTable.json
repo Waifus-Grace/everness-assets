@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AKSoundTypeDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AKSoundLimitCountRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "SoundType_5": {
+        "SoundObjectName": "Player",
+        "MaxLimitCount": 50,
+        "Commont": "玩家相关，脚步衣服，武器，击中等"
+      },
+      "SoundType_4": {
+        "SoundObjectName": "Boss",
+        "MaxLimitCount": 20,
+        "Commont": "世界boss相关"
+      },
+      "SoundType_2": {
+        "SoundObjectName": "Mon",
+        "MaxLimitCount": 20,
+        "Commont": "小怪相关"
+      },
+      "SoundType_1": {
+        "SoundObjectName": "Character",
+        "MaxLimitCount": 10,
+        "Commont": "重要的npc，局长"
+      },
+      "SoundType_0": {
+        "SoundObjectName": "Amb_3D",
+        "MaxLimitCount": 20,
+        "Commont": "环境声，3d点声源相关"
+      },
+      "NewRow": {
+        "SoundObjectName": "Npc_Crowd",
+        "MaxLimitCount": 6,
+        "Commont": "群杂"
+      },
+      "NewRow_0": {
+        "SoundObjectName": "Item",
+        "MaxLimitCount": 10,
+        "Commont": "物品相关"
+      },
+      "NewRow_1": {
+        "SoundObjectName": "CrowdCar",
+        "MaxLimitCount": 8,
+        "Commont": "玩家载具相关"
+      },
+      "NewRow_2": {
+        "SoundObjectName": "Vehicle",
+        "MaxLimitCount": 15,
+        "Commont": "群杂车辆"
+      },
+      "NewRow_3": {
+        "SoundObjectName": "Animal",
+        "MaxLimitCount": 15,
+        "Commont": "动物相关"
+      }
+    }
+  }
+]

@@ -1,0 +1,771 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "DT_GlobalValueNanallyData",
+    "Class": "UScriptClass'CurveTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Nanally_Melee_1_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 37.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 49.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 52.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 54.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 66.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_2_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 47.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 52.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 55.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 57.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 66.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 70.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 73.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 85.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_3_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 32.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 38.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 39.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 41.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 44.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 56.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 58.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_3_2": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 32.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 38.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 39.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 41.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 44.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 56.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 58.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_3_3": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 41.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 49.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 52.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 54.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 69.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 73.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_4_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 23.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 27.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 29.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 31.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 32.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 36.0
+          },
+          {
+            "Time": 11.0,
+            "Value": 37.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 41.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_5_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 142.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 156.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 172.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 199.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 209.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 242.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 254.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_5_2": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 177.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 195.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 215.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 237.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 261.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 274.0
+          },
+          {
+            "Time": 11.0,
+            "Value": 288.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 318.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_6_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 97.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 112.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 118.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 123.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 130.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 136.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 150.0
+          },
+          {
+            "Time": 11.0,
+            "Value": 158.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 165.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 174.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_7_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 50.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 53.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 55.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 70.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 78.0
+          },
+          {
+            "Time": 11.0,
+            "Value": 81.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 86.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 90.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Melee_8_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 25.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Skill_1_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 84.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 88.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 93.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 97.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 107.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 113.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 118.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 130.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 151.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Skill_2_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 20.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Skill_3_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 25.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 25.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_Skill_4_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 20.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 20.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkill_1_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 128.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 134.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 155.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 171.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 198.0
+          },
+          {
+            "Time": 11.0,
+            "Value": 208.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 230.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkill_1_2": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 46.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 48.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 51.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 53.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 71.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 83.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkill_1_3": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 242.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 266.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 308.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 340.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 357.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 375.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 413.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 434.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkillPraojectile_1_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 100.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 110.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 134.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 155.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 171.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 180.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkillPraojectile_2_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 6.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 6.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkillPraojectile_3_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.3
+          },
+          {
+            "Time": 13.0,
+            "Value": 0.3
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkill_2_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 15.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 15.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkill_3_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_UltraSkill_4_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 30.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 30.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Nanally_QTE_1_1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 242.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 266.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 308.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 340.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 357.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 375.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 413.0
+          },
+          {
+            "Time": 13.0,
+            "Value": 434.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      }
+    }
+  }
+]

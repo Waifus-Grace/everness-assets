@@ -1,0 +1,517 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TraceVolumeData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'TraceAreaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "HTAreaVolume_test_wzy_1_1": {
+        "CurAreaId": "HTAreaVolume_test_wzy_1_1",
+        "LevelMap": "testwyan",
+        "Priority": 1,
+        "ParentAreaId": "None",
+        "ExitMapIcon": "HTArea_test_wzy_1_1_exit",
+        "AreaBox": {
+          "Min": {
+            "X": 22840.986,
+            "Y": -19622.488,
+            "Z": 32.776222
+          },
+          "Max": {
+            "X": 23890.986,
+            "Y": -18653.738,
+            "Z": 489.0262
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 23365.986,
+          "Y": -19138.113,
+          "Z": 260.9012
+        },
+        "SubAreaEntranceList": [
+          {
+            "Key": "HTAreaVolume_test_wzy_1_2_1",
+            "Value": "HTArea_test_wzy_1_1_enter_1"
+          },
+          {
+            "Key": "HTAreaVolume_test_wzy_1_2_2",
+            "Value": "HTArea_test_wzy_1_1_enter_2"
+          }
+        ]
+      },
+      "HTAreaVolume_test_wzy_1_2_1": {
+        "CurAreaId": "HTAreaVolume_test_wzy_1_2_1",
+        "LevelMap": "testwyan",
+        "Priority": 2,
+        "ParentAreaId": "HTAreaVolume_test_wzy_1_1",
+        "ExitMapIcon": "HTArea_test_wzy_1_2_1",
+        "AreaBox": {
+          "Min": {
+            "X": 22840.986,
+            "Y": -19622.488,
+            "Z": 535.2706
+          },
+          "Max": {
+            "X": 23890.986,
+            "Y": -18653.738,
+            "Z": 972.7706
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 23365.986,
+          "Y": -19138.113,
+          "Z": 754.0206
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTAreaVolume_test_wzy_1_2_2": {
+        "CurAreaId": "HTAreaVolume_test_wzy_1_2_2",
+        "LevelMap": "testwyan",
+        "Priority": 0,
+        "ParentAreaId": "HTAreaVolume_test_wzy_1_1",
+        "ExitMapIcon": "HTArea_test_wzy_1_2_2_exit",
+        "AreaBox": {
+          "Min": {
+            "X": 22840.986,
+            "Y": -19622.488,
+            "Z": 1009.73834
+          },
+          "Max": {
+            "X": 23890.986,
+            "Y": -18653.738,
+            "Z": 1447.2384
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 23365.986,
+          "Y": -19138.113,
+          "Z": 1228.4884
+        },
+        "SubAreaEntranceList": [
+          {
+            "Key": "HTAreaVolume_test_wzy_1_3_1",
+            "Value": "HTArea_test_wzy_1_2_2_enter_1"
+          },
+          {
+            "Key": "HTAreaVolume_test_wzy_1_3_2",
+            "Value": "HTArea_test_wzy_1_2_2_enter_2"
+          }
+        ]
+      },
+      "HTAreaVolume_test_wzy_1_3_1": {
+        "CurAreaId": "HTAreaVolume_test_wzy_1_3_1",
+        "LevelMap": "testwyan",
+        "Priority": 3,
+        "ParentAreaId": "HTAreaVolume_test_wzy_1_2_2",
+        "ExitMapIcon": "HTArea_test_wzy_1_2_2_enter_1",
+        "AreaBox": {
+          "Min": {
+            "X": 22840.986,
+            "Y": -18521.37,
+            "Z": 1009.73834
+          },
+          "Max": {
+            "X": 23890.986,
+            "Y": -17552.62,
+            "Z": 1447.2383
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 23365.986,
+          "Y": -18036.994,
+          "Z": 1228.4883
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTAreaVolume_test_wzy_1_3_2": {
+        "CurAreaId": "HTAreaVolume_test_wzy_1_3_2",
+        "LevelMap": "testwyan",
+        "Priority": 3,
+        "ParentAreaId": "HTAreaVolume_test_wzy_1_2_2",
+        "ExitMapIcon": "HTArea_test_wzy_1_2_2_enter_2",
+        "AreaBox": {
+          "Min": {
+            "X": 22840.986,
+            "Y": -20656.396,
+            "Z": 1009.73834
+          },
+          "Max": {
+            "X": 23890.986,
+            "Y": -19687.646,
+            "Z": 1447.2384
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 23365.986,
+          "Y": -20172.021,
+          "Z": 1228.4884
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTTrackVolume_B2": {
+        "CurAreaId": "HTTrackVolume_B2",
+        "LevelMap": "DLC_Hotel",
+        "Priority": 2,
+        "ParentAreaId": "HTTrackVolume_L1",
+        "ExitMapIcon": "Hotel_area_B2_exit",
+        "AreaBox": {
+          "Min": {
+            "X": -9367.481,
+            "Y": -7141.277,
+            "Z": -6229.071
+          },
+          "Max": {
+            "X": 10521.691,
+            "Y": 11742.111,
+            "Z": -3129.0706
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 577.10455,
+          "Y": 2300.4172,
+          "Z": -4679.071
+        },
+        "SubAreaEntranceList": [
+          {
+            "Key": "HTTrackVolume_B3",
+            "Value": "Hotel_area_B3_entrance"
+          }
+        ]
+      },
+      "HTTrackVolume_B3": {
+        "CurAreaId": "HTTrackVolume_B3",
+        "LevelMap": "DLC_Hotel",
+        "Priority": 3,
+        "ParentAreaId": "HTTrackVolume_B2",
+        "ExitMapIcon": "Hotel_area_B3_exit",
+        "AreaBox": {
+          "Min": {
+            "X": -6576.633,
+            "Y": 7587.54,
+            "Z": -6229.071
+          },
+          "Max": {
+            "X": 1601.8102,
+            "Y": 15581.247,
+            "Z": -3129.0706
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": -2487.4114,
+          "Y": 11584.394,
+          "Z": -4679.071
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTTrackVolume_L1": {
+        "CurAreaId": "HTTrackVolume_L1",
+        "LevelMap": "DLC_Hotel",
+        "Priority": 1,
+        "ParentAreaId": "None",
+        "ExitMapIcon": "None",
+        "AreaBox": {
+          "Min": {
+            "X": -5453.618,
+            "Y": -4516.3228,
+            "Z": -472.33725
+          },
+          "Max": {
+            "X": 3846.3818,
+            "Y": 4333.6772,
+            "Z": 2627.6628
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": -803.6181,
+          "Y": -91.322525,
+          "Z": 1077.6627
+        },
+        "SubAreaEntranceList": [
+          {
+            "Key": "HTTrackVolume_B2",
+            "Value": "Hotel_area_B2_entrance"
+          },
+          {
+            "Key": "HTTrackVolume_L6",
+            "Value": "Hotel_area_L_entrance"
+          },
+          {
+            "Key": "HTTrackVolume_L10",
+            "Value": "Hotel_area_L_entrance"
+          }
+        ]
+      },
+      "HTTrackVolume_L10": {
+        "CurAreaId": "HTTrackVolume_L10",
+        "LevelMap": "DLC_Hotel",
+        "Priority": 2,
+        "ParentAreaId": "HTTrackVolume_L1",
+        "ExitMapIcon": "Hotel_area_L10_exit",
+        "AreaBox": {
+          "Min": {
+            "X": -4812.395,
+            "Y": -6926.7837,
+            "Z": 11513.213
+          },
+          "Max": {
+            "X": 6387.605,
+            "Y": 1923.2166,
+            "Z": 14613.213
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 787.605,
+          "Y": -2501.7834,
+          "Z": 13063.213
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTTrackVolume_L6": {
+        "CurAreaId": "HTTrackVolume_L6",
+        "LevelMap": "DLC_Hotel",
+        "Priority": 2,
+        "ParentAreaId": "HTTrackVolume_L1",
+        "ExitMapIcon": "Hotel_area_L6_exit",
+        "AreaBox": {
+          "Min": {
+            "X": -5000.1836,
+            "Y": -6926.7837,
+            "Z": 4105.3853
+          },
+          "Max": {
+            "X": 22249.816,
+            "Y": 1923.2166,
+            "Z": 7205.3853
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 8624.816,
+          "Y": -2501.7834,
+          "Z": 5655.3853
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTRoomVolume_TojiHome1F": {
+        "CurAreaId": "HTRoomVolume_TojiHome1F",
+        "LevelMap": "XL_map_bigworld_test",
+        "Priority": 1,
+        "ParentAreaId": "None",
+        "ExitMapIcon": "apartment_1L_Exit",
+        "AreaBox": {
+          "Min": {
+            "X": -120441.43,
+            "Y": 168708.69,
+            "Z": 6615.0
+          },
+          "Max": {
+            "X": -115112.52,
+            "Y": 174086.89,
+            "Z": 8015.0
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": -117776.98,
+          "Y": 171397.8,
+          "Z": 7315.0
+        },
+        "SubAreaEntranceList": [
+          {
+            "Key": "HTRoomVolume_TojiHome2F",
+            "Value": "apartment_1L_to_perfumerHome"
+          },
+          {
+            "Key": "HTRoomVolume_TojiHome3F",
+            "Value": "apartment_1L_to_perfumerHome"
+          }
+        ]
+      },
+      "HTRoomVolume_TojiHome2F": {
+        "CurAreaId": "HTRoomVolume_TojiHome2F",
+        "LevelMap": "XL_map_bigworld_test",
+        "Priority": 2,
+        "ParentAreaId": "HTRoomVolume_TojiHome1F",
+        "ExitMapIcon": "apartment_perfumerHome_to_1L",
+        "AreaBox": {
+          "Min": {
+            "X": -120441.43,
+            "Y": 168708.69,
+            "Z": 9735.458
+          },
+          "Max": {
+            "X": -115112.52,
+            "Y": 174086.89,
+            "Z": 10535.458
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": -117776.98,
+          "Y": 171397.8,
+          "Z": 10135.458
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTRoomVolume_TojiHome3F": {
+        "CurAreaId": "HTRoomVolume_TojiHome3F",
+        "LevelMap": "XL_map_bigworld_test",
+        "Priority": 2,
+        "ParentAreaId": "HTRoomVolume_TojiHome1F",
+        "ExitMapIcon": "HTRoomVolume_TojiHome3F",
+        "AreaBox": {
+          "Min": {
+            "X": -120594.81,
+            "Y": 168525.89,
+            "Z": 11316.673
+          },
+          "Max": {
+            "X": -115265.9,
+            "Y": 173904.11,
+            "Z": 12116.673
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": -117930.36,
+          "Y": 171215.0,
+          "Z": 11716.673
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTRoomVolume_test_wzy_2_1": {
+        "CurAreaId": "HTRoomVolume_test_wzy_2_1",
+        "LevelMap": "testwyan",
+        "Priority": 1,
+        "ParentAreaId": "None",
+        "ExitMapIcon": "HTArea_test_wzy_2_1_exit",
+        "AreaBox": {
+          "Min": {
+            "X": 20348.758,
+            "Y": -19863.34,
+            "Z": 9.012063
+          },
+          "Max": {
+            "X": 21442.508,
+            "Y": -17613.34,
+            "Z": 502.76205
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 20895.633,
+          "Y": -18738.34,
+          "Z": 255.88707
+        },
+        "SubAreaEntranceList": [
+          {
+            "Key": "HTRoomVolume_test_wzy_2_2_1",
+            "Value": "HTArea_test_wzy_2_1_enter"
+          },
+          {
+            "Key": "HTRoomVolume_test_wzy_2_2_2",
+            "Value": "HTArea_test_wzy_2_1_enter"
+          }
+        ]
+      },
+      "HTRoomVolume_test_wzy_2_2_1": {
+        "CurAreaId": "HTRoomVolume_test_wzy_2_2_1",
+        "LevelMap": "testwyan",
+        "Priority": 2,
+        "ParentAreaId": "HTRoomVolume_test_wzy_2_1",
+        "ExitMapIcon": "HTArea_test_wzy_2_2_1_exit",
+        "AreaBox": {
+          "Min": {
+            "X": 20348.758,
+            "Y": -19825.422,
+            "Z": 549.7236
+          },
+          "Max": {
+            "X": 21442.508,
+            "Y": -18487.922,
+            "Z": 968.4736
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 20895.633,
+          "Y": -19156.672,
+          "Z": 759.0986
+        },
+        "SubAreaEntranceList": [
+          {
+            "Key": "HTRoomVolume_test_wzy_2_3_1",
+            "Value": "HTArea_test_wzy_2_2_1_enter"
+          }
+        ]
+      },
+      "HTRoomVolume_test_wzy_2_2_2": {
+        "CurAreaId": "HTRoomVolume_test_wzy_2_2_2",
+        "LevelMap": "testwyan",
+        "Priority": 2,
+        "ParentAreaId": "HTRoomVolume_test_wzy_2_1",
+        "ExitMapIcon": "HTArea_test_wzy_2_2_2_exit",
+        "AreaBox": {
+          "Min": {
+            "X": 20348.758,
+            "Y": -19825.422,
+            "Z": 1043.5677
+          },
+          "Max": {
+            "X": 21442.508,
+            "Y": -18487.922,
+            "Z": 1462.3177
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 20895.633,
+          "Y": -19156.672,
+          "Z": 1252.9427
+        },
+        "SubAreaEntranceList": []
+      },
+      "HTRoomVolume_test_wzy_2_3_1": {
+        "CurAreaId": "HTRoomVolume_test_wzy_2_3_1",
+        "LevelMap": "testwyan",
+        "Priority": 3,
+        "ParentAreaId": "HTRoomVolume_test_wzy_2_2_1",
+        "ExitMapIcon": "HTArea_test_wzy_2_2_1_enter",
+        "AreaBox": {
+          "Min": {
+            "X": 20348.758,
+            "Y": -18407.209,
+            "Z": 554.7236
+          },
+          "Max": {
+            "X": 21442.508,
+            "Y": -17613.459,
+            "Z": 973.4736
+          },
+          "IsValid": 1
+        },
+        "Location": {
+          "X": 20895.633,
+          "Y": -18010.334,
+          "Z": 764.0986
+        },
+        "SubAreaEntranceList": []
+      }
+    }
+  }
+]

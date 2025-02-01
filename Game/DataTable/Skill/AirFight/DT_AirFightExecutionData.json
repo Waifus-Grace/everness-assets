@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AirFightExecutionData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AirFightExecutionTable'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1000001": {
+        "FightID": "100001",
+        "ExeNum": 10,
+        "IsOutLog": true
+      },
+      "1000002": {
+        "FightID": "100002",
+        "ExeNum": 10,
+        "IsOutLog": false
+      }
+    }
+  }
+]

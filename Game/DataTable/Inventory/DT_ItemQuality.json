@@ -1,0 +1,539 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemQuality",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ItemQualityData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "ITEM_QUALITY_WHITE": {
+        "QualityTextureMap": [
+          {
+            "Key": "icon",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/bag/UI_ICONbg_grey.UI_ICONbg_grey",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Circle",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Square",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Tips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_01.UI_YH_Common_Tips_Quality_01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/UI_shiqu_fires_bg_01.UI_shiqu_fires_bg_01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropSlotBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/YH_UI_Hud_itemgainbg01.YH_UI_Hud_itemgainbg01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ForkTips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_01.UI_YH_Common_Tips_Quality_01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "QuickFoodMenu",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_LP01_iconbg_001.UI_YH_LP01_iconbg_001",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "DelegateMissionCircleQuality",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/DelegateMission/YH_UI_weipai_IPpoint04.YH_UI_weipai_IPpoint04",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsYuan",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_Tips_grey.UI_Tips_grey",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsRarityA",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips11_12/UI_YH_Tips_D.UI_YH_Tips_D",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Consumable",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/consumeItem/YH_UI_xiaohao_di03.YH_UI_xiaohao_di03",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "HeadIcon",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_bai.UI_avatarbg_bai",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "QualityColor": {
+          "SpecifiedColor": {
+            "R": 0.152926,
+            "G": 0.191202,
+            "B": 0.283149,
+            "A": 1.0,
+            "Hex": "6D7991"
+          },
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+        },
+        "ColorParam": 0,
+        "QualityRichTextStyle": "None",
+        "QualityText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DT_ItemQuality_D",
+          "SourceString": "D",
+          "LocalizedString": "D"
+        }
+      },
+      "ITEM_QUALITY_GREEN": {
+        "QualityTextureMap": [
+          {
+            "Key": "icon",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/bag/UI_ICONbg_green.UI_ICONbg_green",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Circle",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Square",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Tips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_02.UI_YH_Common_Tips_Quality_02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/UI_shiqu_fires_bg_02.UI_shiqu_fires_bg_02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropSlotBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/YH_UI_Hud_itemgainbg02.YH_UI_Hud_itemgainbg02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ForkTips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_02.UI_YH_Common_Tips_Quality_02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "QuickFoodMenu",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_LP01_iconbg_002.UI_YH_LP01_iconbg_002",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "DelegateMissionCircleQuality",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/DelegateMission/YH_UI_weipai_IPpoint04.YH_UI_weipai_IPpoint04",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsYuan",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_Tips_green.UI_Tips_green",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsRarityA",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips11_12/UI_YH_Tips_C.UI_YH_Tips_C",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "QualityColor": {
+          "SpecifiedColor": {
+            "R": 0.012286,
+            "G": 0.391573,
+            "B": 0.274677,
+            "A": 1.0,
+            "Hex": "1DA88F"
+          },
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+        },
+        "ColorParam": 1,
+        "QualityRichTextStyle": "None",
+        "QualityText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DT_ItemQuality_C",
+          "SourceString": "C",
+          "LocalizedString": "C"
+        }
+      },
+      "ITEM_QUALITY_BLUE": {
+        "QualityTextureMap": [
+          {
+            "Key": "icon",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/bag/UI_ICONbg_blue.UI_ICONbg_blue",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Circle",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Square",
+            "Value": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Tips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_03.UI_YH_Common_Tips_Quality_03",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/UI_shiqu_fires_bg_03.UI_shiqu_fires_bg_03",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropSlotBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/YH_UI_Hud_itemgainbg03.YH_UI_Hud_itemgainbg03",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ForkTips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_03.UI_YH_Common_Tips_Quality_03",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "QuickFoodMenu",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_LP01_iconbg_003.UI_YH_LP01_iconbg_003",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "DelegateMissionCircleQuality",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/DelegateMission/YH_UI_weipai_IPpoint04.YH_UI_weipai_IPpoint04",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsYuan",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_Tips_blue.UI_Tips_blue",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsRarityA",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips11_12/UI_YH_Tips_B.UI_YH_Tips_B",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "QualityColor": {
+          "SpecifiedColor": {
+            "R": 0.031896,
+            "G": 0.208637,
+            "B": 0.467784,
+            "A": 1.0,
+            "Hex": "327EB6"
+          },
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+        },
+        "ColorParam": 2,
+        "QualityRichTextStyle": "None",
+        "QualityText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DT_ItemQuality_B",
+          "SourceString": "B",
+          "LocalizedString": "B"
+        }
+      },
+      "ITEM_QUALITY_PURPLE": {
+        "QualityTextureMap": [
+          {
+            "Key": "icon",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/bag/UI_ICONbg_Purple.UI_ICONbg_Purple",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Circle",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/player/UI_jueseshuxing_touxiangkuang02.UI_jueseshuxing_touxiangkuang02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "HeadIcon",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_Purple.UI_avatarbg_Purple",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Tips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_04.UI_YH_Common_Tips_Quality_04",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/UI_shiqu_fires_bg_04.UI_shiqu_fires_bg_04",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropSlotBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/YH_UI_Hud_itemgainbg04.YH_UI_Hud_itemgainbg04",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ForkTips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_04.UI_YH_Common_Tips_Quality_04",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "QuickFoodMenu",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_LP01_iconbg_004.UI_YH_LP01_iconbg_004",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Consumable",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/consumeItem/YH_UI_xiaohao_di01.YH_UI_xiaohao_di01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "DelegateMissionCircleQuality",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/DelegateMission/YH_UI_weipai_IPpoint03.YH_UI_weipai_IPpoint03",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsYuan",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_Tips_Purple.UI_Tips_Purple",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsRarityA",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips11_12/UI_YH_Tips_A.UI_YH_Tips_A",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "QualityColor": {
+          "SpecifiedColor": {
+            "R": 0.283149,
+            "G": 0.104616,
+            "B": 0.439657,
+            "A": 1.0,
+            "Hex": "915BB1"
+          },
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+        },
+        "ColorParam": 3,
+        "QualityRichTextStyle": "None",
+        "QualityText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DT_ItemQuality_A",
+          "SourceString": "A",
+          "LocalizedString": "A"
+        }
+      },
+      "ITEM_QUALITY_ORANGE": {
+        "QualityTextureMap": [
+          {
+            "Key": "icon",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/bag/UI_ICONbg_orange.UI_ICONbg_orange",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Circle",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/player/UI_jueseshuxing_touxiangkuang01.UI_jueseshuxing_touxiangkuang01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "HeadIcon",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/player/UI_avatarbg_orange.UI_avatarbg_orange",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Tips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_05.UI_YH_Common_Tips_Quality_05",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/UI_shiqu_fires_bg_05.UI_shiqu_fires_bg_05",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "PropSlotBG",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Message/YH_UI_Hud_itemgainbg05.YH_UI_Hud_itemgainbg05",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ForkTips",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Common_Tips_Quality_05.UI_YH_Common_Tips_Quality_05",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "QuickFoodMenu",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/consumeItem/UI_YH_LP01_iconbg_005.UI_YH_LP01_iconbg_005",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "Consumable",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/consumeItem/YH_UI_xiaohao_di02.YH_UI_xiaohao_di02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "DelegateMissionCircleQuality",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/DelegateMission/YH_UI_weipai_IPpoint05.YH_UI_weipai_IPpoint05",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsYuan",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_Tips_orange.UI_Tips_orange",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "TipsRarityA",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/itemtips/itemtips11_12/UI_YH_Tips_S.UI_YH_Tips_S",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "QualityColor": {
+          "SpecifiedColor": {
+            "R": 0.558341,
+            "G": 0.287441,
+            "B": 0.059511,
+            "A": 1.0,
+            "Hex": "C59245"
+          },
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+        },
+        "ColorParam": 4,
+        "QualityRichTextStyle": "None",
+        "QualityText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DT_ItemQuality_S",
+          "SourceString": "S",
+          "LocalizedString": "S"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,566 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TreasureboxConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'TreasureboxConfigData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Lv2_TreasureBox_001_001": {
+        "Index": 0,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -85033.0,
+          "Y": 164306.0,
+          "Z": 4145.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_002": {
+        "Index": 1,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -94428.0,
+          "Y": 152114.0,
+          "Z": 4460.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_003": {
+        "Index": 2,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -88361.0,
+          "Y": 182671.0,
+          "Z": 3008.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_004": {
+        "Index": 3,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -107235.0,
+          "Y": 178374.0,
+          "Z": 5992.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_005": {
+        "Index": 4,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -100980.0,
+          "Y": 149618.0,
+          "Z": 7349.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_006": {
+        "Index": 5,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -136152.0,
+          "Y": 181360.0,
+          "Z": 7143.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_007": {
+        "Index": 6,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -86212.086,
+          "Y": 150058.67,
+          "Z": 4265.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_008": {
+        "Index": 7,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -118214.0,
+          "Y": 194150.0,
+          "Z": 5918.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_009": {
+        "Index": 8,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -140672.0,
+          "Y": 156386.0,
+          "Z": 7132.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_010": {
+        "Index": 9,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -140483.0,
+          "Y": 173223.0,
+          "Z": 7180.29
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_011": {
+        "Index": 10,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -82883.07,
+          "Y": 140424.94,
+          "Z": 4495.2188
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_012": {
+        "Index": 11,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -123675.0,
+          "Y": 190053.0,
+          "Z": 8747.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_001_013": {
+        "Index": 12,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -139370.0,
+          "Y": 156200.0,
+          "Z": 11599.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_001": {
+        "Index": 13,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -133245.0,
+          "Y": 211440.0,
+          "Z": 10055.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_002": {
+        "Index": 14,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -142145.02,
+          "Y": 192203.83,
+          "Z": 7979.4023
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_003": {
+        "Index": 15,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -144748.03,
+          "Y": 220854.0,
+          "Z": 9746.844
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_004": {
+        "Index": 16,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -193166.4,
+          "Y": 185412.05,
+          "Z": 8197.604
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_005": {
+        "Index": 17,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -176032.25,
+          "Y": 190418.06,
+          "Z": 8880.598
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_006": {
+        "Index": 18,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -167466.77,
+          "Y": 211939.95,
+          "Z": 8787.519
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_007": {
+        "Index": 19,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -205131.05,
+          "Y": 193699.1,
+          "Z": 7542.134
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_008": {
+        "Index": 20,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -182276.03,
+          "Y": 240280.23,
+          "Z": 2321.8657
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_009": {
+        "Index": 21,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -184462.81,
+          "Y": 172020.67,
+          "Z": 3583.6172
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_010": {
+        "Index": 22,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -156187.0,
+          "Y": 192335.0,
+          "Z": 9155.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_011": {
+        "Index": 23,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -160512.0,
+          "Y": 185057.0,
+          "Z": 8421.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_012": {
+        "Index": 24,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -169473.0,
+          "Y": 183844.0,
+          "Z": 9152.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_013": {
+        "Index": 25,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -170356.48,
+          "Y": 176467.67,
+          "Z": 8543.894
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_002_014": {
+        "Index": 26,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -153229.0,
+          "Y": 204901.0,
+          "Z": 6639.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_001": {
+        "Index": 27,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -133883.95,
+          "Y": 87773.28,
+          "Z": 7401.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_002": {
+        "Index": 28,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -177635.0,
+          "Y": 139925.0,
+          "Z": 6670.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_003": {
+        "Index": 29,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -192789.0,
+          "Y": 124465.0,
+          "Z": 7112.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_004": {
+        "Index": 30,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -185476.33,
+          "Y": 115446.0,
+          "Z": 7101.995
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_005": {
+        "Index": 31,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -172508.19,
+          "Y": 121889.99,
+          "Z": 7106.4385
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_006": {
+        "Index": 32,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -128606.03,
+          "Y": 133312.8,
+          "Z": 6707.155
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_007": {
+        "Index": 33,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -179780.39,
+          "Y": 110489.72,
+          "Z": 7100.9395
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_008": {
+        "Index": 34,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -173864.31,
+          "Y": 96144.45,
+          "Z": 7653.4624
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_009": {
+        "Index": 35,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -143286.52,
+          "Y": 121561.94,
+          "Z": 6845.3394
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_010": {
+        "Index": 36,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -167928.55,
+          "Y": 113416.875,
+          "Z": 7106.166
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_011": {
+        "Index": 37,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -135711.5,
+          "Y": 141976.42,
+          "Z": 6712.0815
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_014": {
+        "Index": 38,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -138114.0,
+          "Y": 132998.0,
+          "Z": 6721.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_015": {
+        "Index": 39,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -156258.0,
+          "Y": 109236.0,
+          "Z": 7105.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_016": {
+        "Index": 40,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -141777.0,
+          "Y": 127806.0,
+          "Z": 12440.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_017": {
+        "Index": 41,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -179002.0,
+          "Y": 147780.0,
+          "Z": 9499.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_018": {
+        "Index": 42,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -124405.0,
+          "Y": 96520.0,
+          "Z": 12799.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv2_TreasureBox_003_019": {
+        "Index": 43,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -178490.0,
+          "Y": 102037.0,
+          "Z": 9969.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv3_TreasureBox_001_001": {
+        "Index": 44,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -120321.0,
+          "Y": 185776.0,
+          "Z": 6355.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv3_TreasureBox_001_002": {
+        "Index": 45,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -122288.0,
+          "Y": 157490.0,
+          "Z": 10015.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv3_TreasureBox_003_001": {
+        "Index": 46,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -160435.0,
+          "Y": 91103.0,
+          "Z": 10066.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv3_TreasureBox_003_002": {
+        "Index": 47,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -183244.0,
+          "Y": 124810.0,
+          "Z": 7453.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv3_TreasureBox_003_003": {
+        "Index": 48,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -169178.0,
+          "Y": 132325.0,
+          "Z": 7186.0
+        },
+        "NeedUnlock": true
+      },
+      "Lv3_TreasureBox_003_004": {
+        "Index": 49,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -130877.6,
+          "Y": 126598.18,
+          "Z": 6714.88
+        },
+        "NeedUnlock": true
+      }
+    }
+  }
+]

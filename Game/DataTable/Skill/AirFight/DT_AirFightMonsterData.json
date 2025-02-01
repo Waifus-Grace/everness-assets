@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AirFightMonsterData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AirFightMonsterTable'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "mon_01_BP_a": {
+        "MonsterID": "mon_01_BP",
+        "SapwnMonsterClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Monster/mon_01/mon_01_BP.mon_01_BP_C",
+          "SubPathString": ""
+        },
+        "MonsterLevel": 10,
+        "MonsterPackID": "20000"
+      }
+    }
+  }
+]

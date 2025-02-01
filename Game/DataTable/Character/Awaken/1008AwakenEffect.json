@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1008AwakenEffect",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1008": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star1_name",
+              "SourceString": "排斥变节的规程",
+              "LocalizedString": "排斥变节的规程"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_1.1009_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star1_des",
+              "SourceString": "「兽牙影刺」自动攻击的伤害倍率提升至<NumGreen>60%</>。",
+              "LocalizedString": "「兽牙影刺」自动攻击的伤害倍率提升至<NumGreen>60%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect2",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star2_name",
+              "SourceString": "秩序井然的待办",
+              "LocalizedString": "秩序井然的待办"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star2_des",
+              "SourceString": "翳在释放「潜影追击」后，使自身的暴击率提升<NumGreen>30%</>，抗打断能力提升<NumGreen>50%</>，持续<NumGreen>15</>秒。",
+              "LocalizedString": "翳在释放「潜影追击」后，使自身的暴击率提升<NumGreen>30%</>，抗打断能力提升<NumGreen>50%</>，持续<NumGreen>15</>秒。"
+            }
+          },
+          {
+            "EffectID": "Effect3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star3_name",
+              "SourceString": "异类处理的草案",
+              "LocalizedString": "异类处理的草案"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_3.1009_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star3_des",
+              "SourceString": "翳对已被「兽牙影刺」锁定的目标造成的伤害提升<NumGreen>8%</>。\r\n如果场上仅有一个被「兽牙影刺」锁定的目标，翳对其造成的伤害额外提升<NumGreen>8%</>。",
+              "LocalizedString": "翳对已被「兽牙影刺」锁定的目标造成的伤害提升<NumGreen>8%</>。\r\n如果场上仅有一个被「兽牙影刺」锁定的目标，翳对其造成的伤害额外提升<NumGreen>8%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect4",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star4_name",
+              "SourceString": "划定常规的决议",
+              "LocalizedString": "划定常规的决议"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_4.1009_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star4_des",
+              "SourceString": "「尾追」状态的持续时间延长至<NumGreen>12</>秒。",
+              "LocalizedString": "「尾追」状态的持续时间延长至<NumGreen>12</>秒。"
+            }
+          },
+          {
+            "EffectID": "Effect5",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star5_name",
+              "SourceString": "社会适应的重任",
+              "LocalizedString": "社会适应的重任"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_5.1009_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star5_des",
+              "SourceString": "目标每被1个「兽牙影刺」锁定，质量提升<NumGreen>50</>点，移动速度降低<NumGreen>20%</>。",
+              "LocalizedString": "目标每被1个「兽牙影刺」锁定，质量提升<NumGreen>50</>点，移动速度降低<NumGreen>20%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star6_name",
+              "SourceString": "无谓形貌的立身",
+              "LocalizedString": "无谓形貌的立身"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_6.1009_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_star6_des",
+              "SourceString": "「啮逐潜影」模式下，触碰已被「兽牙影刺」锁定的敌方目标，使「兽牙影刺」造成的额外伤害倍率提升至<NumGreen>60%</>。",
+              "LocalizedString": "「啮逐潜影」模式下，触碰已被「兽牙影刺」锁定的敌方目标，使「兽牙影刺」造成的额外伤害倍率提升至<NumGreen>60%</>。"
+            }
+          },
+          {
+            "EffectID": "resonance_3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_starExtra1_name",
+              "SourceString": "现场控制",
+              "LocalizedString": "现场控制"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null,
+              null,
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_starExtra1_des",
+              "SourceString": "「拘管格斗术」「潜影追击」「群犬吠形」的技能等级提升<NumGreen>2</>级。",
+              "LocalizedString": "「拘管格斗术」「潜影追击」「群犬吠形」的技能等级提升<NumGreen>2</>级。"
+            }
+          },
+          {
+            "EffectID": "resonance_6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_starExtra2_name",
+              "SourceString": "捉拿归案",
+              "LocalizedString": "捉拿归案"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+              "Key": "GA_Skia_starExtra2_des",
+              "SourceString": "每<NumGreen>1</>个「兽牙影刺」降低其锁定目标<NumGreen>2%</>的相系抗性。",
+              "LocalizedString": "每<NumGreen>1</>个「兽牙影刺」降低其锁定目标<NumGreen>2%</>的相系抗性。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,939 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_IntroduceVoiceMsg_World",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'VoiceMsgDetail'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "PObⅡS-0026_Tip_005_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅡS-0026_Tip_005_Player",
+          "SourceString": "委托所说的异象，看来就在这附近。",
+          "LocalizedString": "委托所说的异象，看来就在这附近。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_0026_Tip_005_Player.Play_Vo_0026_Tip_005_Player",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PObⅡS-0026_Tip_006_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅡS-0026_Tip_006_Player",
+          "SourceString": "紊乱的气息越来越强烈了。",
+          "LocalizedString": "紊乱的气息越来越强烈了。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_0026_Tip_006_Player.Play_Vo_0026_Tip_006_Player",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PObⅡS-0026_Tip_001_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅡS-0026_Tip_001_Player",
+          "SourceString": "这个地方……还是小心为妙。",
+          "LocalizedString": "这个地方……还是小心为妙。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_0026_Tip_001_Player.Play_Vo_0026_Tip_001_Player",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 2.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PObⅡS-0026_Tip_002_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅡS-0026_Tip_002_Player",
+          "SourceString": "歧骸的气息……",
+          "LocalizedString": "歧骸的气息……"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_0026_Tip_002_Player.Play_Vo_0026_Tip_002_Player",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PObⅡS-0026_Tip_003_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅡS-0026_Tip_003_Player",
+          "SourceString": "那扇红门可能就是关键。",
+          "LocalizedString": "那扇红门可能就是关键。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_0026_Tip_003_Player.Play_Vo_0026_Tip_003_Player",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PObⅡS-0026_Tip_004_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅡS-0026_Tip_004_Player",
+          "SourceString": "「校园」观光该结束了。",
+          "LocalizedString": "「校园」观光该结束了。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_0026_Tip_004_Player.Play_Vo_0026_Tip_004_Player",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PObⅡS-0026_Tip_007_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅡS-0026_Tip_007_Player",
+          "SourceString": "新的空间？",
+          "LocalizedString": "新的空间？"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_0026_Tip_007_Player.Play_Vo_0026_Tip_007_Player",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 1.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_001_Tip_01": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_001_Tip_01",
+          "SourceString": "（呜哇，对、对不起！）",
+          "LocalizedString": "（呜哇，对、对不起！）"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "Anomaly_024_Name",
+          "SourceString": "团三郎",
+          "LocalizedString": "团三郎"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_HScared.Play_Vo_Anomaly_024_HScared",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_002_Tip_01": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_002_Tip_01",
+          "SourceString": "（住手！我认输了……）",
+          "LocalizedString": "（住手！我认输了……）"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "Anomaly_024_Name",
+          "SourceString": "团三郎",
+          "LocalizedString": "团三郎"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_HScared.Play_Vo_Anomaly_024_HScared",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_003_Tip_01": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_003_Tip_01",
+          "SourceString": "（可恶，已经没力气再分身了……）",
+          "LocalizedString": "（可恶，已经没力气再分身了……）"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "Anomaly_024_Name",
+          "SourceString": "团三郎",
+          "LocalizedString": "团三郎"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_HScared.Play_Vo_Anomaly_024_HScared",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Tip_01": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_004_Tip_01",
+          "SourceString": "（呜哇……点，点到为止！）",
+          "LocalizedString": "（呜哇……点，点到为止！）"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "Anomaly_024_Name",
+          "SourceString": "团三郎",
+          "LocalizedString": "团三郎"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_HScared.Play_Vo_Anomaly_024_HScared",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Tip_02_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_004_Tip_02_Player",
+          "SourceString": "漫画书里全是落叶，是什么恶作剧吗？",
+          "LocalizedString": "漫画书里全是落叶，是什么恶作剧吗？"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Tip_03_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_004_Tip_03_Player",
+          "SourceString": "好多奇怪的爪印，把骑士的名字都盖住了。",
+          "LocalizedString": "好多奇怪的爪印，把骑士的名字都盖住了。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Tip_04_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_004_Tip_04_Player",
+          "SourceString": "武侠小说，忍者漫画，勇士大战恶龙，甚至还有一本猎人指南？好丰富的阅读量。",
+          "LocalizedString": "武侠小说，忍者漫画，勇士大战恶龙，甚至还有一本猎人指南？好丰富的阅读量。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Tip_05": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_004_Tip_05",
+          "SourceString": "（好眼力！）",
+          "LocalizedString": "（好眼力！）"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "Anomaly_024_Name",
+          "SourceString": "团三郎",
+          "LocalizedString": "团三郎"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Praise.Play_Vo_Anomaly_024_Praise",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_Leaf": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_Leaf",
+          "SourceString": "<!>这些树叶有歧骸的气息……那家伙应该就在附近。",
+          "LocalizedString": "<!>这些树叶有歧骸的气息……那家伙应该就在附近。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_Food": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Danzaburou_CityA_Food",
+          "SourceString": "<!>食物上有小型动物的牙印，还有……歧骸的气息。",
+          "LocalizedString": "<!>食物上有小型动物的牙印，还有……歧骸的气息。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "City_A_Mobydisk_Tip_01": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "City_A_Mobydisk_Tip_01",
+          "SourceString": "主角：是少女漫呢……该说真不愧是《月刊罗曼史》吗？",
+          "LocalizedString": "主角：是少女漫呢……该说真不愧是《月刊罗曼史》吗？"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "Player_Default_Name",
+          "SourceString": "「零」",
+          "LocalizedString": "「零」"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 4.0,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Mon_021_TrickWin_01": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Mon_021_TrickWin_01",
+          "SourceString": "（你的光辉还需打磨，更多地燃烧自己之后再来吧！）",
+          "LocalizedString": "（你的光辉还需打磨，更多地燃烧自己之后再来吧！）"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-5702_NickName",
+          "SourceString": "「天台拳王」",
+          "LocalizedString": "「天台拳王」"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Mon_021_TrickWin_02": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Mon_021_TrickWin_02",
+          "SourceString": "（贫弱贫弱！连站稳都做不到的话就不用再比了！）",
+          "LocalizedString": "（贫弱贫弱！连站稳都做不到的话就不用再比了！）"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-5701_NickName",
+          "SourceString": "「后街拳王」",
+          "LocalizedString": "「后街拳王」"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 2.5,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PObⅠS-7605_Tip_001_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅠS-7605_Tip_001_Player",
+          "SourceString": "连续的爆炸，那团<blue>诡异的时空波动</>，似乎与<blue>影片的奇点</>有着某种不可名状的联系……",
+          "LocalizedString": "连续的爆炸，那团<blue>诡异的时空波动</>，似乎与<blue>影片的奇点</>有着某种不可名状的联系……"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PObⅠS-7605_Tip_002_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PObⅠS-7605_Tip_002_Player",
+          "SourceString": "再 <blue>回去调查下放映机</>吧，是时候「落幕」了。",
+          "LocalizedString": "再 <blue>回去调查下放映机</>吧，是时候「落幕」了。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Projector_Time_01_Tip_001_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Projector_Time_01_Tip_001_Player",
+          "SourceString": "空间向前延展，幽暗的走廊逐渐拉长，周围的环境透着一股沉寂的老旧气息。",
+          "LocalizedString": "空间向前延展，幽暗的走廊逐渐拉长，周围的环境透着一股沉寂的老旧气息。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Projector_Time_01_Tip_002_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Projector_Time_01_Tip_002_Player",
+          "SourceString": "放映机让破旧的楼梯「还原」了，它好像在「引导」着我……去楼上看看吧。",
+          "LocalizedString": "放映机让破旧的楼梯「还原」了，它好像在「引导」着我……去楼上看看吧。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Projector_Time_01_Tip_003_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Projector_Time_01_Tip_003_Player",
+          "SourceString": "放映机启动后似乎没有反应……等等，如果「开启」会改变环境，那么「关闭」是否会有同样的效果呢？",
+          "LocalizedString": "放映机启动后似乎没有反应……等等，如果「开启」会改变环境，那么「关闭」是否会有同样的效果呢？"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Projector_Time_01_Tip_004_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Projector_TIme_01_Tip_004_Player",
+          "SourceString": "安静的房间里传来了一阵压抑沉重的声音，这声音并非来自楼下，而是「楼上」的深处……",
+          "LocalizedString": "安静的房间里传来了一阵压抑沉重的声音，这声音并非来自楼下，而是「楼上」的深处……"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Peekaboo_01_Notes_1": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Peekaboo_01_Notes_1",
+          "SourceString": "皱巴巴的小纸条",
+          "LocalizedString": "皱巴巴的小纸条"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Peekaboo_01_Notes_2": {
+        "Desc": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "SW_Int_Peekaboo_1_02",
+          "SourceString": "ABDCB",
+          "LocalizedString": "ABDCB"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Peekaboo_01_Notes_3": {
+        "Desc": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "SW_Int_Peekaboo_1_03",
+          "SourceString": "用完钥匙记得放回后门架子上的花盆里！！！",
+          "LocalizedString": "用完钥匙记得放回后门架子上的花盆里！！！"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_WorldActor.ST_WorldActor",
+          "Key": "Peekaboo_01_Notes_03_Speaker",
+          "SourceString": "非常醒目的粗体字",
+          "LocalizedString": "非常醒目的粗体字"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Peekaboo_01_Notes_4": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Peekaboo_01_Notes_4",
+          "SourceString": "不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？你、说、过、要、陪、我、们、玩、的、留下来。留下来。留下来。留下来。留下来。留下来留下来留下来留下来留下来不准走不许走没法走",
+          "LocalizedString": "不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？你、说、过、要、陪、我、们、玩、的、留下来。留下来。留下来。留下来。留下来。留下来留下来留下来留下来留下来不准走不许走没法走"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_WorldActor.ST_WorldActor",
+          "Key": "Peekaboo_01_Notes_Amb_Speaker",
+          "SourceString": "鬼画符一般的笔记",
+          "LocalizedString": "鬼画符一般的笔记"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Peekaboo_01_Notes_5": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Peekaboo_01_Notes_5",
+          "SourceString": "我们说好要一起玩的吧？一二三、木头人！我们是木头人噢！放学后来玩一二三、木头人吧？我们是你的木头人朋友噢！我们是你的朋友噢！我们是最好的玩伴噢！玩伴就要永远一起玩吧？一起玩吧？一起玩一起玩一起玩一起玩一起玩",
+          "LocalizedString": "我们说好要一起玩的吧？一二三、木头人！我们是木头人噢！放学后来玩一二三、木头人吧？我们是你的木头人朋友噢！我们是你的朋友噢！我们是最好的玩伴噢！玩伴就要永远一起玩吧？一起玩吧？一起玩一起玩一起玩一起玩一起玩"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_WorldActor.ST_WorldActor",
+          "Key": "Peekaboo_01_Notes_Amb_Speaker",
+          "SourceString": "鬼画符一般的笔记",
+          "LocalizedString": "鬼画符一般的笔记"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Projector_Time_01_Tip_006_Player": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Projector_Time_01_Tip_006_Player",
+          "SourceString": "一个书架……？不对，它散发着阴冷的气息。",
+          "LocalizedString": "一个书架……？不对，它散发着阴冷的气息。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "Duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Peekaboo_01_Notes_6": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Peekaboo_01_Notes_6",
+          "SourceString": "教职工室钥匙神秘失窃！凶手尚未自首！走廊上鬼鬼祟祟的家伙都要小心了！有我在这里，谁敢偷走期中考试的考卷？\r\n——你们愤怒的学生会长",
+          "LocalizedString": "教职工室钥匙神秘失窃！凶手尚未自首！走廊上鬼鬼祟祟的家伙都要小心了！有我在这里，谁敢偷走期中考试的考卷？\r\n——你们愤怒的学生会长"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_WorldActor.ST_WorldActor",
+          "Key": "Peekaboo_01_Notes_03_Speaker",
+          "SourceString": "非常醒目的粗体字",
+          "LocalizedString": "非常醒目的粗体字"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 6.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Peekaboo_01_Notes_7": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Peekaboo_01_Notes_7",
+          "SourceString": "你要走了吗？不要走不准走不许走没法走",
+          "LocalizedString": "你要走了吗？不要走不准走不许走没法走"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_WorldActor.ST_WorldActor",
+          "Key": "Peekaboo_01_Notes_Amb_Speaker",
+          "SourceString": "鬼画符一般的笔记",
+          "LocalizedString": "鬼画符一般的笔记"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "Duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      }
+    }
+  }
+]

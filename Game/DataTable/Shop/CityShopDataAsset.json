@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "HTCityShopDataAsset",
+    "Name": "CityShopDataAsset",
+    "Class": "UScriptClass'HTCityShopDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DT_CityShopLevel": {
+        "ObjectName": "DataTable'CityShopLevelDataTable'",
+        "ObjectPath": "HT/Content/DataTable/Shop/CityShopLevelDataTable.0"
+      },
+      "DT_CityShopBrand": {
+        "ObjectName": "DataTable'CityShopBrandData'",
+        "ObjectPath": "HT/Content/DataTable/Shop/CityShopBrandData.0"
+      },
+      "DT_CityShopQuest": {
+        "ObjectName": "DataTable'CityShopQuestDataTable'",
+        "ObjectPath": "HT/Content/DataTable/Shop/CityShopQuestDataTable.0"
+      },
+      "TotalQuestCount": 10
+    }
+  }
+]

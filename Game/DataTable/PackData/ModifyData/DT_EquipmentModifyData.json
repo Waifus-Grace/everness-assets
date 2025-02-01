@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_EquipmentModifyData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ModifyStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Cosmos_2": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpCosmosBase",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Nature_2": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpNatureBase",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Lakshana_2": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpLakshanaBase",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Chaos_2": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpChaosBase",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Psyche_2": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpPsycheBase",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Incantation_2": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpIncantationBase",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Shield_2": {
+        "ModifyData": [
+          {
+            "PropName": "ShieldEfficiency",
+            "PropValue": 0.15,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Attack_2": {
+        "ModifyData": [
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Heal_2": {
+        "ModifyData": [
+          {
+            "PropName": "HealUp",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Mag_2": {
+        "ModifyData": [
+          {
+            "PropName": "MagBase",
+            "PropValue": 240.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "GetEfficiency_2": {
+        "ModifyData": [
+          {
+            "PropName": "ChargeGetEfficiencyBase",
+            "PropValue": 0.15,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Psychically_2": {
+        "ModifyData": [
+          {
+            "PropName": "DamageUpPsychically",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "Shield_4": {
+        "ModifyData": [
+          {
+            "PropName": "ShieldStrengthen",
+            "PropValue": 0.25,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      }
+    }
+  }
+]

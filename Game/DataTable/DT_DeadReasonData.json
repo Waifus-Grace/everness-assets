@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DeadReasonData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'DeadReasonData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Normal": {
+        "ReasonDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Relive_Normal_Des",
+          "SourceString": "谨慎对战",
+          "LocalizedString": "谨慎对战"
+        },
+        "ReasonTips": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Relive_Normal_Tips",
+          "SourceString": "面对强大的敌人时，合理的策略会让战斗更轻松。",
+          "LocalizedString": "面对强大的敌人时，合理的策略会让战斗更轻松。"
+        }
+      },
+      "Drowned": {
+        "ReasonDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Relive_Drown_Des",
+          "SourceString": "溺水",
+          "LocalizedString": "溺水"
+        },
+        "ReasonTips": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Relive_drown_Tips",
+          "SourceString": "有时，平静的水面也存在危险。",
+          "LocalizedString": "有时，平静的水面也存在危险。"
+        }
+      },
+      "Fall": {
+        "ReasonDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Relive_Fell_Des",
+          "SourceString": "坠亡",
+          "LocalizedString": "坠亡"
+        },
+        "ReasonTips": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Relive_Fell_Tips",
+          "SourceString": "请小心脚下！",
+          "LocalizedString": "请小心脚下！"
+        }
+      }
+    }
+  }
+]

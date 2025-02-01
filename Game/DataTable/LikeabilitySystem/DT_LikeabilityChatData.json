@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LikeabilityChatData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LikeabilityChatData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1019_1": {
+        "GroupId": "1019"
+      },
+      "1019_2": {
+        "GroupId": "1019"
+      },
+      "1019_3": {
+        "GroupId": "1019"
+      },
+      "1019_4": {
+        "GroupId": "1019"
+      },
+      "1019_a": {
+        "GroupId": "1019"
+      },
+      "H_NPC_01902_a": {
+        "GroupId": "H_NPC_01902"
+      },
+      "H_NPC_01902_b": {
+        "GroupId": "H_NPC_01902"
+      },
+      "H_NPC_01902_c": {
+        "GroupId": "H_NPC_01902"
+      },
+      "H_NPC_01902_d": {
+        "GroupId": "H_NPC_01902"
+      },
+      "1019_b": {
+        "GroupId": "1019"
+      },
+      "Trinity_a": {
+        "GroupId": "Trinity"
+      },
+      "dai_a": {
+        "GroupId": "dai"
+      },
+      "Tajiduo_a": {
+        "GroupId": "Tajiduo"
+      },
+      "H_NPC_014_a": {
+        "GroupId": "H_NPC_014"
+      },
+      "Aobuli_a": {
+        "GroupId": "Aobuli"
+      },
+      "Aobuli_b": {
+        "GroupId": "Aobuli"
+      },
+      "Aobuli_c": {
+        "GroupId": "Aobuli"
+      },
+      "Tajiduo_b": {
+        "GroupId": "Tajiduo"
+      },
+      "1033_a": {
+        "GroupId": "1033"
+      },
+      "1023_a": {
+        "GroupId": "1023"
+      },
+      "1033_b": {
+        "GroupId": "1033"
+      },
+      "H_NPC_014_1027_a": {
+        "GroupId": "H_NPC_014_1027"
+      },
+      "H_NPC_03404_a": {
+        "GroupId": "H_NPC_03404"
+      }
+    }
+  }
+]

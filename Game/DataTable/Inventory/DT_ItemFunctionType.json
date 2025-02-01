@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemFunctionType",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ItemFunctionTypeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Use": {
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_09",
+          "SourceString": "使用",
+          "LocalizedString": "使用"
+        }
+      },
+      "Develop": {
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_10",
+          "SourceString": "养成",
+          "LocalizedString": "养成"
+        }
+      },
+      "Details": {
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_11",
+          "SourceString": "详情",
+          "LocalizedString": "详情"
+        }
+      },
+      "CookBook": {
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_12",
+          "SourceString": "学习",
+          "LocalizedString": "学习"
+        }
+      },
+      "Return": {
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_13",
+          "SourceString": "还车",
+          "LocalizedString": "还车"
+        }
+      }
+    }
+  }
+]

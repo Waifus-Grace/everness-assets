@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CookBaseConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CookBaseConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "SpawnDistance": 100.0,
+        "TraceDistance": 200.0,
+        "BoxLong": 100.0,
+        "BoxWidth": 100.0,
+        "HightOffset": 10.0,
+        "CameraModifyTime": 1.0,
+        "CookingActorClass": {
+          "AssetPathName": "/Game/Blueprints/SceneItem/BP_MagicPot.BP_MagicPot_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

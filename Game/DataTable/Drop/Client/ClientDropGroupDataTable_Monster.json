@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ClientDropGroupDataTable_Monster",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ClientDropGroupStaticRangeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "None",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 0,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "NewRow_0": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "None",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 0,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      }
+    }
+  }
+]

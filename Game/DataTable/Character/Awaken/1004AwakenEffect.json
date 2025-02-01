@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1004AwakenEffect",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1004": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star1_name",
+              "SourceString": "早起出勤之咏",
+              "LocalizedString": "早起出勤之咏"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_1.1009_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star1_des",
+              "SourceString": "安魂曲释放「恶魔的礼物」后的<NumGreen>5</>秒内，从任意可触发「异能环合」的角色切换至安魂曲时，无需累积「环合系数」，即可自动释放「入轨攻击」，并触发相应环合。",
+              "LocalizedString": "安魂曲释放「恶魔的礼物」后的<NumGreen>5</>秒内，从任意可触发「异能环合」的角色切换至安魂曲时，无需累积「环合系数」，即可自动释放「入轨攻击」，并触发相应环合。"
+            }
+          },
+          {
+            "EffectID": "Effect2",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star2_name",
+              "SourceString": "闹钟响彻四方",
+              "LocalizedString": "闹钟响彻四方"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star2_des",
+              "SourceString": "安魂曲通过「入轨攻击」入场时，自身造成的伤害提升<NumGreen>20%</>，提升效果持续<NumGreen>15</>秒。",
+              "LocalizedString": "安魂曲通过「入轨攻击」入场时，自身造成的伤害提升<NumGreen>20%</>，提升效果持续<NumGreen>15</>秒。"
+            }
+          },
+          {
+            "EffectID": "Effect3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star3_name",
+              "SourceString": "冰淇淋在烈阳中融化",
+              "LocalizedString": "冰淇淋在烈阳中融化"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_3.1009_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star3_des",
+              "SourceString": "第<NumGreen>5</>段「酸甜口味的制裁」命中目标时，一次性结算目标当前已累积的全部「噩梦」效果。",
+              "LocalizedString": "第<NumGreen>5</>段「酸甜口味的制裁」命中目标时，一次性结算目标当前已累积的全部「噩梦」效果。"
+            }
+          },
+          {
+            "EffectID": "Effect4",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star4_name",
+              "SourceString": "威严赫赫番茄酱大王",
+              "LocalizedString": "威严赫赫番茄酱大王"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_4.1009_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star4_des",
+              "SourceString": "技能冷却期间，安魂曲使用「酸甜口味的制裁」<NumGreen>5</>次后，额外获得<NumGreen>1</>次「起床气加载中」使用次数。此效果在每次技能冷却期间仅生效<NumGreen>1</>次。",
+              "LocalizedString": "技能冷却期间，安魂曲使用「酸甜口味的制裁」<NumGreen>5</>次后，额外获得<NumGreen>1</>次「起床气加载中」使用次数。此效果在每次技能冷却期间仅生效<NumGreen>1</>次。"
+            }
+          },
+          {
+            "EffectID": "Effect5",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star5_name",
+              "SourceString": "强化玻璃径受审判",
+              "LocalizedString": "强化玻璃径受审判"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_5.1009_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star5_des",
+              "SourceString": "目标受到治疗时，不再移除「噩梦」层数；同时，基于单次「噩梦」伤害值的<NumGreen>200%</>，削减目标的生命值上限。",
+              "LocalizedString": "目标受到治疗时，不再移除「噩梦」层数；同时，基于单次「噩梦」伤害值的<NumGreen>200%</>，削减目标的生命值上限。"
+            }
+          },
+          {
+            "EffectID": "Effect6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star6_name",
+              "SourceString": "不加班之宽赦",
+              "LocalizedString": "不加班之宽赦"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_6.1009_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_star6_des",
+              "SourceString": "「噩梦」的伤害倍率提升至安魂曲的<NumGreen>4.5%</>攻击力。",
+              "LocalizedString": "「噩梦」的伤害倍率提升至安魂曲的<NumGreen>4.5%</>攻击力。"
+            }
+          },
+          {
+            "EffectID": "resonance_3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_starExtra1_name",
+              "SourceString": "困倦的火焰在心中燃烧",
+              "LocalizedString": "困倦的火焰在心中燃烧"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null,
+              null,
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_starExtra1_des",
+              "SourceString": "「酸甜口味的制裁」「起床气加载中」「恶魔的礼物」「工作日最终审判」的技能等级提升<NumGreen>2</>级。",
+              "LocalizedString": "「酸甜口味的制裁」「起床气加载中」「恶魔的礼物」「工作日最终审判」的技能等级提升<NumGreen>2</>级。"
+            }
+          },
+          {
+            "EffectID": "resonance_6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_starExtra2_name",
+              "SourceString": "美梦的时刻即将来临",
+              "LocalizedString": "美梦的时刻即将来临"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
+              "Key": "GA_Lacrimosa_starExtra2_des",
+              "SourceString": "安魂曲造成的伤害，无视目标<NumGreen>10%</>防御力。",
+              "LocalizedString": "安魂曲造成的伤害，无视目标<NumGreen>10%</>防御力。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

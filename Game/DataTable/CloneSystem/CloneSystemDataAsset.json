@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "HT_CloneSystemDataAsset",
+    "Name": "CloneSystemDataAsset",
+    "Class": "UScriptClass'HT_CloneSystemDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DT_CloneSystemData": {
+        "ObjectName": "DataTable'CloneSystemDataTable'",
+        "ObjectPath": "HT/Content/DataTable/CloneSystem/CloneSystemDataTable.0"
+      },
+      "DT_CloneOverview": {
+        "ObjectName": "DataTable'DT_CloneOverviewRow'",
+        "ObjectPath": "HT/Content/DataTable/CloneSystem/DT_CloneOverviewRow.0"
+      },
+      "DT_CloneEnter": {
+        "ObjectName": "DataTable'DT_CloneEnter'",
+        "ObjectPath": "HT/Content/DataTable/CloneSystem/DT_CloneEnter.0"
+      },
+      "ExitGameCoolDownTime": 999,
+      "CloneReliveHPPer": 1.0,
+      "WeeklyReceiveAwardCount": 3,
+      "ForbidOpenUIClone": [
+        "BigMap",
+        "QuestPanel",
+        "AdventureManual",
+        "WB_CityLive",
+        "MailMainForm",
+        "AdjustTime",
+        "Mall"
+      ]
+    }
+  }
+]

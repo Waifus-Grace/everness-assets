@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NPCSpecialGiftDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'NPCSpecialGiftData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "test1": {
+        "CharacterId": "1009",
+        "AwardDropID": "drop_1019"
+      },
+      "Fadia_001": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia001"
+      },
+      "Fadia_002": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia002"
+      },
+      "Fadia_003": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia003"
+      },
+      "Fadia_004": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia004"
+      },
+      "Fadia_005": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia005"
+      },
+      "Fadia_006": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia006"
+      },
+      "Fadia_007": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia007"
+      },
+      "Fadia_008": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia008"
+      },
+      "Fadia_009": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia009"
+      },
+      "Fadia_010": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia010"
+      },
+      "Fadia_011": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia011"
+      },
+      "Fadia_012": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia012"
+      },
+      "Fadia_013": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia013"
+      },
+      "Fadia_014": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia014"
+      },
+      "Fadia_015": {
+        "CharacterId": "1039",
+        "AwardDropID": "drop_npcgift_fadia015"
+      }
+    }
+  }
+]

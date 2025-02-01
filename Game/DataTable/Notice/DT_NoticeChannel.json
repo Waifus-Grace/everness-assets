@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NoticeChannel",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'NoticeChannelConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "default": {
+        "Description": "默认",
+        "URLPostfix": "/Notice/default/Notice.json"
+      },
+      "9_IOS": {
+        "Description": "官方IOS",
+        "URLPostfix": "/Notice/9_IOS/Notice.json"
+      },
+      "9_Android": {
+        "Description": "官方安卓",
+        "URLPostfix": "/Notice/9_Android/Notice.json"
+      },
+      "9_Windows": {
+        "Description": "官方PC",
+        "URLPostfix": "/Notice/9_Windows/Notice.json"
+      },
+      "9_Mac": {
+        "Description": "官方Mac",
+        "URLPostfix": "/Notice/9_Mac/Notice.json"
+      }
+    }
+  }
+]

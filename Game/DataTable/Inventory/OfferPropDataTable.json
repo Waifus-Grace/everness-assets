@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "OfferPropDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'OfferPropData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NPC1": {
+        "OfferPropTag": [
+          "Food"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "973E95C4479BABB08EE0D89E6BEA6390",
+          "SourceString": "赠送",
+          "LocalizedString": "赠送"
+        },
+        "TypeNums": [
+          2,
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Food_001",
+                "Num": 2
+              },
+              {
+                "PropID": "Food_002",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Food_002",
+                "Num": 2
+              },
+              {
+                "PropID": "Food_001",
+                "Num": 1
+              }
+            ],
+            "Effect": 2
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "L110044": {
+        "OfferPropTag": [
+          "Flower"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "DA0664564098185BE77BBA8A6B99D5F7",
+          "SourceString": "赠送",
+          "LocalizedString": "赠送"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Item_L110042_01",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Item_L110042_02",
+                "Num": 1
+              }
+            ],
+            "Effect": 2
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Item_L110042_03",
+                "Num": 1
+              }
+            ],
+            "Effect": 3
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      }
+    }
+  }
+]

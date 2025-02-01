@@ -1,0 +1,3052 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_vehicleModuleData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'VehicleModuleData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "V002_FrontKit_01": {
+        "ModuleID": "V002_FrontKit_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_001_name",
+          "SourceString": "Geed-FB01",
+          "LocalizedString": "Geed-FB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB01：绅士风格的NO.1销量，经过时间沉淀后的美感，在数年后，依然熠熠生辉。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB01：绅士风格的NO.1销量，经过时间沉淀后的美感，在数年后，依然熠熠生辉。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_FrontBodyKit",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 57600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_01.YH_UI_car_icon_qian_01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_01.YH_UI_car_icon_qian_01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_FrontKit_02": {
+        "ModuleID": "V002_FrontKit_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_002_name",
+          "SourceString": "Geed-FB02",
+          "LocalizedString": "Geed-FB02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_002_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB02：融合机械美学设计，强化保护车辆，硬派与现代美术，配合得天衣无缝。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB02：融合机械美学设计，强化保护车辆，硬派与现代美术，配合得天衣无缝。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_FrontBodyKit",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 63400,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_02.YH_UI_car_icon_qian_02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_02.YH_UI_car_icon_qian_02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_FrontKit_03": {
+        "ModuleID": "V002_FrontKit_03",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_003_name",
+          "SourceString": "Geed-FB03",
+          "LocalizedString": "Geed-FB03"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_003_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB03：加强版材料制作，完美贴合车身，防御力拉满的实用型包围。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB03：加强版材料制作，完美贴合车身，防御力拉满的实用型包围。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_FrontBodyKit",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 69200,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_03.YH_UI_car_icon_qian_03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_03.YH_UI_car_icon_qian_03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_FrontKit_04": {
+        "ModuleID": "V002_FrontKit_04",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_004_name",
+          "SourceString": "Geed-FB04",
+          "LocalizedString": "Geed-FB04"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_004_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB04：金属质感的前包围设计，行驶在路上，最安全可靠！",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB04：金属质感的前包围设计，行驶在路上，最安全可靠！"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_FrontBodyKit",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 69200,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_04.YH_UI_car_icon_qian_04",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_04.YH_UI_car_icon_qian_04",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_FrontKit_05": {
+        "ModuleID": "V002_FrontKit_05",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_005_name",
+          "SourceString": "Geed-FB05",
+          "LocalizedString": "Geed-FB05"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_005_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB05：极致轻量化设计赋予独特肌理感，兼顾耐用性与美观度，让每次出现都安全无忧。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB05：极致轻量化设计赋予独特肌理感，兼顾耐用性与美观度，让每次出现都安全无忧。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_FrontBodyKit",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 57600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_05.YH_UI_car_icon_qian_05",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_05.YH_UI_car_icon_qian_05",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_BackKit_01": {
+        "ModuleID": "V002_BackKit_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_001_name",
+          "SourceString": "Geed-RB01",
+          "LocalizedString": "Geed-RB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB01：贴合原厂材质，加入柔性材料，保护您在路途的每个时刻。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB01：贴合原厂材质，加入柔性材料，保护您在路途的每个时刻。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_BackBodyKit",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 48000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_01.YH_UI_car_icon_hou_01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_01.YH_UI_car_icon_hou_01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_BackKit_02": {
+        "ModuleID": "V002_BackKit_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_002_name",
+          "SourceString": "Geed-RB02",
+          "LocalizedString": "Geed-RB02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_002_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB02：精密制造工艺，加强版保护设计Plus版，耐久和抗腐蚀，也是一流。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB02：精密制造工艺，加强版保护设计Plus版，耐久和抗腐蚀，也是一流。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_BackBodyKit",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 52800,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_02.YH_UI_car_icon_hou_02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_02.YH_UI_car_icon_hou_02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_BackKit_03": {
+        "ModuleID": "V002_BackKit_03",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_003_name",
+          "SourceString": "Geed-RB03",
+          "LocalizedString": "Geed-RB03"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_003_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB03：先进抗冲击技术，复杂路况，也能高效驾驶。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB03：先进抗冲击技术，复杂路况，也能高效驾驶。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_BackBodyKit",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 52800,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_03.YH_UI_car_icon_hou_03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_03.YH_UI_car_icon_hou_03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Spoiler_01": {
+        "ModuleID": "V002_Spoiler_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_001_name",
+          "SourceString": "Geed-Spoiler01",
+          "LocalizedString": "Geed-Spoiler01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nSpoiler01：城市飞行梦想家的低调设计，让你在无形中，快人一步。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nSpoiler01：城市飞行梦想家的低调设计，让你在无形中，快人一步。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Spoiler",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 38400,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD01.YH_UI_car_icon_F-HD01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD01.YH_UI_car_icon_F-HD01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Spoiler_02": {
+        "ModuleID": "V002_Spoiler_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_002_name",
+          "SourceString": "Geed-Spoiler02",
+          "LocalizedString": "Geed-Spoiler02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_002_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nSpoiler02：采用最新空气动力学技术，引导气流，增添真正的运动基因。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nSpoiler02：采用最新空气动力学技术，引导气流，增添真正的运动基因。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Spoiler",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 44200,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD02.YH_UI_car_icon_F-HD02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD02.YH_UI_car_icon_F-HD02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Spoiler_03": {
+        "ModuleID": "V002_Spoiler_03",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_003_name",
+          "SourceString": "Geed-Wing01",
+          "LocalizedString": "Geed-Wing01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_003_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nWing01：充满竞技感的独特尾翼，成就真正的速度之王。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nWing01：充满竞技感的独特尾翼，成就真正的速度之王。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Spoiler",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 69200,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD03.YH_UI_car_icon_F-HD03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD03.YH_UI_car_icon_F-HD03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Spoiler_04": {
+        "ModuleID": "V002_Spoiler_04",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_004_name",
+          "SourceString": "Geed-Wing02",
+          "LocalizedString": "Geed-Wing02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_004_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nWing02：赛车手最爱的全新篇章，速度与操控，缺一不可。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nWing02：赛车手最爱的全新篇章，速度与操控，缺一不可。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Spoiler",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 76800,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD04.YH_UI_car_icon_F-HD04",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD04.YH_UI_car_icon_F-HD04",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Wheel_01": {
+        "ModuleID": "V002_Wheel_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Wheel_001_name",
+          "SourceString": "T-Hunter-MT01",
+          "LocalizedString": "T-Hunter-MT01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Wheel_001_desc",
+          "SourceString": "专注于提供适用于全地形的T-Hunter，因品质优越，是各大赛车赛事的指定合作商。\nMT01：街道又或山路，与颠簸不再较劲。",
+          "LocalizedString": "专注于提供适用于全地形的T-Hunter，因品质优越，是各大赛车赛事的指定合作商。\nMT01：街道又或山路，与颠簸不再较劲。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Wheel",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 60000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_tyre01.YH_UI_car_icon_tyre01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_tyre01.YH_UI_car_icon_tyre01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Wheel_02": {
+        "ModuleID": "V002_Wheel_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Wheel_002_name",
+          "SourceString": "T-Hunter-AT01",
+          "LocalizedString": "T-Hunter-AT01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Wheel_002_desc",
+          "SourceString": "专注于提供适用于全地形的T-Hunter，因品质优越，是各大赛车赛事的指定合作商。\nAT01：任何时刻，任何地点，全地形轮胎，给你百分百驾驶体验。",
+          "LocalizedString": "专注于提供适用于全地形的T-Hunter，因品质优越，是各大赛车赛事的指定合作商。\nAT01：任何时刻，任何地点，全地形轮胎，给你百分百驾驶体验。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Wheel",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 72000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_tyre02.YH_UI_car_icon_tyre02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_tyre02.YH_UI_car_icon_tyre02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Wheel_03": {
+        "ModuleID": "V002_Wheel_03",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Wheel_003_name",
+          "SourceString": "T-Hunter-PZ01",
+          "LocalizedString": "T-Hunter-PZ01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Wheel_003_desc",
+          "SourceString": "专注于提供适用于全地形的T-Hunter，因品质优越，是各大赛车赛事的指定合作商。\r\nPZ01：最严格的检测流程，最一流的品质保证，耐磨与抓地，成就每一段旅程。",
+          "LocalizedString": "专注于提供适用于全地形的T-Hunter，因品质优越，是各大赛车赛事的指定合作商。\r\nPZ01：最严格的检测流程，最一流的品质保证，耐磨与抓地，成就每一段旅程。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Wheel",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 90000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_tyre03.YH_UI_car_icon_tyre03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_tyre03.YH_UI_car_icon_tyre03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_01": {
+        "ModuleID": "V002_Color_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_001_name",
+          "SourceString": "跳跳漆-色号01",
+          "LocalizedString": "跳跳漆-色号01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_001_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 81600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting01.YH_UI_car_icon_Painting01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting01.YH_UI_car_icon_Painting01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_02": {
+        "ModuleID": "V002_Color_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_002_name",
+          "SourceString": "跳跳漆-色号02",
+          "LocalizedString": "跳跳漆-色号02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_002_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 81600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting02.YH_UI_car_icon_Painting02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting02.YH_UI_car_icon_Painting02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_03": {
+        "ModuleID": "V002_Color_03",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_003_name",
+          "SourceString": "跳跳漆-色号03",
+          "LocalizedString": "跳跳漆-色号03"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_003_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 81600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting03.YH_UI_car_icon_Painting03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting03.YH_UI_car_icon_Painting03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_04": {
+        "ModuleID": "V002_Color_04",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_004_name",
+          "SourceString": "跳跳漆-色号04",
+          "LocalizedString": "跳跳漆-色号04"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_004_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting04.YH_UI_car_icon_Painting04",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting04.YH_UI_car_icon_Painting04",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_05": {
+        "ModuleID": "V002_Color_05",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_005_name",
+          "SourceString": "跳跳漆-色号05",
+          "LocalizedString": "跳跳漆-色号05"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_005_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting05.YH_UI_car_icon_Painting05",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting05.YH_UI_car_icon_Painting05",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_06": {
+        "ModuleID": "V002_Color_06",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_006_name",
+          "SourceString": "跳跳漆-色号06",
+          "LocalizedString": "跳跳漆-色号06"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_006_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting06.YH_UI_car_icon_Painting06",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting06.YH_UI_car_icon_Painting06",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_07": {
+        "ModuleID": "V002_Color_07",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_007_name",
+          "SourceString": "跳跳漆-色号07",
+          "LocalizedString": "跳跳漆-色号07"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_007_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting07.YH_UI_car_icon_Painting07",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting07.YH_UI_car_icon_Painting07",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_08": {
+        "ModuleID": "V002_Color_08",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_008_name",
+          "SourceString": "跳跳漆-色号08",
+          "LocalizedString": "跳跳漆-色号08"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_008_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting08.YH_UI_car_icon_Painting08",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting08.YH_UI_car_icon_Painting08",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_09": {
+        "ModuleID": "V002_Color_09",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_009_name",
+          "SourceString": "跳跳漆-色号09",
+          "LocalizedString": "跳跳漆-色号09"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_009_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting09.YH_UI_car_icon_Painting09",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting09.YH_UI_car_icon_Painting09",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_10": {
+        "ModuleID": "V002_Color_10",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_010_name",
+          "SourceString": "跳跳漆-色号10",
+          "LocalizedString": "跳跳漆-色号10"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_010_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting10.YH_UI_car_icon_Painting10",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting10.YH_UI_car_icon_Painting10",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_11": {
+        "ModuleID": "V002_Color_11",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_011_name",
+          "SourceString": "跳跳漆-色号11",
+          "LocalizedString": "跳跳漆-色号11"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_011_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting11.YH_UI_car_icon_Painting11",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting11.YH_UI_car_icon_Painting11",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_12": {
+        "ModuleID": "V002_Color_12",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_012_name",
+          "SourceString": "跳跳漆-色号12",
+          "LocalizedString": "跳跳漆-色号12"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_012_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting12.YH_UI_car_icon_Painting12",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting12.YH_UI_car_icon_Painting12",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_13": {
+        "ModuleID": "V002_Color_13",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_013_name",
+          "SourceString": "跳跳漆-色号13",
+          "LocalizedString": "跳跳漆-色号13"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_013_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting13.YH_UI_car_icon_Painting13",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting13.YH_UI_car_icon_Painting13",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_14": {
+        "ModuleID": "V002_Color_14",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_014_name",
+          "SourceString": "跳跳漆-色号14",
+          "LocalizedString": "跳跳漆-色号14"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_014_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting14.YH_UI_car_icon_Painting14",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting14.YH_UI_car_icon_Painting14",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_15": {
+        "ModuleID": "V002_Color_15",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_015_name",
+          "SourceString": "跳跳漆-色号15",
+          "LocalizedString": "跳跳漆-色号15"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_015_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting15.YH_UI_car_icon_Painting15",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting15.YH_UI_car_icon_Painting15",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_16": {
+        "ModuleID": "V002_Color_16",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_016_name",
+          "SourceString": "跳跳漆-色号16",
+          "LocalizedString": "跳跳漆-色号16"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_016_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting16.YH_UI_car_icon_Painting16",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting16.YH_UI_car_icon_Painting16",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_17": {
+        "ModuleID": "V002_Color_17",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_017_name",
+          "SourceString": "跳跳漆-色号17",
+          "LocalizedString": "跳跳漆-色号17"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_017_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting17.YH_UI_car_icon_Painting17",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting17.YH_UI_car_icon_Painting17",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_18": {
+        "ModuleID": "V002_Color_18",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_018_name",
+          "SourceString": "跳跳漆-色号18",
+          "LocalizedString": "跳跳漆-色号18"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_018_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting18.YH_UI_car_icon_Painting18",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting18.YH_UI_car_icon_Painting18",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Color_19": {
+        "ModuleID": "V002_Color_19",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_019_name",
+          "SourceString": "跳跳漆-色号19",
+          "LocalizedString": "跳跳漆-色号19"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_019_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting19.YH_UI_car_icon_Painting19",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting19.YH_UI_car_icon_Painting19",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Decal_01": {
+        "ModuleID": "V002_Decal_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Decal_001_name",
+          "SourceString": "极邃简略-涂装",
+          "LocalizedString": "极邃简略-涂装"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Decal_001_desc",
+          "SourceString": "极邃简略-涂装，突破非凡的拉花设计！真我风采，就在此刻。",
+          "LocalizedString": "极邃简略-涂装，突破非凡的拉花设计！真我风采，就在此刻。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Decal",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 72000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_lahua01.YH_UI_car_icon_lahua01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_lahua01.YH_UI_car_icon_lahua01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Decal_02": {
+        "ModuleID": "V002_Decal_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Decal_002_name",
+          "SourceString": "霓虹光影-涂装",
+          "LocalizedString": "霓虹光影-涂装"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Decal_002_desc",
+          "SourceString": "霓虹光影涂装，满足个性需求的潮流拉花，新光彩即使在黑暗中，也能脱颖而出。",
+          "LocalizedString": "霓虹光影涂装，满足个性需求的潮流拉花，新光彩即使在黑暗中，也能脱颖而出。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Decal",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 72000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_lahua02.YH_UI_car_icon_lahua02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_lahua02.YH_UI_car_icon_lahua02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Decal_03": {
+        "ModuleID": "V002_Decal_03",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Decal_003_name",
+          "SourceString": "改装大师-涂装",
+          "LocalizedString": "改装大师-涂装"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Decal_003_desc",
+          "SourceString": "改装大师-涂装，速度与美学的集合，百变独特拉花，赛车手的第一顺位选择。",
+          "LocalizedString": "改装大师-涂装，速度与美学的集合，百变独特拉花，赛车手的第一顺位选择。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Decal",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 72000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_lahua03.YH_UI_car_icon_lahua03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_lahua03.YH_UI_car_icon_lahua03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Suspension_01": {
+        "ModuleID": "V002_Suspension_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Suspension_001_name",
+          "SourceString": "Master-IS01",
+          "LocalizedString": "Master-IS01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Suspension_001_desc",
+          "SourceString": "悬挂和刹车领域的一流品牌Master，对于适配车型和驾驶需求的满足，永无止境。\nIS01：新越全方位覆盖的高性能悬挂，让每一次的驾驶，都格外平稳、愉悦。",
+          "LocalizedString": "悬挂和刹车领域的一流品牌Master，对于适配车型和驾驶需求的满足，永无止境。\nIS01：新越全方位覆盖的高性能悬挂，让每一次的驾驶，都格外平稳、愉悦。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Suspension",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 172800,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 3200,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Suspension_02": {
+        "ModuleID": "V002_Suspension_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "Namespace": "",
+          "Key": "B2977EB14E08AD020EA25AA36DE2D399",
+          "SourceString": "Master-IS02",
+          "LocalizedString": "Master-IS02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Suspension",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 172800,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 3200,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Engine_01": {
+        "ModuleID": "V002_Engine_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Engine_001_name",
+          "SourceString": "Horizon-I6E",
+          "LocalizedString": "Horizon-I6E"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Engine_001_desc",
+          "SourceString": "雷加利亚旗下的子品牌Horizon，是海特洛市家用汽车最受欢迎的汽车引擎和变速箱品牌。\nI6E：性能引擎，全方位满足需求的精确设计和调校，真正的超级机械心脏。",
+          "LocalizedString": "雷加利亚旗下的子品牌Horizon，是海特洛市家用汽车最受欢迎的汽车引擎和变速箱品牌。\nI6E：性能引擎，全方位满足需求的精确设计和调校，真正的超级机械心脏。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Engine",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 192000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 4000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_yinqing.YH_UI_CarComponent_yinqing",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_yinqing.YH_UI_CarComponent_yinqing",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Engine_02": {
+        "ModuleID": "V002_Engine_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "Namespace": "",
+          "Key": "7B69E4E448B70E2BDE191185E41D715D",
+          "SourceString": "Horizon-I6X",
+          "LocalizedString": "Horizon-I6X"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Engine",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 192000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 4000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_yinqing.YH_UI_CarComponent_yinqing",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_yinqing.YH_UI_CarComponent_yinqing",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_GearBox_01": {
+        "ModuleID": "V002_GearBox_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_GearBox_001_name",
+          "SourceString": "Horizon-AT01",
+          "LocalizedString": "Horizon-AT01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_GearBox_001_desc",
+          "SourceString": "雷加利亚旗下的子品牌Horizon，是海特洛市家用汽车最受欢迎的汽车引擎和变速箱品牌。\nAT01：高效节能的绝佳体现，最强换挡性能的百分百首选变速箱！严格测试，无忧驾驶。",
+          "LocalizedString": "雷加利亚旗下的子品牌Horizon，是海特洛市家用汽车最受欢迎的汽车引擎和变速箱品牌。\nAT01：高效节能的绝佳体现，最强换挡性能的百分百首选变速箱！严格测试，无忧驾驶。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Gearbox",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 144000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 3600,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_biansuxiang.YH_UI_CarComponent_biansuxiang",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_biansuxiang.YH_UI_CarComponent_biansuxiang",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_GearBox_02": {
+        "ModuleID": "V002_GearBox_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "Namespace": "",
+          "Key": "7200EF674D784133F1C53AB29BBD5F2B",
+          "SourceString": "Horizon-AT02",
+          "LocalizedString": "Horizon-AT02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Gearbox",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 144000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 57600,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_biansuxiang.YH_UI_CarComponent_biansuxiang",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_biansuxiang.YH_UI_CarComponent_biansuxiang",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Brake_01": {
+        "ModuleID": "V002_Brake_01",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Brake_001_name",
+          "SourceString": "Master-DB01",
+          "LocalizedString": "Master-DB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Brake_001_desc",
+          "SourceString": "悬挂和刹车领域的一流品牌Master，对于适配车型和驾驶需求的满足，永无止境。\r\nDB01：安全是首位，平稳、顺滑、稳定、从容，面面俱到。",
+          "LocalizedString": "悬挂和刹车领域的一流品牌Master，对于适配车型和驾驶需求的满足，永无止境。\r\nDB01：安全是首位，平稳、顺滑、稳定、从容，面面俱到。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Brake",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 57600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_shache.YH_UI_CarComponent_shache",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_shache.YH_UI_CarComponent_shache",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V002_Brake_02": {
+        "ModuleID": "V002_Brake_02",
+        "VehicleID": "Vehicle002",
+        "ModuleName": {
+          "Namespace": "",
+          "Key": "9FD22B96491884EC2680C1B56B32676F",
+          "SourceString": "Master-DB03",
+          "LocalizedString": "Master-DB03"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Brake",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 57600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_shache.YH_UI_CarComponent_shache",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_shache.YH_UI_CarComponent_shache",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_FrontKit_01": {
+        "ModuleID": "V003_FrontKit_01",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_001_name",
+          "SourceString": "Geed-FB01",
+          "LocalizedString": "Geed-FB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB01：绅士风格的NO.1销量，经过时间沉淀后的美感，在数年后，依然熠熠生辉。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB01：绅士风格的NO.1销量，经过时间沉淀后的美感，在数年后，依然熠熠生辉。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_FrontBodyKit",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 57600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_01.YH_UI_car_icon_qian_01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_01.YH_UI_car_icon_qian_01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_BackKit_01": {
+        "ModuleID": "V003_BackKit_01",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_001_name",
+          "SourceString": "Geed-RB01",
+          "LocalizedString": "Geed-RB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB01：贴合原厂材质，加入柔性材料，保护您在路途的每个时刻。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB01：贴合原厂材质，加入柔性材料，保护您在路途的每个时刻。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_BackBodyKit",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 48000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_01.YH_UI_car_icon_hou_01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_01.YH_UI_car_icon_hou_01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_01": {
+        "ModuleID": "V003_Color_01",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_001_name",
+          "SourceString": "跳跳漆-色号01",
+          "LocalizedString": "跳跳漆-色号01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_001_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 46300,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting01.YH_UI_car_icon003_Painting01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting01.YH_UI_car_icon003_Painting01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_02": {
+        "ModuleID": "V003_Color_02",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_002_name",
+          "SourceString": "跳跳漆-色号02",
+          "LocalizedString": "跳跳漆-色号02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_002_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 46300,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting02.YH_UI_car_icon003_Painting02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting02.YH_UI_car_icon003_Painting02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_03": {
+        "ModuleID": "V003_Color_03",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_003_name",
+          "SourceString": "跳跳漆-色号03",
+          "LocalizedString": "跳跳漆-色号03"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_003_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 46300,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting03.YH_UI_car_icon003_Painting03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting03.YH_UI_car_icon003_Painting03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_04": {
+        "ModuleID": "V003_Color_04",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_004_name",
+          "SourceString": "跳跳漆-色号04",
+          "LocalizedString": "跳跳漆-色号04"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_004_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 50900,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting04.YH_UI_car_icon003_Painting04",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting04.YH_UI_car_icon003_Painting04",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_05": {
+        "ModuleID": "V003_Color_05",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_005_name",
+          "SourceString": "跳跳漆-色号05",
+          "LocalizedString": "跳跳漆-色号05"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_005_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 50900,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting05.YH_UI_car_icon003_Painting05",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting05.YH_UI_car_icon003_Painting05",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_06": {
+        "ModuleID": "V003_Color_06",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_006_name",
+          "SourceString": "跳跳漆-色号06",
+          "LocalizedString": "跳跳漆-色号06"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_006_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 50900,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting06.YH_UI_car_icon003_Painting06",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting06.YH_UI_car_icon003_Painting06",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_07": {
+        "ModuleID": "V003_Color_07",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_007_name",
+          "SourceString": "跳跳漆-色号07",
+          "LocalizedString": "跳跳漆-色号07"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_007_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 50900,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting07.YH_UI_car_icon003_Painting07",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting07.YH_UI_car_icon003_Painting07",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_08": {
+        "ModuleID": "V003_Color_08",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_008_name",
+          "SourceString": "跳跳漆-色号08",
+          "LocalizedString": "跳跳漆-色号08"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_008_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 50900,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting08.YH_UI_car_icon003_Painting08",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting08.YH_UI_car_icon003_Painting08",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_09": {
+        "ModuleID": "V003_Color_09",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_009_name",
+          "SourceString": "跳跳漆-色号09",
+          "LocalizedString": "跳跳漆-色号09"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_009_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 50900,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting09.YH_UI_car_icon003_Painting09",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting09.YH_UI_car_icon003_Painting09",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_10": {
+        "ModuleID": "V003_Color_10",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_010_name",
+          "SourceString": "跳跳漆-色号10",
+          "LocalizedString": "跳跳漆-色号10"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_010_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 50900,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting10.YH_UI_car_icon003_Painting10",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting10.YH_UI_car_icon003_Painting10",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Color_11": {
+        "ModuleID": "V003_Color_11",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_011_name",
+          "SourceString": "跳跳漆-色号11",
+          "LocalizedString": "跳跳漆-色号11"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_011_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 50900,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting11.YH_UI_car_icon003_Painting11",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon003_Painting11.YH_UI_car_icon003_Painting11",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Brake_01": {
+        "ModuleID": "V003_Brake_01",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "CultureInvariantString": "003-test-刹车-01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Brake",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 7357,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 7357,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_shache.YH_UI_CarComponent_shache",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_shache.YH_UI_CarComponent_shache",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Brake_02": {
+        "ModuleID": "V003_Brake_02",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "CultureInvariantString": "003-test-刹车-02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Brake",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 7357,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 7357,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_shache.YH_UI_CarComponent_shache",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_shache.YH_UI_CarComponent_shache",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Suspension_01": {
+        "ModuleID": "V003_Suspension_01",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "CultureInvariantString": "003-test-悬架-01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Suspension",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 7357,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 7357,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V003_Suspension_02": {
+        "ModuleID": "V003_Suspension_02",
+        "VehicleID": "Vehicle003",
+        "ModuleName": {
+          "CultureInvariantString": "003-test-悬架-02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Suspension",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 7357,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 7357,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_CarComponent_xuangua.YH_UI_CarComponent_xuangua",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_FrontKit_01": {
+        "ModuleID": "V004_FrontKit_01",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_001_name",
+          "SourceString": "Geed-FB01",
+          "LocalizedString": "Geed-FB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB01：绅士风格的NO.1销量，经过时间沉淀后的美感，在数年后，依然熠熠生辉。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB01：绅士风格的NO.1销量，经过时间沉淀后的美感，在数年后，依然熠熠生辉。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_FrontBodyKit",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 57600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_01.YH_UI_car_icon_qian_01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_01.YH_UI_car_icon_qian_01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_BackKit_01": {
+        "ModuleID": "V004_BackKit_01",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_001_name",
+          "SourceString": "Geed-RB01",
+          "LocalizedString": "Geed-RB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB01：贴合原厂材质，加入柔性材料，保护您在路途的每个时刻。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB01：贴合原厂材质，加入柔性材料，保护您在路途的每个时刻。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_BackBodyKit",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 48000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_01.YH_UI_car_icon_hou_01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_01.YH_UI_car_icon_hou_01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Spoiler_01": {
+        "ModuleID": "V004_Spoiler_01",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_001_name",
+          "SourceString": "Geed-Spoiler01",
+          "LocalizedString": "Geed-Spoiler01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Spoiler_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nSpoiler01：城市飞行梦想家的低调设计，让你在无形中，快人一步。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nSpoiler01：城市飞行梦想家的低调设计，让你在无形中，快人一步。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Spoiler",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 38400,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2000,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD01.YH_UI_car_icon_F-HD01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_F-HD01.YH_UI_car_icon_F-HD01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_01": {
+        "ModuleID": "V004_Color_01",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_001_name",
+          "SourceString": "跳跳漆-色号01",
+          "LocalizedString": "跳跳漆-色号01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_001_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 81600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting01.YH_UI_car_icon_Painting01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting01.YH_UI_car_icon_Painting01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_02": {
+        "ModuleID": "V004_Color_02",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_002_name",
+          "SourceString": "跳跳漆-色号02",
+          "LocalizedString": "跳跳漆-色号02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_002_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 81600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting02.YH_UI_car_icon_Painting02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting02.YH_UI_car_icon_Painting02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_03": {
+        "ModuleID": "V004_Color_03",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_003_name",
+          "SourceString": "跳跳漆-色号03",
+          "LocalizedString": "跳跳漆-色号03"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_003_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 81600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting03.YH_UI_car_icon_Painting03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting03.YH_UI_car_icon_Painting03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_04": {
+        "ModuleID": "V004_Color_04",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_004_name",
+          "SourceString": "跳跳漆-色号04",
+          "LocalizedString": "跳跳漆-色号04"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_004_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting04.YH_UI_car_icon_Painting04",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting04.YH_UI_car_icon_Painting04",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_05": {
+        "ModuleID": "V004_Color_05",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_005_name",
+          "SourceString": "跳跳漆-色号05",
+          "LocalizedString": "跳跳漆-色号05"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_005_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting05.YH_UI_car_icon_Painting05",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting05.YH_UI_car_icon_Painting05",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_06": {
+        "ModuleID": "V004_Color_06",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_006_name",
+          "SourceString": "跳跳漆-色号06",
+          "LocalizedString": "跳跳漆-色号06"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_006_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting06.YH_UI_car_icon_Painting06",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting06.YH_UI_car_icon_Painting06",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_07": {
+        "ModuleID": "V004_Color_07",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_007_name",
+          "SourceString": "跳跳漆-色号07",
+          "LocalizedString": "跳跳漆-色号07"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_007_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting07.YH_UI_car_icon_Painting07",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting07.YH_UI_car_icon_Painting07",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_08": {
+        "ModuleID": "V004_Color_08",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_008_name",
+          "SourceString": "跳跳漆-色号08",
+          "LocalizedString": "跳跳漆-色号08"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_008_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting08.YH_UI_car_icon_Painting08",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting08.YH_UI_car_icon_Painting08",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_09": {
+        "ModuleID": "V004_Color_09",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_009_name",
+          "SourceString": "跳跳漆-色号09",
+          "LocalizedString": "跳跳漆-色号09"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_009_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting09.YH_UI_car_icon_Painting09",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting09.YH_UI_car_icon_Painting09",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_10": {
+        "ModuleID": "V004_Color_10",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_010_name",
+          "SourceString": "跳跳漆-色号10",
+          "LocalizedString": "跳跳漆-色号10"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_010_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting10.YH_UI_car_icon_Painting10",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting10.YH_UI_car_icon_Painting10",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_11": {
+        "ModuleID": "V004_Color_11",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_011_name",
+          "SourceString": "跳跳漆-色号11",
+          "LocalizedString": "跳跳漆-色号11"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_011_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting11.YH_UI_car_icon_Painting11",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting11.YH_UI_car_icon_Painting11",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_12": {
+        "ModuleID": "V004_Color_12",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_012_name",
+          "SourceString": "跳跳漆-色号12",
+          "LocalizedString": "跳跳漆-色号12"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_012_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting12.YH_UI_car_icon_Painting12",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting12.YH_UI_car_icon_Painting12",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_13": {
+        "ModuleID": "V004_Color_13",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_013_name",
+          "SourceString": "跳跳漆-色号13",
+          "LocalizedString": "跳跳漆-色号13"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_013_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting13.YH_UI_car_icon_Painting13",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting13.YH_UI_car_icon_Painting13",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_14": {
+        "ModuleID": "V004_Color_14",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_014_name",
+          "SourceString": "跳跳漆-色号14",
+          "LocalizedString": "跳跳漆-色号14"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_014_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting14.YH_UI_car_icon_Painting14",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting14.YH_UI_car_icon_Painting14",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_15": {
+        "ModuleID": "V004_Color_15",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_015_name",
+          "SourceString": "跳跳漆-色号15",
+          "LocalizedString": "跳跳漆-色号15"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_015_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting15.YH_UI_car_icon_Painting15",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting15.YH_UI_car_icon_Painting15",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_16": {
+        "ModuleID": "V004_Color_16",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_016_name",
+          "SourceString": "跳跳漆-色号16",
+          "LocalizedString": "跳跳漆-色号16"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_016_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting16.YH_UI_car_icon_Painting16",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting16.YH_UI_car_icon_Painting16",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_17": {
+        "ModuleID": "V004_Color_17",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_017_name",
+          "SourceString": "跳跳漆-色号17",
+          "LocalizedString": "跳跳漆-色号17"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_017_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting17.YH_UI_car_icon_Painting17",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting17.YH_UI_car_icon_Painting17",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_18": {
+        "ModuleID": "V004_Color_18",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_018_name",
+          "SourceString": "跳跳漆-色号18",
+          "LocalizedString": "跳跳漆-色号18"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_018_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting18.YH_UI_car_icon_Painting18",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting18.YH_UI_car_icon_Painting18",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V004_Color_19": {
+        "ModuleID": "V004_Color_19",
+        "VehicleID": "Vehicle004",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_019_name",
+          "SourceString": "跳跳漆-色号19",
+          "LocalizedString": "跳跳漆-色号19"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_019_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 98000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting19.YH_UI_car_icon_Painting19",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_Painting19.YH_UI_car_icon_Painting19",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_FrontKit_01": {
+        "ModuleID": "V007_FrontKit_01",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_001_name",
+          "SourceString": "Geed-FB01",
+          "LocalizedString": "Geed-FB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_FrontKit_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB01：绅士风格的NO.1销量，经过时间沉淀后的美感，在数年后，依然熠熠生辉。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nFB01：绅士风格的NO.1销量，经过时间沉淀后的美感，在数年后，依然熠熠生辉。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_FrontBodyKit",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 57600,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_01.YH_UI_car_icon_qian_01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_qian_01.YH_UI_car_icon_qian_01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_BackKit_01": {
+        "ModuleID": "V007_BackKit_01",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_001_name",
+          "SourceString": "Geed-RB01",
+          "LocalizedString": "Geed-RB01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_BackKit_001_desc",
+          "SourceString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB01：贴合原厂材质，加入柔性材料，保护您在路途的每个时刻。",
+          "LocalizedString": "Geed，专供汽车包围和尾翼的老品牌，旗下产品囊括诸多类型和风格。\r\nRB01：贴合原厂材质，加入柔性材料，保护您在路途的每个时刻。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_BackBodyKit",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 48000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2400,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_01.YH_UI_car_icon_hou_01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon_hou_01.YH_UI_car_icon_hou_01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_01": {
+        "ModuleID": "V007_Color_01",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_001_name",
+          "SourceString": "跳跳漆-色号01",
+          "LocalizedString": "跳跳漆-色号01"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_001_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": true,
+        "CurrencyID": "Fons",
+        "ModulePrice": 21800,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting01.YH_UI_car_icon007_Painting01",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting01.YH_UI_car_icon007_Painting01",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_02": {
+        "ModuleID": "V007_Color_02",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_002_name",
+          "SourceString": "跳跳漆-色号02",
+          "LocalizedString": "跳跳漆-色号02"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_002_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 21800,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting02.YH_UI_car_icon007_Painting02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting02.YH_UI_car_icon007_Painting02",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_03": {
+        "ModuleID": "V007_Color_03",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_003_name",
+          "SourceString": "跳跳漆-色号03",
+          "LocalizedString": "跳跳漆-色号03"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_003_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 21800,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting03.YH_UI_car_icon007_Painting03",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting03.YH_UI_car_icon007_Painting03",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_04": {
+        "ModuleID": "V007_Color_04",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_004_name",
+          "SourceString": "跳跳漆-色号04",
+          "LocalizedString": "跳跳漆-色号04"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_004_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 24000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting04.YH_UI_car_icon007_Painting04",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting04.YH_UI_car_icon007_Painting04",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_05": {
+        "ModuleID": "V007_Color_05",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_005_name",
+          "SourceString": "跳跳漆-色号05",
+          "LocalizedString": "跳跳漆-色号05"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_005_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 24000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting05.YH_UI_car_icon007_Painting05",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting05.YH_UI_car_icon007_Painting05",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_06": {
+        "ModuleID": "V007_Color_06",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_006_name",
+          "SourceString": "跳跳漆-色号06",
+          "LocalizedString": "跳跳漆-色号06"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_006_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 24000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting06.YH_UI_car_icon007_Painting06",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting06.YH_UI_car_icon007_Painting06",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_07": {
+        "ModuleID": "V007_Color_07",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_007_name",
+          "SourceString": "跳跳漆-色号07",
+          "LocalizedString": "跳跳漆-色号07"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_007_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 24000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting07.YH_UI_car_icon007_Painting07",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting07.YH_UI_car_icon007_Painting07",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_08": {
+        "ModuleID": "V007_Color_08",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_008_name",
+          "SourceString": "跳跳漆-色号08",
+          "LocalizedString": "跳跳漆-色号08"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_008_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 24000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting08.YH_UI_car_icon007_Painting08",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting08.YH_UI_car_icon007_Painting08",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_09": {
+        "ModuleID": "V007_Color_09",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_009_name",
+          "SourceString": "跳跳漆-色号09",
+          "LocalizedString": "跳跳漆-色号09"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_009_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 24000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting09.YH_UI_car_icon007_Painting09",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting09.YH_UI_car_icon007_Painting09",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      },
+      "V007_Color_10": {
+        "ModuleID": "V007_Color_10",
+        "VehicleID": "Vehicle007",
+        "ModuleName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_010_name",
+          "SourceString": "跳跳漆-色号10",
+          "LocalizedString": "跳跳漆-色号10"
+        },
+        "ModuleProps": null,
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_Color_010_desc",
+          "SourceString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。",
+          "LocalizedString": "精心调制的颜色，在「跳跳漆」的加持下，耐久和褪色性双重加强， 更有定制服务，让爱车永远独特。"
+        },
+        "ModuleType": "EVehicleModuleType::EVMT_Color",
+        "bWasDefault": false,
+        "CurrencyID": "Fons",
+        "ModulePrice": 24000,
+        "ModifyCostId": "Annulith",
+        "ModifyPrice": 2800,
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting10.YH_UI_car_icon007_Painting10",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_icon007_Painting10.YH_UI_car_icon007_Painting10",
+          "SubPathString": ""
+        },
+        "CityShopExtensionData": null
+      }
+    }
+  }
+]

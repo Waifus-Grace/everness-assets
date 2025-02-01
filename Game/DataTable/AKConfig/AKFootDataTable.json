@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AKFootDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterFootStepSoundData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1670": {
+        "RoleName": "1670",
+        "FootAKAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Player/PlayerMove/Sfx_Player_Move_HighHeel/Play_Sfx_Player_Fts_HighHeel_Switch.Play_Sfx_Player_Fts_HighHeel_Switch",
+          "SubPathString": ""
+        },
+        "SwitchGroup": "Fts_GroundMaterial_Switch"
+      }
+    }
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ForkVehicleData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StaticForkVehicleEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "VehicleForkTag": {
+          "TagName": "AI"
+        },
+        "VehicleForkEffectDatas": [
+          {
+            "VehicleID": "1001",
+            "nPriority": 0,
+            "LightEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FrontLeftLightSocket": "None",
+            "FrontRightLightSocket": "None",
+            "BackLeftLightSocket": "None",
+            "BackRightLightSocket": "None",
+            "WheelEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "BackLightTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleForkBgm": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "VehicleID": "1009",
+            "nPriority": 0,
+            "LightEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FrontLeftLightSocket": "None",
+            "FrontRightLightSocket": "None",
+            "BackLeftLightSocket": "None",
+            "BackRightLightSocket": "None",
+            "WheelEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "BackLightTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleForkBgm": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "NewRow_0": {
+        "VehicleForkTag": {
+          "TagName": "Equip"
+        },
+        "VehicleForkEffectDatas": [
+          {
+            "VehicleID": "1000",
+            "nPriority": 0,
+            "LightEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FrontLeftLightSocket": "None",
+            "FrontRightLightSocket": "None",
+            "BackLeftLightSocket": "None",
+            "BackRightLightSocket": "None",
+            "WheelEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "BackLightTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleForkBgm": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "VehicleID": "1001",
+            "nPriority": 0,
+            "LightEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FrontLeftLightSocket": "None",
+            "FrontRightLightSocket": "None",
+            "BackLeftLightSocket": "None",
+            "BackRightLightSocket": "None",
+            "WheelEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "BackLightTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleForkBgm": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      }
+    }
+  }
+]

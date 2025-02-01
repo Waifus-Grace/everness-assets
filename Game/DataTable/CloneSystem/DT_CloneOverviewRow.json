@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CloneOverviewRow",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CloneOverviewRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneOverviewRow_ExpAndCoin",
+          "SourceString": "经验及甲硬币",
+          "LocalizedString": "经验及甲硬币"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "8A0450944262253D1F89558088DCA19E",
+          "SourceString": "无尽深渊",
+          "LocalizedString": "无尽深渊"
+        },
+        "CloneType": [
+          "ECloneType::Trial_Clone"
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_FB_Icon_02.UI_YH_TSZN_FB_Icon_02",
+          "SubPathString": ""
+        },
+        "Type": "ECloneType::Trial_Clone",
+        "Desc": {
+          "Namespace": "",
+          "Key": "B0814CA94100B9114F19578A3F7E1A96",
+          "SourceString": "经验及甲硬币",
+          "LocalizedString": "经验及甲硬币"
+        }
+      },
+      "2": {
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneOverviewRow_Talent",
+          "SourceString": "角色天赋",
+          "LocalizedString": "角色天赋"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "19F2BAC84FF5553D9BA738A0EE1CACC2",
+          "SourceString": "深渊无尽",
+          "LocalizedString": "深渊无尽"
+        },
+        "CloneType": [
+          "ECloneType::Talent_Clone"
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_FB_Icon_02.UI_YH_TSZN_FB_Icon_02",
+          "SubPathString": ""
+        },
+        "Type": "ECloneType::Talent_Clone",
+        "Desc": {
+          "Namespace": "",
+          "Key": "7057035D489AE0A6AF0D5391D2D20FFF",
+          "SourceString": "角色天赋",
+          "LocalizedString": "角色天赋"
+        }
+      },
+      "3": {
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneOverviewRow_ArcDisk",
+          "SourceString": "弧盘突破",
+          "LocalizedString": "弧盘突破"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9079769543EC56FD242058805244EA91",
+          "SourceString": "无深尽渊",
+          "LocalizedString": "无深尽渊"
+        },
+        "CloneType": [
+          "ECloneType::ArcDisk_Clone"
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_FB_Icon_02.UI_YH_TSZN_FB_Icon_02",
+          "SubPathString": ""
+        },
+        "Type": "ECloneType::ArcDisk_Clone",
+        "Desc": {
+          "Namespace": "",
+          "Key": "37E05A4A48162AC40DB9E3ADEAD5C244",
+          "SourceString": "弧盘突破",
+          "LocalizedString": "弧盘突破"
+        }
+      },
+      "4": {
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneOverviewRow_AirCutrtan",
+          "SourceString": "空幕",
+          "LocalizedString": "空幕"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "FF24CE9642F0756EB24EC4B82A53B7CB",
+          "SourceString": "无深尽渊",
+          "LocalizedString": "无深尽渊"
+        },
+        "CloneType": [
+          "ECloneType::AirCurtain_Clone"
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_FB_Icon_02.UI_YH_TSZN_FB_Icon_02",
+          "SubPathString": ""
+        },
+        "Type": "ECloneType::AirCurtain_Clone",
+        "Desc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneOverviewRow_AirCutrtan",
+          "SourceString": "空幕",
+          "LocalizedString": "空幕"
+        }
+      },
+      "5": {
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneOverviewRow_Weekly",
+          "SourceString": "周常副本",
+          "LocalizedString": "周常副本"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "FF24CE9642F0756EB24EC4B82A53B7CB",
+          "SourceString": "无深尽渊",
+          "LocalizedString": "无深尽渊"
+        },
+        "CloneType": [
+          "ECloneType::Weekly_Clone"
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_FB_Icon_02.UI_YH_TSZN_FB_Icon_02",
+          "SubPathString": ""
+        },
+        "Type": "ECloneType::Weekly_Clone",
+        "Desc": {
+          "Namespace": "",
+          "Key": "5444E5864089AEFABBF570B7E3E5B026",
+          "SourceString": "高级养成材料",
+          "LocalizedString": "高级养成材料"
+        }
+      },
+      "6": {
+        "TypeText": {
+          "Namespace": "",
+          "Key": "FA01B35645C52A95123B27A8822A876E",
+          "SourceString": "类型6",
+          "LocalizedString": "类型6"
+        },
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3DC14ECE4DC8F73F7F33068E3535FF49",
+          "SourceString": "无深尽渊",
+          "LocalizedString": "无深尽渊"
+        },
+        "CloneType": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_FB_Icon_01.UI_YH_TSZN_FB_Icon_01",
+          "SubPathString": ""
+        },
+        "Type": "ECloneType::None",
+        "Desc": {
+          "Namespace": "",
+          "Key": "CD99CB3145EB657C4CB3659ACEA1D563",
+          "SourceString": "角色升星材料",
+          "LocalizedString": "角色升星材料"
+        }
+      }
+    }
+  }
+]

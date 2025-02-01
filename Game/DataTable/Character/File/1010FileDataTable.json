@@ -1,0 +1,1315 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1010FileDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterFileData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1010": {
+        "CVNameArr": [
+          {
+            "AudioType": "EAudioCultureType::Audio_Chinese",
+            "CVName": {
+              "CultureInvariantString": "宋媛媛"
+            }
+          }
+        ],
+        "Birthday": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "NPC011_birthday",
+          "SourceString": "8月20日",
+          "LocalizedString": "8月20日"
+        },
+        "HomePlace": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "NPC011_homeplace",
+          "SourceString": "伊波恩古董店",
+          "LocalizedString": "伊波恩古董店"
+        },
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "NPC011_abilityname",
+          "SourceString": "「天才黑帮倒转地球」",
+          "LocalizedString": "「天才黑帮倒转地球」"
+        },
+        "Introduction": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "NPC011_introduction",
+          "SourceString": "尚在扩招中的「柯林斯家族」的一代目。",
+          "LocalizedString": "尚在扩招中的「柯林斯家族」的一代目。"
+        },
+        "DetailContent": [
+          {
+            "ID": "detail01",
+            "Title": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "Content": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "detail02",
+            "Title": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "Content": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "detail03",
+            "Title": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "Content": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "detail04",
+            "Title": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "Content": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "detail05",
+            "Title": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "Content": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "Characterfile_test001",
+              "SourceString": "<!>临时译文",
+              "LocalizedString": "<!>临时译文"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          }
+        ],
+        "DailyContent": [
+          {
+            "ID": "Daily01",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "meet_001",
+              "SourceString": "初次见面",
+              "LocalizedString": "初次见面"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_meet_001",
+              "SourceString": "新人？在下——不对，咳咳，鄙人呃……我！娜娜莉·柯林斯，是未来全海特洛最伟大的家族——「柯林斯」家族的一代目！今后我会罩着你的。",
+              "LocalizedString": "新人？在下——不对，咳咳，鄙人呃……我！娜娜莉·柯林斯，是未来全海特洛最伟大的家族——「柯林斯」家族的一代目！今后我会罩着你的。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_meet_001.Play_Vo_Char_NPC011_meet_001",
+              "SubPathString": ""
+            },
+            "Conditions": [
+              {
+                "Firendly": 2,
+                "QuestId": "q110014",
+                "CharacterFileBreakLevel": 20
+              }
+            ]
+          },
+          {
+            "ID": "Daily02",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "chat_NPC11_001",
+              "SourceString": "闲聊·兴建大计",
+              "LocalizedString": "闲聊·兴建大计"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_chat_001",
+              "SourceString": "没什么事做的话，要不要听听我的家族兴建大计？",
+              "LocalizedString": "没什么事做的话，要不要听听我的家族兴建大计？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_chat_001.Play_Vo_Char_NPC011_chat_001",
+              "SubPathString": ""
+            },
+            "Conditions": [
+              {
+                "Firendly": 2,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 40
+              }
+            ]
+          },
+          {
+            "ID": "Daily03",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "chat_NPC11_002",
+              "SourceString": "闲聊·敏锐",
+              "LocalizedString": "闲聊·敏锐"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_chat_002",
+              "SourceString": "好没劲啊……嗯？！我闻到了阴谋的味道。轮到我出动了？",
+              "LocalizedString": "好没劲啊……嗯？！我闻到了阴谋的味道。轮到我出动了？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_chat_002.Play_Vo_Char_NPC011_chat_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily04",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "chat_NPC11_003",
+              "SourceString": "闲聊·书",
+              "LocalizedString": "闲聊·书"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_chat_003",
+              "SourceString": "《家族管理学》序章，首先……唔！！！",
+              "LocalizedString": "《家族管理学》序章，首先……唔！！！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_chat_003.Play_Vo_Char_NPC011_chat_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily05",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "weather_001",
+              "SourceString": "大晴天",
+              "LocalizedString": "大晴天"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_weather_001",
+              "SourceString": "晴空万里！……为什么要用那种欣慰的眼神看我？",
+              "LocalizedString": "晴空万里！……为什么要用那种欣慰的眼神看我？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_weather_001.Play_Vo_Char_NPC011_weather_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily06",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "weather_002",
+              "SourceString": "雨天",
+              "LocalizedString": "雨天"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_weather_002",
+              "SourceString": "好大的雨……好！就这样直接冲回去吧！",
+              "LocalizedString": "好大的雨……好！就这样直接冲回去吧！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_weather_002.Play_Vo_Char_NPC011_weather_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily07",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "weather_003",
+              "SourceString": "寒冷",
+              "LocalizedString": "寒冷"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_weather_003",
+              "SourceString": "好~冷~啊~~~快动起来吧，我要变成冰棍了！",
+              "LocalizedString": "好~冷~啊~~~快动起来吧，我要变成冰棍了！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_weather_003.Play_Vo_Char_NPC011_weather_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily08",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "weather_004",
+              "SourceString": "炎热",
+              "LocalizedString": "炎热"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_weather_004",
+              "SourceString": "我现在就好像海滩上的鱼，如果有一块碎雪冰淇淋的话……",
+              "LocalizedString": "我现在就好像海滩上的鱼，如果有一块碎雪冰淇淋的话……"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_weather_004.Play_Vo_Char_NPC011_weather_004",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily09",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "greet_001",
+              "SourceString": "早上问候",
+              "LocalizedString": "早上问候"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_greet_001",
+              "SourceString": "早上好！有新的委托吗？柯林斯家族随时可以出发！",
+              "LocalizedString": "早上好！有新的委托吗？柯林斯家族随时可以出发！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_001.Play_Vo_Char_NPC011_greet_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily10",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "greet_002",
+              "SourceString": "中午问候",
+              "LocalizedString": "中午问候"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_greet_002",
+              "SourceString": "午餐时间！今天有我喜欢的芝士蛋卷吗？",
+              "LocalizedString": "午餐时间！今天有我喜欢的芝士蛋卷吗？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_002.Play_Vo_Char_NPC011_greet_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily11",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "greet_003",
+              "SourceString": "傍晚问候",
+              "LocalizedString": "傍晚问候"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_greet_003",
+              "SourceString": "还早还早，再出去转一趟吧。",
+              "LocalizedString": "还早还早，再出去转一趟吧。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_003.Play_Vo_Char_NPC011_greet_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily12",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "greet_004",
+              "SourceString": "晚安",
+              "LocalizedString": "晚安"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_greet_004",
+              "SourceString": "诶？已经这个点了吗？打完这局就睡！",
+              "LocalizedString": "诶？已经这个点了吗？打完这局就睡！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_004.Play_Vo_Char_NPC011_greet_004",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily13",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hobby_001",
+              "SourceString": "爱好",
+              "LocalizedString": "爱好"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_hobby_001",
+              "SourceString": "零食，漫画，游戏机，抓虫子，跑酷，揍小弟，还有……太多了根本数不过来。",
+              "LocalizedString": "零食，漫画，游戏机，抓虫子，跑酷，揍小弟，还有……太多了根本数不过来。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_hobby_001.Play_Vo_Char_NPC011_hobby_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily14",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "vexation_001",
+              "SourceString": "烦恼",
+              "LocalizedString": "烦恼"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_vexation_001",
+              "SourceString": "烦恼？嗯……呃……我知道了！我放在冰箱里的最后一个珍藏布丁不知道被谁吃掉了。可恶，那可是我特意留着，打算看最新一期《月刊Fantasy》的时候好好享受的呢。",
+              "LocalizedString": "烦恼？嗯……呃……我知道了！我放在冰箱里的最后一个珍藏布丁不知道被谁吃掉了。可恶，那可是我特意留着，打算看最新一期《月刊Fantasy》的时候好好享受的呢。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_vexation_001.Play_Vo_Char_NPC011_vexation_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily15",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "talk_NPC011_001",
+              "SourceString": "话题·家族",
+              "LocalizedString": "话题·家族"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_talk_001",
+              "SourceString": "不和家族站在一起的老大，不算是真正的老大……家族事业就是我们的根基，背叛家族就是背叛自己！……怎么样，帅吧？《罪城往事》的这几句台词我想说很久了！",
+              "LocalizedString": "不和家族站在一起的老大，不算是真正的老大……家族事业就是我们的根基，背叛家族就是背叛自己！……怎么样，帅吧？《罪城往事》的这几句台词我想说很久了！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_talk_001.Play_Vo_Char_NPC011_talk_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily16",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "talk_NPC011_002",
+              "SourceString": "话题·反重力",
+              "LocalizedString": "话题·反重力"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_talk_002",
+              "SourceString": "先「噼啪——」一下，然后再「啪嚓——」一下，就可以倒过来啦！而且而且，这样「唰——」的一下出现在反派面前，可是我的独家登场方式！",
+              "LocalizedString": "先「噼啪——」一下，然后再「啪嚓——」一下，就可以倒过来啦！而且而且，这样「唰——」的一下出现在反派面前，可是我的独家登场方式！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_talk_002.Play_Vo_Char_NPC011_talk_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily17",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "talk_NPC011_003",
+              "SourceString": "话题·毛发护理",
+              "LocalizedString": "话题·毛发护理"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_talk_003",
+              "SourceString": "先用清水打湿毛发，再用专门的洗剂清洗，然后用柔风吹到半干上护理剂，再换成冷风吹干，最后再修剪掉分叉和多余的毛发。这些都是大叔教我的，毕竟一代目的形象对于家族来说可是很重要的。",
+              "LocalizedString": "先用清水打湿毛发，再用专门的洗剂清洗，然后用柔风吹到半干上护理剂，再换成冷风吹干，最后再修剪掉分叉和多余的毛发。这些都是大叔教我的，毕竟一代目的形象对于家族来说可是很重要的。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_talk_003.Play_Vo_Char_NPC011_talk_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily18",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "self_NPC011_001",
+              "SourceString": "关于自己·异能",
+              "LocalizedString": "关于自己·异能"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_self_001",
+              "SourceString": "应该是有次打架的时候，混乱中不知道被哪个混蛋推了一把，从天台上摔下去时还想着这下真的完蛋了，然后突然就在墙上停住了！再然后我就回去把他们所有人都狠狠揍了一顿。至于代价……好像没什么感觉，大概小得可以忽略不计吧，难道这就是主角光环？",
+              "LocalizedString": "应该是有次打架的时候，混乱中不知道被哪个混蛋推了一把，从天台上摔下去时还想着这下真的完蛋了，然后突然就在墙上停住了！再然后我就回去把他们所有人都狠狠揍了一顿。至于代价……好像没什么感觉，大概小得可以忽略不计吧，难道这就是主角光环？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_self_001.Play_Vo_Char_NPC011_self_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily19",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "self_NPC011_002",
+              "SourceString": "关于自己·伤口",
+              "LocalizedString": "关于自己·伤口"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_self_002",
+              "SourceString": "这个伤口好像是异象干的，这里好像是为了帮街口的奶奶抓偷吃的团三郎，撞到了消防栓上……啊，这个伤口我记得，是为了好好教训那些抢劫的混混。都是小伤啦，跟挠痒痒一样！……诶？衣服哪里有洞？完了完了，又要麻烦大叔了！",
+              "LocalizedString": "这个伤口好像是异象干的，这里好像是为了帮街口的奶奶抓偷吃的团三郎，撞到了消防栓上……啊，这个伤口我记得，是为了好好教训那些抢劫的混混。都是小伤啦，跟挠痒痒一样！……诶？衣服哪里有洞？完了完了，又要麻烦大叔了！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_self_002.Play_Vo_Char_NPC011_self_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily20",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "self_NPC011_003",
+              "SourceString": "关于自己·街霸",
+              "LocalizedString": "关于自己·街霸"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_self_003",
+              "SourceString": "可不是我吹牛，在我进伊波恩之前，蓝胡子路和火炬木大道那边，哪个道上的家伙不知道我娜娜莉的威名！就算没有异能的时候，那些家伙也完全——不是我的对手。……打听？打、打听就不用了吧，咳，要是给伊波恩惹来以前的仇家可就不好了！",
+              "LocalizedString": "可不是我吹牛，在我进伊波恩之前，蓝胡子路和火炬木大道那边，哪个道上的家伙不知道我娜娜莉的威名！就算没有异能的时候，那些家伙也完全——不是我的对手。……打听？打、打听就不用了吧，咳，要是给伊波恩惹来以前的仇家可就不好了！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_self_003.Play_Vo_Char_NPC011_self_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily21",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_NPC009",
+              "SourceString": "关于浔",
+              "LocalizedString": "关于浔"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_about_001",
+              "SourceString": "身世成谜，深藏不漏的古董店店长，听起来实在是……太酷了！好想成为像大姐头这样的人，是要从喝酒学起吗？",
+              "LocalizedString": "身世成谜，深藏不漏的古董店店长，听起来实在是……太酷了！好想成为像大姐头这样的人，是要从喝酒学起吗？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_about_001.Play_Vo_Char_NPC011_about_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily22",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_NPC010",
+              "SourceString": "关于阿德勒",
+              "LocalizedString": "关于阿德勒"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_about_002",
+              "SourceString": "你说怎么会有大叔这么全能的人，好像就从来没有他做不到的事情。大姐头喝多了的时候，我悄悄去问过好几次到底是哪里挖来的大叔，听过什么厨师改行、猎人再就业，好多好多个不同的版本……早雾说我被骗了，果然这样的人才属于高级商业机密吗！",
+              "LocalizedString": "你说怎么会有大叔这么全能的人，好像就从来没有他做不到的事情。大姐头喝多了的时候，我悄悄去问过好几次到底是哪里挖来的大叔，听过什么厨师改行、猎人再就业，好多好多个不同的版本……早雾说我被骗了，果然这样的人才属于高级商业机密吗！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_about_002.Play_Vo_Char_NPC011_about_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily23",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_NPC008",
+              "SourceString": "关于早雾",
+              "LocalizedString": "关于早雾"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_about_003",
+              "SourceString": "总觉得早雾她……她有很多事情都藏在心里。不过我作为老大，对家族的人都是很包容的，早雾继续做早雾就好了。如果有一天我变得像达芙蒂尔师父那么强了，说不定早雾就什么都愿意告诉我了呢！",
+              "LocalizedString": "总觉得早雾她……她有很多事情都藏在心里。不过我作为老大，对家族的人都是很包容的，早雾继续做早雾就好了。如果有一天我变得像达芙蒂尔师父那么强了，说不定早雾就什么都愿意告诉我了呢！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_about_003.Play_Vo_Char_NPC011_about_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily24",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_NPC012",
+              "SourceString": "关于埃德嘉",
+              "LocalizedString": "关于埃德嘉"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_about_004",
+              "SourceString": "埃德嘉的脑子里好像装了一台电脑，就连「为什么圆形披萨装在方形盒子里，然后切成三角形」、「为什么薯片袋子里的空气比薯片多」这样的问题都回答得上来！电器头的造型留给塔吉多也太浪费了，依我看应该给埃德嘉。",
+              "LocalizedString": "埃德嘉的脑子里好像装了一台电脑，就连「为什么圆形披萨装在方形盒子里，然后切成三角形」、「为什么薯片袋子里的空气比薯片多」这样的问题都回答得上来！电器头的造型留给塔吉多也太浪费了，依我看应该给埃德嘉。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_about_004.Play_Vo_Char_NPC011_about_004",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily25",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_NPC013",
+              "SourceString": "关于达芙蒂尔",
+              "LocalizedString": "关于达芙蒂尔"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_about_005",
+              "SourceString": "没见过比达芙蒂尔师父的作息还要规律的人！她还从来不偷懒！连刷牙和吃饭这么令人放松的时候，背都挺得笔直笔直的！还有她训练的时候，从来都不中场休息……呃，是我路过刚好看到的，绝对不是偷看啊！我、我坦坦荡荡！",
+              "LocalizedString": "没见过比达芙蒂尔师父的作息还要规律的人！她还从来不偷懒！连刷牙和吃饭这么令人放松的时候，背都挺得笔直笔直的！还有她训练的时候，从来都不中场休息……呃，是我路过刚好看到的，绝对不是偷看啊！我、我坦坦荡荡！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_about_005.Play_Vo_Char_NPC011_about_005",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily26",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_NPC004A",
+              "SourceString": "关于塔吉多",
+              "LocalizedString": "关于塔吉多"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_about_006",
+              "SourceString": "塔吉多？还在考察期。看他表现，要是他乖乖听话的话，哼哼，以后也不是不能提拔成家族干部。跟着我，他算是出人头地了！",
+              "LocalizedString": "塔吉多？还在考察期。看他表现，要是他乖乖听话的话，哼哼，以后也不是不能提拔成家族干部。跟着我，他算是出人头地了！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_about_006.Play_Vo_Char_NPC011_about_006",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily27",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_Eibon",
+              "SourceString": "关于伊波恩",
+              "LocalizedString": "关于伊波恩"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_about_008",
+              "SourceString": "冷清小巷里的神秘店铺，捉摸不透的神秘店长，武力值超高的冷酷保镖，万能的机器人式管家，还有……的吉祥物！怎么看都是热血漫画标配的设定啊！虽然加入伊波恩后，这里的生活和我想象的有点不同……但是！我已经闻到主线的气息了，伊波恩和柯林斯家族的名号迟早会响彻整个海特洛，哦不，整个世界！",
+              "LocalizedString": "冷清小巷里的神秘店铺，捉摸不透的神秘店长，武力值超高的冷酷保镖，万能的机器人式管家，还有……的吉祥物！怎么看都是热血漫画标配的设定啊！虽然加入伊波恩后，这里的生活和我想象的有点不同……但是！我已经闻到主线的气息了，伊波恩和柯林斯家族的名号迟早会响彻整个海特洛，哦不，整个世界！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_about_008.Play_Vo_Char_NPC011_about_008",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily28",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ug_001",
+              "SourceString": "角色升星",
+              "LocalizedString": "角色升星"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_ug_001",
+              "SourceString": "这才是一代目的样子。",
+              "LocalizedString": "这才是一代目的样子。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_ug_001.Play_Vo_Char_NPC011_ug_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily29",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ug_002",
+              "SourceString": "角色升星",
+              "LocalizedString": "角色升星"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_ug_002",
+              "SourceString": "新的招式！",
+              "LocalizedString": "新的招式！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_ug_002.Play_Vo_Char_NPC011_ug_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily30",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ug_003",
+              "SourceString": "角色升星",
+              "LocalizedString": "角色升星"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_ug_003",
+              "SourceString": "是时候解封我无上的力量了~",
+              "LocalizedString": "是时候解封我无上的力量了~"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_ug_003.Play_Vo_Char_NPC011_ug_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          }
+        ],
+        "BattleContent": [
+          {
+            "ID": "Battle01",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "skill001",
+              "SourceString": "技能·1",
+              "LocalizedString": "技能·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_skill_001",
+              "SourceString": "呜喵！/嗷呜!",
+              "LocalizedString": "呜喵！/嗷呜!"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_skill_001.Play_Vo_Char_NPC011_skill_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle02",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "skill002",
+              "SourceString": "技能·2",
+              "LocalizedString": "技能·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_skill_002",
+              "SourceString": "来点惊喜！",
+              "LocalizedString": "来点惊喜！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_skill_002.Play_Vo_Char_NPC011_skill_002",
+              "SubPathString": ""
+            },
+            "Conditions": [
+              {
+                "Firendly": 2,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 0
+              }
+            ]
+          },
+          {
+            "ID": "Battle03",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "skill003",
+              "SourceString": "技能·3",
+              "LocalizedString": "技能·3"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_skill_003",
+              "SourceString": "看我厉害！",
+              "LocalizedString": "看我厉害！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_skill_003.Play_Vo_Char_NPC011_skill_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle04",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "aoe001",
+              "SourceString": "大招·1",
+              "LocalizedString": "大招·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_aoe_001",
+              "SourceString": "一招！全城制霸！",
+              "LocalizedString": "一招！全城制霸！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_aoe_001.Play_Vo_Char_NPC011_aoe_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle05",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "aoe002",
+              "SourceString": "大招·2",
+              "LocalizedString": "大招·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_aoe_002",
+              "SourceString": "全体！听我指挥！",
+              "LocalizedString": "全体！听我指挥！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_aoe_002.Play_Vo_Char_NPC011_aoe_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle06",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "aoe003",
+              "SourceString": "大招·3",
+              "LocalizedString": "大招·3"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_aoe_003",
+              "SourceString": "「副手」，该我们救场了！",
+              "LocalizedString": "「副手」，该我们救场了！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_aoe_003.Play_Vo_Char_NPC011_aoe_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle06",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "anomaly_001",
+              "SourceString": "收容异象",
+              "LocalizedString": "收容异象"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_anomaly_001",
+              "SourceString": "哦？新的小弟？要加入柯林斯家族吗？",
+              "LocalizedString": "哦？新的小弟？要加入柯林斯家族吗？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_anomaly_001.Play_Vo_Char_NPC011_anomaly_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle06",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "anomaly_003",
+              "SourceString": "泯除异象",
+              "LocalizedString": "泯除异象"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_anomaly_002",
+              "SourceString": "收工！……呃，损坏物品的账单可以不寄到伊波恩吗？",
+              "LocalizedString": "收工！……呃，损坏物品的账单可以不寄到伊波恩吗？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_anomaly_002.Play_Vo_Char_NPC011_anomaly_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle07",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "windfall_001",
+              "SourceString": "意外收获·1",
+              "LocalizedString": "意外收获·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_windfall_001",
+              "SourceString": "好东西！快收起来快收起来！",
+              "LocalizedString": "好东西！快收起来快收起来！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_windfall_001.Play_Vo_Char_NPC011_windfall_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle08",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "windfall_002",
+              "SourceString": "意外收获·2",
+              "LocalizedString": "意外收获·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_windfall_002",
+              "SourceString": "很好很好，家族又可以壮大了。",
+              "LocalizedString": "很好很好，家族又可以壮大了。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_windfall_002.Play_Vo_Char_NPC011_windfall_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle09",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "windfall_003",
+              "SourceString": "意外收获·3",
+              "LocalizedString": "意外收获·3"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_windfall_003",
+              "SourceString": "这个能拿去给大姐头还债吗？",
+              "LocalizedString": "这个能拿去给大姐头还债吗？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_windfall_003.Play_Vo_Char_NPC011_windfall_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle10",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hp_001",
+              "SourceString": "生命值低·1",
+              "LocalizedString": "生命值低·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_hp_001",
+              "SourceString": "切，我还有更厉害的招式呢！",
+              "LocalizedString": "切，我还有更厉害的招式呢！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_hp_001.Play_Vo_Char_NPC011_hp_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle11",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hp_002",
+              "SourceString": "生命值低·2",
+              "LocalizedString": "生命值低·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_hp_002",
+              "SourceString": "好痛……没被人看到吧？",
+              "LocalizedString": "好痛……没被人看到吧？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_hp_002.Play_Vo_Char_NPC011_hp_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle12",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "fh_001",
+              "SourceString": "恢复生命·1",
+              "LocalizedString": "恢复生命·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_fh_001",
+              "SourceString": "哼哼，现在是我的回合！",
+              "LocalizedString": "哼哼，现在是我的回合！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_fh_001.Play_Vo_Char_NPC011_fh_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle13",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "fh_002",
+              "SourceString": "恢复生命·2",
+              "LocalizedString": "恢复生命·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_fh_002",
+              "SourceString": "状态绝佳！",
+              "LocalizedString": "状态绝佳！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_fh_002.Play_Vo_Char_NPC011_fh_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle14",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "dead_001",
+              "SourceString": "死亡·1",
+              "LocalizedString": "死亡·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_dead_001",
+              "SourceString": "给柯林斯……丢脸了……",
+              "LocalizedString": "给柯林斯……丢脸了……"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_dead_001.Play_Vo_Char_NPC011_dead_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle15",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "dead_002",
+              "SourceString": "死亡·2",
+              "LocalizedString": "死亡·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_dead_002",
+              "SourceString": "我不是个……称职的老大……",
+              "LocalizedString": "我不是个……称职的老大……"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_dead_002.Play_Vo_Char_NPC011_dead_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle17",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "dead_003",
+              "SourceString": "死亡·3",
+              "LocalizedString": "死亡·3"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_dead_003",
+              "SourceString": "这样……一点都不酷……",
+              "LocalizedString": "这样……一点都不酷……"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_dead_003.Play_Vo_Char_NPC011_dead_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle18",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "kill_001",
+              "SourceString": "击杀怪物·1",
+              "LocalizedString": "击杀怪物·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_kill_001",
+              "SourceString": "下一个！",
+              "LocalizedString": "下一个！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_kill_001.Play_Vo_Char_NPC011_kill_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle19",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "kill_002",
+              "SourceString": "击杀怪物·2",
+              "LocalizedString": "击杀怪物·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_kill_002",
+              "SourceString": "下次记得早点求饶！",
+              "LocalizedString": "下次记得早点求饶！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_kill_002.Play_Vo_Char_NPC011_kill_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle20",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "struck_001",
+              "SourceString": "普通受击·1",
+              "LocalizedString": "普通受击·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_struck_001",
+              "SourceString": "热身而已！",
+              "LocalizedString": "热身而已！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_struck_001.Play_Vo_Char_NPC011_struck_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle21",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "struck_002",
+              "SourceString": "普通受击·2",
+              "LocalizedString": "普通受击·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_struck_002",
+              "SourceString": "挠痒痒一样！",
+              "LocalizedString": "挠痒痒一样！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_struck_002.Play_Vo_Char_NPC011_struck_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle22",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hstruck_001",
+              "SourceString": "重受击·1",
+              "LocalizedString": "重受击·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_hstruck_001",
+              "SourceString": "还挺嚣张！",
+              "LocalizedString": "还挺嚣张！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_hstruck_001.Play_Vo_Char_NPC011_hstruck_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle23",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hstruck_002",
+              "SourceString": "重受击·2",
+              "LocalizedString": "重受击·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_hstruck_002",
+              "SourceString": "谁搞偷袭！",
+              "LocalizedString": "谁搞偷袭！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_hstruck_002.Play_Vo_Char_NPC011_hstruck_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle24",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "deploy_001",
+              "SourceString": "上阵·1",
+              "LocalizedString": "上阵·1"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_deploy_001",
+              "SourceString": "有事我来摆平！",
+              "LocalizedString": "有事我来摆平！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_deploy_001.Play_Vo_Char_NPC011_deploy_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle25",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "deploy_002",
+              "SourceString": "上阵·2",
+              "LocalizedString": "上阵·2"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_deploy_002",
+              "SourceString": "早就该到我了嘛！",
+              "LocalizedString": "早就该到我了嘛！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_deploy_002.Play_Vo_Char_NPC011_deploy_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle26",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "QTE_001",
+              "SourceString": "QTE语音",
+              "LocalizedString": "QTE语音"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC011_QTE_001",
+              "SourceString": "我来摆平！",
+              "LocalizedString": "我来摆平！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          }
+        ],
+        "CharacterPassByAudioEvents": []
+      }
+    }
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LoadingConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LoadingConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "LoadingDatas": [
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_002.UI_YH_Loading_Image_002",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_1_1",
+              "SourceString": "「维特海默值」",
+              "LocalizedString": "「维特海默值」"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_1_2",
+              "SourceString": "衡量目标对象背离现实强度的检测值被称作「维特海默值」。\r\n通过维特海默值可以区分目标对象是否为异象或异能者。",
+              "LocalizedString": "衡量目标对象背离现实强度的检测值被称作「维特海默值」。\r\n通过维特海默值可以区分目标对象是否为异象或异能者。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_003.UI_YH_Loading_Image_003",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_2_1",
+              "SourceString": "「异象」",
+              "LocalizedString": "「异象」"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_2_2",
+              "SourceString": "「异象」是一切于人类社会而言具有超自然、非现实属性的生物、物体、现象、地点、迷因的统称，降诞于人类世界的原因至今不明。",
+              "LocalizedString": "「异象」是一切于人类社会而言具有超自然、非现实属性的生物、物体、现象、地点、迷因的统称，降诞于人类世界的原因至今不明。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_009.UI_YH_Loading_Image_009",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_3_1",
+              "SourceString": "「奇点」",
+              "LocalizedString": "「奇点」"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_3_2",
+              "SourceString": "对异象施加某种特定干预时，导致其内部或外部表现发生剧烈变化的临界点被称作「奇点」。奇点是异象的核心特征之一，与异象的存在形态、行为选择及其对外界干预的反应模式紧密相关，现有科学手段尚难全面理解。\r\n单个异象的奇点具有唯一性，往往在对异象的「收容」或「泯除」中发挥着关键作用。",
+              "LocalizedString": "对异象施加某种特定干预时，导致其内部或外部表现发生剧烈变化的临界点被称作「奇点」。奇点是异象的核心特征之一，与异象的存在形态、行为选择及其对外界干预的反应模式紧密相关，现有科学手段尚难全面理解。\r\n单个异象的奇点具有唯一性，往往在对异象的「收容」或「泯除」中发挥着关键作用。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_011.UI_YH_Loading_Image_011",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_4_1",
+              "SourceString": "「泯除」",
+              "LocalizedString": "「泯除」"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_4_2",
+              "SourceString": "采取关键手段抹除对应异象于人类世界的存在，这一行为被称作「泯除」。泯除并不代表对异象存在的彻底抹杀，相应异象并不排除再次现世的可能。",
+              "LocalizedString": "采取关键手段抹除对应异象于人类世界的存在，这一行为被称作「泯除」。泯除并不代表对异象存在的彻底抹杀，相应异象并不排除再次现世的可能。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_014.UI_YH_Loading_Image_014",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_5_1",
+              "SourceString": "「异能」",
+              "LocalizedString": "「异能」"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_5_2",
+              "SourceString": "「异能」即从普通人类身上觉醒的超自然、非现实能力，根据异能系谱表现的不同，普遍可分为光、灵、咒、相、魂、暗这六种。",
+              "LocalizedString": "「异能」即从普通人类身上觉醒的超自然、非现实能力，根据异能系谱表现的不同，普遍可分为光、灵、咒、相、魂、暗这六种。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_016.UI_YH_Loading_Image_016",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_6_1",
+              "SourceString": "「异能者」其一",
+              "LocalizedString": "「异能者」其一"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_6_2",
+              "SourceString": "人类中觉醒了异能的个体被称作「异能者」。异能者理论上寿命不一，视异能的具体影响而定。部分异能者与普通人类寿命相同；部分因异能「代价」的支付，寿命明显短于普通人类；另一些则由于特殊异能的作用，寿命相对延长；更有甚者，寿命无限接近于永恒。",
+              "LocalizedString": "人类中觉醒了异能的个体被称作「异能者」。异能者理论上寿命不一，视异能的具体影响而定。部分异能者与普通人类寿命相同；部分因异能「代价」的支付，寿命明显短于普通人类；另一些则由于特殊异能的作用，寿命相对延长；更有甚者，寿命无限接近于永恒。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_020.UI_YH_Loading_Image_020",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_7_1",
+              "SourceString": "「代价」",
+              "LocalizedString": "「代价」"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_7_2",
+              "SourceString": "部分异能者拥有强大的异能需要支付相应的「代价」，如身体机能、精神状态的改变，又或是更为抽象的「因果代价」等。\r\n值得注意的是，代价并不一定遵循「等价交换」的原则，其影响往往无法通过简单的能量或能力来衡量。",
+              "LocalizedString": "部分异能者拥有强大的异能需要支付相应的「代价」，如身体机能、精神状态的改变，又或是更为抽象的「因果代价」等。\r\n值得注意的是，代价并不一定遵循「等价交换」的原则，其影响往往无法通过简单的能量或能力来衡量。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_021.UI_YH_Loading_Image_021",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_8_1",
+              "SourceString": "「反转移定律」",
+              "LocalizedString": "「反转移定律」"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_8_2",
+              "SourceString": "普通人类越是接近异象，增进对异象的了解，深入对异象的研究，越是容易受到异象在肉体乃至精神层面的影响。这种影响被称作「侵凌」。",
+              "LocalizedString": "普通人类越是接近异象，增进对异象的了解，深入对异象的研究，越是容易受到异象在肉体乃至精神层面的影响。这种影响被称作「侵凌」。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_025.UI_YH_Loading_Image_025",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_9_1",
+              "SourceString": "海特洛市",
+              "LocalizedString": "海特洛市"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_9_2",
+              "SourceString": "集合高尖科技与最新潮流的大都市，游戏开放的第一个城市，异象管理和异能利用都走在世界前沿。",
+              "LocalizedString": "集合高尖科技与最新潮流的大都市，游戏开放的第一个城市，异象管理和异能利用都走在世界前沿。"
+            }
+          },
+          {
+            "BackImage": {
+              "AssetPathName": "/Game/UI/UI/loading/res/UI_YH_Loading_Image_026.UI_YH_Loading_Image_026",
+              "SubPathString": ""
+            },
+            "Title": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_10_1",
+              "SourceString": "「环」",
+              "LocalizedString": "「环」"
+            },
+            "Desc": {
+              "TableId": "/Game/Text/ST_Loading.ST_Loading",
+              "Key": "loading_10_2",
+              "SourceString": "「环」是世界「对异象权力结构」的总称。\r\n狭义的「环」指的是「异象管理局」「尤克阿什庭」「塞拉伊诺馆」「零角实验室」「格赫罗斯岛」这五大公权机关与最高议庭A6。\r\n广义的「环」还包括了民间大大小小的异象猎人组织以及异象猎人个体。",
+              "LocalizedString": "「环」是世界「对异象权力结构」的总称。\r\n狭义的「环」指的是「异象管理局」「尤克阿什庭」「塞拉伊诺馆」「零角实验室」「格赫罗斯岛」这五大公权机关与最高议庭A6。\r\n广义的「环」还包括了民间大大小小的异象猎人组织以及异象猎人个体。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

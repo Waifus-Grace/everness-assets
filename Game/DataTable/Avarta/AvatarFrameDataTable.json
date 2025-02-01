@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AvatarFrameDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'HTAvatarFrameConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": {
+          "CultureInvariantString": "1"
+        },
+        "bIsDefault": true,
+        "bAutoUnlock": true,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI/selfie/1.1",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/selfie/1.1",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "1FD"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "1FUD"
+        }
+      },
+      "2": {
+        "Name": {
+          "CultureInvariantString": "2"
+        },
+        "bIsDefault": true,
+        "bAutoUnlock": true,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI/selfie/1.1",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/selfie/1.1",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "2FD"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "2FUD"
+        }
+      },
+      "3": {
+        "Name": {
+          "CultureInvariantString": "3"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI/selfie/jindudi.jindudi",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/selfie/jindudi.jindudi",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "3FD"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "3FUD"
+        }
+      },
+      "4": {
+        "Name": {
+          "CultureInvariantString": "4"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI/selfie/jindudi.jindudi",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/selfie/jindudi.jindudi",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "4FD"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "4FUD"
+        }
+      },
+      "5": {
+        "Name": {
+          "CultureInvariantString": "5"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI/selfie/wsad.wsad",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/selfie/wsad.wsad",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "5FD"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "5FUD"
+        }
+      },
+      "6": {
+        "Name": {
+          "CultureInvariantString": "6"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI/selfie/wsad.wsad",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/selfie/wsad.wsad",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "6FD"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "6FUD"
+        }
+      }
+    }
+  }
+]

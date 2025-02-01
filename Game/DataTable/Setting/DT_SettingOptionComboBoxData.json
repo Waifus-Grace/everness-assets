@@ -1,0 +1,1591 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SettingOptionComboBoxData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'SettingOptionComboBoxDataRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Graphics_Resolution": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "352AABA145560BF35B00C2A0828E5694",
+              "SourceString": "4090*2160",
+              "LocalizedString": "4090*2160"
+            },
+            "OptionData": "4090,2160",
+            "LimitOptionData": [
+              {
+                "Key": "Graphics_ScreenPercentage",
+                "Value": {
+                  "LimitOptionIndexRange": {
+                    "LowerBound": {
+                      "Type": "ERangeBoundTypes::Inclusive",
+                      "Value": 0
+                    },
+                    "UpperBound": {
+                      "Type": "ERangeBoundTypes::Inclusive",
+                      "Value": 2
+                    }
+                  },
+                  "LimitOptionIndexes": [
+                    0,
+                    1,
+                    2
+                  ]
+                }
+              }
+            ],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "87B3A67F4B667A7435BF228A7F999844",
+              "SourceString": "3840*2160",
+              "LocalizedString": "3840*2160"
+            },
+            "OptionData": "3840,2160",
+            "LimitOptionData": [
+              {
+                "Key": "Graphics_ScreenPercentage",
+                "Value": {
+                  "LimitOptionIndexRange": {
+                    "LowerBound": {
+                      "Type": "ERangeBoundTypes::Inclusive",
+                      "Value": 0
+                    },
+                    "UpperBound": {
+                      "Type": "ERangeBoundTypes::Inclusive",
+                      "Value": 2
+                    }
+                  },
+                  "LimitOptionIndexes": [
+                    0,
+                    1,
+                    2
+                  ]
+                }
+              }
+            ],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "ACA172C6426D274DF7AB709A064326D9",
+              "SourceString": "2560*1440",
+              "LocalizedString": "2560*1440"
+            },
+            "OptionData": "2560,1440",
+            "LimitOptionData": [
+              {
+                "Key": "Graphics_ScreenPercentage",
+                "Value": {
+                  "LimitOptionIndexRange": {
+                    "LowerBound": {
+                      "Type": "ERangeBoundTypes::Inclusive",
+                      "Value": 0
+                    },
+                    "UpperBound": {
+                      "Type": "ERangeBoundTypes::Inclusive",
+                      "Value": 2
+                    }
+                  },
+                  "LimitOptionIndexes": [
+                    0,
+                    1,
+                    2
+                  ]
+                }
+              }
+            ],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "CDFC06FE453F8250E3E12287246D73C2",
+              "SourceString": "1920*1080",
+              "LocalizedString": "1920*1080"
+            },
+            "OptionData": "1920,1080",
+            "LimitOptionData": [
+              {
+                "Key": "Graphics_ScreenPercentage",
+                "Value": {
+                  "LimitOptionIndexRange": {
+                    "LowerBound": {
+                      "Type": "ERangeBoundTypes::Open",
+                      "Value": 0
+                    },
+                    "UpperBound": {
+                      "Type": "ERangeBoundTypes::Open",
+                      "Value": 0
+                    }
+                  },
+                  "LimitOptionIndexes": []
+                }
+              }
+            ],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "C5BA4BE849309D5A26C2BE8834C3BB15",
+              "SourceString": "1600*900",
+              "LocalizedString": "1600*900"
+            },
+            "OptionData": "1600,900",
+            "LimitOptionData": [
+              {
+                "Key": "Graphics_ScreenPercentage",
+                "Value": {
+                  "LimitOptionIndexRange": {
+                    "LowerBound": {
+                      "Type": "ERangeBoundTypes::Open",
+                      "Value": 0
+                    },
+                    "UpperBound": {
+                      "Type": "ERangeBoundTypes::Open",
+                      "Value": 0
+                    }
+                  },
+                  "LimitOptionIndexes": []
+                }
+              }
+            ],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "EFACA7CB4329EE87EE907DBE0D10C44B",
+              "SourceString": "1280*720",
+              "LocalizedString": "1280*720"
+            },
+            "OptionData": "1280,720",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": -1
+      },
+      "Graphics_ImageQuality": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ImageQuality_1",
+              "SourceString": "流畅",
+              "LocalizedString": "流畅"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ImageQuality_2",
+              "SourceString": "平衡",
+              "LocalizedString": "平衡"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ImageQuality_3",
+              "SourceString": "精致",
+              "LocalizedString": "精致"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ImageQuality_4",
+              "SourceString": "极致",
+              "LocalizedString": "极致"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ImageQuality_5",
+              "SourceString": "原画",
+              "LocalizedString": "原画"
+            },
+            "OptionData": "4",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ImageQuality_6",
+              "SourceString": "自定义",
+              "LocalizedString": "自定义"
+            },
+            "OptionData": "-1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_AntiAliasing": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_AntiAliasing_0",
+              "SourceString": "关",
+              "LocalizedString": "关"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_AntiAliasing_5",
+              "SourceString": "SMAA",
+              "LocalizedString": "SMAA"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS",
+              "SourceString": "DLSS",
+              "LocalizedString": "DLSS"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_AntiAliasing_4",
+              "SourceString": "TSR",
+              "LocalizedString": "TSR"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_AntiAliasing_2",
+              "SourceString": "TAA",
+              "LocalizedString": "TAA"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 2
+      },
+      "Graphics_FPS": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "59E865794E19C555E26E478454D5598F",
+              "SourceString": "30",
+              "LocalizedString": "30"
+            },
+            "OptionData": "30",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "F2F4271C43F5B23E86E63A8692FC4E7E",
+              "SourceString": "60",
+              "LocalizedString": "60"
+            },
+            "OptionData": "60",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "Namespace": "",
+              "Key": "7DBD4C1B42ACDAF9091840AC5B759D13",
+              "SourceString": "120",
+              "LocalizedString": "120"
+            },
+            "OptionData": "120",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_ScreenPercentage": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ScreenPercentage_60",
+              "SourceString": "极简",
+              "LocalizedString": "极简"
+            },
+            "OptionData": "60",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ScreenPercentage_80",
+              "SourceString": "基础",
+              "LocalizedString": "基础"
+            },
+            "OptionData": "80",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ScreenPercentage_100",
+              "SourceString": "普通",
+              "LocalizedString": "普通"
+            },
+            "OptionData": "100",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ScreenPercentage_120",
+              "SourceString": "清晰",
+              "LocalizedString": "清晰"
+            },
+            "OptionData": "120",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ScreenPercentage_140",
+              "SourceString": "高清",
+              "LocalizedString": "高清"
+            },
+            "OptionData": "140",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ScreenPercentage_160",
+              "SourceString": "超清",
+              "LocalizedString": "超清"
+            },
+            "OptionData": "160",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ScreenPercentage_180",
+              "SourceString": "超高清",
+              "LocalizedString": "超高清"
+            },
+            "OptionData": "180",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ScreenPercentage_200",
+              "SourceString": "原画",
+              "LocalizedString": "原画"
+            },
+            "OptionData": "200",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 4
+      },
+      "Graphics_Texture": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_0",
+              "SourceString": "低",
+              "LocalizedString": "低"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_1",
+              "SourceString": "中",
+              "LocalizedString": "中"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_2",
+              "SourceString": "高",
+              "LocalizedString": "高"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_3",
+              "SourceString": "极致",
+              "LocalizedString": "极致"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_4",
+              "SourceString": "原画",
+              "LocalizedString": "原画"
+            },
+            "OptionData": "4",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_Material": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_0",
+              "SourceString": "低",
+              "LocalizedString": "低"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_1",
+              "SourceString": "中",
+              "LocalizedString": "中"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_2",
+              "SourceString": "高",
+              "LocalizedString": "高"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_3",
+              "SourceString": "极致",
+              "LocalizedString": "极致"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_4",
+              "SourceString": "原画",
+              "LocalizedString": "原画"
+            },
+            "OptionData": "4",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_Vegetation": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_0",
+              "SourceString": "低",
+              "LocalizedString": "低"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_1",
+              "SourceString": "中",
+              "LocalizedString": "中"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_2",
+              "SourceString": "高",
+              "LocalizedString": "高"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_3",
+              "SourceString": "极致",
+              "LocalizedString": "极致"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_4",
+              "SourceString": "原画",
+              "LocalizedString": "原画"
+            },
+            "OptionData": "4",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_ViewDistance": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_0",
+              "SourceString": "低",
+              "LocalizedString": "低"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_1",
+              "SourceString": "中",
+              "LocalizedString": "中"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_2",
+              "SourceString": "高",
+              "LocalizedString": "高"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_3",
+              "SourceString": "极致",
+              "LocalizedString": "极致"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_4",
+              "SourceString": "原画",
+              "LocalizedString": "原画"
+            },
+            "OptionData": "4",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_PostProcess": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_0",
+              "SourceString": "低",
+              "LocalizedString": "低"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_1",
+              "SourceString": "中",
+              "LocalizedString": "中"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_2",
+              "SourceString": "高",
+              "LocalizedString": "高"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_3",
+              "SourceString": "极致",
+              "LocalizedString": "极致"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_4",
+              "SourceString": "原画",
+              "LocalizedString": "原画"
+            },
+            "OptionData": "4",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_DLSS": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS_0",
+              "SourceString": "关闭",
+              "LocalizedString": "关闭"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS_DLAA",
+              "SourceString": "DLAA",
+              "LocalizedString": "DLAA"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS_UltraQuality",
+              "SourceString": "高质量",
+              "LocalizedString": "高质量"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS_Quality",
+              "SourceString": "质量",
+              "LocalizedString": "质量"
+            },
+            "OptionData": "4",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS_Balanced",
+              "SourceString": "平衡",
+              "LocalizedString": "平衡"
+            },
+            "OptionData": "5",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS_Performance",
+              "SourceString": "性能",
+              "LocalizedString": "性能"
+            },
+            "OptionData": "6",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 1
+      },
+      "Graphics_RT": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_RT_Disable",
+              "SourceString": "关闭",
+              "LocalizedString": "关闭"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_RT_Low",
+              "SourceString": "低",
+              "LocalizedString": "低"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_RT_Medium",
+              "SourceString": "中",
+              "LocalizedString": "中"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_RT_VeryHigh",
+              "SourceString": "高",
+              "LocalizedString": "高"
+            },
+            "OptionData": "",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_VSync": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_close",
+              "SourceString": "关",
+              "LocalizedString": "关"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_open",
+              "SourceString": "开",
+              "LocalizedString": "开"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_Streamline": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS_0",
+              "SourceString": "关闭",
+              "LocalizedString": "关闭"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_DLSS_2",
+              "SourceString": "开启",
+              "LocalizedString": "开启"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Setting_Language": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_zh_cn",
+              "SourceString": "简体中文",
+              "LocalizedString": "简体中文"
+            },
+            "OptionData": "zh-CN",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_ja_jp",
+              "SourceString": "日本語",
+              "LocalizedString": "日本語"
+            },
+            "OptionData": "ja",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_ko_kr",
+              "SourceString": "한국어",
+              "LocalizedString": "한국어"
+            },
+            "OptionData": "ko",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_en",
+              "SourceString": "English",
+              "LocalizedString": "English"
+            },
+            "OptionData": "en",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_zh_hant",
+              "SourceString": "繁體中文",
+              "LocalizedString": "繁體中文"
+            },
+            "OptionData": "zh-Hant",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_ru",
+              "SourceString": "Русский",
+              "LocalizedString": "Русский"
+            },
+            "OptionData": "ru",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_de",
+              "SourceString": "Deutsch",
+              "LocalizedString": "Deutsch"
+            },
+            "OptionData": "de",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Setting_Audio": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_zh_cn",
+              "SourceString": "简体中文",
+              "LocalizedString": "简体中文"
+            },
+            "OptionData": "zh",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_ja_jp",
+              "SourceString": "日本語",
+              "LocalizedString": "日本語"
+            },
+            "OptionData": "ja",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_ko_kr",
+              "SourceString": "한국어",
+              "LocalizedString": "한국어"
+            },
+            "OptionData": "ko",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_en",
+              "SourceString": "English",
+              "LocalizedString": "English"
+            },
+            "OptionData": "en",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_MobileAntiAliasing": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_AntiAliasing_0",
+              "SourceString": "关",
+              "LocalizedString": "关"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_AntiAliasing_5",
+              "SourceString": "SMAA",
+              "LocalizedString": "SMAA"
+            },
+            "OptionData": "5",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_AntiAliasing_2",
+              "SourceString": "TAA",
+              "LocalizedString": "TAA"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 1
+      },
+      "Graphics_GIMethod": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_normal_none",
+              "SourceString": "无",
+              "LocalizedString": "无"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_Lumen",
+              "SourceString": "Lumen",
+              "LocalizedString": "Lumen"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_ReflectionMethod": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_normal_none",
+              "SourceString": "无",
+              "LocalizedString": "无"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_Lumen",
+              "SourceString": "Lumen",
+              "LocalizedString": "Lumen"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_Reflection_ScreenSpace",
+              "SourceString": "SSR",
+              "LocalizedString": "SSR"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Setting_OpenHitPause": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_OpenHitPause_0",
+              "SourceString": "启用",
+              "LocalizedString": "启用"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_OpenHitPause_1",
+              "SourceString": "禁用",
+              "LocalizedString": "禁用"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Setting_CameraShake": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_CameraShake_0",
+              "SourceString": "启用",
+              "LocalizedString": "启用"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "setting_CameraShake_1",
+              "SourceString": "禁用",
+              "LocalizedString": "禁用"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Setting_DamageFloats": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_DamageFloats_0",
+              "SourceString": "启用",
+              "LocalizedString": "启用"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_DamageFloats_1",
+              "SourceString": "禁用",
+              "LocalizedString": "禁用"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "KeyPrompts": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_DamageFloats_0",
+              "SourceString": "启用",
+              "LocalizedString": "启用"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Setting_DamageFloats_1",
+              "SourceString": "禁用",
+              "LocalizedString": "禁用"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "GamepadTipsPrompts": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_39",
+              "SourceString": "否",
+              "LocalizedString": "否"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_38",
+              "SourceString": "是",
+              "LocalizedString": "是"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 1
+      },
+      "CameraPositivityX": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_39",
+              "SourceString": "否",
+              "LocalizedString": "否"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_38",
+              "SourceString": "是",
+              "LocalizedString": "是"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "CameraPositivityY": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_39",
+              "SourceString": "否",
+              "LocalizedString": "否"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_38",
+              "SourceString": "是",
+              "LocalizedString": "是"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_Sharpen": {
+        "ComboBoxOptions": [],
+        "DefaultOptionIndex": 0
+      },
+      "AimingCameraPositivityX": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_39",
+              "SourceString": "否",
+              "LocalizedString": "否"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_38",
+              "SourceString": "是",
+              "LocalizedString": "是"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "AimingCameraPositivityY": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_39",
+              "SourceString": "否",
+              "LocalizedString": "否"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+              "Key": "DefaultKey_38",
+              "SourceString": "是",
+              "LocalizedString": "是"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "ForceShowManualLockBtn": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockSensibility_1",
+              "SourceString": "启用",
+              "LocalizedString": "启用"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockSensibility_2",
+              "SourceString": "禁用",
+              "LocalizedString": "禁用"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "CusLockDirectionType": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockType_1",
+              "SourceString": "智能锁定",
+              "LocalizedString": "智能锁定"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockType_2",
+              "SourceString": "角色朝向优先",
+              "LocalizedString": "角色朝向优先"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockType_3",
+              "SourceString": "距离优先",
+              "LocalizedString": "距离优先"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockType_4",
+              "SourceString": "摇杆朝向优先",
+              "LocalizedString": "摇杆朝向优先"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "UseLockTargetAngle": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockSensibility_1",
+              "SourceString": "启用",
+              "LocalizedString": "启用"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockSensibility_2",
+              "SourceString": "禁用",
+              "LocalizedString": "禁用"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "EnableAutoUnlockWhenMove": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockSensibility_1",
+              "SourceString": "启用",
+              "LocalizedString": "启用"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "BPUI_LockSensibility_2",
+              "SourceString": "禁用",
+              "LocalizedString": "禁用"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      },
+      "Graphics_NPCQuality": {
+        "ComboBoxOptions": [
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ExtremelyLow",
+              "SourceString": "极低",
+              "LocalizedString": "极低"
+            },
+            "OptionData": "0",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_0",
+              "SourceString": "低",
+              "LocalizedString": "低"
+            },
+            "OptionData": "1",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_1",
+              "SourceString": "中",
+              "LocalizedString": "中"
+            },
+            "OptionData": "2",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_2",
+              "SourceString": "高",
+              "LocalizedString": "高"
+            },
+            "OptionData": "3",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          },
+          {
+            "OptionShowName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "Graphics_ExtraHigh",
+              "SourceString": "极高",
+              "LocalizedString": "极高"
+            },
+            "OptionData": "4",
+            "LimitOptionData": [],
+            "OptionInstancedData": null
+          }
+        ],
+        "DefaultOptionIndex": 0
+      }
+    }
+  }
+]

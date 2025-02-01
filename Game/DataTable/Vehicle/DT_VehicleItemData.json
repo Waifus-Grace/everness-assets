@@ -1,0 +1,4656 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VehicleItemData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StaticItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "vehicle002": {
+        "ItemType": "EItemType::ITEM_TYPE_VEHICLE_KEY",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1.YH_UI_CarCard1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_100.YH_UI_CarCard1_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_name",
+          "SourceString": "Griffin",
+          "LocalizedString": "Griffin"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 5,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "vehicle003": {
+        "ItemType": "EItemType::ITEM_TYPE_VEHICLE_KEY",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3.YH_UI_CarKey3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_100.YH_UI_CarKey3_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_name",
+          "SourceString": "G3",
+          "LocalizedString": "G3"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 5,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "vehicle004": {
+        "ItemType": "EItemType::ITEM_TYPE_VEHICLE_KEY",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4.YH_UI_CarCard4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_100.YH_UI_CarCard4_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_name",
+          "SourceString": "Griffin Spider",
+          "LocalizedString": "Griffin Spider"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 5,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "vehicle007": {
+        "ItemType": "EItemType::ITEM_TYPE_VEHICLE_KEY",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2.YH_UI_CarKey2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_100.YH_UI_CarKey2_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_name",
+          "SourceString": "C2000",
+          "LocalizedString": "C2000"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 5,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_0": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_0",
+          "SourceString": "Griffin-色号01",
+          "LocalizedString": "Griffin-色号01"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_1": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_1",
+          "SourceString": "Griffin-色号02",
+          "LocalizedString": "Griffin-色号02"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_2": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_2",
+          "SourceString": "Griffin-色号03",
+          "LocalizedString": "Griffin-色号03"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_3": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_3",
+          "SourceString": "Griffin-色号04",
+          "LocalizedString": "Griffin-色号04"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_4": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_4",
+          "SourceString": "Griffin-色号05",
+          "LocalizedString": "Griffin-色号05"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_5": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_5",
+          "SourceString": "Griffin-色号06",
+          "LocalizedString": "Griffin-色号06"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_6": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_6",
+          "SourceString": "Griffin-色号07",
+          "LocalizedString": "Griffin-色号07"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_7": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_7",
+          "SourceString": "Griffin-色号08",
+          "LocalizedString": "Griffin-色号08"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_8": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_8",
+          "SourceString": "Griffin-色号09",
+          "LocalizedString": "Griffin-色号09"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_9": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_9",
+          "SourceString": "Griffin-色号10",
+          "LocalizedString": "Griffin-色号10"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_10": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_10",
+          "SourceString": "Griffin-色号11",
+          "LocalizedString": "Griffin-色号11"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_11": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_11",
+          "SourceString": "Griffin-色号12",
+          "LocalizedString": "Griffin-色号12"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_12": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_12",
+          "SourceString": "Griffin-色号13",
+          "LocalizedString": "Griffin-色号13"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_13": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_13",
+          "SourceString": "Griffin-色号14",
+          "LocalizedString": "Griffin-色号14"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_14": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_14",
+          "SourceString": "Griffin-色号15",
+          "LocalizedString": "Griffin-色号15"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_15": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_15",
+          "SourceString": "Griffin-色号16",
+          "LocalizedString": "Griffin-色号16"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_16": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_16",
+          "SourceString": "Griffin-色号17",
+          "LocalizedString": "Griffin-色号17"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_17": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_17",
+          "SourceString": "Griffin-色号18",
+          "LocalizedString": "Griffin-色号18"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle002_18": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard1_1.YH_UI_CarCard1_1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard1_zuche_100.YH_UI_CarCard1_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle002_18",
+          "SourceString": "Griffin-色号19",
+          "LocalizedString": "Griffin-色号19"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_002_des",
+          "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_0": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_0",
+          "SourceString": "G3-色号01",
+          "LocalizedString": "G3-色号01"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_1": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_1",
+          "SourceString": "G3-色号02",
+          "LocalizedString": "G3-色号02"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_2": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_2",
+          "SourceString": "G3-色号03",
+          "LocalizedString": "G3-色号03"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_3": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_3",
+          "SourceString": "G3-色号04",
+          "LocalizedString": "G3-色号04"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_4": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_4",
+          "SourceString": "G3-色号05",
+          "LocalizedString": "G3-色号05"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_5": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_5",
+          "SourceString": "G3-色号06",
+          "LocalizedString": "G3-色号06"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_6": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_6",
+          "SourceString": "G3-色号07",
+          "LocalizedString": "G3-色号07"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_7": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_7",
+          "SourceString": "G3-色号08",
+          "LocalizedString": "G3-色号08"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_8": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_8",
+          "SourceString": "G3-色号09",
+          "LocalizedString": "G3-色号09"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_9": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_9",
+          "SourceString": "G3-色号10",
+          "LocalizedString": "G3-色号10"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_10": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_10",
+          "SourceString": "G3-色号11",
+          "LocalizedString": "G3-色号11"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_11": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_11",
+          "SourceString": "G3-色号12",
+          "LocalizedString": "G3-色号12"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_12": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_12",
+          "SourceString": "G3-色号13",
+          "LocalizedString": "G3-色号13"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_13": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_13",
+          "SourceString": "G3-色号14",
+          "LocalizedString": "G3-色号14"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_14": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_14",
+          "SourceString": "G3-色号15",
+          "LocalizedString": "G3-色号15"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_15": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_15",
+          "SourceString": "G3-色号16",
+          "LocalizedString": "G3-色号16"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_16": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_16",
+          "SourceString": "G3-色号17",
+          "LocalizedString": "G3-色号17"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_17": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_17",
+          "SourceString": "G3-色号18",
+          "LocalizedString": "G3-色号18"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle003_18": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey3_3.YH_UI_CarKey3_3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey3_zuche_100.YH_UI_CarKey3_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle003_18",
+          "SourceString": "G3-色号19",
+          "LocalizedString": "G3-色号19"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_usedes",
+          "SourceString": "在路边使用后呼叫车辆G3。",
+          "LocalizedString": "在路边使用后呼叫车辆G3。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_003_des",
+          "SourceString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
+          "LocalizedString": "奈布拉-G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_0": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_0",
+          "SourceString": "Griffin Spider-色号01",
+          "LocalizedString": "Griffin Spider-色号01"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_1": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_1",
+          "SourceString": "Griffin Spider-色号02",
+          "LocalizedString": "Griffin Spider-色号02"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_2": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_2",
+          "SourceString": "Griffin Spider-色号03",
+          "LocalizedString": "Griffin Spider-色号03"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_3": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_3",
+          "SourceString": "Griffin Spider-色号04",
+          "LocalizedString": "Griffin Spider-色号04"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_4": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_4",
+          "SourceString": "Griffin Spider-色号05",
+          "LocalizedString": "Griffin Spider-色号05"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_5": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_5",
+          "SourceString": "Griffin Spider-色号06",
+          "LocalizedString": "Griffin Spider-色号06"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_6": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_6",
+          "SourceString": "Griffin Spider-色号07",
+          "LocalizedString": "Griffin Spider-色号07"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_7": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_7",
+          "SourceString": "Griffin Spider-色号08",
+          "LocalizedString": "Griffin Spider-色号08"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_8": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_8",
+          "SourceString": "Griffin Spider-色号09",
+          "LocalizedString": "Griffin Spider-色号09"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_9": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_9",
+          "SourceString": "Griffin Spider-色号10",
+          "LocalizedString": "Griffin Spider-色号10"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_10": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_10",
+          "SourceString": "Griffin Spider-色号11",
+          "LocalizedString": "Griffin Spider-色号11"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_11": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_11",
+          "SourceString": "Griffin Spider-色号12",
+          "LocalizedString": "Griffin Spider-色号12"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_12": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_12",
+          "SourceString": "Griffin Spider-色号13",
+          "LocalizedString": "Griffin Spider-色号13"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_13": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_13",
+          "SourceString": "Griffin Spider-色号14",
+          "LocalizedString": "Griffin Spider-色号14"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_14": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_14",
+          "SourceString": "Griffin Spider-色号15",
+          "LocalizedString": "Griffin Spider-色号15"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_15": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_15",
+          "SourceString": "Griffin Spider-色号16",
+          "LocalizedString": "Griffin Spider-色号16"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_16": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_16",
+          "SourceString": "Griffin Spider-色号17",
+          "LocalizedString": "Griffin Spider-色号17"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_17": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_17",
+          "SourceString": "Griffin Spider-色号18",
+          "LocalizedString": "Griffin Spider-色号18"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle004_18": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarCard4_4.YH_UI_CarCard4_4",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarCard4_zuche_100.YH_UI_CarCard4_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle004_18",
+          "SourceString": "Griffin Spider-色号19",
+          "LocalizedString": "Griffin Spider-色号19"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_usedes",
+          "SourceString": "在路边使用后呼叫车辆Griffin Spider。",
+          "LocalizedString": "在路边使用后呼叫车辆Griffin Spider。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_004_des",
+          "SourceString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！",
+          "LocalizedString": "Griffin Spider，雷加利亚旗下最经典的传奇汽车！标志性的后置发动机布局与极具艺术感的精致外形设计，不论是赛道还是城市街道，都保持其独特魅力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_0": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_0",
+          "SourceString": "C2000-色号01",
+          "LocalizedString": "C2000-色号01"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_1": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_1",
+          "SourceString": "C2000-色号02",
+          "LocalizedString": "C2000-色号02"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_2": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_2",
+          "SourceString": "C2000-色号03",
+          "LocalizedString": "C2000-色号03"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_3": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_3",
+          "SourceString": "C2000-色号04",
+          "LocalizedString": "C2000-色号04"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_4": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_4",
+          "SourceString": "C2000-色号05",
+          "LocalizedString": "C2000-色号05"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_5": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_5",
+          "SourceString": "C2000-色号06",
+          "LocalizedString": "C2000-色号06"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_6": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_6",
+          "SourceString": "C2000-色号07",
+          "LocalizedString": "C2000-色号07"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_7": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_7",
+          "SourceString": "C2000-色号08",
+          "LocalizedString": "C2000-色号08"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_8": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_8",
+          "SourceString": "C2000-色号09",
+          "LocalizedString": "C2000-色号09"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_9": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_9",
+          "SourceString": "C2000-色号10",
+          "LocalizedString": "C2000-色号10"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_10": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_10",
+          "SourceString": "C2000-色号11",
+          "LocalizedString": "C2000-色号11"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_11": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_11",
+          "SourceString": "C2000-色号12",
+          "LocalizedString": "C2000-色号12"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_12": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_12",
+          "SourceString": "C2000-色号13",
+          "LocalizedString": "C2000-色号13"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_13": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_13",
+          "SourceString": "C2000-色号14",
+          "LocalizedString": "C2000-色号14"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_14": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_14",
+          "SourceString": "C2000-色号15",
+          "LocalizedString": "C2000-色号15"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_15": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_15",
+          "SourceString": "C2000-色号16",
+          "LocalizedString": "C2000-色号16"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_16": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_16",
+          "SourceString": "C2000-色号17",
+          "LocalizedString": "C2000-色号17"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_17": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_17",
+          "SourceString": "C2000-色号18",
+          "LocalizedString": "C2000-色号18"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Rental_vehicle007_18": {
+        "ItemType": "EItemType::ITEM_TYPE_RENTAL_VEHICLE",
+        "ItemTags": [
+          "CarKey"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_CarKey2_2.YH_UI_CarKey2_2",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_CarKey2_zuche_100.YH_UI_CarKey2_zuche_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Rental_vehicle007_18",
+          "SourceString": "C2000-色号19",
+          "LocalizedString": "C2000-色号19"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 10.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_usedes",
+          "SourceString": "在路边使用后呼叫车辆C2000。",
+          "LocalizedString": "在路边使用后呼叫车辆C2000。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V002_car_007_des",
+          "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 17,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": true,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      }
+    }
+  }
+]

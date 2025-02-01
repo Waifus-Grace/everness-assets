@@ -1,0 +1,3822 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RealEstate",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'RealEstateData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "bigword_LLL_1": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -118355.54,
+            "Y": 172980.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_name1",
+          "SourceString": "伊登公寓",
+          "LocalizedString": "伊登公寓"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_07.YH_UI_real_estate_07",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::OnSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichanlogi_Oversea.YH_UI_dichanlogi_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup02.YH_UI_dichantup02",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/3.3",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/5.5",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 7200000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_LLL",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "bigword_LLL_2": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -117455.54,
+            "Y": 169000.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_4",
+          "SourceString": "待售",
+          "LocalizedString": "待售"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::ForSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup02_Oversea.YH_UI_big_dichantup02_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup04.YH_UI_dichantup04",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst_Inst.M_Icon_Loading_Inst_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_daishou",
+        "AttributeID": "None",
+        "TotalLoad": 1500,
+        "DecorationId": "1001"
+      },
+      "bigword_LLL_3": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -115955.54,
+            "Y": 172291.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup010_Oversea.YH_UI_big_dichantup010_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup01.YH_UI_dichantup01",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst_Inst_Inst.M_Icon_Loading_Inst_Inst_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "1001"
+      },
+      "bigword_LLL_4": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -115950.54,
+            "Y": 173720.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup04_Oversea.YH_UI_big_dichantup04_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup06.YH_UI_dichantup06",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst_Inst_Inst_Inst.M_Icon_Loading_Inst_Inst_Inst_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "bigword_LLL_5": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -118655.54,
+            "Y": 171091.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup06_Oversea.YH_UI_big_dichantup06_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup08.YH_UI_dichantup08",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "bigword_LLL_6": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -119655.54,
+            "Y": 172691.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup09_Oversea.YH_UI_big_dichantup09_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup014.YH_UI_dichantup014",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "bigword_LLL_7": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -115695.54,
+            "Y": 172980.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup01_Oversea.YH_UI_big_dichantup01_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup03.YH_UI_dichantup03",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "bigword_LLL_8": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -119955.54,
+            "Y": 169200.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup07_Oversea.YH_UI_big_dichantup07_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup010.YH_UI_dichantup010",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "bigword_LLL_9": {
+        "BelongsArea": "001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -121655.54,
+            "Y": 170001.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup05_Oversea.YH_UI_big_dichantup05_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup07.YH_UI_dichantup07",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "bigword_L_1": {
+        "BelongsArea": "003",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -143417.0,
+            "Y": 127054.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "OfficeBuilding",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Name",
+          "SourceString": "维纳公寓",
+          "LocalizedString": "维纳公寓"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_08.YH_UI_real_estate_08",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::OnSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/101.101",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena01.Vena01",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_loft.M_Icon_Loading_Inst_loft",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 1580000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_L",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1004"
+      },
+      "bigword_L_2": {
+        "BelongsArea": "003",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -140399.0,
+            "Y": 125554.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_4",
+          "SourceString": "待售",
+          "LocalizedString": "待售"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::ForSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/102.102",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena02_1.Vena02_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_daishou",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "bigword_L_3": {
+        "BelongsArea": "003",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -144587.0,
+            "Y": 129154.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Apartment",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/103.103",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena03_1.Vena03_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "bigword_L_4": {
+        "BelongsArea": "003",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -140987.0,
+            "Y": 127904.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "OfficeBuilding",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/104.104",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena04_1.Vena04_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "bigword_L_5": {
+        "BelongsArea": "003",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -138007.0,
+            "Y": 128904.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "OfficeBuilding",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/105.105",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena05_1.Vena05_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "bigword_L_6": {
+        "BelongsArea": "003",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -139187.0,
+            "Y": 131254.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "OfficeBuilding",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/106.106",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena06_1.Vena06_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "Test2": {
+        "BelongsArea": "Test_Area_001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -1300.0,
+            "Y": 1260.0,
+            "Z": 180.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstateBuildingType_1",
+          "SourceString": "LLL型",
+          "LocalizedString": "LLL型"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "CultureInvariantString": null
+        },
+        "Address": {
+          "CultureInvariantString": null
+        },
+        "RealEstateDesc": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::OnSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichanlogi_Oversea.YH_UI_dichanlogi_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup02.YH_UI_dichantup02",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 1000,
+        "ParkingAmount": 10,
+        "MapIconID": "TestRealEstate",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "Test3": {
+        "BelongsArea": "Test_Area_001",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -1300.0,
+            "Y": 1260.0,
+            "Z": 180.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstateBuildingType_1",
+          "SourceString": "LLL型",
+          "LocalizedString": "LLL型"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "CultureInvariantString": null
+        },
+        "Address": {
+          "CultureInvariantString": null
+        },
+        "RealEstateDesc": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::OnSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichanlogi_Oversea.YH_UI_dichanlogi_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup03.YH_UI_dichantup03",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 1000,
+        "ParkingAmount": 10,
+        "MapIconID": "TestRealEstate",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "realtest1": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -118355.54,
+            "Y": 172980.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_name1",
+          "SourceString": "伊登公寓",
+          "LocalizedString": "伊登公寓"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_07.YH_UI_real_estate_07",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::OnSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichanlogi_Oversea.YH_UI_dichanlogi_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup02.YH_UI_dichantup02",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/3.3",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YD/5.5",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 7200000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_LLL",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "realtest2": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -117455.54,
+            "Y": 169000.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_4",
+          "SourceString": "待售",
+          "LocalizedString": "待售"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::ForSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup02_Oversea.YH_UI_big_dichantup02_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup04.YH_UI_dichantup04",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst_Inst.M_Icon_Loading_Inst_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_daishou",
+        "AttributeID": "None",
+        "TotalLoad": 1500,
+        "DecorationId": "1001"
+      },
+      "realtest3": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -115955.54,
+            "Y": 172291.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup010_Oversea.YH_UI_big_dichantup010_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup01.YH_UI_dichantup01",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst_Inst_Inst.M_Icon_Loading_Inst_Inst_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "1001"
+      },
+      "realtest4": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -115950.54,
+            "Y": 173720.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup04_Oversea.YH_UI_big_dichantup04_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup06.YH_UI_dichantup06",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst_Inst_Inst_Inst.M_Icon_Loading_Inst_Inst_Inst_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "realtest5": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -118655.54,
+            "Y": 171091.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup06_Oversea.YH_UI_big_dichantup06_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup08.YH_UI_dichantup08",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "realtest6": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -119655.54,
+            "Y": 172691.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup09_Oversea.YH_UI_big_dichantup09_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup014.YH_UI_dichantup014",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "realtest7": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -115695.54,
+            "Y": 171091.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup01_Oversea.YH_UI_big_dichantup01_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup03.YH_UI_dichantup03",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "realtest8": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -119955.54,
+            "Y": 169200.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup07_Oversea.YH_UI_big_dichantup07_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup010.YH_UI_dichantup010",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "realtest9": {
+        "BelongsArea": "test",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -121655.54,
+            "Y": 170001.62,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateDetails_4",
+          "SourceString": "伊登公寓，让每一天都有如度假般轻松！",
+          "LocalizedString": "伊登公寓，让每一天都有如度假般轻松！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_add",
+          "SourceString": "水梨子大道南-伊登公寓7F",
+          "LocalizedString": "水梨子大道南-伊登公寓7F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_LLL_des_1",
+          "SourceString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！",
+          "LocalizedString": "「莱昂置业」旗下高端公寓之一，桥间地优质房源。黄金地段，配套设施齐全，个性化设计，全城风光尽收眼底。更有专属的异象「管家」来负责生活的方方面面，无论是举办派对还是私人休闲，都能满足你对高品质生活的所有想象！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_big_dichantup05_Oversea.YH_UI_big_dichantup05_Oversea",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichantup07.YH_UI_dichantup07",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_info.YH_UI_real_estate_text_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/realestateslist/YH_UI_img_renovation_img_02.YH_UI_img_renovation_img_02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu01.YH_UI_dichan_huxingtu01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu02.YH_UI_dichan_huxingtu02",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu03.YH_UI_dichan_huxingtu03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu04.YH_UI_dichan_huxingtu04",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu05.YH_UI_dichan_huxingtu05",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/YH_UI_dichan_huxingtu06.YH_UI_dichan_huxingtu06",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 0,
+        "DecorationId": "None"
+      },
+      "lofttest1": {
+        "BelongsArea": "test1",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -143417.0,
+            "Y": 127054.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "OfficeBuilding",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Name",
+          "SourceString": "维纳公寓",
+          "LocalizedString": "维纳公寓"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_08.YH_UI_real_estate_08",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::OnSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/101.101",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena01.Vena01",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_loft.M_Icon_Loading_Inst_loft",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 1580000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_L",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1004"
+      },
+      "lofttest2": {
+        "BelongsArea": "test1",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -140399.0,
+            "Y": 125554.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Villa",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_4",
+          "SourceString": "待售",
+          "LocalizedString": "待售"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::ForSale",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/102.102",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena02_1.Vena02_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_daishou",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "lofttest3": {
+        "BelongsArea": "test1",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -144587.0,
+            "Y": 129154.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "Apartment",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/103.103",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena03_1.Vena03_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "lofttest4": {
+        "BelongsArea": "test1",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -140987.0,
+            "Y": 127904.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "OfficeBuilding",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/104.104",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena04_1.Vena04_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "lofttest5": {
+        "BelongsArea": "test1",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -138007.0,
+            "Y": 128904.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "OfficeBuilding",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/105.105",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena05_1.Vena05_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      },
+      "lofttest6": {
+        "BelongsArea": "test1",
+        "Transform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -139187.0,
+            "Y": 131254.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "BuildingTypeID": "OfficeBuilding",
+        "RealEstateName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "BPUI_RealEstateMapContainer_5",
+          "SourceString": "售罄",
+          "LocalizedString": "售罄"
+        },
+        "RealEstateNameImage": {
+          "AssetPathName": "/Game/UI/UI/goufang/YH_UI_real_estate_06.YH_UI_real_estate_06",
+          "SubPathString": ""
+        },
+        "Slogan": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_slogan",
+          "SourceString": "维纳公寓，小空间，大自在！",
+          "LocalizedString": "维纳公寓，小空间，大自在！"
+        },
+        "Address": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Add",
+          "SourceString": "维纳公寓5F",
+          "LocalizedString": "维纳公寓5F"
+        },
+        "RealEstateDesc": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "DT_RealEstate_003_L_1_Des",
+          "SourceString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！",
+          "LocalizedString": "「莱昂置业」旗下实用型公寓之一，紧邻商业街的便捷房源。维纳公寓采用Loft设计，既具开阔空间感又拥有高性价比，精巧布局满足日常生活所需，是都市人安心落脚的理想之选。基础家电一应俱全，拎包入住，生活从此轻松无忧。优越地段让你尽享城市便利，步行即达购物与美食地带，开启摩登生活新篇章！"
+        },
+        "RealEstateTag": {
+          "CultureInvariantString": null
+        },
+        "RealEstateTags": [],
+        "SaleState": "ERealEstateSaleState::SellOut",
+        "PreviewTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/106.106",
+          "SubPathString": ""
+        },
+        "ListTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/Vena06_1.Vena06_1",
+          "SubPathString": ""
+        },
+        "ListMat": {
+          "AssetPathName": "/Game/UI/UI/goufang/realestateslist/M_Icon_Loading_Inst_Inst.M_Icon_Loading_Inst_Inst",
+          "SubPathString": ""
+        },
+        "PhotoTexture": {
+          "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_real_estate_text_02_info.YH_UI_real_estate_text_02_info",
+          "SubPathString": ""
+        },
+        "HouseTypeTexture": [
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/YH_UI_img_renovation_img_03.YH_UI_img_renovation_img_03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/2.2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/1.1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/6.6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/4.4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/5.5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/goufang/Loft/3.3",
+            "SubPathString": ""
+          }
+        ],
+        "ShowTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ShowBGTexture": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MediaID": "None",
+        "CostCapital": "Fons",
+        "CostAmount": 6500000,
+        "ParkingAmount": 1,
+        "MapIconID": "TestRealEstate_shouxin",
+        "AttributeID": "None",
+        "TotalLoad": 3000,
+        "DecorationId": "1001"
+      }
+    }
+  }
+]

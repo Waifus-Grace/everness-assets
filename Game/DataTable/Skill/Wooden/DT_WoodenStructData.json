@@ -1,0 +1,571 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WoodenStructData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'WoodenStructData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "GE_ActorReaction_1_1019_Damage": {
+        "Desc": {
+          "CultureInvariantString": "光灵反应薄荷"
+        }
+      },
+      "GE_ActorReaction_1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "光灵反应"
+        }
+      },
+      "GE_Player_Mint_QTE4_Damage": {
+        "Desc": {
+          "CultureInvariantString": "薄荷QTE"
+        }
+      },
+      "GE_Player_Mint_Melee1_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷普攻1_1"
+        }
+      },
+      "GE_Player_Mint_Melee2_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷普攻1_2"
+        }
+      },
+      "GE_Player_Mint_Melee3_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷普攻2_1"
+        }
+      },
+      "GE_Player_Mint_Melee4_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷普攻3_1"
+        }
+      },
+      "GE_Player_Mint_Melee5_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷普攻3_2"
+        }
+      },
+      "GE_Player_Mint_Melee6_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷普攻4"
+        }
+      },
+      "GE_Player_Mint_Melee7_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷普攻5_1"
+        }
+      },
+      "GE_Player_Mint_Melee8_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷普攻5_2"
+        }
+      },
+      "GE_Player_Mint_AirAttack1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "薄荷下落"
+        }
+      },
+      "GE_Player_Mint_Skill1_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷技能旋转起飞"
+        }
+      },
+      "GE_Player_Mint_Skill4_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷技能下踢脚"
+        }
+      },
+      "GE_Player_Mint_Skill5_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷技能龙卷风"
+        }
+      },
+      "GE_Player_Mint_UtraSkill1_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷大招冲击"
+        }
+      },
+      "GE_Player_Mint_UtraSkill2_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷大招连续爪击1"
+        }
+      },
+      "GE_Player_Mint_UtraSkill3_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷大招连续爪击2"
+        }
+      },
+      "GE_Player_Mint_UtraSkill4_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷大招连续爪击3"
+        }
+      },
+      "GE_Player_Mint_UtraSkill5_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷大招连续爪击4"
+        }
+      },
+      "GE_Player_Mint_UtraSkill6_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷大招连续爪击5"
+        }
+      },
+      "GE_Player_Mint_UtraSkill7_Damage_New": {
+        "Desc": {
+          "CultureInvariantString": "薄荷大招斩击"
+        }
+      },
+      "GE_Player_Female_QTE1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角QTE1"
+        }
+      },
+      "GE_Player_Female_QTE2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角QTE2"
+        }
+      },
+      "GE_Player_Female_Melee1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角普攻1"
+        }
+      },
+      "GE_Player_Female_Melee2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角普攻2"
+        }
+      },
+      "GE_Player_Female_Melee3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角普攻3_1"
+        }
+      },
+      "GE_Player_Female_Melee4_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角普攻3_2"
+        }
+      },
+      "GE_Player_Female_Melee8_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角普攻4_1"
+        }
+      },
+      "GE_Player_Female_Melee9_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角普攻4_2"
+        }
+      },
+      "GE_Player_Female_Melee7_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角普攻5_1"
+        }
+      },
+      "GE_Player_Female_Melee10_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角普攻5_2"
+        }
+      },
+      "GE_Player_Female_AirAttack_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角下落"
+        }
+      },
+      "GE_Player_Female_Skill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角技能1"
+        }
+      },
+      "GE_Player_Female_Skill3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角技能3"
+        }
+      },
+      "GE_Player_Female_Skill_Kill_Damage_lv1": {
+        "Desc": {
+          "CultureInvariantString": "主角技能额外伤害"
+        }
+      },
+      "GE_Player_Female_Skill_Kill_Damage_lv2": {
+        "Desc": {
+          "CultureInvariantString": "主角技能额外伤害L6"
+        }
+      },
+      "GE_Player_Female_UltraSkill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角大招裂隙一刀"
+        }
+      },
+      "GE_Player_Female_UltraSkill2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角大招多段穿梭"
+        }
+      },
+      "GE_Player_Female_UltraSkill3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角大招挑起伤害"
+        }
+      },
+      "GE_Player_Female_UltraSkill4_Damage": {
+        "Desc": {
+          "CultureInvariantString": "主角大招斩爆伤害"
+        }
+      },
+      "GE_Player_Sagiri_QTE1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾QTE"
+        }
+      },
+      "GE_Player_Sagiri_Melee1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾普攻1"
+        }
+      },
+      "GE_Player_Sagiri_Melee2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾普攻2_1"
+        }
+      },
+      "GE_Player_Sagiri_Melee3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾普攻2_2"
+        }
+      },
+      "GE_Player_Sagiri_Melee8_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾普攻3_1"
+        }
+      },
+      "GE_Player_Sagiri_Melee4_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾普攻3_2"
+        }
+      },
+      "GE_Player_Sagiri_Melee5_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾普攻4"
+        }
+      },
+      "GE_Player_Sagiri_Melee6_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾普攻5_1"
+        }
+      },
+      "GE_Player_Sagiri_Melee7_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾普攻5_2"
+        }
+      },
+      "GE_Player_Sagiri_AirAttack1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾下落"
+        }
+      },
+      "GE_Player_Sagiri_Skill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾技能短按聚怪"
+        }
+      },
+      "GE_Player_Sagiri_Skill2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾技能短按砸地"
+        }
+      },
+      "GE_Player_Sagiri_Skill5_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾技能长按1"
+        }
+      },
+      "GE_Player_Sagiri_Skill3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾技能长按聚怪"
+        }
+      },
+      "GE_Player_Sagiri_Skill4_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾技能长按砸地"
+        }
+      },
+      "GE_Player_Sagiri_UltraSkill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾大招1"
+        }
+      },
+      "GE_Player_Sagiri_UltraSkill2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "早雾大招2"
+        }
+      },
+      "GE_Player_Sagiri_UltraSkill_Damage_LV2": {
+        "Desc": {
+          "CultureInvariantString": "早雾浮空伤害"
+        }
+      },
+      "GE_Player_Nanally_QTE1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉QTE"
+        }
+      },
+      "GE_Player_Nanally_Melee1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉普攻1"
+        }
+      },
+      "GE_Player_Nanally_Melee2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉普攻2"
+        }
+      },
+      "GE_Player_Nanally_Melee3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉普攻3_1"
+        }
+      },
+      "GE_Player_Nanally_Melee4_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉普攻3_2"
+        }
+      },
+      "GE_Player_Nanally_Melee5_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉普攻3_3"
+        }
+      },
+      "GE_Player_Nanally_Melee6_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉普攻4"
+        }
+      },
+      "GE_Player_Nanally_Melee9_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉普攻5_1"
+        }
+      },
+      "GE_Player_Nanally_Melee10_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉普攻5_2"
+        }
+      },
+      "GE_Player_Nanally_AirAttack1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉下落"
+        }
+      },
+      "GE_Player_Nanally_Skill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉技能"
+        }
+      },
+      "GE_Player_Nanally_UltraSkill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉大招1"
+        }
+      },
+      "GE_Player_Nanally_UltraSkill2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉大招2"
+        }
+      },
+      "GE_Player_Nanally_UltraSkill3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉大招3"
+        }
+      },
+      "GE_Player_Nanally_UltraSkillPraojectile_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉大招副手"
+        }
+      },
+      "GE_Player_Nanally_BranchPraojectile_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉瞄准子弹"
+        }
+      },
+      "GE_Nanally010_Lv3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉攻击额外伤害"
+        }
+      },
+      "GE_Nanally010_Lv1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "娜娜莉反应额外伤害"
+        }
+      },
+      "GE_Player_Lacrimosa_Melee1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲普攻1"
+        }
+      },
+      "GE_Player_Lacrimosa_Melee2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲普攻2"
+        }
+      },
+      "GE_Player_Lacrimosa_Melee3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲普攻3"
+        }
+      },
+      "GE_Player_Lacrimosa_Melee4_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲普攻4_1"
+        }
+      },
+      "GE_Player_Lacrimosa_Melee6_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲普攻4_2"
+        }
+      },
+      "GE_Player_Lacrimosa_Melee5_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲普攻5"
+        }
+      },
+      "GE_Player_Lacrimosa_AirAttack_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲下落攻击"
+        }
+      },
+      "GE_Player_Lacrimosa_Skill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲技能"
+        }
+      },
+      "GE_Player_Lacrimosa_BranchPraojectile_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲重击"
+        }
+      },
+      "GE_Player_Lacrimosa_UltraSkill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲大招1"
+        }
+      },
+      "GE_Player_Lacrimosa_UltraSkill2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲大招2"
+        }
+      },
+      "GE_Player_Lacrimosa_Blood_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲流血伤害"
+        }
+      },
+      "GE_Player_Lacrimosa_Blood_Damage_LV6": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲流血伤害L6"
+        }
+      },
+      "GE_Player_Lacrimosa_QTE1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "安魂曲QTE"
+        }
+      },
+      "GE_Player_Skia_Melee1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳普攻1"
+        }
+      },
+      "GE_Player_Skia_Melee2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳普攻2_1"
+        }
+      },
+      "GE_Player_Skia_Melee4_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳普攻2_2"
+        }
+      },
+      "GE_Player_Skia_Melee5_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳普攻3_1"
+        }
+      },
+      "GE_Player_Skia_Melee6_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳普攻3_2"
+        }
+      },
+      "GE_Player_Skia_Melee7_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳普攻4"
+        }
+      },
+      "GE_Player_Skia_Melee8_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳普攻5_1"
+        }
+      },
+      "GE_Player_Skia_Melee9_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳普攻5_2"
+        }
+      },
+      "GE_Player_Skia_AirAttack_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳下落攻击"
+        }
+      },
+      "GE_Player_Skia_Skill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳技能1"
+        }
+      },
+      "GE_Player_Skia_Skill2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳技能2"
+        }
+      },
+      "GE_Player_Skia_Skill3_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳技能3"
+        }
+      },
+      "GE_Player_Skia_ShadowAtk_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳影子1层"
+        }
+      },
+      "GE_Player_Skia_ShadowAtk1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳影子2层"
+        }
+      },
+      "GE_Player_Skia_ShadowAtk2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳影子3层"
+        }
+      },
+      "GE_Player_Skia_SkillShadowAtk_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳潜行碰撞"
+        }
+      },
+      "GE_Player_Skia_UltraSkill1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳大招1"
+        }
+      },
+      "GE_Player_Skia_UltraSkill2_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳大招2"
+        }
+      },
+      "GE_Player_Skia_QTE1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳QTE"
+        }
+      },
+      "GE_Player_Skia_Evade1_Damage": {
+        "Desc": {
+          "CultureInvariantString": "翳潜行钻出"
+        }
+      }
+    }
+  }
+]

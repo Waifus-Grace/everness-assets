@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_MapAreaDetails",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_MapAreaDetails",
+      "KeysToEntries": {
+        "Map_Area000": "M10区",
+        "Map_Area001": "桥间地",
+        "Map_Area002": "未闻浦 ",
+        "Map_Area003": "绘空町",
+        "Map_Area00001": "异象管理局",
+        "Map_Area00101": "百汇巷",
+        "Map_Area00102": "提卡尔大桥",
+        "Map_Area00103": "鸢尾大桥",
+        "Map_Area00104": "Z42环海公路",
+        "Map_Area00105": "蓝胡子路",
+        "Map_Area00106": "火炬木大道",
+        "Map_Area00107": "水梨子大道",
+        "Map_Area00108": "狐窗街",
+        "Map_Area00109": "姆咪街",
+        "Map_Area00110": "白鹦鹉街",
+        "Map_Area00111": "林中路",
+        "Map_SubArea00101": "绿墙坡",
+        "Map_SubArea00201": "奥利哈刚「理想馆」",
+        "Map_SubArea00202": "塞润尼缇庄园",
+        "Map_SubArea00301": "纳库佩达公园",
+        "Map_SubArea00102": "半角街",
+        "Map_Area00301": "洋葱头路",
+        "Map_Area00302": "卷叶榕大道"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_ReactionDes",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_SkillDes",
+      "KeysToEntries": {
+        "Reaction_guangxiang": "延滞",
+        "Reaction_hunxiang": "沓刻",
+        "Reaction_guangling": "坼绽",
+        "Reaction_lingzhou": "覆纹",
+        "Reaction_zhouan": "缠殃",
+        "Reaction_anhun": "回慑",
+        "Reaction_guanglingxiang": "盈蓄",
+        "Reaction_zhouanhun": "失谐",
+        "Reaction_guangxiang_des": "触发异能环合后的<NumGreen>5</>秒内，目标进入延滞状态，移动及攻击速度降低，并随时间逐渐复原。如频繁进入延滞状态，目标恢复至常态的速度将会加快。",
+        "Reaction_hunxiang_des": "触发异能环合后的<NumGreen>12</>秒内，目标受到<bule>魂系或相系异能伤害</>时，所受伤害量提升。",
+        "Reaction_guangling_des": "触发异能环合后，角色附近将诞生<NumGreen>1</>株<bule>「创生株」</>，并绽放<NumGreen>5</>朵<bule>「创生花」</>。\r\n每隔<NumGreen>2</>秒，<bule>「创生花」</>会陆续飞向射程内的目标并爆炸，造成一定范围伤害。",
+        "Reaction_lingzhou_des": "触发异能环合后的<NumGreen>12</>秒内，目标受到<bule>灵系或咒系异能伤害</>时，将额外受到一次等量的<bule>联袂邀击伤害</>。",
+        "Reaction_zhouan_des": "触发异能环合后的<NumGreen>15</>秒内，目标进入缠殃状态，期间受到持续伤害。",
+        "Reaction_anhun_des": "触发异能环合后的<NumGreen>5</>秒内，目标进入回慑状态。该状态结束时，目标将受到一次高额<bule>潜意伤害</>。",
+        "Reaction_guanglingxiang_des": "<bule>「创生花」</>命中处于延滞状态的目标时，当前驻场角色额外获得<NumGreen>1</>点<bule>场域原质</>。",
+        "Reaction_zhouanhun_des": "当目标同时处于回慑与缠殃状态时，扣除其一定比例的倾陷值。"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

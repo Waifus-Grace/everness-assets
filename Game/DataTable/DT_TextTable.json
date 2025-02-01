@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TextTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'TextTableData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Common": {
+        "TextTable": {
+          "AssetPathName": "/Game/Text/ST_Common.ST_Common",
+          "SubPathString": ""
+        }
+      },
+      "ErrCode": {
+        "TextTable": {
+          "AssetPathName": "/Game/Text/ST_ErrCode.ST_ErrCode",
+          "SubPathString": ""
+        }
+      },
+      "Sequence": {
+        "TextTable": {
+          "AssetPathName": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+          "SubPathString": ""
+        }
+      },
+      "UI": {
+        "TextTable": {
+          "AssetPathName": "/Game/Text/ST_Ui.ST_Ui",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1033AwakenEffect",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1033": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star1_name",
+              "SourceString": "无色",
+              "LocalizedString": "无色"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_1.1009_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star1_des",
+              "SourceString": "释放「万象澄寂」后，阿德勒为自身附加<NumGreen>20</>层「业」。",
+              "LocalizedString": "释放「万象澄寂」后，阿德勒为自身附加<NumGreen>20</>层「业」。"
+            }
+          },
+          {
+            "EffectID": "Effect2",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star2_name",
+              "SourceString": "无受",
+              "LocalizedString": "无受"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star2_des",
+              "SourceString": "每层「业」为阿德勒提供的伤害加成提升至<NumGreen>3%</>。",
+              "LocalizedString": "每层「业」为阿德勒提供的伤害加成提升至<NumGreen>3%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star3_name",
+              "SourceString": "无想",
+              "LocalizedString": "无想"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_3.1009_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star3_des",
+              "SourceString": "「明悟之慧佑」的护盾吸收量提升<NumGreen>20%</>。",
+              "LocalizedString": "「明悟之慧佑」的护盾吸收量提升<NumGreen>20%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect4",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star4_name",
+              "SourceString": "无行",
+              "LocalizedString": "无行"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_4.1009_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star4_des",
+              "SourceString": "「明悟之慧佑」碎裂时，基于阿德勒<NumGreen>50%</>防御力吸收部分溢出伤害。",
+              "LocalizedString": "「明悟之慧佑」碎裂时，基于阿德勒<NumGreen>50%</>防御力吸收部分溢出伤害。"
+            }
+          },
+          {
+            "EffectID": "Effect5",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star5_name",
+              "SourceString": "无识",
+              "LocalizedString": "无识"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_5.1009_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star5_des",
+              "SourceString": "释放「万象澄寂」后，阿德勒返还<NumGreen>20</>点场域原质。",
+              "LocalizedString": "释放「万象澄寂」后，阿德勒返还<NumGreen>20</>点场域原质。"
+            }
+          },
+          {
+            "EffectID": "Effect6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star6_name",
+              "SourceString": "诸法空相",
+              "LocalizedString": "诸法空相"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_6.1009_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_star6_des",
+              "SourceString": "「明悟之慧佑」的持续时间延长至<NumGreen>20</>秒。",
+              "LocalizedString": "「明悟之慧佑」的持续时间延长至<NumGreen>20</>秒。"
+            }
+          },
+          {
+            "EffectID": "resonance_3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_starExtra1_name",
+              "SourceString": "辩觉之净业",
+              "LocalizedString": "辩觉之净业"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null,
+              null,
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_starExtra1_des",
+              "SourceString": "「度恶」「诛恶护持」「万象澄寂」的技能等级提升<NumGreen>2</>级。",
+              "LocalizedString": "「度恶」「诛恶护持」「万象澄寂」的技能等级提升<NumGreen>2</>级。"
+            }
+          },
+          {
+            "EffectID": "resonance_6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_starExtra2_name",
+              "SourceString": "慧佑之侍护",
+              "LocalizedString": "慧佑之侍护"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
+              "Key": "GA_Adler_starExtra2_des",
+              "SourceString": "处于「明悟之慧佑」庇护时，全队造成的咒系异能伤害提升<NumGreen>15%</>。",
+              "LocalizedString": "处于「明悟之慧佑」庇护时，全队造成的咒系异能伤害提升<NumGreen>15%</>。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

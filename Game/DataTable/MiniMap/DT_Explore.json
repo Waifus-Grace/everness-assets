@@ -1,0 +1,1445 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Explore",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MiniMapExploreData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Test1": {
+        "ExploreDetailsImage": {
+          "AssetPathName": "/Game/UI/UI/name/YH_zhizhang02.YH_zhizhang02",
+          "SubPathString": ""
+        },
+        "MaskRenderData": {
+          "BackgroundRenderRule": {
+            "BackgroundTileDatas": [],
+            "BlendMode": "EBlendMode::BLEND_Masked"
+          },
+          "ThumbnailImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "MiniMapCenterLocation": {
+            "X": -1500.0,
+            "Y": 750.0,
+            "Z": 80.0
+          },
+          "MiniMapEdgeSize": {
+            "X": 1000.0,
+            "Y": 500.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Test2": {
+        "ExploreDetailsImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaskRenderData": {
+          "BackgroundRenderRule": {
+            "BackgroundTileDatas": [],
+            "BlendMode": "EBlendMode::BLEND_Masked"
+          },
+          "ThumbnailImage": {
+            "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05-1024.map_bigworld05-1024",
+            "SubPathString": ""
+          },
+          "MiniMapCenterLocation": {
+            "X": -108069.83,
+            "Y": 156259.52,
+            "Z": 4379.5815
+          },
+          "MiniMapEdgeSize": {
+            "X": 129652.62,
+            "Y": 129652.62,
+            "Z": 1.0
+          }
+        }
+      },
+      "Test3": {
+        "ExploreDetailsImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "MaskRenderData": {
+          "BackgroundRenderRule": {
+            "BackgroundTileDatas": [],
+            "BlendMode": "EBlendMode::BLEND_Masked"
+          },
+          "ThumbnailImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "MiniMapCenterLocation": {
+            "X": -180154.44,
+            "Y": 204797.2,
+            "Z": 4379.5815
+          },
+          "MiniMapEdgeSize": {
+            "X": 149652.62,
+            "Y": 149652.62,
+            "Z": 1.0
+          }
+        }
+      },
+      "WertheimerTower_001test": {
+        "ExploreDetailsImage": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest.map_bigworldtest",
+          "SubPathString": ""
+        },
+        "MaskRenderData": {
+          "BackgroundRenderRule": {
+            "BackgroundTileDatas": [
+              {
+                "ZoomRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  }
+                },
+                "TileCountX": 5,
+                "TileCountY": 5,
+                "TileImages": [
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_01.map_bigworldtest_01",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_02.map_bigworldtest_02",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_03.map_bigworldtest_03",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_04.map_bigworldtest_04",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_05.map_bigworldtest_05",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_06.map_bigworldtest_06",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_07.map_bigworldtest_07",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_08.map_bigworldtest_08",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_09.map_bigworldtest_09",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_10.map_bigworldtest_10",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_11.map_bigworldtest_11",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_12.map_bigworldtest_12",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_13.map_bigworldtest_13",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_14.map_bigworldtest_14",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_15.map_bigworldtest_15",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_16.map_bigworldtest_16",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_17.map_bigworldtest_17",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_18.map_bigworldtest_18",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_19.map_bigworldtest_19",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_20.map_bigworldtest_20",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_21.map_bigworldtest_21",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_22.map_bigworldtest_22",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_23.map_bigworldtest_23",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_24.map_bigworldtest_24",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_25.map_bigworldtest_25",
+                    "SubPathString": ""
+                  }
+                ]
+              }
+            ],
+            "BlendMode": "EBlendMode::BLEND_Masked"
+          },
+          "ThumbnailImage": {
+            "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest.map_bigworldtest",
+            "SubPathString": ""
+          },
+          "MiniMapCenterLocation": {
+            "X": -108069.83,
+            "Y": 156259.52,
+            "Z": 4379.5815
+          },
+          "MiniMapEdgeSize": {
+            "X": 1296520.6,
+            "Y": 1296520.6,
+            "Z": 10.0
+          }
+        }
+      },
+      "Testyaoql_2": {
+        "ExploreDetailsImage": {
+          "AssetPathName": "/Game/UI/UI/name/YH_zhizhang02.YH_zhizhang02",
+          "SubPathString": ""
+        },
+        "MaskRenderData": {
+          "BackgroundRenderRule": {
+            "BackgroundTileDatas": [
+              {
+                "ZoomRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  }
+                },
+                "TileCountX": 5,
+                "TileCountY": 5,
+                "TileImages": [
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_01.map_bigworld05_01",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_02.map_bigworld05_02",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_03.map_bigworld05_03",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_04.map_bigworld05_04",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_05.map_bigworld05_05",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_06.map_bigworld05_06",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_07.map_bigworld05_07",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_08.map_bigworld05_08",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_09.map_bigworld05_09",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_10.map_bigworld05_10",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_11.map_bigworld05_11",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_12.map_bigworld05_12",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_13.map_bigworld05_13",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_14.map_bigworld05_14",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_15.map_bigworld05_15",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_16.map_bigworld05_16",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_17.map_bigworld05_17",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_18.map_bigworld05_18",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_19.map_bigworld05_19",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_20.map_bigworld05_20",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_21.map_bigworld05_21",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_22.map_bigworld05_22",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_23.map_bigworld05_23",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_24.map_bigworld05_24",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05_25.map_bigworld05_25",
+                    "SubPathString": ""
+                  }
+                ]
+              }
+            ],
+            "BlendMode": "EBlendMode::BLEND_Masked"
+          },
+          "ThumbnailImage": {
+            "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworld05-1024.map_bigworld05-1024",
+            "SubPathString": ""
+          },
+          "MiniMapCenterLocation": {
+            "X": 22820.0,
+            "Y": 53370.0,
+            "Z": 60.0
+          },
+          "MiniMapEdgeSize": {
+            "X": 10000.0,
+            "Y": 10000.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "WertheimerTower_001": {
+        "ExploreDetailsImage": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest.map_bigworldtest",
+          "SubPathString": ""
+        },
+        "MaskRenderData": {
+          "BackgroundRenderRule": {
+            "BackgroundTileDatas": [
+              {
+                "ZoomRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  }
+                },
+                "TileCountX": 7,
+                "TileCountY": 7,
+                "TileImages": [
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_01.map_bigworldtest_01",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_02.map_bigworldtest_02",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_03.map_bigworldtest_03",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_04.map_bigworldtest_04",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_05.map_bigworldtest_05",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_06.map_bigworldtest_06",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_07.map_bigworldtest_07",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_08.map_bigworldtest_08",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_09.map_bigworldtest_09",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_10.map_bigworldtest_10",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_11.map_bigworldtest_11",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_12.map_bigworldtest_12",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_13.map_bigworldtest_13",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_14.map_bigworldtest_14",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_15.map_bigworldtest_15",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_16.map_bigworldtest_16",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_17.map_bigworldtest_17",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_18.map_bigworldtest_18",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_19.map_bigworldtest_19",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_20.map_bigworldtest_20",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_21.map_bigworldtest_21",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_22.map_bigworldtest_22",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_23.map_bigworldtest_23",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_24.map_bigworldtest_24",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_25.map_bigworldtest_25",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_26.map_bigworldtest_26",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_27.map_bigworldtest_27",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_28.map_bigworldtest_28",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_29.map_bigworldtest_29",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_30.map_bigworldtest_30",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_31.map_bigworldtest_31",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_32.map_bigworldtest_32",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_33.map_bigworldtest_33",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_34.map_bigworldtest_34",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_35.map_bigworldtest_35",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_36.map_bigworldtest_36",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_37.map_bigworldtest_37",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_38.map_bigworldtest_38",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_39.map_bigworldtest_39",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_40.map_bigworldtest_40",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_41.map_bigworldtest_41",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_42.map_bigworldtest_42",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_43.map_bigworldtest_43",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_44.map_bigworldtest_44",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_45.map_bigworldtest_45",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_46.map_bigworldtest_46",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_47.map_bigworldtest_47",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_48.map_bigworldtest_48",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest_49.map_bigworldtest_49",
+                    "SubPathString": ""
+                  }
+                ]
+              }
+            ],
+            "BlendMode": "EBlendMode::BLEND_Masked"
+          },
+          "ThumbnailImage": {
+            "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/map_bigworldtest.map_bigworldtest",
+            "SubPathString": ""
+          },
+          "MiniMapCenterLocation": {
+            "X": -113000.0,
+            "Y": 156000.0,
+            "Z": 4000.0
+          },
+          "MiniMapEdgeSize": {
+            "X": 110000.0,
+            "Y": 110000.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "WertheimerTower_002": {
+        "ExploreDetailsImage": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp.map_bigworldwwp",
+          "SubPathString": ""
+        },
+        "MaskRenderData": {
+          "BackgroundRenderRule": {
+            "BackgroundTileDatas": [
+              {
+                "ZoomRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  }
+                },
+                "TileCountX": 8,
+                "TileCountY": 8,
+                "TileImages": [
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_01.map_bigworldwwp_01",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_02.map_bigworldwwp_02",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_03.map_bigworldwwp_03",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_04.map_bigworldwwp_04",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_05.map_bigworldwwp_05",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_06.map_bigworldwwp_06",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_07.map_bigworldwwp_07",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_08.map_bigworldwwp_08",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_09.map_bigworldwwp_09",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_10.map_bigworldwwp_10",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_11.map_bigworldwwp_11",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_12.map_bigworldwwp_12",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_13.map_bigworldwwp_13",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_14.map_bigworldwwp_14",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_15.map_bigworldwwp_15",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_16.map_bigworldwwp_16",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_17.map_bigworldwwp_17",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_18.map_bigworldwwp_18",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_19.map_bigworldwwp_19",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_20.map_bigworldwwp_20",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_21.map_bigworldwwp_21",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_22.map_bigworldwwp_22",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_23.map_bigworldwwp_23",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_24.map_bigworldwwp_24",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_25.map_bigworldwwp_25",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_26.map_bigworldwwp_26",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_27.map_bigworldwwp_27",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_28.map_bigworldwwp_28",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_29.map_bigworldwwp_29",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_30.map_bigworldwwp_30",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_31.map_bigworldwwp_31",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_32.map_bigworldwwp_32",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_33.map_bigworldwwp_33",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_34.map_bigworldwwp_34",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_35.map_bigworldwwp_35",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_36.map_bigworldwwp_36",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_37.map_bigworldwwp_37",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_38.map_bigworldwwp_38",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_39.map_bigworldwwp_39",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_40.map_bigworldwwp_40",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_41.map_bigworldwwp_41",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_42.map_bigworldwwp_42",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_43.map_bigworldwwp_43",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_44.map_bigworldwwp_44",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_45.map_bigworldwwp_45",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_46.map_bigworldwwp_46",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_47.map_bigworldwwp_47",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_48.map_bigworldwwp_48",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_49.map_bigworldwwp_49",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_50.map_bigworldwwp_50",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_51.map_bigworldwwp_51",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_52.map_bigworldwwp_52",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_53.map_bigworldwwp_53",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_54.map_bigworldwwp_54",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_55.map_bigworldwwp_55",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_56.map_bigworldwwp_56",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_57.map_bigworldwwp_57",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_58.map_bigworldwwp_58",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_59.map_bigworldwwp_59",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_60.map_bigworldwwp_60",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_61.map_bigworldwwp_61",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_62.map_bigworldwwp_62",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_63.map_bigworldwwp_63",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp_64.map_bigworldwwp_64",
+                    "SubPathString": ""
+                  }
+                ]
+              }
+            ],
+            "BlendMode": "EBlendMode::BLEND_Masked"
+          },
+          "ThumbnailImage": {
+            "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskWWP/map_bigworldwwp.map_bigworldwwp",
+            "SubPathString": ""
+          },
+          "MiniMapCenterLocation": {
+            "X": -168000.0,
+            "Y": 202000.0,
+            "Z": 4000.0
+          },
+          "MiniMapEdgeSize": {
+            "X": 123000.0,
+            "Y": 123000.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "WertheimerTower_003": {
+        "ExploreDetailsImage": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt.map_bigworldhkt",
+          "SubPathString": ""
+        },
+        "MaskRenderData": {
+          "BackgroundRenderRule": {
+            "BackgroundTileDatas": [
+              {
+                "ZoomRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  }
+                },
+                "TileCountX": 11,
+                "TileCountY": 11,
+                "TileImages": [
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_001.map_bigworldhkt_001",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_002.map_bigworldhkt_002",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_003.map_bigworldhkt_003",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_004.map_bigworldhkt_004",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_005.map_bigworldhkt_005",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_006.map_bigworldhkt_006",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_007.map_bigworldhkt_007",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_008.map_bigworldhkt_008",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_009.map_bigworldhkt_009",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_010.map_bigworldhkt_010",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_011.map_bigworldhkt_011",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_012.map_bigworldhkt_012",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_013.map_bigworldhkt_013",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_014.map_bigworldhkt_014",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_015.map_bigworldhkt_015",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_016.map_bigworldhkt_016",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_017.map_bigworldhkt_017",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_018.map_bigworldhkt_018",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_019.map_bigworldhkt_019",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_020.map_bigworldhkt_020",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_021.map_bigworldhkt_021",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_022.map_bigworldhkt_022",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_023.map_bigworldhkt_023",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_024.map_bigworldhkt_024",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_025.map_bigworldhkt_025",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_026.map_bigworldhkt_026",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_027.map_bigworldhkt_027",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_028.map_bigworldhkt_028",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_029.map_bigworldhkt_029",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_030.map_bigworldhkt_030",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_031.map_bigworldhkt_031",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_032.map_bigworldhkt_032",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_033.map_bigworldhkt_033",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_034.map_bigworldhkt_034",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_035.map_bigworldhkt_035",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_036.map_bigworldhkt_036",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_037.map_bigworldhkt_037",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_038.map_bigworldhkt_038",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_039.map_bigworldhkt_039",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_040.map_bigworldhkt_040",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_041.map_bigworldhkt_041",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_042.map_bigworldhkt_042",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_043.map_bigworldhkt_043",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_044.map_bigworldhkt_044",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_045.map_bigworldhkt_045",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_046.map_bigworldhkt_046",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_047.map_bigworldhkt_047",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_048.map_bigworldhkt_048",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_049.map_bigworldhkt_049",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_050.map_bigworldhkt_050",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_051.map_bigworldhkt_051",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_052.map_bigworldhkt_052",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_053.map_bigworldhkt_053",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_054.map_bigworldhkt_054",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_055.map_bigworldhkt_055",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_056.map_bigworldhkt_056",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_057.map_bigworldhkt_057",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_058.map_bigworldhkt_058",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_059.map_bigworldhkt_059",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_060.map_bigworldhkt_060",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_061.map_bigworldhkt_061",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_062.map_bigworldhkt_062",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_063.map_bigworldhkt_063",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_064.map_bigworldhkt_064",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_065.map_bigworldhkt_065",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_066.map_bigworldhkt_066",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_067.map_bigworldhkt_067",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_068.map_bigworldhkt_068",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_069.map_bigworldhkt_069",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_070.map_bigworldhkt_070",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_071.map_bigworldhkt_071",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_072.map_bigworldhkt_072",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_073.map_bigworldhkt_073",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_074.map_bigworldhkt_074",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_075.map_bigworldhkt_075",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_076.map_bigworldhkt_076",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_077.map_bigworldhkt_077",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_078.map_bigworldhkt_078",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_079.map_bigworldhkt_079",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_080.map_bigworldhkt_080",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_081.map_bigworldhkt_081",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_082.map_bigworldhkt_082",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_083.map_bigworldhkt_083",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_084.map_bigworldhkt_084",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_085.map_bigworldhkt_085",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_086.map_bigworldhkt_086",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_087.map_bigworldhkt_087",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_088.map_bigworldhkt_088",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_089.map_bigworldhkt_089",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_090.map_bigworldhkt_090",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_091.map_bigworldhkt_091",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_092.map_bigworldhkt_092",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_093.map_bigworldhkt_093",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_094.map_bigworldhkt_094",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_095.map_bigworldhkt_095",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_096.map_bigworldhkt_096",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_097.map_bigworldhkt_097",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_098.map_bigworldhkt_098",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_099.map_bigworldhkt_099",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_100.map_bigworldhkt_100",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_101.map_bigworldhkt_101",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_102.map_bigworldhkt_102",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_103.map_bigworldhkt_103",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_104.map_bigworldhkt_104",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_105.map_bigworldhkt_105",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_106.map_bigworldhkt_106",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_107.map_bigworldhkt_107",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_108.map_bigworldhkt_108",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_109.map_bigworldhkt_109",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_110.map_bigworldhkt_110",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_111.map_bigworldhkt_111",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_112.map_bigworldhkt_112",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_113.map_bigworldhkt_113",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_114.map_bigworldhkt_114",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_115.map_bigworldhkt_115",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_116.map_bigworldhkt_116",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_117.map_bigworldhkt_117",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_118.map_bigworldhkt_118",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_119.map_bigworldhkt_119",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_120.map_bigworldhkt_120",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt_121.map_bigworldhkt_121",
+                    "SubPathString": ""
+                  }
+                ]
+              }
+            ],
+            "BlendMode": "EBlendMode::BLEND_Masked"
+          },
+          "ThumbnailImage": {
+            "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskHKD/map_bigworldhkt.map_bigworldhkt",
+            "SubPathString": ""
+          },
+          "MiniMapCenterLocation": {
+            "X": -130000.0,
+            "Y": 112000.0,
+            "Z": 4000.0
+          },
+          "MiniMapEdgeSize": {
+            "X": 172000.0,
+            "Y": 172000.0,
+            "Z": 1.0
+          }
+        }
+      }
+    }
+  }
+]

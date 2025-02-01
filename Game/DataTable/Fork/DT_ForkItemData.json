@@ -1,0 +1,607 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ForkItemData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StaticItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "fork_tajiduo": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/YH_UI_banshuitemsicon15.YH_UI_banshuitemsicon15",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "Namespace": "DT_ForkItemData",
+          "Key": "fork_tajiduo_ItemName",
+          "SourceString": "弧盘-塔吉多",
+          "LocalizedString": "弧盘-塔吉多"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_lingganzhongjiezhe_des",
+          "SourceString": "灵感像薯片，咔滋咔滋，留下一地碎屑，没有理由。",
+          "LocalizedString": "灵感像薯片，咔滋咔滋，留下一地碎屑，没有理由。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_wushoutieyu": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_009.icon_fork_009",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_009x100.icon_fork_009x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_wushoutieyu_name",
+          "SourceString": "弧盘-无首铁驭",
+          "LocalizedString": "弧盘-无首铁驭"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_wushoutieyu_context",
+          "SourceString": "来吧，来吧！踏上这以速度之魂相赌的赛道！",
+          "LocalizedString": "来吧，来吧！踏上这以速度之魂相赌的赛道！"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_wushoutieyu_des",
+          "SourceString": "流淌于吾之体内的是对速度的渴望、轰鸣于吾之胸腔的是引擎的咆哮！来吧，来吧！踏上这以速度之魂相赌的赛道！",
+          "LocalizedString": "流淌于吾之体内的是对速度的渴望、轰鸣于吾之胸腔的是引擎的咆哮！来吧，来吧！踏上这以速度之魂相赌的赛道！"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_yuren": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_010.icon_fork_010",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_010x100.icon_fork_010x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_yuren_name",
+          "SourceString": "弧盘-雨人",
+          "LocalizedString": "弧盘-雨人"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_yuren_context",
+          "SourceString": "记得睡觉，记得看天气预报；记得吃饭，记得出门带伞。",
+          "LocalizedString": "记得睡觉，记得看天气预报；记得吃饭，记得出门带伞。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_yuren_des",
+          "SourceString": "记得睡觉，记得看天气预报；记得吃饭，记得出门带伞。",
+          "LocalizedString": "记得睡觉，记得看天气预报；记得吃饭，记得出门带伞。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_bopu": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_007.icon_fork_007",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_007x100.icon_fork_007x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_bopu_name",
+          "SourceString": "弧盘-波普",
+          "LocalizedString": "弧盘-波普"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_bopu_context",
+          "SourceString": "Masterpiece made by 「Pop Re-Creator 」!",
+          "LocalizedString": "Masterpiece made by 「Pop Re-Creator 」!"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_bopu_des",
+          "SourceString": "Masterpiece made by 「Pop Re-Creator 」!",
+          "LocalizedString": "Masterpiece made by 「Pop Re-Creator 」!"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_mofeikesi": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_004.icon_fork_004",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_004x100.icon_fork_004x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_mofeikesi_name",
+          "SourceString": "弧盘-墨菲克斯",
+          "LocalizedString": "弧盘-墨菲克斯"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_mofeikesi_context",
+          "SourceString": "你看到的是什么？长着翅膀的白狼？可爱的白色大狗？亦或是……？",
+          "LocalizedString": "你看到的是什么？长着翅膀的白狼？可爱的白色大狗？亦或是……？"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_mofeikesi_des",
+          "SourceString": "你看到的是什么？长着翅膀的白狼？可爱的白色大狗？亦或是……？",
+          "LocalizedString": "你看到的是什么？长着翅膀的白狼？可爱的白色大狗？亦或是……？"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_jiaojuan": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_001.icon_fork_001",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_001x100.icon_fork_001x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_jiaojuan_name",
+          "SourceString": "弧盘-MANISH",
+          "LocalizedString": "弧盘-MANISH"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_jiaojuan_context",
+          "SourceString": "捕捉闪耀的瞬间，在梦中都要继续。",
+          "LocalizedString": "捕捉闪耀的瞬间，在梦中都要继续。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_jiaojuan_des",
+          "SourceString": "捕捉闪耀的瞬间，在梦中都要继续。后悔从来都不会是美好的，你也并非是孤单一人。",
+          "LocalizedString": "捕捉闪耀的瞬间，在梦中都要继续。后悔从来都不会是美好的，你也并非是孤单一人。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_wuhuakuang": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_008.icon_fork_008",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_008x100.icon_fork_008x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_wuhuakuang_name",
+          "SourceString": "弧盘-无画框",
+          "LocalizedString": "弧盘-无画框"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_wuhuakuang_context",
+          "SourceString": "即使是那些传世作品的陪衬，但……我也是很漂亮的，对吗？",
+          "LocalizedString": "即使是那些传世作品的陪衬，但……我也是很漂亮的，对吗？"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_wuhuakuang_des",
+          "SourceString": "即使是那些传世作品的陪衬，但……我也是很漂亮的，对吗？",
+          "LocalizedString": "即使是那些传世作品的陪衬，但……我也是很漂亮的，对吗？"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_jingmotingyuan": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_002.icon_fork_002",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_002x100.icon_fork_002x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_jingmotingyuan_name",
+          "SourceString": "弧盘-静默庭园",
+          "LocalizedString": "弧盘-静默庭园"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_jingmotingyuan_context",
+          "SourceString": "虽然不被允许把失态暴露在花瓣上……那句花可真是深深刺伤我了。",
+          "LocalizedString": "虽然不被允许把失态暴露在花瓣上……那句花可真是深深刺伤我了。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_jingmotingyuan_des",
+          "SourceString": "虽然不被允许把失态暴露在花瓣上……那句花可真是深深刺伤我了。",
+          "LocalizedString": "虽然不被允许把失态暴露在花瓣上……那句花可真是深深刺伤我了。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_oulaquantao": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_005.icon_fork_005",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_005x100.icon_fork_005x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_oulaquantao_name",
+          "SourceString": "弧盘-欧拉拳套",
+          "LocalizedString": "弧盘-欧拉拳套"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_oulaquantao_context",
+          "SourceString": "据说在遥远地方，欧拉拳套有一个远方表弟，叫做「木大拳套」。",
+          "LocalizedString": "据说在遥远地方，欧拉拳套有一个远方表弟，叫做「木大拳套」。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_oulaquantao_des",
+          "SourceString": "据说在遥远地方，欧拉拳套有一个远方表弟，叫做「木大拳套」。",
+          "LocalizedString": "据说在遥远地方，欧拉拳套有一个远方表弟，叫做「木大拳套」。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_lingganzhongjiezhe": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_003.icon_fork_003",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_003x100.icon_fork_003x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_lingganzhongjiezhe_name",
+          "SourceString": "弧盘-灵感终结者",
+          "LocalizedString": "弧盘-灵感终结者"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_lingganzhongjiezhe_context",
+          "SourceString": "灵感像薯片，咔滋咔滋，留下一地碎屑，没有理由。",
+          "LocalizedString": "灵感像薯片，咔滋咔滋，留下一地碎屑，没有理由。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_lingganzhongjiezhe_des",
+          "SourceString": "灵感像薯片，咔滋咔滋，留下一地碎屑，没有理由。",
+          "LocalizedString": "灵感像薯片，咔滋咔滋，留下一地碎屑，没有理由。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "fork_rishi": {
+        "ItemType": "EItemType::ITEM_TYPE_FORK",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_006.icon_fork_006",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_006x100.icon_fork_006x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_rishi_name",
+          "SourceString": "弧盘-日蚀",
+          "LocalizedString": "弧盘-日蚀"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_rishi_context",
+          "SourceString": "日蚀说，要有双休。",
+          "LocalizedString": "日蚀说，要有双休。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "fork_rishi_des",
+          "SourceString": "日蚀说，要有双休。\n于是就有了双休（日蚀专属版）。",
+          "LocalizedString": "日蚀说，要有双休。\n于是就有了双休（日蚀专属版）。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 4,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      }
+    }
+  }
+]

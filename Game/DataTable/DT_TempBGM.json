@@ -1,0 +1,367 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TempBGM",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'TempBGMData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "StoryBgm_001": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StoryBgm_002": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StoryBgm_003": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StoryBgm_004": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StoryBgm_005": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StopStoryBgm_001": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StopStoryBgm_002": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StopStoryBgm_003": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StopStoryBgm_004": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "StopStoryBgm_005": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "q110123": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_HockShop/Play_Music_HockShop_Sence.Play_Music_HockShop_Sence",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_HockShop",
+        "State": "Music_Sence_HockShop_Talk_01",
+        "Desc": ""
+      },
+      "q110135": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_HockShop/Play_Music_HockShop_Sence.Play_Music_HockShop_Sence",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_HockShop",
+        "State": "Music_Sence_HockShop_Talk_End",
+        "Desc": ""
+      },
+      "q110118_A": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Happy_01",
+        "Desc": ""
+      },
+      "q110118_B": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Silence",
+        "Desc": ""
+      },
+      "q110118_C": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Crisis_01",
+        "Desc": ""
+      },
+      "q110118_End": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Stop_Music_Talk.Stop_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "L110001_silence": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Silence",
+        "Desc": ""
+      },
+      "L110001_crisis": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Crisis_02",
+        "Desc": ""
+      },
+      "---支线通用BGM---": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "SideQuestBGM_Angry_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Angry_01",
+        "Desc": "搞怪、生气稍愤怒"
+      },
+      "SideQuestBGM_Silence_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Silence",
+        "Desc": "静音"
+      },
+      "SideQuestBGM_Disappointed_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Disappointed_01",
+        "Desc": "感动、温暖且治愈（纯钢琴）"
+      },
+      "SideQuestBGM_Happy_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Happy_01",
+        "Desc": "2D卡通风格、轻松诙谐、低幼搞笑"
+      },
+      "SideQuestBGM_Happy_002": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Happy_02",
+        "Desc": "轻松诙谐、低幼搞笑"
+      },
+      "SideQuestBGM_Doubt_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Doubt_01",
+        "Desc": "搞怪、怀疑且疑惑"
+      },
+      "SideQuestBGM_Reasoning_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Reasoning_01",
+        "Desc": "推理、思考"
+      },
+      "SideQuestBGM_Crisis_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Crisis_01",
+        "Desc": "悬疑、略带紧张、描述奇怪诡异的事情"
+      },
+      "SideQuestBGM_Crisis_002": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Crisis_02",
+        "Desc": "悬疑、描述奇怪诡异的事情"
+      },
+      "SideQuestBGM_Serious_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Serious_01",
+        "Desc": "严肃的行动、任务感"
+      },
+      "SideQuestBGM_Daily_001": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Daily_01",
+        "Desc": "日常对话 任务对话 比较日常的音乐，但是有一点任务感"
+      },
+      "SideQuestBGM_Daily_002": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Daily_02",
+        "Desc": "伊波恩对话 比较日常的音乐"
+      },
+      "-----------------": {
+        "BGMSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StateGroup": "None",
+        "State": "None",
+        "Desc": ""
+      },
+      "Music_Talk_Humor_01_Loop": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Humor_01_Loop",
+        "Desc": "幽默、也可适用于轻松且较为诙谐的日常对话"
+      },
+      "Music_Talk_Humor_01_End": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Humor_01_End",
+        "Desc": "用于Music_Talk_Humor_01_Loop的自然乐句结束"
+      },
+      "Music_Talk_YiBoEn": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_YiBoEn",
+        "Desc": "类似日剧侦探事务所接案子的BGM，用于伊波恩接受委托"
+      },
+      "Music_Talk_Daily_02": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Daily_02",
+        "Desc": "类似日剧侦探事务所接案子的BGM，用于接受委托"
+      },
+      "q110104": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Crisis_02",
+        "Desc": ""
+      },
+      "q110115": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Daily_01",
+        "Desc": ""
+      },
+      "S110621_3": {
+        "BGMSource": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "StateGroup": "Music_Talk",
+        "State": "Music_Talk_Reasoning_01",
+        "Desc": "推理、思考"
+      }
+    }
+  }
+]

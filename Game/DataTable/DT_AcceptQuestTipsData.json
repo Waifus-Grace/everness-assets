@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AcceptQuestTipsData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AcceptQuestTipsData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "EQT_EVERYDAY": {
+        "QuestTypeBgImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_YH_MainUI_TaskTips03_Text.UI_YH_MainUI_TaskTips03_Text",
+          "SubPathString": ""
+        },
+        "FontColor": {
+          "R": 0.571125,
+          "G": 0.57758,
+          "B": 0.584078,
+          "A": 1.0,
+          "Hex": "C7C8C9"
+        }
+      },
+      "EQT_LEGEND": {
+        "QuestTypeBgImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_YH_MainUI_TaskTips01_Text.UI_YH_MainUI_TaskTips01_Text",
+          "SubPathString": ""
+        },
+        "FontColor": {
+          "R": 0.571125,
+          "G": 0.57758,
+          "B": 0.584078,
+          "A": 1.0,
+          "Hex": "C7C8C9"
+        }
+      },
+      "EOT_MULT_SHOP": {
+        "QuestTypeBgImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_YH_MainUI_TaskTips02_Text.UI_YH_MainUI_TaskTips02_Text",
+          "SubPathString": ""
+        },
+        "FontColor": {
+          "R": 0.571125,
+          "G": 0.57758,
+          "B": 0.584078,
+          "A": 1.0,
+          "Hex": "C7C8C9"
+        }
+      },
+      "EQT_LIKING": {
+        "QuestTypeBgImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_YH_MainUI_TaskTips01_Text.UI_YH_MainUI_TaskTips01_Text",
+          "SubPathString": ""
+        },
+        "FontColor": {
+          "R": 0.571125,
+          "G": 0.57758,
+          "B": 0.584078,
+          "A": 1.0,
+          "Hex": "C7C8C9"
+        }
+      },
+      "EQT_SIDE": {
+        "QuestTypeBgImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_YH_MainUI_TaskTips02_Text.UI_YH_MainUI_TaskTips02_Text",
+          "SubPathString": ""
+        },
+        "FontColor": {
+          "R": 0.571125,
+          "G": 0.57758,
+          "B": 0.584078,
+          "A": 1.0,
+          "Hex": "C7C8C9"
+        }
+      }
+    }
+  }
+]

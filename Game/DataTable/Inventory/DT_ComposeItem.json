@@ -1,0 +1,208 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ComposeItem",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ComposeItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "SkillUpMaterial_01_lv3": {
+        "PieceItems": [
+          {
+            "PieceItemID": "SkillUpMaterial_01_lv2",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 500
+          }
+        ]
+      },
+      "SkillUpMaterial_01_lv2": {
+        "PieceItems": [
+          {
+            "PieceItemID": "SkillUpMaterial_01_lv1",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 100
+          }
+        ]
+      },
+      "SkillUpMaterial_02_lv3": {
+        "PieceItems": [
+          {
+            "PieceItemID": "SkillUpMaterial_02_lv2",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 500
+          }
+        ]
+      },
+      "SkillUpMaterial_02_lv2": {
+        "PieceItems": [
+          {
+            "PieceItemID": "SkillUpMaterial_02_lv1",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 100
+          }
+        ]
+      },
+      "WeaponBreakMaterial_01_lv3": {
+        "PieceItems": [
+          {
+            "PieceItemID": "WeaponBreakMaterial_01_lv2",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 500
+          }
+        ]
+      },
+      "WeaponBreakMaterial_01_lv2": {
+        "PieceItems": [
+          {
+            "PieceItemID": "WeaponBreakMaterial_01_lv1",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 100
+          }
+        ]
+      },
+      "WeaponBreakMaterial_02_lv3": {
+        "PieceItems": [
+          {
+            "PieceItemID": "WeaponBreakMaterial_02_lv2",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 500
+          }
+        ]
+      },
+      "WeaponBreakMaterial_02_lv2": {
+        "PieceItems": [
+          {
+            "PieceItemID": "WeaponBreakMaterial_02_lv1",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 100
+          }
+        ]
+      },
+      "OrdinaryMonMaterial_01_lv3": {
+        "PieceItems": [
+          {
+            "PieceItemID": "OrdinaryMonMaterial_01_lv2",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 500
+          }
+        ]
+      },
+      "OrdinaryMonMaterial_01_lv2": {
+        "PieceItems": [
+          {
+            "PieceItemID": "OrdinaryMonMaterial_01_lv1",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 100
+          }
+        ]
+      },
+      "OrdinaryMonMaterial_02_lv3": {
+        "PieceItems": [
+          {
+            "PieceItemID": "OrdinaryMonMaterial_02_lv2",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 500
+          }
+        ]
+      },
+      "OrdinaryMonMaterial_02_lv2": {
+        "PieceItems": [
+          {
+            "PieceItemID": "OrdinaryMonMaterial_02_lv1",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 100
+          }
+        ]
+      },
+      "OrdinaryMonMaterial_03_lv3": {
+        "PieceItems": [
+          {
+            "PieceItemID": "OrdinaryMonMaterial_03_lv2",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 500
+          }
+        ]
+      },
+      "OrdinaryMonMaterial_03_lv2": {
+        "PieceItems": [
+          {
+            "PieceItemID": "OrdinaryMonMaterial_03_lv1",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 100
+          }
+        ]
+      },
+      "OrdinaryMonMaterial_04_lv3": {
+        "PieceItems": [
+          {
+            "PieceItemID": "OrdinaryMonMaterial_04_lv2",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 500
+          }
+        ]
+      },
+      "OrdinaryMonMaterial_04_lv2": {
+        "PieceItems": [
+          {
+            "PieceItemID": "OrdinaryMonMaterial_04_lv1",
+            "PieceAmount": 3
+          },
+          {
+            "PieceItemID": "gold",
+            "PieceAmount": 100
+          }
+        ]
+      }
+    }
+  }
+]

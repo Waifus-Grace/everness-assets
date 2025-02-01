@@ -1,0 +1,1487 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterVoice",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterVoiceInfo'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "AwardVoice": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1001",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1666",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1667",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1669",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": []
+            }
+          }
+        ]
+      },
+      "EquipCharacterVoice": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO/Play_Vo_Char_ZERO_F_deploy.Play_Vo_Char_ZERO_F_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_deploy.Play_Vo_Char_NPC008_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_deploy.Play_Vo_Char_NPC011_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_deploy.Play_Vo_Char_NPC001_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_deploy.Play_Vo_Char_NPC010_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_deploy.Play_Vo_Char_NPC004_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_deploy.Play_Vo_Char_NPC005_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_deploy.Play_Vo_Char_NPC020_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_deploy.Play_Vo_Char_NPC013_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_deploy.Play_Vo_Char_NPC003_deploy",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "LowHP": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO/Play_Vo_Char_ZERO_F_hp.Play_Vo_Char_ZERO_F_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_hp.Play_Vo_Char_NPC008_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_hp.Play_Vo_Char_NPC011_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_hp.Play_Vo_Char_NPC001_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_hp.Play_Vo_Char_NPC010_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_hp.Play_Vo_Char_NPC004_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_hp.Play_Vo_Char_NPC005_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_hp.Play_Vo_Char_NPC020_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_hp.Play_Vo_Char_NPC013_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_hp.Play_Vo_Char_NPC003_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "AddHPVoice": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO/Play_Vo_Char_ZERO_F_fh.Play_Vo_Char_ZERO_F_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_fh.Play_Vo_Char_NPC008_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_fh.Play_Vo_Char_NPC011_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_fh.Play_Vo_Char_NPC001_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_fh.Play_Vo_Char_NPC010_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_hp.Play_Vo_Char_NPC004_hp",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_fh.Play_Vo_Char_NPC005_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_fh.Play_Vo_Char_NPC020_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_fh.Play_Vo_Char_NPC013_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_fh.Play_Vo_Char_NPC003_fh",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Weather_Clear_Skies_CartoonSky_bigworld": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_weather_001.Play_Vo_Char_NPC008_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_weather_001.Play_Vo_Char_NPC011_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_weather_001.Play_Vo_Char_NPC001_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_weather_001.Play_Vo_Char_NPC010_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_weather_001.Play_Vo_Char_NPC004_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_weather_001.Play_Vo_Char_NPC005_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_weather_001.Play_Vo_Char_NPC020_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_weather_001.Play_Vo_Char_NPC013_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_weather_001.Play_Vo_Char_NPC003_weather_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Weather_Rain": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_weather_002.Play_Vo_Char_NPC008_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_weather_002.Play_Vo_Char_NPC011_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_weather_002.Play_Vo_Char_NPC001_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_weather_002.Play_Vo_Char_NPC010_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_weather_002.Play_Vo_Char_NPC004_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_weather_002.Play_Vo_Char_NPC005_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_weather_002.Play_Vo_Char_NPC020_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_weather_002.Play_Vo_Char_NPC013_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_weather_002.Play_Vo_Char_NPC003_weather_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Time_beforedawn": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_greet_001.Play_Vo_Char_NPC008_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_001.Play_Vo_Char_NPC011_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_greet_001.Play_Vo_Char_NPC001_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_greet_001.Play_Vo_Char_NPC010_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_greet_001.Play_Vo_Char_NPC004_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_greet_001.Play_Vo_Char_NPC005_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_greet_001.Play_Vo_Char_NPC020_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_greet_001.Play_Vo_Char_NPC013_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_greet_001.Play_Vo_Char_NPC003_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Time_morning": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_greet_001.Play_Vo_Char_NPC008_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_001.Play_Vo_Char_NPC011_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_greet_001.Play_Vo_Char_NPC001_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_greet_001.Play_Vo_Char_NPC010_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_greet_001.Play_Vo_Char_NPC004_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_greet_001.Play_Vo_Char_NPC005_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_greet_001.Play_Vo_Char_NPC020_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_greet_001.Play_Vo_Char_NPC013_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_greet_001.Play_Vo_Char_NPC003_greet_001",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Time_antemeridiem": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_greet_002.Play_Vo_Char_NPC008_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_002.Play_Vo_Char_NPC011_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_greet_002.Play_Vo_Char_NPC001_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_greet_002.Play_Vo_Char_NPC010_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_greet_002.Play_Vo_Char_NPC004_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_greet_002.Play_Vo_Char_NPC005_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_greet_002.Play_Vo_Char_NPC020_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_greet_002.Play_Vo_Char_NPC013_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_greet_002.Play_Vo_Char_NPC003_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Time_noon": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_greet_002.Play_Vo_Char_NPC008_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_002.Play_Vo_Char_NPC011_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_greet_002.Play_Vo_Char_NPC001_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_greet_002.Play_Vo_Char_NPC010_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_greet_002.Play_Vo_Char_NPC004_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_greet_002.Play_Vo_Char_NPC005_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_greet_002.Play_Vo_Char_NPC020_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_greet_002.Play_Vo_Char_NPC013_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_greet_002.Play_Vo_Char_NPC003_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Time_afternoon": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_greet_002.Play_Vo_Char_NPC008_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_002.Play_Vo_Char_NPC011_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_greet_002.Play_Vo_Char_NPC001_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_greet_002.Play_Vo_Char_NPC010_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_greet_002.Play_Vo_Char_NPC004_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_greet_002.Play_Vo_Char_NPC005_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_greet_002.Play_Vo_Char_NPC020_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_greet_002.Play_Vo_Char_NPC013_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_greet_002.Play_Vo_Char_NPC003_greet_002",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Time_evening": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_greet_003.Play_Vo_Char_NPC008_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_003.Play_Vo_Char_NPC011_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_greet_003.Play_Vo_Char_NPC001_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_greet_003.Play_Vo_Char_NPC010_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_greet_003.Play_Vo_Char_NPC004_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_greet_003.Play_Vo_Char_NPC005_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_greet_003.Play_Vo_Char_NPC020_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_greet_003.Play_Vo_Char_NPC013_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_greet_003.Play_Vo_Char_NPC003_greet_003",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Time_night": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1003",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC008/Play_Vo_Char_NPC008_greet_004.Play_Vo_Char_NPC008_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1010",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC011/Play_Vo_Char_NPC011_greet_004.Play_Vo_Char_NPC011_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1019",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_greet_004.Play_Vo_Char_NPC001_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1033",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC010/Play_Vo_Char_NPC010_greet_004.Play_Vo_Char_NPC010_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1004",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC004/Play_Vo_Char_NPC004_greet_004.Play_Vo_Char_NPC004_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1008",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC005/Play_Vo_Char_NPC005_greet_004.Play_Vo_Char_NPC005_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1018",
+            "Value": {
+              "Voices": []
+            }
+          },
+          {
+            "Key": "1040",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC020/Play_Vo_Char_NPC020_greet_004.Play_Vo_Char_NPC020_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1005",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_greet_004.Play_Vo_Char_NPC013_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "1039",
+            "Value": {
+              "Voices": [
+                {
+                  "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_greet_004.Play_Vo_Char_NPC003_greet_004",
+                  "SubPathString": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "OpenTreasureBox": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          }
+        ]
+      },
+      "VisionDelete": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          }
+        ]
+      },
+      "VisionGet": {
+        "AllCharacterVoiceInfo": [
+          {
+            "Key": "1009",
+            "Value": {
+              "Voices": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

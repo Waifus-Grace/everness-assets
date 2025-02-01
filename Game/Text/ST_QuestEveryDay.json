@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_QuestEveryDay",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_StoreBrand",
+      "KeysToEntries": {
+        "eq10001_name": "进行1次同城委托",
+        "eq10002_name": "任意消费1次方斯",
+        "eq10003_name": "累计消耗180点本性像素",
+        "eq10004_name": "累计击败5个敌人",
+        "eq10005_name": "释放3次极轨攻击",
+        "eq10006_name": "赠送1次礼物",
+        "eq10007_name": "登录游戏",
+        "eq10008_name": "提升1次弧盘等级"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

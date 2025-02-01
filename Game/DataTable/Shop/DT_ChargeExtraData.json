@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ChargeExtraData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ChargeExtraConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ExtraCurrency": "Riftcrystal",
+        "ExtraCurrencyAmount": 12,
+        "FirstExtraCurrencyAmount": 60
+      },
+      "2": {
+        "ExtraCurrency": "Riftcrystal",
+        "ExtraCurrencyAmount": 60,
+        "FirstExtraCurrencyAmount": 300
+      },
+      "3": {
+        "ExtraCurrency": "Riftcrystal",
+        "ExtraCurrencyAmount": 196,
+        "FirstExtraCurrencyAmount": 980
+      },
+      "4": {
+        "ExtraCurrency": "Riftcrystal",
+        "ExtraCurrencyAmount": 396,
+        "FirstExtraCurrencyAmount": 1980
+      },
+      "5": {
+        "ExtraCurrency": "Riftcrystal",
+        "ExtraCurrencyAmount": 650,
+        "FirstExtraCurrencyAmount": 3280
+      },
+      "6": {
+        "ExtraCurrency": "Riftcrystal",
+        "ExtraCurrencyAmount": 1600,
+        "FirstExtraCurrencyAmount": 6480
+      }
+    }
+  }
+]

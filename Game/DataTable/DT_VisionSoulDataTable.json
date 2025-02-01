@@ -1,0 +1,328 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VisionSoulDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'VisionSoulData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "TestVisionSoul": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/TestMaps/lvqq/BP_TestVisionSoulActor.BP_TestVisionSoulActor_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_tajiduo",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "getfork_lingganzhongjiezhe": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Level/World/WorldAnomaly/ColorsWearOff/BP_CWO_SOUL.BP_CWO_SOUL_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_lingganzhongjiezhe",
+        "AwardDropID": "None",
+        "Location": {
+          "X": -115416.74,
+          "Y": 146745.95,
+          "Z": 9621.8125
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 180.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_003.icon_fork_003",
+          "SubPathString": ""
+        }
+      },
+      "getfork_wushoutieyu": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Item/PockmonActor/BP_Pockmon_Boss_13.BP_Pockmon_Boss_13_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_wushoutieyu",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_009.icon_fork_009",
+          "SubPathString": ""
+        }
+      },
+      "getfork_yuren": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Item/PockmonActor/BP_Pockmon_Mon_17.BP_Pockmon_Mon_17_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_yuren",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_010.icon_fork_010",
+          "SubPathString": ""
+        }
+      },
+      "getfork_bopu": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Item/PockmonActor/BP_Pockmon_Mon_12.BP_Pockmon_Mon_12_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_bopu",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_007.icon_fork_007",
+          "SubPathString": ""
+        }
+      },
+      "getfork_mofeikesi": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Item/PockmonActor/BP_Pockmon_Boss_05.BP_Pockmon_Boss_05_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_mofeikesi",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_004.icon_fork_004",
+          "SubPathString": ""
+        }
+      },
+      "getfork_jiaojuan": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/TestMaps/lvqq/BP_TestVisionSoulActor.BP_TestVisionSoulActor_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_jiaojuan",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_001.icon_fork_001",
+          "SubPathString": ""
+        }
+      },
+      "getfork_wuhuakuang": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/TestMaps/lvqq/BP_TestVisionSoulActor.BP_TestVisionSoulActor_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_wuhuakuang",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_008.icon_fork_008",
+          "SubPathString": ""
+        }
+      },
+      "getfork_jingmotingyuan": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Item/PockmonActor/BP_Pockmon_Boss_07.BP_Pockmon_Boss_07_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_jingmotingyuan",
+        "AwardDropID": "None",
+        "Location": {
+          "X": -161635.19,
+          "Y": 174255.64,
+          "Z": 8440.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_002.icon_fork_002",
+          "SubPathString": ""
+        }
+      },
+      "getfork_oulaquantao": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Item/PockmonActor/BP_Pockmon_Anomaly_023.BP_Pockmon_Anomaly_023_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_oulaquantao",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_005.icon_fork_005",
+          "SubPathString": ""
+        }
+      },
+      "getfork_rishi": {
+        "Probability": 1.0,
+        "SedProbability": 0.0,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/TestMaps/lvqq/BP_TestVisionSoulActor.BP_TestVisionSoulActor_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_rishi",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_006.icon_fork_006",
+          "SubPathString": ""
+        }
+      },
+      "getfork_yuren2": {
+        "Probability": 0.2,
+        "SedProbability": 0.2,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Item/PockmonActor/BP_Pockmon_Mon_17.BP_Pockmon_Mon_17_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_yuren",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_010.icon_fork_010",
+          "SubPathString": ""
+        }
+      },
+      "getfork_bopu2": {
+        "Probability": 0.2,
+        "SedProbability": 0.2,
+        "VisionSoulActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Item/PockmonActor/BP_Pockmon_Mon_12.BP_Pockmon_Mon_12_C",
+          "SubPathString": ""
+        },
+        "SoulItemID": "fork_bopu",
+        "AwardDropID": "None",
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "VisionSoulIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/icon_fork_007.icon_fork_007",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1019AwakenEffect1",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1019": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star1_name",
+              "SourceString": "特遣行动",
+              "LocalizedString": "特遣行动"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_1.1009_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star1_des",
+              "SourceString": "「薄荷味旋风」持续期间将不再消耗体力，并使得薄荷的防御力提升<NumGreen>20%</>。",
+              "LocalizedString": "「薄荷味旋风」持续期间将不再消耗体力，并使得薄荷的防御力提升<NumGreen>20%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect2",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star2_name",
+              "SourceString": "二次补考",
+              "LocalizedString": "二次补考"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star2_des",
+              "SourceString": "「薄荷味旋风」的伤害提升<NumGreen>40%</>。",
+              "LocalizedString": "「薄荷味旋风」的伤害提升<NumGreen>40%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star3_name",
+              "SourceString": "全勤奖金",
+              "LocalizedString": "全勤奖金"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_3.1009_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star3_des",
+              "SourceString": "角色对敌人触发「坼绽」或「覆纹」反应后，使得薄荷自身攻击力提高<NumGreen>30%</>，该效果持续<NumGreen>15</>秒。",
+              "LocalizedString": "角色对敌人触发「坼绽」或「覆纹」反应后，使得薄荷自身攻击力提高<NumGreen>30%</>，该效果持续<NumGreen>15</>秒。"
+            }
+          },
+          {
+            "EffectID": "Effect4",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star4_name",
+              "SourceString": "午休时间",
+              "LocalizedString": "午休时间"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_4.1009_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star4_des",
+              "SourceString": "薄荷对仅存在的单个敌人造成伤害后，使得自身的暴击率提高<NumGreen>30%</>。",
+              "LocalizedString": "薄荷对仅存在的单个敌人造成伤害后，使得自身的暴击率提高<NumGreen>30%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect5",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star5_name",
+              "SourceString": "第一直觉",
+              "LocalizedString": "第一直觉"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_5.1009_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star5_des",
+              "SourceString": "薄荷在释放「薄荷味旋风」后，使得自身的暴击伤害提高<NumGreen>40%</>，该效果可持续<NumGreen>6</>秒。",
+              "LocalizedString": "薄荷在释放「薄荷味旋风」后，使得自身的暴击伤害提高<NumGreen>40%</>，该效果可持续<NumGreen>6</>秒。"
+            }
+          },
+          {
+            "EffectID": "Effect6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star6_name",
+              "SourceString": "精英队员",
+              "LocalizedString": "精英队员"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_6.1009_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_star6_des",
+              "SourceString": "薄荷对生命值低于<NumGreen>40%</>的敌人造成的伤害额外增加<NumGreen>50%</>。",
+              "LocalizedString": "薄荷对生命值低于<NumGreen>40%</>的敌人造成的伤害额外增加<NumGreen>50%</>。"
+            }
+          },
+          {
+            "EffectID": "resonance_3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_starExtra1_name",
+              "SourceString": "薄荷波波茶",
+              "LocalizedString": "薄荷波波茶"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null,
+              null,
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_starExtra1_des",
+              "SourceString": "「满分收容术」「薄荷味旋风」「奥义· 霹雳疾风斩」的技能等级提升<NumGreen>2</>级。",
+              "LocalizedString": "「满分收容术」「薄荷味旋风」「奥义· 霹雳疾风斩」的技能等级提升<NumGreen>2</>级。"
+            }
+          },
+          {
+            "EffectID": "resonance_6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_starExtra2_name",
+              "SourceString": "蓬绒绒慕斯",
+              "LocalizedString": "蓬绒绒慕斯"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_starExtra2_des",
+              "SourceString": "当薄荷使用「薄荷味旋风」造成击杀时，刷新该技能持续时间。",
+              "LocalizedString": "当薄荷使用「薄荷味旋风」造成击杀时，刷新该技能持续时间。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

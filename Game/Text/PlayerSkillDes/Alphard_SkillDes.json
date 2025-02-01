@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "Alphard_SkillDes",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "Alphard_SkillDes",
+      "KeysToEntries": {
+        "GA_Alphard_Melee_name": "<!>艾尔菲德普攻",
+        "GA_Alphard_Evade_name": "<!>艾尔菲德闪避",
+        "GA_Alphard_Skill_name": "<!>艾尔菲德技能",
+        "GA_Alphard_UtraSkill_name": "<!>艾尔菲德大招",
+        "GA_Alphard_Passive_1_name": "<!>艾尔菲德被动1",
+        "GA_Alphard_Passive_2_name": "<!>艾尔菲德被动2",
+        "GA_Alphard_star1_name": "<!>1",
+        "GA_Alphard_star2_name": "<!>1",
+        "GA_Alphard_star3_name": "<!>1",
+        "GA_Alphard_star4_name": "<!>1",
+        "GA_Alphard_star5_name": "<!>1",
+        "GA_Alphard_star6_name": "<!>1",
+        "GA_Alphard_Melee_des": "<!>艾尔菲德挥舞镰刀，进行至多五段的连续攻击。",
+        "GA_Alphard_Evade_des": "<!>艾尔菲德闪避描述",
+        "GA_Alphard_Skill_des": "<!>艾尔菲德技能描述",
+        "GA_Alphard_UtraSkill_des": "<!>艾尔菲德大招描述",
+        "GA_Alphard_Passive_1_des": "<!>1",
+        "GA_Alphard_Passive_2_des": "<!>1",
+        "GA_Alphard_star1_des": "<!>1",
+        "GA_Alphard_star2_des": "<!>1",
+        "GA_Alphard_star3_des": "<!>1",
+        "GA_Alphard_star4_des": "<!>1",
+        "GA_Alphard_star5_des": "<!>1",
+        "GA_Alphard_star6_des": "<!>1",
+        "GA_Alphard_Melee_background": "<!>1",
+        "GA_Alphard_Evade_background": "<!>艾尔菲德闪避斜体背景",
+        "GA_Alphard_Skill_background": "<!>1",
+        "GA_Alphard_UtraSkill_background": "<!>1",
+        "GA_Alphard_Passive_1_background": "<!>1",
+        "GA_Alphard_Passive_2_background": "<!>1"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

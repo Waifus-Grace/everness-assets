@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ReactionExtendDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ReactionExtendData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1009": {
+        "Name": {
+          "Namespace": "",
+          "Key": "B94195D94CB222F4F9BF89804EF97964",
+          "SourceString": "女主",
+          "LocalizedString": "女主"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "18C66CD840C28E045B4DF992513A3F40",
+          "SourceString": "1、光灵拓展3-蒲公英每次发射多柄小伞；；；2、光灵相拓展2-前台角色每次获得充能时，额外获得x点生命值的回复",
+          "LocalizedString": "1、光灵拓展3-蒲公英每次发射多柄小伞；；；2、光灵相拓展2-前台角色每次获得充能时，额外获得x点生命值的回复"
+        }
+      },
+      "1004": {
+        "Name": {
+          "Namespace": "",
+          "Key": "1D81B83F46591B6AC8DC0DB3B3EE2434",
+          "SourceString": "安魂曲",
+          "LocalizedString": "安魂曲"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "A181A824419A7A137CF372841504224D",
+          "SourceString": "咒暗1-厄运缠身状态下的目标被施加特定持续伤害时，对目标再施加一次与已有效果相同的厄运缠身；咒暗6-厄运缠身状态下的目标死亡时，将自身的厄运缠身效果（伤害、元素类型、层数）转移至一定距离的随机目标，并刷新持续时间。",
+          "LocalizedString": "咒暗1-厄运缠身状态下的目标被施加特定持续伤害时，对目标再施加一次与已有效果相同的厄运缠身；咒暗6-厄运缠身状态下的目标死亡时，将自身的厄运缠身效果（伤害、元素类型、层数）转移至一定距离的随机目标，并刷新持续时间。"
+        }
+      },
+      "1008": {
+        "Name": {
+          "Namespace": "",
+          "Key": "9C6B675C4A7250FDC2C82CAFBD1717DF",
+          "SourceString": "翳",
+          "LocalizedString": "翳"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "B671CA754AE83F2002CADD9993CFA13A",
+          "SourceString": "1、光相拓展1-降低目标从迟缓中回复的速度；；2、光相拓展3-特定大招命中迟缓目标时，再次施加迟缓",
+          "LocalizedString": "1、光相拓展1-降低目标从迟缓中回复的速度；；2、光相拓展3-特定大招命中迟缓目标时，再次施加迟缓"
+        }
+      },
+      "1039": {
+        "Name": {
+          "Namespace": "",
+          "Key": "BBCECD70494A2529E3136394EA867C1E",
+          "SourceString": "法蒂娅",
+          "LocalizedString": "法蒂娅"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "AF977CC74B1AD2E1982F1EA3F52C1714",
+          "SourceString": "1、暗魂拓展3-灵魂震荡状态下，全队每秒按一定比例汲取单目标x点生命上限（不属于持续伤害）；；2、暗魂咒拓展4-灵魂震荡状态下，全队每秒按一定比例汲取单目标x点攻击力",
+          "LocalizedString": "1、暗魂拓展3-灵魂震荡状态下，全队每秒按一定比例汲取单目标x点生命上限（不属于持续伤害）；；2、暗魂咒拓展4-灵魂震荡状态下，全队每秒按一定比例汲取单目标x点攻击力"
+        }
+      },
+      "1003": {
+        "Name": {
+          "Namespace": "",
+          "Key": "FCADD38E4EF30A628B89D69F0B77041E",
+          "SourceString": "早雾",
+          "LocalizedString": "早雾"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "B9529621416D0E95857739AA24AF3E15",
+          "SourceString": "1、咒暗拓展2-厄运缠身状态下的目标被施加同名效果时，伤害、元素类型、持续时间都跟随新效果，Buff层数+1，有层数上限；；2、咒暗拓展5-每次为目标施加厄运缠身时，附带随机负面效果（攻击力降低、元素抗性降低、元素失衡效率提高）",
+          "LocalizedString": "1、咒暗拓展2-厄运缠身状态下的目标被施加同名效果时，伤害、元素类型、持续时间都跟随新效果，Buff层数+1，有层数上限；；2、咒暗拓展5-每次为目标施加厄运缠身时，附带随机负面效果（攻击力降低、元素抗性降低、元素失衡效率提高）"
+        }
+      },
+      "1019": {
+        "Name": {
+          "Namespace": "",
+          "Key": "776D82BB4925AED47E02F794A9E5EEE4",
+          "SourceString": "薄荷",
+          "LocalizedString": "薄荷"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "8B8B5D2242349F056B2655AB1047EE78",
+          "SourceString": "1、光灵拓展1-小伞攻击范围扩大，伤害提升；；2、光灵拓展4-蒲公英能够发射更多次小伞，每次发射时间间隔缩短",
+          "LocalizedString": "1、光灵拓展1-小伞攻击范围扩大，伤害提升；；2、光灵拓展4-蒲公英能够发射更多次小伞，每次发射时间间隔缩短"
+        }
+      },
+      "1010": {
+        "Name": {
+          "Namespace": "",
+          "Key": "6EC4C0E245A5520317BB4CAF1D9B3A73",
+          "SourceString": "娜娜莉",
+          "LocalizedString": "娜娜莉"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "3999EE2643B9D6066041E79792DFE362",
+          "SourceString": "1、光灵拓展2-反应额外生成多个蒲公英，场上能存在的蒲公英上限增加；；2、光灵拓展5-蒲公英会持续吸附附近目标",
+          "LocalizedString": "1、光灵拓展2-反应额外生成多个蒲公英，场上能存在的蒲公英上限增加；；2、光灵拓展5-蒲公英会持续吸附附近目标"
+        }
+      },
+      "1023": {
+        "Name": {
+          "Namespace": "",
+          "Key": "857434F24923934E1344E3BA508656DD",
+          "SourceString": "白藏",
+          "LocalizedString": "白藏"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "F955068E4144AD7D640612B027117E45",
+          "SourceString": "1、咒暗拓展1-厄运缠身状态下的目标被施加特定持续伤害时【加个tag】，对目标再施加一次与已有效果相同的厄运缠身；；2、咒暗拓展6-厄运缠身状态下的目标死亡时，将自身的厄运缠身效果（伤害、元素类型、层数）转移至一定距离的随机目标，并刷新持续时间。",
+          "LocalizedString": "1、咒暗拓展1-厄运缠身状态下的目标被施加特定持续伤害时【加个tag】，对目标再施加一次与已有效果相同的厄运缠身；；2、咒暗拓展6-厄运缠身状态下的目标死亡时，将自身的厄运缠身效果（伤害、元素类型、层数）转移至一定距离的随机目标，并刷新持续时间。"
+        }
+      },
+      "1033": {
+        "Name": {
+          "Namespace": "",
+          "Key": "D9B7DCA544372BE4497C17AB5DB6BC79",
+          "SourceString": "阿德勒",
+          "LocalizedString": "阿德勒"
+        },
+        "ReactionDataArray": [
+          null,
+          null
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "EC1A2EF54BD8A627CC5935A3E92537DF",
+          "SourceString": "1、咒暗拓展3-厄运缠身状态下，目标受到所有持续伤害【持续伤害tag】的固定暴击率提高；；2、咒暗拓展4-厄运缠身状态下，目标受到所有持续伤害的伤害间隔缩短",
+          "LocalizedString": "1、咒暗拓展3-厄运缠身状态下，目标受到所有持续伤害【持续伤害tag】的固定暴击率提高；；2、咒暗拓展4-厄运缠身状态下，目标受到所有持续伤害的伤害间隔缩短"
+        }
+      }
+    }
+  }
+]

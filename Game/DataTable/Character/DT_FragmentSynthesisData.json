@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FragmentSynthesisData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FragmentSynthesisData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "CharacterUpMaterial_lv1": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1009",
+        "SynthesisProductNumber": 6
+      },
+      "Characterawaken_player": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1009",
+        "SynthesisProductNumber": 6
+      },
+      "Characterawaken_Mint": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1019",
+        "SynthesisProductNumber": 6
+      },
+      "Characterawaken_Sagiri": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1003",
+        "SynthesisProductNumber": 6
+      },
+      "Characterawaken_Nanally": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1010",
+        "SynthesisProductNumber": 6
+      },
+      "Characterawaken_dafudier": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1005",
+        "SynthesisProductNumber": 6
+      },
+      "Characterawaken_Adler": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1023",
+        "SynthesisProductNumber": 6
+      },
+      "Characterawaken_lacrimosa": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1004",
+        "SynthesisProductNumber": 6
+      }
+    }
+  }
+]

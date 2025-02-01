@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CookFormula",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CookFormulaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "CookBook1": {
+        "CookFoodID": "CookFood1",
+        "FormulaItemArray": [
+          {
+            "MaterialItemID": "CookMaterial1",
+            "MaterialItemNum": 3
+          },
+          {
+            "MaterialItemID": "CookMaterial2",
+            "MaterialItemNum": 2
+          }
+        ],
+        "CookParticleEffect": null
+      },
+      "CookBook2": {
+        "CookFoodID": "CookFood2",
+        "FormulaItemArray": [
+          {
+            "MaterialItemID": "CookMaterial1",
+            "MaterialItemNum": 4
+          },
+          {
+            "MaterialItemID": "CookMaterial2",
+            "MaterialItemNum": 3
+          }
+        ],
+        "CookParticleEffect": null
+      }
+    }
+  }
+]

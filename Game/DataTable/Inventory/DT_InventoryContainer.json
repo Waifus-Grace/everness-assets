@@ -1,0 +1,359 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_InventoryContainer",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'InventoryContainerData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "CARD": {
+        "ContainItemTypes": 8,
+        "ContainerCapacity": 1000,
+        "bShowInTab": false,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "CultureInvariantString": null
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "CONSUMABLE": {
+        "ContainItemTypes": 38535940,
+        "ContainerCapacity": 1000,
+        "bShowInTab": true,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 2,
+        "bCanRepeat": false
+      },
+      "CAPITAL": {
+        "ContainItemTypes": 16,
+        "ContainerCapacity": 1000,
+        "bShowInTab": false,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "CultureInvariantString": null
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "EQUIP": {
+        "ContainItemTypes": 8194,
+        "ContainerCapacity": 1000,
+        "bShowInTab": true,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_kongmu.YH_UI_icon_top_kongmu",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_characterinfo_table_04",
+          "SourceString": "空幕",
+          "LocalizedString": "空幕"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 6,
+        "bCanRepeat": true
+      },
+      "FORK": {
+        "ContainItemTypes": 32,
+        "ContainerCapacity": 1000,
+        "bShowInTab": true,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_characterinfo_table_02",
+          "SourceString": "弧盘",
+          "LocalizedString": "弧盘"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 6,
+        "bCanRepeat": true
+      },
+      "STORE": {
+        "ContainItemTypes": 66560,
+        "ContainerCapacity": 1000,
+        "bShowInTab": true,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_15",
+          "SourceString": "物料",
+          "LocalizedString": "物料"
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 2,
+        "bCanRepeat": false
+      },
+      "FOOD": {
+        "ContainItemTypes": 2048,
+        "ContainerCapacity": 1000,
+        "bShowInTab": true,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/daoju_shiwu.daoju_shiwu",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_16",
+          "SourceString": "食物",
+          "LocalizedString": "食物"
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 2,
+        "bCanRepeat": false
+      },
+      "IMPORTANT": {
+        "ContainItemTypes": 4288,
+        "ContainerCapacity": 1000,
+        "bShowInTab": true,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_zhenguiwupin.YH_UI_icon_top_zhenguiwupin",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_03",
+          "SourceString": "重要物品",
+          "LocalizedString": "重要物品"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 2,
+        "bCanRepeat": false
+      },
+      "HOME": {
+        "ContainItemTypes": 1033011200,
+        "ContainerCapacity": 1000,
+        "bShowInTab": true,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_house.YH_UI_Icon_house",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_house.YH_UI_Icon_house",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_house.YH_UI_Icon_house",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_Icon_house.YH_UI_Icon_house",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_14",
+          "SourceString": "家具",
+          "LocalizedString": "家具"
+        },
+        "bShowAllType": true,
+        "ContainSortTypes": 2,
+        "bCanRepeat": false
+      },
+      "AUTOUSE": {
+        "ContainItemTypes": 16384,
+        "ContainerCapacity": 1,
+        "bShowInTab": false,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "CultureInvariantString": null
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      },
+      "INVISIBLE": {
+        "ContainItemTypes": 0,
+        "ContainerCapacity": 1000,
+        "bShowInTab": false,
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
+        "ShowName": {
+          "Namespace": "",
+          "Key": "769ADCD74328C56CDC44A199827D14A2",
+          "SourceString": "<!>隐藏道具",
+          "LocalizedString": "<!>隐藏道具"
+        },
+        "bShowAllType": false,
+        "ContainSortTypes": 0,
+        "bCanRepeat": false
+      }
+    }
+  }
+]

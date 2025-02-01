@@ -1,0 +1,373 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LikeabilityChatGroupData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LikeabilityChatGroupData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1019": {
+        "RoleIDs": [
+          "1019"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1001_name",
+          "SourceString": "薄荷",
+          "LocalizedString": "薄荷"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1019_chat_des",
+          "SourceString": "绝不挂科",
+          "LocalizedString": "绝不挂科"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "H_NPC_01902": {
+        "RoleIDs": [
+          "H_NPC_01902"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_01902_Name",
+          "SourceString": "速太",
+          "LocalizedString": "速太"
+        },
+        "SignatureText": {
+          "CultureInvariantString": null
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "Trinity": {
+        "RoleIDs": [
+          "Trinity"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Trinity_name",
+          "SourceString": "异象管理局",
+          "LocalizedString": "异象管理局"
+        },
+        "SignatureText": {
+          "CultureInvariantString": null
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_024.player_024",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "dai": {
+        "RoleIDs": [
+          "dai"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "dai_name",
+          "SourceString": "袋先生",
+          "LocalizedString": "袋先生"
+        },
+        "SignatureText": {
+          "CultureInvariantString": null
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/npc_dai.npc_dai",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "Tajiduo": {
+        "RoleIDs": [
+          "Tajiduo"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Tajiduo_name",
+          "SourceString": "塔吉多",
+          "LocalizedString": "塔吉多"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Tajiduo_chat_des",
+          "SourceString": "最厉害的维修师！",
+          "LocalizedString": "最厉害的维修师！"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/tajiduo.tajiduo",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "H_NPC_014": {
+        "RoleIDs": [
+          "H_NPC_014"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_014_Name",
+          "SourceString": "哈尼娅",
+          "LocalizedString": "哈尼娅"
+        },
+        "SignatureText": {
+          "CultureInvariantString": null
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_012.player_012",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "Aobuli": {
+        "RoleIDs": [
+          "Aobuli"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "Anomaly_007_Name",
+          "SourceString": "奥布里",
+          "LocalizedString": "奥布里"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Aobuli_chat_des",
+          "SourceString": "遛狗专业户",
+          "LocalizedString": "遛狗专业户"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/Aobuli.Aobuli",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "1033": {
+        "RoleIDs": [
+          "1033"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_033",
+          "SourceString": "阿德勒",
+          "LocalizedString": "阿德勒"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1033_chat_des",
+          "SourceString": "诚接古董鉴定异象委托等业务",
+          "LocalizedString": "诚接古董鉴定异象委托等业务"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "1023": {
+        "RoleIDs": [
+          "1023"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_023",
+          "SourceString": "白藏",
+          "LocalizedString": "白藏"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1023_chat_des",
+          "SourceString": "有事请勿联系",
+          "LocalizedString": "有事请勿联系"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/player_036.player_036",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "H_NPC_014_1027": {
+        "RoleIDs": [
+          "H_NPC_014",
+          "H_NPC_1027"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "NPC_014_1027_name",
+          "SourceString": "哈尼娅、凛、你",
+          "LocalizedString": "哈尼娅、凛、你"
+        },
+        "SignatureText": {
+          "CultureInvariantString": null
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_012.player_012",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "H_NPC_1027": {
+        "RoleIDs": [
+          "H_NPC_1027"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1027_Name",
+          "SourceString": "凛",
+          "LocalizedString": "凛"
+        },
+        "SignatureText": {
+          "CultureInvariantString": null
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_012.player_012",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "H_NPC_03404": {
+        "RoleIDs": [
+          "H_NPC_03404"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_03404_Name",
+          "SourceString": "爱丽丝",
+          "LocalizedString": "爱丽丝"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_03404_chat_des",
+          "SourceString": "周末蛋糕日免费试吃",
+          "LocalizedString": "周末蛋糕日免费试吃"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/H_NPC_03404.H_NPC_03404",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "1003": {
+        "RoleIDs": [
+          "1003"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1003_name",
+          "SourceString": "早雾",
+          "LocalizedString": "早雾"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1003_chat_des",
+          "SourceString": "不需要小熊棒冰",
+          "LocalizedString": "不需要小熊棒冰"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "1005": {
+        "RoleIDs": [
+          "1005"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1005_name",
+          "SourceString": "达芙蒂尔",
+          "LocalizedString": "达芙蒂尔"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1005_chat_des",
+          "SourceString": "训练中",
+          "LocalizedString": "训练中"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/player_037.player_037",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "1021": {
+        "RoleIDs": [
+          "1021"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1021_name",
+          "SourceString": "埃德嘉",
+          "LocalizedString": "埃德嘉"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1021_chat_des",
+          "SourceString": "有问题可以找我",
+          "LocalizedString": "有问题可以找我"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/player_034.player_034",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "1029": {
+        "RoleIDs": [
+          "1029"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1029_name",
+          "SourceString": "浔",
+          "LocalizedString": "浔"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1029_chat_des",
+          "SourceString": "诚信经营",
+          "LocalizedString": "诚信经营"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/player_035.player_035",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      },
+      "1010": {
+        "RoleIDs": [
+          "1010"
+        ],
+        "GroupNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1010_name",
+          "SourceString": "娜娜莉",
+          "LocalizedString": "娜娜莉"
+        },
+        "SignatureText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1010_chat_des",
+          "SourceString": "柯林斯一代目",
+          "LocalizedString": "柯林斯一代目"
+        },
+        "HeadIconResource": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010.player_010",
+          "SubPathString": ""
+        },
+        "MainPlotChatItemID": "None"
+      }
+    }
+  }
+]

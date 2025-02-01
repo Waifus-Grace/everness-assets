@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AirFightCharacterData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AirFightCharacterTable'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1001_a": {
+        "CharacterId": "1001",
+        "CharacterPackID": "早雾",
+        "CharacterLevel": 10,
+        "CharacterTopo": 10,
+        "CharacterAwaken": 1,
+        "WeaponID": "None",
+        "WeaponLevel": 10,
+        "WeaponTopo": 10,
+        "EquipSuit": "None"
+      },
+      "1666_b": {
+        "CharacterId": "1666",
+        "CharacterPackID": "早雾",
+        "CharacterLevel": 10,
+        "CharacterTopo": 10,
+        "CharacterAwaken": 1,
+        "WeaponID": "None",
+        "WeaponLevel": 10,
+        "WeaponTopo": 10,
+        "EquipSuit": "None"
+      },
+      "1009_c": {
+        "CharacterId": "1009",
+        "CharacterPackID": "早雾",
+        "CharacterLevel": 10,
+        "CharacterTopo": 10,
+        "CharacterAwaken": 1,
+        "WeaponID": "None",
+        "WeaponLevel": 10,
+        "WeaponTopo": 10,
+        "EquipSuit": "None"
+      },
+      "1019_d": {
+        "CharacterId": "1019",
+        "CharacterPackID": "早雾",
+        "CharacterLevel": 10,
+        "CharacterTopo": 10,
+        "CharacterAwaken": 1,
+        "WeaponID": "None",
+        "WeaponLevel": 10,
+        "WeaponTopo": 10,
+        "EquipSuit": "None"
+      }
+    }
+  }
+]

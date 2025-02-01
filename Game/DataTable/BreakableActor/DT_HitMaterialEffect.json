@@ -1,0 +1,354 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HitMaterialEffect",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'HitMaterialEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "PM_Steel": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_001.NS_Impact_PM_HollowMetal_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_002.NS_Impact_PM_HollowMetal_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_HollowMetal.Play_Sfx_Player_Wpn_Cmn_Impact_HollowMetal",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_002.NS_Impact_PM_HollowMetal_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Steel.Play_Sfx_Items_Drop_Cmn_Steel",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_Glass": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_PipeMetal": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PipeMetal_001.NS_Impact_PipeMetal_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PipeMetal_002.NS_Impact_PipeMetal_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_PipeMetal.Play_Sfx_Player_Wpn_Cmn_Impact_PipeMetal",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PipeMetal_002.NS_Impact_PipeMetal_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_PipeMetal.Play_Sfx_Items_Drop_Cmn_PipeMetal",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_Plastic": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Plastic_001.NS_Impact_Plastic_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Plastic_001.NS_Impact_Plastic_001",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_Plastic.Play_Sfx_Player_Wpn_Cmn_Impact_Plastic",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Plastic_001.NS_Impact_Plastic_001",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Plastic.Play_Sfx_Items_Drop_Cmn_Plastic",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_HollowMetal": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_001.NS_Impact_PM_HollowMetal_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_002.NS_Impact_PM_HollowMetal_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_HollowMetal.Play_Sfx_Player_Wpn_Cmn_Impact_HollowMetal",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_002.NS_Impact_PM_HollowMetal_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_HollowMetal.Play_Sfx_Items_Drop_Cmn_HollowMetal",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_WoodenFloor": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Wood_001.NS_Impact_Wood_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Wood_002.NS_Impact_Wood_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_Wood.Play_Sfx_Player_Wpn_Cmn_Impact_Wood",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Wood_002.NS_Impact_Wood_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Wood.Play_Sfx_Items_Drop_Cmn_Wood",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_Brick": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Brick_001.NS_Impact_Brick_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Brick_002.NS_Impact_Brick_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_Concrete.Play_Sfx_Player_Wpn_Cmn_Impact_Concrete",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Brick_002.NS_Impact_Brick_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Concrete.Play_Sfx_Items_Drop_Cmn_Concrete",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_Concrete": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Brick_001.NS_Impact_Brick_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Brick_002.NS_Impact_Brick_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_Concrete.Play_Sfx_Player_Wpn_Cmn_Impact_Concrete",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Brick_002.NS_Impact_Brick_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Concrete.Play_Sfx_Items_Drop_Cmn_Concrete",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_GarbageBag": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_Barrel": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_001.NS_Impact_PM_HollowMetal_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_002.NS_Impact_PM_HollowMetal_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_HollowMetal.Play_Sfx_Player_Wpn_Cmn_Impact_HollowMetal",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_002.NS_Impact_PM_HollowMetal_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Barrel.Play_Sfx_Items_Drop_Cmn_Barrel",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_Bicycle": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_001.NS_Impact_PM_HollowMetal_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_002.NS_Impact_PM_HollowMetal_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_HollowMetal.Play_Sfx_Player_Wpn_Cmn_Impact_HollowMetal",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PM_HollowMetal_002.NS_Impact_PM_HollowMetal_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Bicycle.Play_Sfx_Items_Drop_Cmn_Bicycle",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_SmallMetal": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PipeMetal_001.NS_Impact_PipeMetal_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PipeMetal_002.NS_Impact_PipeMetal_002",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_PipeMetal.Play_Sfx_Player_Wpn_Cmn_Impact_PipeMetal",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_PipeMetal_002.NS_Impact_PipeMetal_002",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Lamp.Play_Sfx_Items_Drop_Cmn_Lamp",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_Cardboard": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Plastic_001.NS_Impact_Plastic_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Plastic_001.NS_Impact_Plastic_001",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_Cardboard.Play_Sfx_Player_Wpn_Cmn_Impact_Cardboard",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Common/Impact/NS_Impact_Plastic_001.NS_Impact_Plastic_001",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Cardboard.Play_Sfx_Items_Drop_Cmn_Cardboard",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

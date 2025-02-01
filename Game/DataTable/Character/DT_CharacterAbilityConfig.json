@@ -1,0 +1,1103 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterAbilityConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAbilityConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1009": {
+        "InitSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Female_Melee",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Female_Skill",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Female_UltraSkill",
+              "bShowDetailInfo": true
+            }
+          }
+        ],
+        "PassSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Female_Passive_1",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Female_Passive_2",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "AttributeList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "AtkUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "DefUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "AtkUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "AbilityId": "HPMaxUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "AbilityId": "HPMaxUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "AbilityId": "AtkUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "AbilityId": "DefUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "AbilityId": "AtkUp_04",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "AbilityId": "AtkUp_05",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "AbilityId": "DefUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "11",
+            "Value": {
+              "AbilityId": "HPMaxUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "12",
+            "Value": {
+              "AbilityId": "AtkUp_06",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "BeginingSkill": {
+          "AbilityId": "GA_Female_QTE",
+          "bShowDetailInfo": true
+        },
+        "PeculiaritySkill": {
+          "AbilityId": "None",
+          "bShowDetailInfo": false
+        }
+      },
+      "1004": {
+        "InitSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Lacrimosa_Melee",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Lacrimosa_Skill",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Lacrimosa_UltraSkill",
+              "bShowDetailInfo": true
+            }
+          }
+        ],
+        "PassSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Lacrimosa_Passive_1",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Lacrimosa_Passive_2",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "AttributeList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "AtkUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "CritDamageBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "HPMaxUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "AbilityId": "DamageUpChaosBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "AbilityId": "AtkUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "AbilityId": "CritBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "AbilityId": "HPMaxUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "AbilityId": "DamageUpChaosBase_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "AbilityId": "UnbalIntensityBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "AbilityId": "CritBase_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "11",
+            "Value": {
+              "AbilityId": "HPMaxUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "12",
+            "Value": {
+              "AbilityId": "DamageUpChaosBase_03",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "BeginingSkill": {
+          "AbilityId": "GA_Lacrimosa_QTE",
+          "bShowDetailInfo": true
+        },
+        "PeculiaritySkill": {
+          "AbilityId": "GA_Lacrimosa_Passive_3",
+          "bShowDetailInfo": false
+        }
+      },
+      "1019": {
+        "InitSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Mint019_Melee",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Mint019_Skill",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Mint019_UltraSkill",
+              "bShowDetailInfo": true
+            }
+          }
+        ],
+        "PassSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Mint_Passive_1",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Mint_Passive_2",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "AttributeList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "AtkUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "HPMaxUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "DamageUpNatureBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "AbilityId": "HPMaxUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "AbilityId": "HPMaxUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "AbilityId": "AtkUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "AbilityId": "HPMaxUp_04",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "AbilityId": "DamageUpNatureBase_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "AbilityId": "AtkUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "AbilityId": "AtkUp_04",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "11",
+            "Value": {
+              "AbilityId": "HPMaxUp_05",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "12",
+            "Value": {
+              "AbilityId": "DamageUpNatureBase_03",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "BeginingSkill": {
+          "AbilityId": "GA_Mint019_QTE",
+          "bShowDetailInfo": true
+        },
+        "PeculiaritySkill": {
+          "AbilityId": "None",
+          "bShowDetailInfo": false
+        }
+      },
+      "1010": {
+        "InitSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Nanally_Melee",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Nanally_Skill",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Nanally_UltraSkill",
+              "bShowDetailInfo": true
+            }
+          }
+        ],
+        "PassSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Nanally_Passive_1",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Nanally_Passive_2",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "AttributeList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "AtkUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "DefUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "CritDamageBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "AbilityId": "AtkUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "AbilityId": "DefUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "AbilityId": "CritDamageBase_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "AbilityId": "AtkUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "AbilityId": "CritDamageBase_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "AbilityId": "AtkUp_04",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "AbilityId": "DefUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "11",
+            "Value": {
+              "AbilityId": "CritDamageBase_04",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "12",
+            "Value": {
+              "AbilityId": "AtkUp_05",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "BeginingSkill": {
+          "AbilityId": "GA_Nanally_QTE",
+          "bShowDetailInfo": true
+        },
+        "PeculiaritySkill": {
+          "AbilityId": "None",
+          "bShowDetailInfo": false
+        }
+      },
+      "1003": {
+        "InitSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Sagiri_Melee",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Sagiri_Skill",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Sagiri_UltraSkill",
+              "bShowDetailInfo": true
+            }
+          }
+        ],
+        "PassSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Sagiri_Passive_1",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Sagiri_Passive_2",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "AttributeList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "AtkUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "DefUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "AtkUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "AbilityId": "HPMaxUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "AbilityId": "HPMaxUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "AbilityId": "AtkUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "AbilityId": "DefUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "AbilityId": "AtkUp_04",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "AbilityId": "AtkUp_05",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "AbilityId": "DefUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "11",
+            "Value": {
+              "AbilityId": "HPMaxUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "12",
+            "Value": {
+              "AbilityId": "AtkUp_06",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "BeginingSkill": {
+          "AbilityId": "GA_Sagiri_QTE",
+          "bShowDetailInfo": true
+        },
+        "PeculiaritySkill": {
+          "AbilityId": "None",
+          "bShowDetailInfo": false
+        }
+      },
+      "1033": {
+        "InitSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Adler_Melee",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Adler_Skill",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Adler_UltraSkill",
+              "bShowDetailInfo": true
+            }
+          }
+        ],
+        "PassSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Adler_Passive_1",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Adler_Passive_2",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "AttributeList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "DefUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "HPMaxUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "DefUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "AbilityId": "DamageUpIncantationBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "AbilityId": "DefUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "AbilityId": "HPMaxUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "AbilityId": "DefUp_04",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "AbilityId": "DamageUpIncantationBase_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "AbilityId": "DefUp_05",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "AbilityId": "HPMaxUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "11",
+            "Value": {
+              "AbilityId": "DefUp_06",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "12",
+            "Value": {
+              "AbilityId": "DamageUpIncantationBase_03",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "BeginingSkill": {
+          "AbilityId": "GA_Adler_QTE",
+          "bShowDetailInfo": true
+        },
+        "PeculiaritySkill": {
+          "AbilityId": "None",
+          "bShowDetailInfo": false
+        }
+      },
+      "1008": {
+        "InitSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Skia_Melee",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Skia_Skill",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Skia_UltraSkill",
+              "bShowDetailInfo": true
+            }
+          }
+        ],
+        "PassSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Skia_Passive_1",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Skia_Passive_2",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Skia_Passive_3",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "AttributeList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "AtkUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "CritBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "HPMaxUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "AbilityId": "DamageUpLakshanaBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "AbilityId": "DefUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "AbilityId": "CritBase_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "AbilityId": "HPMaxUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "AbilityId": "DamageUpLakshanaBase_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "AbilityId": "AtkUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "AbilityId": "HPMaxUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "11",
+            "Value": {
+              "AbilityId": "CritBase_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "12",
+            "Value": {
+              "AbilityId": "AtkUp_03",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "BeginingSkill": {
+          "AbilityId": "GA_Skia_QTE",
+          "bShowDetailInfo": true
+        },
+        "PeculiaritySkill": {
+          "AbilityId": "None",
+          "bShowDetailInfo": false
+        }
+      },
+      "1039": {
+        "InitSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Fadia_Melee",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Fadia_Skill",
+              "bShowDetailInfo": true
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "GA_Fadia_UltraSkill",
+              "bShowDetailInfo": true
+            }
+          }
+        ],
+        "PassSkillList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "GA_Fadia_Passive_1",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "GA_Fadia_Passive_2",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "AttributeList": [
+          {
+            "Key": "1",
+            "Value": {
+              "AbilityId": "HPMaxUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "AbilityId": "UnbalIntensityBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "AbilityId": "HPMaxUp_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "AbilityId": "DamageUpPsycheBase_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "AbilityId": "HPMaxUp_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "AbilityId": "UnbalIntensityBase_02",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "AbilityId": "HPMaxUp_04",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "AbilityId": "AtkUp_01",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "AbilityId": "HPMaxUp_05",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "AbilityId": "UnbalIntensityBase_03",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "11",
+            "Value": {
+              "AbilityId": "HPMaxUp_06",
+              "bShowDetailInfo": false
+            }
+          },
+          {
+            "Key": "12",
+            "Value": {
+              "AbilityId": "DamageUpPsycheBase_02",
+              "bShowDetailInfo": false
+            }
+          }
+        ],
+        "BeginingSkill": {
+          "AbilityId": "GA_Fadia_QTE",
+          "bShowDetailInfo": true
+        },
+        "PeculiaritySkill": {
+          "AbilityId": "GA_Fadia_Passive_3",
+          "bShowDetailInfo": false
+        }
+      }
+    }
+  }
+]

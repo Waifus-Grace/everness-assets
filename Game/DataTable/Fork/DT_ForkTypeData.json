@@ -1,0 +1,176 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ForkTypeData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ForkTypeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "item_fork_type_1",
+          "SourceString": "本能",
+          "LocalizedString": "本能"
+        },
+        "TypeIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_HuPan_Icon_BenNeng.YH_UI_HuPan_Icon_BenNeng",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "A039FE3C4E554C7D00EF4FB7369B721F",
+          "SourceString": "这是一个本能弧盘",
+          "LocalizedString": "这是一个本能弧盘"
+        },
+        "RTIMatchData": {
+          "ActivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_01",
+            "SourceString": "效果只对<img id=\"1\"/>「本能」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「本能」适配者生效"
+          },
+          "DeactivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_01",
+            "SourceString": "效果只对<img id=\"1\"/>「本能」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「本能」适配者生效"
+          }
+        }
+      },
+      "2": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "item_fork_type_2",
+          "SourceString": "认知",
+          "LocalizedString": "认知"
+        },
+        "TypeIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_HuPan_Icon_RenZhi.YH_UI_HuPan_Icon_RenZhi",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "88BD4AE042EEE39B57AEA7A7170A8795",
+          "SourceString": "这是一个认知弧盘",
+          "LocalizedString": "这是一个认知弧盘"
+        },
+        "RTIMatchData": {
+          "ActivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_02",
+            "SourceString": "效果只对<img id=\"1\"/>「认知」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「认知」适配者生效"
+          },
+          "DeactivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_02",
+            "SourceString": "效果只对<img id=\"1\"/>「认知」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「认知」适配者生效"
+          }
+        }
+      },
+      "3": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "item_fork_type_3",
+          "SourceString": "情感",
+          "LocalizedString": "情感"
+        },
+        "TypeIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_HuPan_Icon_QingGan.YH_UI_HuPan_Icon_QingGan",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "05DB1428406D6471C9C7F29D5C296C5C",
+          "SourceString": "这是一个情感弧盘",
+          "LocalizedString": "这是一个情感弧盘"
+        },
+        "RTIMatchData": {
+          "ActivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_03",
+            "SourceString": "效果只对<img id=\"1\"/>「情感」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「情感」适配者生效"
+          },
+          "DeactivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_03",
+            "SourceString": "效果只对<img id=\"1\"/>「情感」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「情感」适配者生效"
+          }
+        }
+      },
+      "4": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "item_fork_type_4",
+          "SourceString": "制约",
+          "LocalizedString": "制约"
+        },
+        "TypeIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_HuPan_Icon_ZhiYue.YH_UI_HuPan_Icon_ZhiYue",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "2302D7664A85CD32D0F2969D0CA72966",
+          "SourceString": "这是一个制约弧盘",
+          "LocalizedString": "这是一个制约弧盘"
+        },
+        "RTIMatchData": {
+          "ActivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_04",
+            "SourceString": "效果只对<img id=\"1\"/>「制约」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「制约」适配者生效"
+          },
+          "DeactivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_04",
+            "SourceString": "效果只对<img id=\"1\"/>「制约」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「制约」适配者生效"
+          }
+        }
+      },
+      "5": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "item_fork_type_5",
+          "SourceString": "系念",
+          "LocalizedString": "系念"
+        },
+        "TypeIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_HuPan_Icon_XiNian.YH_UI_HuPan_Icon_XiNian",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "2FE8CF084A5AC75077C0ADB997E8FD7F",
+          "SourceString": "这是一个系念弧盘",
+          "LocalizedString": "这是一个系念弧盘"
+        },
+        "RTIMatchData": {
+          "ActivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_05",
+            "SourceString": "效果只对<img id=\"1\"/>「系念」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「系念」适配者生效"
+          },
+          "DeactivatedContent": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "forktype_desc_05",
+            "SourceString": "效果只对<img id=\"1\"/>「系念」适配者生效",
+            "LocalizedString": "效果只对<img id=\"1\"/>「系念」适配者生效"
+          }
+        }
+      }
+    }
+  }
+]

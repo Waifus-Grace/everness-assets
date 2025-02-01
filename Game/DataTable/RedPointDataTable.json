@@ -1,0 +1,486 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "RedPointDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'RedPointDataConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Redpoint.NewItem": {
+        "RedPointTag": {
+          "TagName": "Redpoint.NewItem"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Once",
+        "IsPermanent": true,
+        "IsImportConfigID": true,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Menu.juese.Awaken": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.juese.Awaken"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Character.Breakthrough": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Character.Breakthrough"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          },
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Fork": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Fork"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          },
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Menu": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Character": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Character"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Menu.juese": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.juese"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Mail": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Mail"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Mail.MailItem": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Mail.MailItem"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Equipment.Inlay": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Equipment.Inlay"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          },
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": true,
+        "IsOnlyOneMessage": true,
+        "IsCombinationType": false
+      },
+      "RedPoint.Menu.CityLive": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.CityLive"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "RedPoint.Menu.CityLive.DelegateMission": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.CityLive.DelegateMission"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "RedPoint.Menu.CityLive.DelegateMission.Award": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.CityLive.DelegateMission.Award"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Once",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "RedPoint.Notice": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Notice"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "RedPoint.Notice.ActNotice": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Notice.ActNotice"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "RedPoint.Notice.SysNotice": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Notice.SysNotice"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Menu.likeability": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.likeability"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Menu.LikeabilityChat.Chat": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.LikeabilityChat.Chat"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Menu.LikeabilityChat.Chat.{}": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.LikeabilityChat.Chat.{}"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": true
+      },
+      "Redpoint.Menu.likeability.Award": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.likeability.Award"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Menu.likeability.Award.{}": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.likeability.Award.{}"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": true
+      },
+      "Redpoint.Menu.LikeabilityChat": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Menu.LikeabilityChat"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Store": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Store"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.Store.StoreItem": {
+        "RedPointTag": {
+          "TagName": "Redpoint.Store.StoreItem"
+        },
+        "TriggerTypeArray": [],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.AdventureManual": {
+        "RedPointTag": {
+          "TagName": "Redpoint.AdventureManual"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.AdventureManualWizard": {
+        "RedPointTag": {
+          "TagName": "Redpoint.AdventureManualWizard"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      },
+      "Redpoint.AdventureManualDaily": {
+        "RedPointTag": {
+          "TagName": "Redpoint.AdventureManualDaily"
+        },
+        "TriggerTypeArray": [
+          {
+            "Condition": null
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "Condition": null
+        },
+        "SaveType": "ERedPointSaveType::ST_Local",
+        "IsPermanent": false,
+        "IsImportConfigID": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GameplayEntrance",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GamePlayEntranceData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Peekaboo": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_Peekaboo.W_Unload_WorldAnomaly_Peekaboo",
+            "SubPathString": ""
+          }
+        ],
+        "EntryTeleportID": "Anomaly_Peekaboo_Entry",
+        "ReloadTeleportID": "Anomaly_Peekaboo_Outro",
+        "ActiveCondition": []
+      },
+      "WorldBoss_Boss13": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/Wonder_MotoBoss.Wonder_MotoBoss",
+            "SubPathString": ""
+          }
+        ],
+        "EntryTeleportID": "TeleportWithCar",
+        "ReloadTeleportID": "MotoBoss_End",
+        "ActiveCondition": [
+          null
+        ]
+      }
+    }
+  }
+]

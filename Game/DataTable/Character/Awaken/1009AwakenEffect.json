@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1009AwakenEffect",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1009": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star1_name",
+              "SourceString": "初明凝视",
+              "LocalizedString": "初明凝视"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_1.1009_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star1_des",
+              "SourceString": "「铭隙鉴刻」可对最近<NumGreen>3</>个等级等于或低于角色的目标造成攻击力*<NumGreen>300%</>的额外伤害。",
+              "LocalizedString": "「铭隙鉴刻」可对最近<NumGreen>3</>个等级等于或低于角色的目标造成攻击力*<NumGreen>300%</>的额外伤害。"
+            }
+          },
+          {
+            "EffectID": "Effect2",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star2_name",
+              "SourceString": "探悉天职",
+              "LocalizedString": "探悉天职"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star2_des",
+              "SourceString": "释放「铭隙鉴刻」后，自身获得<NumGreen>8</>点场域原质。",
+              "LocalizedString": "释放「铭隙鉴刻」后，自身获得<NumGreen>8</>点场域原质。"
+            }
+          },
+          {
+            "EffectID": "Effect3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star3_name",
+              "SourceString": "奇异记叙",
+              "LocalizedString": "奇异记叙"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_3.1009_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star3_des",
+              "SourceString": "「奇零除尽」的暴击率提高<NumGreen>100%</>。",
+              "LocalizedString": "「奇零除尽」的暴击率提高<NumGreen>100%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect4",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star4_name",
+              "SourceString": "未决迷数",
+              "LocalizedString": "未决迷数"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_4.1009_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star4_des",
+              "SourceString": "基于角色自身的基础攻击力，提高「奇零除尽」的伤害，每<NumGreen>1</>点基础攻击力提高<NumGreen>0.15%</>。",
+              "LocalizedString": "基于角色自身的基础攻击力，提高「奇零除尽」的伤害，每<NumGreen>1</>点基础攻击力提高<NumGreen>0.15%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect5",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star5_name",
+              "SourceString": "默示赋命",
+              "LocalizedString": "默示赋命"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_5.1009_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star5_des",
+              "SourceString": "「奇零除尽」造成的伤害提升<NumGreen>50%</>。",
+              "LocalizedString": "「奇零除尽」造成的伤害提升<NumGreen>50%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star6_name",
+              "SourceString": "诓定解放",
+              "LocalizedString": "诓定解放"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_6.1009_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_Female_star6_des",
+              "SourceString": "「铭隙鉴刻」的额外伤害提升至<NumGreen>800%</>*攻击力。",
+              "LocalizedString": "「铭隙鉴刻」的额外伤害提升至<NumGreen>800%</>*攻击力。"
+            }
+          },
+          {
+            "EffectID": "resonance_3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_F_starExtra1_name",
+              "SourceString": "鉴解",
+              "LocalizedString": "鉴解"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null,
+              null,
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_F_starExtra1_des",
+              "SourceString": "「鉴痕」「铭隙鉴刻」「奇零除尽」的技能等级提升<NumGreen>2</>级。",
+              "LocalizedString": "「鉴痕」「铭隙鉴刻」「奇零除尽」的技能等级提升<NumGreen>2</>级。"
+            }
+          },
+          {
+            "EffectID": "resonance_6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_F_starExtra2_name",
+              "SourceString": "零示",
+              "LocalizedString": "零示"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Female_SkillDes.Female_SkillDes",
+              "Key": "GA_F_starExtra2_des",
+              "SourceString": "触发任意光相关异能环合后，全队角色攻击力提高10%，持续20秒。",
+              "LocalizedString": "触发任意光相关异能环合后，全队角色攻击力提高10%，持续20秒。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,2113 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OutputSourceRowData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ItemOutputSourceRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Flower0000": {
+        "SourceArray": [
+          "Shop_010_01",
+          "Shop_010_02",
+          "Shop_010_03"
+        ]
+      },
+      "Flower0001": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Flower0002": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Flower0004": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Flower0005": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Flower0006": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Flower0007": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Flower0008": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Flower0009": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Flower00010": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Flower00011": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "BigFlower0000": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "BigFlower0001": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "BigFlower0002": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "BigFlower0003": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "BigFlower0004": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "BigFlower0005": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Figure_eri_01_001": {
+        "SourceArray": [
+          "Shop_023_02"
+        ]
+      },
+      "Figure_eri_01_002": {
+        "SourceArray": [
+          "Shop_023_02"
+        ]
+      },
+      "Figure_maskerrider_01_001": {
+        "SourceArray": [
+          "Shop_023_01",
+          "Shop_023_02"
+        ]
+      },
+      "Figure_maskerrider_01_002": {
+        "SourceArray": [
+          "Shop_023_01"
+        ]
+      },
+      "Figure_maskerrider_02_001": {
+        "SourceArray": [
+          "Shop_023_01",
+          "Shop_023_02"
+        ]
+      },
+      "Figure_maskerrider_02_002": {
+        "SourceArray": [
+          "Shop_023_01"
+        ]
+      },
+      "Figure_maskerrider_03_001": {
+        "SourceArray": [
+          "Shop_023_01",
+          "Shop_023_02"
+        ]
+      },
+      "Figure_maskerrider_03_002": {
+        "SourceArray": [
+          "Shop_023_01"
+        ]
+      },
+      "Figure_miniblack_01_001": {
+        "SourceArray": [
+          "Shop_023_01",
+          "Shop_023_02"
+        ]
+      },
+      "Figure_miniblack_01_002": {
+        "SourceArray": [
+          "Shop_023_01",
+          "Shop_023_02"
+        ]
+      },
+      "Furniture_FlowerPot_001": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Furniture_FlowerPot_002": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Furniture_FlowerPot_003": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_FlowerPot_004": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_FlowerPot_005": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Furniture_Basin_001": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Furniture_Basin_002": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Furniture_Basin_003": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_Basin_004": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_Basin_005": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Furniture_Basin_006": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Furniture_Figues_001": {
+        "SourceArray": [
+          "Shop_023_01"
+        ]
+      },
+      "Furniture_Figues_002": {
+        "SourceArray": [
+          "Shop_023_01",
+          "Shop_023_02"
+        ]
+      },
+      "Furniture_Figues_003": {
+        "SourceArray": [
+          "Shop_023_01"
+        ]
+      },
+      "Furniture_Figues_004": {
+        "SourceArray": [
+          "Shop_023_02"
+        ]
+      },
+      "Furniture_Figues_005": {
+        "SourceArray": [
+          "Shop_023_01",
+          "Shop_023_02"
+        ]
+      },
+      "Furniture_Figues_006": {
+        "SourceArray": [
+          "Shop_023_01",
+          "Shop_023_02"
+        ]
+      },
+      "Furniture_Figues_007": {
+        "SourceArray": [
+          "Shop_023_01"
+        ]
+      },
+      "Furniture_Chair_001": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_002": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_003": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_004": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_005": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_006": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_007": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_008": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_009": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_0010": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_0011": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_0012": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_0013": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_0014": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_0015": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_0016": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Chair_0017": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Light_001": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_Light_002": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_Light_003": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_Light_004": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_Light_005": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_Light_006": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_Light_007": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_Light_008": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_bonsai_001": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Furniture_bonsai_002": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Furniture_bonsai_003": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Furniture_bonsai_004": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_bonsai_005": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_bonsai_006": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_bonsai_007": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Furniture_bonsai_008": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Furniture_bonsai_009": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Furniture_shelf_001": {
+        "SourceArray": [
+          "Shop_010_01"
+        ]
+      },
+      "Furniture_shelf_002": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_shelf_003": {
+        "SourceArray": [
+          "Shop_010_02"
+        ]
+      },
+      "Furniture_shelf_004": {
+        "SourceArray": [
+          "Shop_010_03"
+        ]
+      },
+      "Furniture_cabinet_001": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_cabinet_002": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_001": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_002": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_003": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_004": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_005": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_006": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_007": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_008": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_teapoy_009": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_draw_001": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_002": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_003": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_004": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_005": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_006": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_007": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_008": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_009": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_0010": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_0011": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_draw_0012": {
+        "SourceArray": [
+          "Shop_025_01"
+        ]
+      },
+      "Furniture_Jukebox_001": {
+        "SourceArray": [
+          "Shop_013_01"
+        ]
+      },
+      "Furniture_Jukebox_002": {
+        "SourceArray": [
+          "Shop_013_01"
+        ]
+      },
+      "Furniture_Jukebox_003": {
+        "SourceArray": [
+          "Shop_013_01"
+        ]
+      },
+      "Furniture_Jukebox_004": {
+        "SourceArray": [
+          "Shop_013_01"
+        ]
+      },
+      "Furniture_Ornament_001": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_Ornament_002": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_Ornament_003": {
+        "SourceArray": [
+          "Shop_029_03"
+        ]
+      },
+      "Furniture_Fishtank_001": {
+        "SourceArray": [
+          "Shop_014_02"
+        ]
+      },
+      "Furniture_Fishtank_002": {
+        "SourceArray": [
+          "Shop_014_01"
+        ]
+      },
+      "Furniture_landscaping_01": {
+        "SourceArray": [
+          "Shop_014_01"
+        ]
+      },
+      "Furniture_landscaping_02": {
+        "SourceArray": [
+          "Shop_014_01"
+        ]
+      },
+      "Furniture_landscaping_03": {
+        "SourceArray": [
+          "Shop_014_01"
+        ]
+      },
+      "Furniture_landscaping_04": {
+        "SourceArray": [
+          "Shop_014_01"
+        ]
+      },
+      "Furniture_landscaping_05": {
+        "SourceArray": [
+          "Shop_014_02"
+        ]
+      },
+      "Furniture_landscaping_06": {
+        "SourceArray": [
+          "Shop_014_02"
+        ]
+      },
+      "Furniture_landscaping_07": {
+        "SourceArray": [
+          "Shop_014_02"
+        ]
+      },
+      "Furniture_landscaping_08": {
+        "SourceArray": [
+          "Shop_014_02"
+        ]
+      },
+      "Furniture_Piano_001": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Bed_001": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Bed_002": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "Furniture_Bed_003": {
+        "SourceArray": [
+          "Shop_029_01"
+        ]
+      },
+      "BigPoster001": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "BigPoster002": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "BigPoster003": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "BigPoster004": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "BigPoster005": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "BigPoster006": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "SmallPoster001": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "SmallPoster002": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "SmallPoster003": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "SmallPoster004": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "SmallPoster005": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "SmallPoster006": {
+        "SourceArray": [
+          "Shop_029_02"
+        ]
+      },
+      "Furniture_Gacha_Blue_001": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Blue_002": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Blue_003": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Blue_004": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Blue_005": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Red_001": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Red_002": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Red_003": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Red_004": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Red_005": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Pink_001": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Pink_002": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Pink_003": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Pink_004": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_Pink_005": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_eri_001": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_eri_002": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_eri_003": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_eri_004": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_eri_005": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_MiniBlack_001": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_MiniBlack_002": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_MiniBlack_003": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_MiniBlack_004": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "Furniture_Gacha_MiniBlack_005": {
+        "SourceArray": [
+          "gacha_machines"
+        ]
+      },
+      "disc_0004": {
+        "SourceArray": [
+          "Shop_013_01"
+        ]
+      },
+      "disc_0005": {
+        "SourceArray": [
+          "Shop_013_01"
+        ]
+      },
+      "disc_0006": {
+        "SourceArray": [
+          "Shop_013_01"
+        ]
+      },
+      "disc_0007": {
+        "SourceArray": [
+          "Shop_013_01"
+        ]
+      },
+      "Food_001": {
+        "SourceArray": [
+          "VendingMachine_001_01",
+          "Shop_007_01",
+          "Shop_007_02",
+          "Shop_007_03"
+        ]
+      },
+      "Food_002": {
+        "SourceArray": [
+          "VendingMachine_001_01",
+          "Shop_007_01",
+          "Shop_007_02"
+        ]
+      },
+      "Food_003": {
+        "SourceArray": [
+          "VendingMachine_001_01",
+          "Shop_007_01",
+          "Shop_007_02"
+        ]
+      },
+      "Food_004": {
+        "SourceArray": [
+          "VendingMachine_001_01",
+          "Shop_007_01",
+          "Shop_007_03"
+        ]
+      },
+      "Food_005": {
+        "SourceArray": [
+          "VendingMachine_001_01",
+          "Shop_007_01",
+          "Shop_007_03"
+        ]
+      },
+      "Food_006": {
+        "SourceArray": [
+          "VendingMachine_001_01"
+        ]
+      },
+      "Food_007": {
+        "SourceArray": [
+          "VendingMachine_002_01",
+          "Shop_009_01",
+          "Shop_009_02",
+          "Shop_022_01"
+        ]
+      },
+      "Food_008": {
+        "SourceArray": [
+          "VendingMachine_002_01"
+        ]
+      },
+      "Food_009": {
+        "SourceArray": [
+          "VendingMachine_002_01"
+        ]
+      },
+      "Food_010": {
+        "SourceArray": [
+          "VendingMachine_002_01"
+        ]
+      },
+      "Food_011": {
+        "SourceArray": [
+          "VendingMachine_002_01"
+        ]
+      },
+      "Food_012": {
+        "SourceArray": [
+          "VendingMachine_003_01"
+        ]
+      },
+      "Food_013": {
+        "SourceArray": [
+          "VendingMachine_003_01"
+        ]
+      },
+      "Food_014": {
+        "SourceArray": [
+          "VendingMachine_003_01"
+        ]
+      },
+      "Food_015": {
+        "SourceArray": [
+          "VendingMachine_003_01"
+        ]
+      },
+      "Food_016": {
+        "SourceArray": [
+          "VendingMachine_003_01"
+        ]
+      },
+      "Food_017": {
+        "SourceArray": [
+          "VendingMachine_003_01"
+        ]
+      },
+      "Food_018": {
+        "SourceArray": [
+          "VendingMachine_004_01"
+        ]
+      },
+      "Food_019": {
+        "SourceArray": [
+          "VendingMachine_004_01",
+          "Shop_009_01",
+          "Shop_009_02",
+          "Shop_022_01"
+        ]
+      },
+      "Food_020": {
+        "SourceArray": [
+          "VendingMachine_004_01"
+        ]
+      },
+      "Food_021": {
+        "SourceArray": [
+          "VendingMachine_004_01"
+        ]
+      },
+      "Food_022": {
+        "SourceArray": [
+          "VendingMachine_004_01"
+        ]
+      },
+      "Food_023": {
+        "SourceArray": [
+          "VendingMachine_005_01",
+          "Shop_008_01",
+          "Shop_008_02"
+        ]
+      },
+      "Food_024": {
+        "SourceArray": [
+          "VendingMachine_005_01",
+          "Shop_008_01",
+          "Shop_008_02"
+        ]
+      },
+      "Food_025": {
+        "SourceArray": [
+          "VendingMachine_005_01",
+          "Shop_008_01",
+          "Shop_008_02"
+        ]
+      },
+      "Food_026": {
+        "SourceArray": [
+          "VendingMachine_005_01",
+          "Shop_008_01",
+          "Shop_008_02"
+        ]
+      },
+      "Food_027": {
+        "SourceArray": [
+          "VendingMachine_005_01",
+          "Shop_008_01",
+          "Shop_008_02"
+        ]
+      },
+      "Food_028": {
+        "SourceArray": [
+          "VendingMachine_005_01",
+          "Shop_008_01",
+          "Shop_008_02"
+        ]
+      },
+      "Food_029": {
+        "SourceArray": [
+          "Shop_001_01",
+          "Shop_001_02"
+        ]
+      },
+      "Food_030": {
+        "SourceArray": [
+          "Shop_001_01",
+          "Shop_001_02"
+        ]
+      },
+      "Food_031": {
+        "SourceArray": [
+          "Shop_001_01",
+          "Shop_001_02"
+        ]
+      },
+      "Food_032": {
+        "SourceArray": [
+          "Shop_001_01",
+          "Shop_001_02"
+        ]
+      },
+      "Food_033": {
+        "SourceArray": [
+          "Shop_006_01"
+        ]
+      },
+      "Food_034": {
+        "SourceArray": [
+          "Shop_006_01"
+        ]
+      },
+      "Food_035": {
+        "SourceArray": [
+          "Shop_006_01"
+        ]
+      },
+      "Food_036": {
+        "SourceArray": [
+          "Shop_006_01"
+        ]
+      },
+      "Food_037": {
+        "SourceArray": [
+          "Shop_006_01"
+        ]
+      },
+      "Food_038": {
+        "SourceArray": [
+          "Shop_006_01"
+        ]
+      },
+      "Food_039": {
+        "SourceArray": [
+          "VendingMachine_006_01"
+        ]
+      },
+      "Food_040": {
+        "SourceArray": [
+          "Shop_007_02",
+          "Shop_007_03"
+        ]
+      },
+      "Food_041": {
+        "SourceArray": [
+          "Shop_007_02",
+          "Shop_007_03"
+        ]
+      },
+      "Food_044": {
+        "SourceArray": [
+          "Shop_009_01",
+          "Shop_009_02"
+        ]
+      },
+      "Food_045": {
+        "SourceArray": [
+          "Shop_009_01",
+          "Shop_009_02"
+        ]
+      },
+      "Food_046": {
+        "SourceArray": [
+          "Shop_009_01",
+          "Shop_009_02"
+        ]
+      },
+      "Food_047": {
+        "SourceArray": [
+          "Shop_009_01",
+          "Shop_009_02"
+        ]
+      },
+      "Food_048": {
+        "SourceArray": [
+          "Shop_011_01",
+          "Shop_011_02"
+        ]
+      },
+      "Food_049": {
+        "SourceArray": [
+          "Shop_011_01",
+          "Shop_011_02"
+        ]
+      },
+      "Food_050": {
+        "SourceArray": [
+          "Shop_011_01"
+        ]
+      },
+      "Food_051": {
+        "SourceArray": [
+          "Shop_011_01"
+        ]
+      },
+      "Food_052": {
+        "SourceArray": [
+          "Shop_011_02"
+        ]
+      },
+      "Food_053": {
+        "SourceArray": [
+          "Shop_011_02"
+        ]
+      },
+      "Food_054": {
+        "SourceArray": [
+          "Shop_028_01",
+          "Shop_028_02"
+        ]
+      },
+      "Food_055": {
+        "SourceArray": [
+          "Shop_028_01",
+          "Shop_028_02"
+        ]
+      },
+      "Food_056": {
+        "SourceArray": [
+          "Shop_028_01",
+          "Shop_028_02"
+        ]
+      },
+      "Food_057": {
+        "SourceArray": [
+          "Shop_028_01",
+          "Shop_028_02"
+        ]
+      },
+      "Food_058": {
+        "SourceArray": [
+          "Shop_028_01",
+          "Shop_028_02"
+        ]
+      },
+      "Food_059": {
+        "SourceArray": [
+          "Shop_015_01"
+        ]
+      },
+      "Food_060": {
+        "SourceArray": [
+          "Shop_015_01"
+        ]
+      },
+      "Food_061": {
+        "SourceArray": [
+          "Shop_015_01"
+        ]
+      },
+      "Food_062": {
+        "SourceArray": [
+          "Shop_015_01"
+        ]
+      },
+      "Food_063": {
+        "SourceArray": [
+          "Shop_016_01",
+          "Shop_016_02"
+        ]
+      },
+      "Food_064": {
+        "SourceArray": [
+          "Shop_016_01",
+          "Shop_016_02"
+        ]
+      },
+      "Food_065": {
+        "SourceArray": [
+          "Shop_016_01",
+          "Shop_016_02"
+        ]
+      },
+      "Food_066": {
+        "SourceArray": [
+          "Shop_016_01",
+          "Shop_016_02"
+        ]
+      },
+      "Food_067": {
+        "SourceArray": [
+          "Shop_017_01"
+        ]
+      },
+      "Food_068": {
+        "SourceArray": [
+          "Shop_017_01"
+        ]
+      },
+      "Food_069": {
+        "SourceArray": [
+          "Shop_017_01"
+        ]
+      },
+      "Food_070": {
+        "SourceArray": [
+          "Shop_017_01"
+        ]
+      },
+      "Food_071": {
+        "SourceArray": [
+          "Shop_017_01"
+        ]
+      },
+      "Food_072": {
+        "SourceArray": [
+          "Shop_018_01",
+          "Shop_018_02",
+          "Shop_018_03"
+        ]
+      },
+      "Food_073": {
+        "SourceArray": [
+          "Shop_018_01",
+          "Shop_018_02",
+          "Shop_018_03"
+        ]
+      },
+      "Food_074": {
+        "SourceArray": [
+          "Shop_018_01",
+          "Shop_018_02",
+          "Shop_018_03"
+        ]
+      },
+      "Food_075": {
+        "SourceArray": [
+          "Shop_018_01",
+          "Shop_018_02",
+          "Shop_018_03"
+        ]
+      },
+      "Food_076": {
+        "SourceArray": [
+          "Shop_018_01",
+          "Shop_018_02",
+          "Shop_018_03"
+        ]
+      },
+      "Food_077": {
+        "SourceArray": [
+          "Shop_019_01",
+          "Shop_019_02",
+          "Shop_019_03"
+        ]
+      },
+      "Food_078": {
+        "SourceArray": [
+          "Shop_019_01",
+          "Shop_019_02",
+          "Shop_019_03"
+        ]
+      },
+      "Food_079": {
+        "SourceArray": [
+          "Shop_019_01",
+          "Shop_019_02",
+          "Shop_019_03"
+        ]
+      },
+      "Food_080": {
+        "SourceArray": [
+          "Shop_019_01",
+          "Shop_019_02",
+          "Shop_019_03"
+        ]
+      },
+      "Food_081": {
+        "SourceArray": [
+          "Shop_020_01",
+          "Shop_020_02"
+        ]
+      },
+      "Food_082": {
+        "SourceArray": [
+          "Shop_020_01",
+          "Shop_020_02"
+        ]
+      },
+      "Food_083": {
+        "SourceArray": [
+          "Shop_020_01",
+          "Shop_020_02"
+        ]
+      },
+      "Food_084": {
+        "SourceArray": [
+          "Shop_020_01",
+          "Shop_020_02"
+        ]
+      },
+      "Food_085": {
+        "SourceArray": [
+          "Shop_021_01"
+        ]
+      },
+      "Food_086": {
+        "SourceArray": [
+          "Shop_021_01"
+        ]
+      },
+      "Food_087": {
+        "SourceArray": [
+          "Shop_021_01"
+        ]
+      },
+      "Food_088": {
+        "SourceArray": [
+          "Shop_021_01"
+        ]
+      },
+      "Food_089": {
+        "SourceArray": [
+          "Shop_021_01"
+        ]
+      },
+      "Food_090": {
+        "SourceArray": [
+          "Shop_022_01"
+        ]
+      },
+      "Food_091": {
+        "SourceArray": [
+          "Shop_022_01"
+        ]
+      },
+      "Food_092": {
+        "SourceArray": [
+          "Shop_022_01"
+        ]
+      },
+      "Food_093": {
+        "SourceArray": [
+          "Shop_022_01"
+        ]
+      },
+      "Food_094": {
+        "SourceArray": [
+          "Shop_012_01",
+          "Shop_012_02"
+        ]
+      },
+      "Food_095": {
+        "SourceArray": [
+          "Shop_012_01",
+          "Shop_012_02"
+        ]
+      },
+      "Food_097": {
+        "SourceArray": [
+          "Shop_012_01",
+          "Shop_012_02"
+        ]
+      },
+      "Food_098": {
+        "SourceArray": [
+          "Shop_012_01",
+          "Shop_012_02"
+        ]
+      },
+      "food_material_0001": {
+        "SourceArray": [
+          "Shop_001_01",
+          "Shop_001_02"
+        ]
+      },
+      "food_material_0002": {
+        "SourceArray": [
+          "Shop_002_01",
+          "Shop_002_02",
+          "Shop_002_03"
+        ]
+      },
+      "food_material_0003": {
+        "SourceArray": [
+          "Shop_002_02",
+          "Shop_002_03"
+        ]
+      },
+      "food_material_0004": {
+        "SourceArray": [
+          "Shop_002_01",
+          "Shop_002_02"
+        ]
+      },
+      "food_material_0005": {
+        "SourceArray": [
+          "Shop_002_01",
+          "Shop_002_03"
+        ]
+      },
+      "food_material_0006": {
+        "SourceArray": [
+          "Shop_002_01",
+          "Shop_002_02",
+          "Shop_002_03"
+        ]
+      },
+      "food_material_0007": {
+        "SourceArray": [
+          "Shop_002_01",
+          "Shop_002_02",
+          "Shop_002_03"
+        ]
+      },
+      "food_material_0008": {
+        "SourceArray": [
+          "Shop_003_01",
+          "Shop_003_02",
+          "Shop_003_03"
+        ]
+      },
+      "food_material_0009": {
+        "SourceArray": [
+          "Shop_003_01",
+          "Shop_003_02",
+          "Shop_003_03"
+        ]
+      },
+      "food_material_0010": {
+        "SourceArray": [
+          "Shop_003_01",
+          "Shop_003_02",
+          "Shop_003_03"
+        ]
+      },
+      "food_material_0011": {
+        "SourceArray": [
+          "Shop_003_02",
+          "Shop_003_03"
+        ]
+      },
+      "food_material_0012": {
+        "SourceArray": [
+          "Shop_003_01",
+          "Shop_003_02",
+          "Shop_003_03"
+        ]
+      },
+      "food_material_0013": {
+        "SourceArray": [
+          "Shop_003_01",
+          "Shop_003_02",
+          "Shop_003_03"
+        ]
+      },
+      "food_material_0014": {
+        "SourceArray": [
+          "Shop_003_01",
+          "Shop_003_02",
+          "Shop_003_03"
+        ]
+      },
+      "food_material_0015": {
+        "SourceArray": [
+          "Shop_004_01",
+          "Shop_004_02",
+          "Shop_004_03"
+        ]
+      },
+      "food_material_0016": {
+        "SourceArray": [
+          "Shop_004_01",
+          "Shop_004_02"
+        ]
+      },
+      "food_material_0017": {
+        "SourceArray": [
+          "Shop_004_01",
+          "Shop_004_02",
+          "Shop_004_03"
+        ]
+      },
+      "food_material_0018": {
+        "SourceArray": [
+          "Shop_004_01",
+          "Shop_004_03"
+        ]
+      },
+      "food_material_0019": {
+        "SourceArray": [
+          "Shop_005_01",
+          "Shop_005_02"
+        ]
+      },
+      "food_material_0020": {
+        "SourceArray": [
+          "Shop_005_01"
+        ]
+      },
+      "food_material_0021": {
+        "SourceArray": [
+          "Shop_005_02",
+          "Shop_005_03"
+        ]
+      },
+      "food_material_0022": {
+        "SourceArray": [
+          "Shop_005_01",
+          "Shop_005_03"
+        ]
+      },
+      "food_material_0023": {
+        "SourceArray": [
+          "Shop_005_02",
+          "Shop_005_03"
+        ]
+      },
+      "food_material_0024": {
+        "SourceArray": [
+          "Shop_007_01",
+          "Shop_007_02",
+          "Shop_007_03"
+        ]
+      },
+      "food_material_0025": {
+        "SourceArray": [
+          "Shop_007_01",
+          "Shop_007_02",
+          "Shop_007_03"
+        ]
+      },
+      "food_material_0027": {
+        "SourceArray": [
+          "Shop_007_02"
+        ]
+      },
+      "food_material_0028": {
+        "SourceArray": [
+          "Shop_007_01"
+        ]
+      },
+      "food_material_0029": {
+        "SourceArray": [
+          "Shop_007_02",
+          "Shop_007_03"
+        ]
+      },
+      "food_material_0030": {
+        "SourceArray": [
+          "Shop_007_01",
+          "Shop_007_03"
+        ]
+      },
+      "food_material_0031": {
+        "SourceArray": [
+          "Shop_007_02"
+        ]
+      },
+      "food_material_0032": {
+        "SourceArray": [
+          "Shop_007_01",
+          "Shop_007_02",
+          "Shop_007_03"
+        ]
+      },
+      "food_material_0033": {
+        "SourceArray": [
+          "Shop_007_01",
+          "Shop_007_03"
+        ]
+      },
+      "food_material_0034": {
+        "SourceArray": [
+          "Shop_007_01",
+          "Shop_007_02",
+          "Shop_007_03"
+        ]
+      },
+      "food_material_0035": {
+        "SourceArray": [
+          "Shop_003_01",
+          "Shop_003_02",
+          "Shop_003_03"
+        ]
+      },
+      "food_material_0036": {
+        "SourceArray": [
+          "Shop_008_01",
+          "Shop_008_02"
+        ]
+      },
+      "food_material_0037": {
+        "SourceArray": [
+          "Shop_008_02"
+        ]
+      },
+      "food_material_0038": {
+        "SourceArray": [
+          "Shop_008_01"
+        ]
+      },
+      "Characterawaken_player": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "Characterawaken_Mint": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "Characterawaken_Sagiri": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "Characterawaken_Nanally": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "Characterawaken_dafudier": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "Characterawaken_Adler": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "Characterawaken_skia": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "Characterawaken_lacrimosa": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "Characterawaken_fadia": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterCard_1003": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterCard_1004": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterCard_1008": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterCard_1010": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterCard_1019": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterCard_1033": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterCard_1039": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterCard_1023": {
+        "SourceArray": [
+          "character_shop"
+        ]
+      },
+      "CharacterUpMaterial_lv1": {
+        "SourceArray": [
+          "quest_drop",
+          "clone_exp"
+        ]
+      },
+      "CharacterUpMaterial_lv2": {
+        "SourceArray": [
+          "quest_drop",
+          "clone_exp"
+        ]
+      },
+      "CharacterUpMaterial_lv3": {
+        "SourceArray": [
+          "quest_drop",
+          "clone_exp"
+        ]
+      },
+      "EquipmentUpMaterial_lv1": {
+        "SourceArray": [
+          "clone_equipment_001",
+          "clone_equipment_002",
+          "clone_equipment_003"
+        ]
+      },
+      "EquipmentUpMaterial_lv2": {
+        "SourceArray": [
+          "clone_equipment_001",
+          "clone_equipment_002",
+          "clone_equipment_003"
+        ]
+      },
+      "EquipmentUpMaterial_lv3": {
+        "SourceArray": [
+          "clone_equipment_001",
+          "clone_equipment_002",
+          "clone_equipment_003"
+        ]
+      },
+      "OrdinaryMonMaterial_01_lv1": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_01_lv2": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_01_lv3": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_02_lv1": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_02_lv2": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_02_lv3": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_03_lv1": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_03_lv2": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_03_lv3": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_04_lv1": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_04_lv2": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "OrdinaryMonMaterial_04_lv3": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "Worldboss_material_01": {
+        "SourceArray": [
+          "worldboss_01_drop"
+        ]
+      },
+      "Worldboss_material_02": {
+        "SourceArray": [
+          "worldboss_02_drop"
+        ]
+      },
+      "SkillUpMaterial_01_lv1": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "SkillUpMaterial_01_lv2": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "SkillUpMaterial_01_lv3": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "SkillUpMaterial_02_lv1": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "SkillUpMaterial_02_lv2": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "SkillUpMaterial_02_lv3": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "WeaponBreakMaterial_01_lv1": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "WeaponBreakMaterial_01_lv2": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "WeaponBreakMaterial_01_lv3": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "WeaponBreakMaterial_02_lv1": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "WeaponBreakMaterial_02_lv2": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "WeaponBreakMaterial_02_lv3": {
+        "SourceArray": [
+          "clone_drop"
+        ]
+      },
+      "WeaponUpMaterial_lv1": {
+        "SourceArray": [
+          "clone_drop",
+          "quest_drop"
+        ]
+      },
+      "WeaponUpMaterial_lv2": {
+        "SourceArray": [
+          "clone_drop",
+          "quest_drop"
+        ]
+      },
+      "WeaponUpMaterial_lv3": {
+        "SourceArray": [
+          "clone_drop",
+          "quest_drop"
+        ]
+      },
+      "Ob-00NE": {
+        "SourceArray": [
+          "monster_drop"
+        ]
+      },
+      "Stickers_quest_001": {
+        "SourceArray": [
+          "quest_drop"
+        ]
+      },
+      "Stickers_quest_002": {
+        "SourceArray": [
+          "quest_drop"
+        ]
+      },
+      "Stickers_quest_003": {
+        "SourceArray": [
+          "quest_drop"
+        ]
+      },
+      "Universal_stickers": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Universal_avatar1": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Universal_frame": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Universal_namecard": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Universal_avatar2": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1003_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_Aobuli": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_H_NPC_03404": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1023_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1029_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1010_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_Tajiduo_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1019_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_Tajiduo_1": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1019_1": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1023_1": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1033_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1003_1": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1005_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1021_0": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1029_1": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_1010_1": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeprice_Tajiduo_2": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_1033": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_1003": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_1005": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_1021": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_1029": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_1023": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_Tajiduo": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_1010": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_Aobuli": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Likeability_H_NPC_03404": {
+        "SourceArray": [
+          "Likeprice"
+        ]
+      },
+      "Food_099": {
+        "SourceArray": [
+          "VendingMachine_005_01",
+          "Shop_008_01",
+          "Shop_008_02"
+        ]
+      }
+    }
+  }
+]

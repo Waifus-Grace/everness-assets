@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ShowCaseSerialText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ShowCaseSerialText'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "SerialText": {
+          "CultureInvariantString": "1111111111111111111"
+        }
+      },
+      "2": {
+        "SerialText": {
+          "CultureInvariantString": "2222222222222222222"
+        }
+      }
+    }
+  }
+]

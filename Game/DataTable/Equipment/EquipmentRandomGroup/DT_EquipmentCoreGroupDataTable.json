@@ -1,0 +1,400 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_EquipmentCoreGroupDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'EquipmentCoreGroupStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "grid1_HPMaxUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid1_HPMaxUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_HPMaxUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid2_HPMaxUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_HPMaxUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid3_HPMaxUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_HPMaxUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid4_HPMaxUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_HPMaxUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid1_HPMaxUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_HPMaxUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid2_HPMaxUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_HPMaxUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid3_HPMaxUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_HPMaxUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid4_HPMaxUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_HPMaxUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid1_HPMaxUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_HPMaxUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid2_HPMaxUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_HPMaxUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid3_HPMaxUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_HPMaxUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid4_HPMaxUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_AtkUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid1_AtkUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_AtkUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid2_AtkUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_AtkUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid3_AtkUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_AtkUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid4_AtkUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_AtkUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid1_AtkUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_AtkUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid2_AtkUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_AtkUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid3_AtkUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_AtkUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid4_AtkUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_AtkUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid1_AtkUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_AtkUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid2_AtkUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_AtkUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid3_AtkUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_AtkUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid4_AtkUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_DefUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid1_DefUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_DefUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid2_DefUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_DefUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid3_DefUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_DefUp_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid4_DefUp_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_DefUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid1_DefUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_DefUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid2_DefUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_DefUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid3_DefUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_DefUp_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid4_DefUp_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_DefUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid1_DefUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_DefUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid2_DefUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_DefUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid3_DefUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_DefUp_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid4_DefUp_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_CritBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid1_CritBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_CritBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid2_CritBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_CritBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid3_CritBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_CritBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid4_CritBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_CritBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid1_CritBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_CritBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid2_CritBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_CritBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid3_CritBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_CritBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid4_CritBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_CritBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid1_CritBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_CritBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid2_CritBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_CritBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid3_CritBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_CritBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid4_CritBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_CritDamageBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid1_CritDamageBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_CritDamageBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid2_CritDamageBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_CritDamageBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid3_CritDamageBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_CritDamageBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid4_CritDamageBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_CritDamageBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid1_CritDamageBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_CritDamageBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid2_CritDamageBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_CritDamageBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid3_CritDamageBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_CritDamageBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid4_CritDamageBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_CritDamageBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid1_CritDamageBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_CritDamageBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid2_CritDamageBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_CritDamageBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid3_CritDamageBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_CritDamageBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid4_CritDamageBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_MagBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid1_MagBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_MagBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid2_MagBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_MagBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid3_MagBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_MagBase_Core_ITEM_QUALITY_BLUE": {
+        "CiTiaoID1": "grid4_MagBase_Core_ITEM_QUALITY_BLUE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_MagBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid1_MagBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_MagBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid2_MagBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_MagBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid3_MagBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_MagBase_Core_ITEM_QUALITY_PURPLE": {
+        "CiTiaoID1": "grid4_MagBase_Core_ITEM_QUALITY_PURPLE",
+        "CiTiaoID2": "grid4_Count"
+      },
+      "grid1_MagBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid1_MagBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid1_Count"
+      },
+      "grid2_MagBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid2_MagBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid2_Count"
+      },
+      "grid3_MagBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid3_MagBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid3_Count"
+      },
+      "grid4_MagBase_Core_ITEM_QUALITY_ORANGE": {
+        "CiTiaoID1": "grid4_MagBase_Core_ITEM_QUALITY_ORANGE",
+        "CiTiaoID2": "grid4_Count"
+      }
+    }
+  }
+]

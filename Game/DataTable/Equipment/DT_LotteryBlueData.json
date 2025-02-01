@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LotteryBlueData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'EquipmentLotteryBlueData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_One",
+        "Weight": 10
+      },
+      "2": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Hen2",
+        "Weight": 10
+      },
+      "3": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Shu2",
+        "Weight": 10
+      },
+      "4": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Hen3",
+        "Weight": 10
+      },
+      "5": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Shu3",
+        "Weight": 10
+      },
+      "6": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Hen4",
+        "Weight": 10
+      },
+      "7": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Shu4",
+        "Weight": 10
+      },
+      "8": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_ZhiJiao1",
+        "Weight": 10
+      },
+      "9": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_ZhiJiao2",
+        "Weight": 10
+      },
+      "10": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_ZhiJiao3",
+        "Weight": 10
+      },
+      "11": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_ZhiJiao4",
+        "Weight": 10
+      },
+      "12": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Z1",
+        "Weight": 10
+      },
+      "13": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Z2",
+        "Weight": 10
+      },
+      "14": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Z3",
+        "Weight": 10
+      },
+      "15": {
+        "GeometryType": "EEquipmentGeometryType::EquipmentGeometry_Z4",
+        "Weight": 10
+      }
+    }
+  }
+]

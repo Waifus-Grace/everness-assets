@@ -1,0 +1,473 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LevelConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LevelConfigData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Login_P": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CREATE_ROLE",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "XL_map_bigworld_test": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": true
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [
+          "FilmOrbit_To_BigWorld",
+          "Hotel_To_BigWorld",
+          "FilmOrbit_World_To_BigWorld"
+        ]
+      },
+      "DLC_Castle_Demo": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": true,
+          "bEnableTrackTeammate": true
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "TestMap_yaoql": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "DLC_FilmOrbit_map_WP": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+        "Title": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_FilmOrbit_map_Title",
+          "SourceString": "「菲林轨迹」照相馆",
+          "LocalizedString": "「菲林轨迹」照相馆"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_FilmOrbit_map_Title",
+          "SourceString": "「菲林轨迹」照相馆",
+          "LocalizedString": "「菲林轨迹」照相馆"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": true,
+          "bEnableTrackTeammate": true
+        },
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [
+          "BigWorld_To_FilmOrbit"
+        ]
+      },
+      "DLC_hotel": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+        "Title": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_hotel",
+          "SourceString": "「卡佩」大酒店",
+          "LocalizedString": "「卡佩」大酒店"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_hotel",
+          "SourceString": "「卡佩」大酒店",
+          "LocalizedString": "「卡佩」大酒店"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": true,
+          "bEnableTrackTeammate": true
+        },
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [
+          "BigWorld_To_Hotel"
+        ]
+      },
+      "testwyan": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [
+          "Entrance_1",
+          "Entrance_2"
+        ]
+      },
+      "DLC_Hockshop": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+        "Title": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Hockshop_Name",
+          "SourceString": "月光当铺",
+          "LocalizedString": "月光当铺"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Hockshop_Introduce",
+          "SourceString": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。",
+          "LocalizedString": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": true,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [
+          "DLC_Hockshop"
+        ]
+      },
+      "Zhuqing_level": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "Testmap_liuyang": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "DLC_Battle_WP": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "DLC_Battle_WP1": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "DLC_Battle_WP2": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "DLC_Battle_WP3": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "Updater_P": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_UPDATER",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "MassAI_wtao": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "Testmap_cc2": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      },
+      "FilmOrbit_map_WP_World": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_FilmOrbit_map_Title",
+          "SourceString": "「菲林轨迹」照相馆",
+          "LocalizedString": "「菲林轨迹」照相馆"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_FilmOrbit_map_Title",
+          "SourceString": "「菲林轨迹」照相馆",
+          "LocalizedString": "「菲林轨迹」照相馆"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": true,
+          "bEnableTrackTeammate": true
+        },
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [
+          "BigWorld_To_FilmOrbit_World"
+        ]
+      },
+      "DLC_Hockshop_week": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      }
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Level",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_Level",
+      "KeysToEntries": {
+        "DLC_home_Title": "伊波恩古董店",
+        "DLC_FilmOrbit_map_Title": "「菲林轨迹」照相馆",
+        "DLC_hotel": "「卡佩」大酒店"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

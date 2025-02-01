@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_TaskMsg",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_TaskMsg",
+      "KeysToEntries": {
+        "L110035_p3": "借助<blue>腐蚀性花苞</>摧毁藤蔓",
+        "L110012": "考虑到委托人的需求是扩大搜索面，便如实告知了白藏委托的内容……",
+        "L110025": "前方区域暂未开放"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

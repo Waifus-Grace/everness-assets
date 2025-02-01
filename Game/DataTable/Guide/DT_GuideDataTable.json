@@ -1,0 +1,357 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GuideDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'HTGuideData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Guide20002": {
+        "GuideAnnottation": "（画框世界）闪避反击- 闪避",
+        "bForceGuide": true,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": [
+            "dodge"
+          ]
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10005": {
+        "GuideAnnottation": "（管理局）光标",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10006": {
+        "GuideAnnottation": "（画框世界）切换角色-薄荷",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [
+            "Guide100061"
+          ],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide100061": {
+        "GuideAnnottation": "（画框世界）切换角色-主角",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [
+            "Guide10006"
+          ],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10007": {
+        "GuideAnnottation": "（小怪战斗2）环合系数",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide20001": {
+        "GuideAnnottation": "（小怪战斗2）QTE薄荷",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [
+            "Guide200011"
+          ],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": [
+            "combination"
+          ]
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                null
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ]
+      },
+      "Guide200011": {
+        "GuideAnnottation": "（小怪战斗2）QTE主角",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [
+            "Guide20001"
+          ],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": [
+            "combination"
+          ]
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                null
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ]
+      },
+      "Guide10008": {
+        "GuideAnnottation": "（画框BOSS）倾陷条",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10011": {
+        "GuideAnnottation": "弧盘-装配",
+        "bForceGuide": true,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10012": {
+        "GuideAnnottation": "维特海默塔-解锁",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null,
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10013": {
+        "GuideAnnottation": "角色升级",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null,
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10014": {
+        "GuideAnnottation": "羁遇-解锁",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null,
+            null,
+            null
+          ],
+          "TeachGuideIDs": [
+            "None"
+          ]
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10015": {
+        "GuideAnnottation": "编队-上阵",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10016": {
+        "GuideAnnottation": "异能",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null,
+            null,
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10017": {
+        "GuideAnnottation": "空幕-装配",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10018": {
+        "GuideAnnottation": "店铺-购买",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10019": {
+        "GuideAnnottation": "店铺-购买成功",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10020": {
+        "GuideAnnottation": "咖啡店-购买",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide100201": {
+        "GuideAnnottation": "咖啡店-经营",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10021": {
+        "GuideAnnottation": "快捷使用",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10022": {
+        "GuideAnnottation": "扭蛋机",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10023": {
+        "GuideAnnottation": "房产-购买",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10024": {
+        "GuideAnnottation": "房产-购买成功",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      },
+      "Guide10025": {
+        "GuideAnnottation": "房产-装修",
+        "bForceGuide": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            null
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": []
+      }
+    }
+  }
+]

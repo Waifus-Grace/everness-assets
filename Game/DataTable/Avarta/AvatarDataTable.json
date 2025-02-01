@@ -1,0 +1,695 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AvatarDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'HTAvatarConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_002",
+          "SourceString": "默认头像",
+          "LocalizedString": "默认头像"
+        },
+        "bIsDefault": true,
+        "bAutoUnlock": true,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_003",
+          "SourceString": "默认获得",
+          "LocalizedString": "默认获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_003",
+          "SourceString": "默认获得",
+          "LocalizedString": "默认获得"
+        }
+      },
+      "2": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_002",
+          "SourceString": "默认头像",
+          "LocalizedString": "默认头像"
+        },
+        "bIsDefault": true,
+        "bAutoUnlock": true,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_002",
+          "SourceString": "默认头像",
+          "LocalizedString": "默认头像"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_003",
+          "SourceString": "默认获得",
+          "LocalizedString": "默认获得"
+        }
+      },
+      "1001": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "3D"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "初始获得"
+        }
+      },
+      "1003": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003",
+          "SourceString": "早雾",
+          "LocalizedString": "早雾"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        }
+      },
+      "1004": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_004",
+          "SourceString": "安魂曲",
+          "LocalizedString": "安魂曲"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004.player_004",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004.player_004",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        }
+      },
+      "1005": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "6D"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "初始获得"
+        }
+      },
+      "1007": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "6D"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "初始获得"
+        }
+      },
+      "1008": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_008",
+          "SourceString": "翳",
+          "LocalizedString": "翳"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        }
+      },
+      "1009": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "6D"
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": "初始获得"
+        }
+      },
+      "1010": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_010",
+          "SourceString": "娜娜莉",
+          "LocalizedString": "娜娜莉"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010.player_010",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010.player_010",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        }
+      },
+      "1014": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1016": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1017": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1018": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1019": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_019",
+          "SourceString": "薄荷",
+          "LocalizedString": "薄荷"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        }
+      },
+      "1020": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1021": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1024": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1026": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1029": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1033": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_033",
+          "SourceString": "阿德勒",
+          "LocalizedString": "阿德勒"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        }
+      },
+      "1667": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1666": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1669": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1670": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": true,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "UnlockDescription": {
+          "CultureInvariantString": null
+        }
+      },
+      "1039": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_039",
+          "SourceString": "法帝娅",
+          "LocalizedString": "法帝娅"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Male",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "解锁角色获得"
+        }
+      }
+    }
+  }
+]

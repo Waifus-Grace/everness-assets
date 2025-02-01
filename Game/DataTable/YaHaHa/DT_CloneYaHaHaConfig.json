@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CloneYaHaHaConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'YaHaHaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Yahahaliyuqi": {
+        "Index": 6400,
+        "YahahaId": "Yahaha6400",
+        "TableName": "None",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": -133249.0,
+          "Y": 176581.0,
+          "Z": 9832.0
+        },
+        "Range": 8000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "YahahaScreen1": {
+        "Index": 6401,
+        "YahahaId": "Yahaha6401",
+        "TableName": "None",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": -117768.0,
+          "Y": 171097.0,
+          "Z": 11685.0
+        },
+        "Range": 8000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "YahahaScreen2": {
+        "Index": 6402,
+        "YahahaId": "Yahaha6402",
+        "TableName": "None",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": -173453.0,
+          "Y": 118980.0,
+          "Z": 10862.0
+        },
+        "Range": 8000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      }
+    }
+  }
+]

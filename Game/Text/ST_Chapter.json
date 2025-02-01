@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Chapter",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_Chapter",
+      "KeysToEntries": {
+        "MP01": "不虞亦先兆",
+        "MP02": "生意经与招财宝",
+        "MU01": "「写作『既定』的谜面」",
+        "MU01_01": "月光当铺",
+        "MU01_02": "从捏造开始的恋爱大作战",
+        "SU001": "我们！意念！合一！",
+        "SU002": "魔法传送装置？「神」隐绵绵！",
+        "SU003": "幽灵列车的好乘客指南",
+        "SU006": "突发性暴雨预警",
+        "SU005": "无名的音乐收藏家",
+        "SU004": "超变身~嘿嘿咯咯！",
+        "SU007": "眼不见为实",
+        "SU008": "冒犯与艺术，一墙之隔",
+        "MP01_des": "序章-上",
+        "MP02_des": "序章-下",
+        "MU01_01_des": "「写作『既定』的谜面」",
+        "MU01_02_des": "「写作『既定』的谜面」",
+        "LC01": "不言不知秋",
+        "LC01_des": "番外 白藏",
+        "SU009": "「苦蛋糕」与「贪吃鬼」"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

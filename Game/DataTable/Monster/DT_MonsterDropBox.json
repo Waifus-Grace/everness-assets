@@ -1,0 +1,214 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MonsterDropBox",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MonsterDropBoxData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Boss_07_BP_WorldBoss": {
+        "AISpawnManagerGuid": "59885CC54049E803097D6C93AD8CDC15",
+        "MonsterStartTransform": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.9396926,
+            "W": 0.34202015,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -161187.14,
+            "Y": 174563.3,
+            "Z": 8634.444
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "DropBoxTemplate": {
+          "AssetPathName": "/Game/Blueprints/Level/World/Common/TreasureBox/WorldBoss/BP_WorldBossDropBox.BP_WorldBossDropBox_C",
+          "SubPathString": ""
+        },
+        "BoxStartTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -161187.14,
+            "Y": 174563.3,
+            "Z": 8360.388
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MonsterDropID": "drop_worldboss_a01",
+        "MonsterRefreshTime": 180,
+        "Des": {
+          "CultureInvariantString": null
+        },
+        "ConsumeStaminaCount": 20,
+        "IsReceiveLimit": false,
+        "ReceiveCount": 6,
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BossName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "boss_07_Name",
+          "SourceString": "塞润尼缇",
+          "LocalizedString": "塞润尼缇"
+        },
+        "ContentDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "UI_MonsterDropBoxMapDetails_FlowerBGKDes",
+          "SourceString": "囿于言语的庭园主，也因言语得获解脱。\r\n「叱骂反调，化为寂然无声。一言之庭。」",
+          "LocalizedString": "囿于言语的庭园主，也因言语得获解脱。\r\n「叱骂反调，化为寂然无声。一言之庭。」"
+        },
+        "BelongLevelName": "XL_map_bigworld_test",
+        "MiniMapKeyWorld": "WorldBoss_007",
+        "UnlockLevel": 0,
+        "VisionID": "None",
+        "QuestId": "L110052",
+        "EnterTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -161187.14,
+            "Y": 174563.3,
+            "Z": 8634.444
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "boss_13_BP_WorldBoss": {
+        "AISpawnManagerGuid": "E599B5944A931B295773EF8B38A1CA71",
+        "MonsterStartTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.9659258,
+            "W": 0.25881904,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": -155320.0,
+            "Y": 220860.0,
+            "Z": -15980.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "DropBoxTemplate": {
+          "AssetPathName": "/Game/Blueprints/Level/World/Common/TreasureBox/WorldBoss/BP_WorldBossDropBox_Transfer.BP_WorldBossDropBox_Transfer_C",
+          "SubPathString": ""
+        },
+        "BoxStartTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -153886.97,
+            "Y": 222895.25,
+            "Z": -16080.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MonsterDropID": "drop_worldboss_a01",
+        "MonsterRefreshTime": 180,
+        "Des": {
+          "CultureInvariantString": null
+        },
+        "ConsumeStaminaCount": 20,
+        "IsReceiveLimit": false,
+        "ReceiveCount": 6,
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BossName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "boss_13_Name",
+          "SourceString": "无首铁驭",
+          "LocalizedString": "无首铁驭"
+        },
+        "ContentDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_MonsterDropBox_MotoBKGdes",
+          "SourceString": "传说在午夜城市街头，用力地踩下油门，在轰鸣声中便能看见身骑蓝火机车的无首骑士，加入一场只有输者的追逐战。\r\n「刺骨的蓝火会燃尽一切热血。」",
+          "LocalizedString": "传说在午夜城市街头，用力地踩下油门，在轰鸣声中便能看见身骑蓝火机车的无首骑士，加入一场只有输者的追逐战。\r\n「刺骨的蓝火会燃尽一切热血。」"
+        },
+        "BelongLevelName": "XL_map_bigworld_test",
+        "MiniMapKeyWorld": "WorldBoss_013",
+        "UnlockLevel": 0,
+        "VisionID": "Vision_MotoBoss_01",
+        "QuestId": "None",
+        "EnterTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -157915.0,
+            "Y": 227860.0,
+            "Z": 7218.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      }
+    }
+  }
+]

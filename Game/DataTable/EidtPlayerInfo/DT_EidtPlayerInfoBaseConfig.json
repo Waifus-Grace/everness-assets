@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_EidtPlayerInfoBaseConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'EidtPlayerInfoBaseConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "DefaultHeadIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SignLimit": 50,
+        "PlayerShowNum": 8,
+        "MedalShowNum": 4,
+        "ChangeNameCoolDown": 7200
+      }
+    }
+  }
+]

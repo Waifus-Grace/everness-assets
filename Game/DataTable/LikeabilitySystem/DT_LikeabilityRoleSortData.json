@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LikeabilityRoleSortData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LikeabilityRoleSortData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "NameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "RoleSort_01",
+          "SourceString": "异象管理局",
+          "LocalizedString": "异象管理局"
+        },
+        "SortLevel": 1,
+        "MapID": "None",
+        "SortMaterial": {
+          "AssetPathName": "/Game/Movies/UI_HD/MI_Movie_BG03.MI_Movie_BG03",
+          "SubPathString": ""
+        }
+      },
+      "2": {
+        "NameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "RoleSort_02",
+          "SourceString": "伊波恩",
+          "LocalizedString": "伊波恩"
+        },
+        "SortLevel": 2,
+        "MapID": "None",
+        "SortMaterial": {
+          "AssetPathName": "/Game/Movies/UI_HD/MI_Movie_BG03_Inst.MI_Movie_BG03_Inst",
+          "SubPathString": ""
+        }
+      },
+      "3": {
+        "NameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "RoleSort_03",
+          "SourceString": "桥间地",
+          "LocalizedString": "桥间地"
+        },
+        "SortLevel": 99,
+        "MapID": "XL_map_bigworld_test",
+        "SortMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MainReviewQuestData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MainReviewQuestData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "UnlockQuestId": "q110002",
+        "Section": {
+          "Namespace": "",
+          "Key": "D583B91546235C5AB40783B83493BB92",
+          "SourceString": "第一章节",
+          "LocalizedString": "第一章节"
+        },
+        "TitleDes": {
+          "Namespace": "",
+          "Key": "2D9A3DBA474383BED0FE41B4301D5898",
+          "SourceString": "无敌1",
+          "LocalizedString": "无敌1"
+        },
+        "PlotDes": {
+          "Namespace": "",
+          "Key": "B3C90EBC41B04410E1629DAB18722BE9",
+          "SourceString": "这个股市的码数的那，是你的，骂死你，什么，啊，啊，你们，按时的吗，按什么的那，msnd",
+          "LocalizedString": "这个股市的码数的那，是你的，骂死你，什么，啊，啊，你们，按时的吗，按什么的那，msnd"
+        },
+        "SectionImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ImageIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YH_PlotReview_PrincipalLine_Button_Select_images_01.UI_YH_PlotReview_PrincipalLine_Button_Select_images_01",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_0": {
+        "UnlockQuestId": "q110003",
+        "Section": {
+          "Namespace": "",
+          "Key": "E5E96BD7463387F926420A820B66DC8A",
+          "SourceString": "第2章节",
+          "LocalizedString": "第2章节"
+        },
+        "TitleDes": {
+          "Namespace": "",
+          "Key": "01076D724C523D3B294D6F8F00263A9F",
+          "SourceString": "无敌2",
+          "LocalizedString": "无敌2"
+        },
+        "PlotDes": {
+          "Namespace": "",
+          "Key": "8E58F9AC43255AE072AC8DB096AD7303",
+          "SourceString": "vc虚心地方萨达萨达阿松大是发的自行车v下阿萨大撒大撒阿萨时代SaaS大苏打是撒旦阿松大撒旦阿松大",
+          "LocalizedString": "vc虚心地方萨达萨达阿松大是发的自行车v下阿萨大撒大撒阿萨时代SaaS大苏打是撒旦阿松大撒旦阿松大"
+        },
+        "SectionImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ImageIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YH_PlotReview_PrincipalLine_Button_Select_images_01.UI_YH_PlotReview_PrincipalLine_Button_Select_images_01",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_1": {
+        "UnlockQuestId": "q110004",
+        "Section": {
+          "Namespace": "",
+          "Key": "26F10DD845E191B18551249907CCB898",
+          "SourceString": "第3章节",
+          "LocalizedString": "第3章节"
+        },
+        "TitleDes": {
+          "Namespace": "",
+          "Key": "5E9E77C247688BD80D2EB7AEC188E7AA",
+          "SourceString": "无敌3",
+          "LocalizedString": "无敌3"
+        },
+        "PlotDes": {
+          "Namespace": "",
+          "Key": "8CE8E2F449FBEFE215693D86FB92CC85",
+          "SourceString": "都是当时第三者出现持续房东法国的撒旦大神需现场vx现场v",
+          "LocalizedString": "都是当时第三者出现持续房东法国的撒旦大神需现场vx现场v"
+        },
+        "SectionImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ImageIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YH_PlotReview_PrincipalLine_Button_Select_images_01.UI_YH_PlotReview_PrincipalLine_Button_Select_images_01",
+          "SubPathString": ""
+        }
+      },
+      "NewRow_2": {
+        "UnlockQuestId": "q110005",
+        "Section": {
+          "Namespace": "",
+          "Key": "65B0C29A42756A8358D0C39FF466A92F",
+          "SourceString": "第4章节",
+          "LocalizedString": "第4章节"
+        },
+        "TitleDes": {
+          "Namespace": "",
+          "Key": "C3D399B242726A8921754F8EBCF68F85",
+          "SourceString": "无敌4",
+          "LocalizedString": "无敌4"
+        },
+        "PlotDes": {
+          "Namespace": "",
+          "Key": "6B08E5FF4559DF81F9D7629CA1525DD6",
+          "SourceString": "从v撒大苏打实打实大苏打阿松大阿松大啊实打实的中心城中心出租车学术大师大苏打阿松大",
+          "LocalizedString": "从v撒大苏打实打实大苏打阿松大阿松大啊实打实的中心城中心出租车学术大师大苏打阿松大"
+        },
+        "SectionImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ImageIcon": {
+          "AssetPathName": "/Game/UI/UI/Quest/ReviewQuest/UI_YH_PlotReview_PrincipalLine_Button_Select_images_01.UI_YH_PlotReview_PrincipalLine_Button_Select_images_01",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

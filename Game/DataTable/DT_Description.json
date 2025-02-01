@@ -1,0 +1,1158 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Description",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'DescriptionData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "test_1": {
+        "UIClass": "Description",
+        "Comment": "",
+        "Title": {
+          "Namespace": "",
+          "Key": "8A128B1541E827950C8CF18AF4293C5A",
+          "SourceString": "测试文本",
+          "LocalizedString": "测试文本"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "test_2": {
+        "UIClass": "Description_Right",
+        "Comment": "",
+        "Title": {
+          "Namespace": "",
+          "Key": "076BF3644E1AD77A338F03A5720BBC10",
+          "SourceString": "一个宝物",
+          "LocalizedString": "一个宝物"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "test_3": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "test_4": {
+        "UIClass": "Letter_Black",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 2.0
+      },
+      "test_5": {
+        "UIClass": "Shout",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 2.0
+      },
+      "q110111_A": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP01_01_0001_title",
+          "SourceString": "《工作随记》",
+          "LocalizedString": "《工作随记》"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "q110111_B": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "Namespace": "",
+          "Key": "24CAD0B744EAFE95B3BF34BB1E8EF766",
+          "SourceString": "物件交互",
+          "LocalizedString": "物件交互"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "q110111_C": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP01_01_0009_title",
+          "SourceString": "一些书籍",
+          "LocalizedString": "一些书籍"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "q110111_D": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP01_01_0013_title",
+          "SourceString": "纪念品伴手礼",
+          "LocalizedString": "纪念品伴手礼"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q110071": {
+        "UIClass": "Letter",
+        "Comment": "照相馆异象公告",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q110072_1_A": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP00_01_0002_title",
+          "SourceString": "「菲林轨迹」套餐说明",
+          "LocalizedString": "「菲林轨迹」套餐说明"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q110072_1_B": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP00_01_0001_title",
+          "SourceString": "Prism70000K！",
+          "LocalizedString": "Prism70000K！"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q110072_2_A": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP00_01_0006_title",
+          "SourceString": "顾客档案",
+          "LocalizedString": "顾客档案"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q110072_2_B": {
+        "UIClass": "Letter",
+        "Comment": "员工A接待员日志",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q110072_2_C": {
+        "UIClass": "Letter",
+        "Comment": "员工AE聊天记录",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q110073_A": {
+        "UIClass": "Letter",
+        "Comment": "化妆师的备忘录",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q1100751_A": {
+        "UIClass": "Letter",
+        "Comment": "老员工B日志",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q1100751_B": {
+        "UIClass": "Letter",
+        "Comment": "老员工C日志",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q1100752_A": {
+        "UIClass": "Letter",
+        "Comment": "员工CD聊天记录",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q1100756_A": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP00_01_0015_title",
+          "SourceString": "「菲林轨迹」进货单",
+          "LocalizedString": "「菲林轨迹」进货单"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q1100753_A": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP00_01_0013_title",
+          "SourceString": "「菲林轨迹」日程表",
+          "LocalizedString": "「菲林轨迹」日程表"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_FilmOrbit_q1100753_photo_1": {
+        "UIClass": "Description_Photo",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "test_Timeline": {
+        "UIClass": "Description_Right",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": "异象【放映百分百】"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Prologue_Eibon_sleep_q110057": {
+        "UIClass": "Letter_Black",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "q110126_A": {
+        "UIClass": "Description",
+        "Comment": "",
+        "Title": {
+          "Namespace": "",
+          "Key": "811F314B4AFDCBF1FD445FBCE7FA1AD3",
+          "SourceString": "一张照片",
+          "LocalizedString": "一张照片"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_301": {
+        "UIClass": "HTCharacterInfoMenu",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Common_Menu_002_interact_002",
+          "SourceString": "每日推荐\r\n",
+          "LocalizedString": "每日推荐\r\n"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_302": {
+        "UIClass": "HTCharacterInfoMenu",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Common_Menu_002_interact_001",
+          "SourceString": "今日菜单\r\n",
+          "LocalizedString": "今日菜单\r\n"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_303": {
+        "UIClass": "HTCharacterInfoMenu",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Common_Menu_002_interact_001",
+          "SourceString": "今日菜单\r\n",
+          "LocalizedString": "今日菜单\r\n"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_304": {
+        "UIClass": "HTCharacterInfoMenu",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Common_Menu_002_interact_002",
+          "SourceString": "每日推荐\r\n",
+          "LocalizedString": "每日推荐\r\n"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_305": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Common_Menu_002_interact_002",
+          "SourceString": "每日推荐\r\n",
+          "LocalizedString": "每日推荐\r\n"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_306": {
+        "UIClass": "HTCharacterInfoMenu",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Common_Menu_002_interact_002",
+          "SourceString": "每日推荐\r\n",
+          "LocalizedString": "每日推荐\r\n"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_001": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_002": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_003": {
+        "UIClass": "HTCharacterInfoMenu",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Common_Menu_002_interact_002",
+          "SourceString": "每日推荐\r\n",
+          "LocalizedString": "每日推荐\r\n"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_004": {
+        "UIClass": "HTCharacterInfoMenu",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Common_Menu_002_interact_002",
+          "SourceString": "每日推荐\r\n",
+          "LocalizedString": "每日推荐\r\n"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_007": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_008": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_009": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_012": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_013": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_City_A_banjiaojie_bookstore_012_interact_002",
+          "SourceString": "《废柴行动》",
+          "LocalizedString": "《废柴行动》"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_014": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_City_A_banjiaojie_bookstore_012_interact_004",
+          "SourceString": "《公爵K》",
+          "LocalizedString": "《公爵K》"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_015": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_City_A_banjiaojie_bookstore_012_interact_006",
+          "SourceString": "《兰克街的侦探们》",
+          "LocalizedString": "《兰克街的侦探们》"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_016": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_City_A_banjiaojie_bookstore_012_interact_008",
+          "SourceString": "《阿彻斯特拉如是说》",
+          "LocalizedString": "《阿彻斯特拉如是说》"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_017": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_City_A_banjiaojie_bookstore_012_interact_010",
+          "SourceString": "《银色杂货铺》",
+          "LocalizedString": "《银色杂货铺》"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_018": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_019": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_City_A_banjiaojie_yiboen_013_interact_002",
+          "SourceString": "伊波恩古董店交易须知",
+          "LocalizedString": "伊波恩古董店交易须知"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_020": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_City_A_banjiaojie_yiboen_014_interact_002",
+          "SourceString": "伊波恩古董店委托协议",
+          "LocalizedString": "伊波恩古董店委托协议"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_021": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_022": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Trinity_Trinity_007_interact_002",
+          "SourceString": "异象管理局安全手册",
+          "LocalizedString": "异象管理局安全手册"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_023": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_024": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_025": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_026": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_027": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "AM_Trinity_Trinity_024_interact_002",
+          "SourceString": "异象管理局新收容安全条例",
+          "LocalizedString": "异象管理局新收容安全条例"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_028": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_029": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_030": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_031": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Interact_Box_simple_032": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "L110006_1": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "L110006_2": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "L110029_1": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "L110029_2": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "L110030": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "K110325": {
+        "UIClass": "Letter_Black",
+        "Comment": "任务团三郎战斗结束黑屏",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 2.0
+      },
+      "K110321_3": {
+        "UIClass": "Letter_Black",
+        "Comment": "三次交互后黑屏",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 1.0
+      },
+      "K110321": {
+        "UIClass": "Letter_Black",
+        "Comment": "奥尔跳崖黑屏",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 2.0
+      },
+      "S110501": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "棉绒绒便利店公告",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "Minimart_01_title",
+          "SourceString": "公告",
+          "LocalizedString": "公告"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "HockShop_Interact_1": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP_01_0014_title",
+          "SourceString": "痕迹斑驳的书写记录",
+          "LocalizedString": "痕迹斑驳的书写记录"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "HockShop_Interact_2": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP_01_0016_title",
+          "SourceString": "《汪言解密——大型犬类心情密码》",
+          "LocalizedString": "《汪言解密——大型犬类心情密码》"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "HockShop_Interact_3": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP_01_0015_title",
+          "SourceString": "鸭肉苹果干和蛋黄酸奶",
+          "LocalizedString": "鸭肉苹果干和蛋黄酸奶"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "HockShop_Interact_4": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP_01_0017_title",
+          "SourceString": "用心标注过的药膳书籍",
+          "LocalizedString": "用心标注过的药膳书籍"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "HockShop_Interact_5": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP01_01_0021_title",
+          "SourceString": "第███号",
+          "LocalizedString": "第███号"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": -1.0
+      },
+      "HockShop_Interact_6": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP01_01_0020_title",
+          "SourceString": "第███号",
+          "LocalizedString": "第███号"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": -1.0
+      },
+      "HockShop_Interact_7": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP01_01_0019_title",
+          "SourceString": "第███号",
+          "LocalizedString": "第███号"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": -1.0
+      },
+      "HockShop_Interact_8": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP01_01_0018_title",
+          "SourceString": "第███号",
+          "LocalizedString": "第███号"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": -1.0
+      },
+      "HockShop_Interact_9": {
+        "UIClass": "Letter",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_Description.ST_Description",
+          "Key": "DMP01_01_0017_title",
+          "SourceString": "第███号",
+          "LocalizedString": "第███号"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "S110601": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "Namespace": "",
+          "Key": "7DEC96114C7FFFF32F2820B617B1296B",
+          "SourceString": "异像委托",
+          "LocalizedString": "异像委托"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "s110605": {
+        "UIClass": "Description",
+        "Comment": "",
+        "Title": {
+          "Namespace": "",
+          "Key": "95BEAF6C4BE9120F9E1E26B812A10DEE",
+          "SourceString": "艺术家的照片",
+          "LocalizedString": "艺术家的照片"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 0.0
+      },
+      "K110236_1": {
+        "UIClass": "Letter_Black",
+        "Comment": "大幽灵吃蛋糕黑屏",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 2.0
+      },
+      "K110236_2": {
+        "UIClass": "Letter_Black",
+        "Comment": "小幽灵消失黑屏",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 2.0
+      },
+      "K110236_3": {
+        "UIClass": "Letter_Black",
+        "Comment": "<!>首测临时黑屏文字简介",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 4.0
+      },
+      "L110001": {
+        "UIClass": "Description_Black",
+        "Comment": "白藏任务委托书",
+        "Title": {
+          "Namespace": "",
+          "Key": "811F314B4AFDCBF1FD445FBCE7FA1AD3",
+          "SourceString": "一张照片",
+          "LocalizedString": "一张照片"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 0.0
+      },
+      "Int_Bs_104": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "SW_Int_Bs_104_001",
+          "SourceString": "一张值日表",
+          "LocalizedString": "一张值日表"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Int_Bs_105": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "SW_Int_Bs_105_001",
+          "SourceString": "克莱门学园日程表",
+          "LocalizedString": "克莱门学园日程表"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Int_Bs_106": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "SW_Int_Bs_106_001",
+          "SourceString": "园艺部招募新苗",
+          "LocalizedString": "园艺部招募新苗"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Int_Bs_107": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "SW_Int_Bs_107_001",
+          "SourceString": "奇闻部欢迎你的加入！",
+          "LocalizedString": "奇闻部欢迎你的加入！"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "Int_Bs_108": {
+        "UIClass": "HTCharacterInfoMenu_L",
+        "Comment": "",
+        "Title": {
+          "TableId": "/Game/Text/ST_WorldDescription.ST_WorldDescription",
+          "Key": "SW_Int_Bs_108_001",
+          "SourceString": "奇闻部独家",
+          "LocalizedString": "奇闻部独家"
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Left",
+        "AutoCloseTime": 0.0
+      },
+      "q110160_01": {
+        "UIClass": "Description",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 0.0
+      },
+      "q110160_02": {
+        "UIClass": "Description",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 0.0
+      },
+      "q110160_03": {
+        "UIClass": "Description",
+        "Comment": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Content": null,
+        "ShowBackground": true,
+        "Justify": "ETextJustify::Center",
+        "AutoCloseTime": 0.0
+      }
+    }
+  }
+]

@@ -1,0 +1,1316 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_EquipmentCiTiaoDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'EquipmentCiTiaoStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "grid1_Count": {
+        "PropName": "None",
+        "PropValue": 0.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "count_1",
+          "SourceString": "Ⅰ型驱动计数增加{0}",
+          "LocalizedString": "Ⅰ型驱动计数增加{0}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Count",
+        "OwnGridNum": 1,
+        "Count": 2
+      },
+      "grid2_Count": {
+        "PropName": "None",
+        "PropValue": 0.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "count_2",
+          "SourceString": "Ⅱ型驱动计数增加{0}",
+          "LocalizedString": "Ⅱ型驱动计数增加{0}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Count",
+        "OwnGridNum": 2,
+        "Count": 2
+      },
+      "grid3_Count": {
+        "PropName": "None",
+        "PropValue": 0.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "count_3",
+          "SourceString": "Ⅲ型驱动计数增加{0}",
+          "LocalizedString": "Ⅲ型驱动计数增加{0}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Count",
+        "OwnGridNum": 3,
+        "Count": 2
+      },
+      "grid4_Count": {
+        "PropName": "None",
+        "PropValue": 0.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "count_4",
+          "SourceString": "Ⅳ型驱动计数增加{0}",
+          "LocalizedString": "Ⅳ型驱动计数增加{0}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Count",
+        "OwnGridNum": 4,
+        "Count": 2
+      },
+      "grid1_HPMaxUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.0075,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_HPMaxUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.0131,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_HPMaxUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.015,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_HPMaxUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.0169,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_HPMaxUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.01,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_HPMaxUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.0175,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_HPMaxUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.02,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_HPMaxUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.0225,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_HPMaxUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.0125,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_HPMaxUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.0219,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_HPMaxUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.025,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_HPMaxUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "HPMaxUp",
+        "PropValue": 0.0281,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_AtkUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.0075,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_AtkUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.0131,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_AtkUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.015,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_AtkUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.0169,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_AtkUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.01,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_AtkUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.0175,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_AtkUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.02,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_AtkUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.0225,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_AtkUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.0125,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_AtkUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.0219,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_AtkUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.025,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_AtkUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "AtkUp",
+        "PropValue": 0.0281,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_DefUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "DefUp",
+        "PropValue": 0.0105,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_DefUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "DefUp",
+        "PropValue": 0.0184,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_DefUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "DefUp",
+        "PropValue": 0.021,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_DefUp_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "DefUp",
+        "PropValue": 0.0236,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_DefUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "DefUp",
+        "PropValue": 0.014,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_DefUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "DefUp",
+        "PropValue": 0.0245,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_DefUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "DefUp",
+        "PropValue": 0.028,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_DefUp_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "DefUp",
+        "PropValue": 0.0315,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_DefUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "DefUp",
+        "PropValue": 0.0175,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_DefUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "DefUp",
+        "PropValue": 0.0306,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_DefUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "DefUp",
+        "PropValue": 0.035,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_DefUp_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "DefUp",
+        "PropValue": 0.0394,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.009,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.0158,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.018,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.0203,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.012,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.021,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.024,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.027,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.015,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.0263,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.03,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_ChargeGetEfficiencyBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "ChargeGetEfficiencyBase",
+        "PropValue": 0.0338,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_CritBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "CritBase",
+        "PropValue": 0.006,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_CritBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "CritBase",
+        "PropValue": 0.0105,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_CritBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "CritBase",
+        "PropValue": 0.012,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_CritBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "CritBase",
+        "PropValue": 0.0135,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_CritBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "CritBase",
+        "PropValue": 0.008,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_CritBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "CritBase",
+        "PropValue": 0.014,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_CritBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "CritBase",
+        "PropValue": 0.016,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_CritBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "CritBase",
+        "PropValue": 0.018,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_CritBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "CritBase",
+        "PropValue": 0.01,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_CritBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "CritBase",
+        "PropValue": 0.0175,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_CritBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "CritBase",
+        "PropValue": 0.02,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_CritBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "CritBase",
+        "PropValue": 0.0225,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_CritDamageBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.012,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_CritDamageBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.021,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_CritDamageBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.024,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_CritDamageBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.027,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_CritDamageBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.016,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_CritDamageBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.028,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_CritDamageBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.032,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_CritDamageBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.036,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_CritDamageBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.02,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_CritDamageBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.035,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_CritDamageBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.04,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_CritDamageBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "CritDamageBase",
+        "PropValue": 0.045,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 4.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 6.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 7.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 8.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 5.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 8.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 10.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 11.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 6.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 11.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 12.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_UnbalIntensityBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "UnbalIntensityBase",
+        "PropValue": 14.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_MagBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "MagBase",
+        "PropValue": 4.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_MagBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "MagBase",
+        "PropValue": 6.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_MagBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "MagBase",
+        "PropValue": 7.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_MagBase_Core_ITEM_QUALITY_BLUE": {
+        "PropName": "MagBase",
+        "PropValue": 8.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_MagBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "MagBase",
+        "PropValue": 5.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_MagBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "MagBase",
+        "PropValue": 8.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_MagBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "MagBase",
+        "PropValue": 10.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_MagBase_Core_ITEM_QUALITY_PURPLE": {
+        "PropName": "MagBase",
+        "PropValue": 11.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      },
+      "grid1_MagBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "MagBase",
+        "PropValue": 6.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_1",
+          "SourceString": "每装配一个Ⅰ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅰ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 1,
+        "Count": 0
+      },
+      "grid2_MagBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "MagBase",
+        "PropValue": 11.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_2",
+          "SourceString": "每装配一个Ⅱ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅱ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 2,
+        "Count": 0
+      },
+      "grid3_MagBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "MagBase",
+        "PropValue": 12.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_3",
+          "SourceString": "每装配一个Ⅲ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅲ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 3,
+        "Count": 0
+      },
+      "grid4_MagBase_Core_ITEM_QUALITY_ORANGE": {
+        "PropName": "MagBase",
+        "PropValue": 14.0,
+        "Description": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "grid_4",
+          "SourceString": "每装配一个Ⅳ型驱动，\n{0}增加{1}",
+          "LocalizedString": "每装配一个Ⅳ型驱动，\n{0}增加{1}"
+        },
+        "CiTiaoType": "EEquipmentCiTiaoType::ET_Condition",
+        "OwnGridNum": 4,
+        "Count": 0
+      }
+    }
+  }
+]

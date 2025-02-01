@@ -1,0 +1,4580 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LocalPlayerDataLayerTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LocalDataLayerStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NPF_Wonder01": {
+        "BeginQuest": "q110007",
+        "EndQuest": "q110017",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_Forest.Wonder_Forest",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_Wonder01Visible": {
+        "BeginQuest": "q110002",
+        "EndQuest": "q110010",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_Forest.Wonder_Forest",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": true
+      },
+      "NPF_Wonder01Load": {
+        "BeginQuest": "q110006",
+        "EndQuest": "q110017",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_Forest.Wonder_Forest",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_Wonder02": {
+        "BeginQuest": "q110013",
+        "EndQuest": "q110019",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_Subway.Wonder_Subway",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_Wonder02Visible": {
+        "BeginQuest": "q110002",
+        "EndQuest": "q110015",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_Subway.Wonder_Subway",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": true
+      },
+      "NPF_Wonder02Load": {
+        "BeginQuest": "q1100131",
+        "EndQuest": "q110019",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_Subway.Wonder_Subway",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_Wonder03": {
+        "BeginQuest": "q110018",
+        "EndQuest": "q110026",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_City.Wonder_City",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_Wonder03Visible": {
+        "BeginQuest": "q110002",
+        "EndQuest": "q110018",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_City.Wonder_City",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": true
+      },
+      "NPF_Wonder03Load": {
+        "BeginQuest": "q110017",
+        "EndQuest": "q110026",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_City.Wonder_City",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_Data": {
+        "BeginQuest": "q110001",
+        "EndQuest": "q110027",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/NewPlayerFlow.NewPlayerFlow",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_OfficeAirFloor": {
+        "BeginQuest": "q110005_1",
+        "EndQuest": "q110027",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/OfficeAirFloor.OfficeAirFloor",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "AFT_NPF_Data": {
+        "BeginQuest": "q110027",
+        "EndQuest": "None",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/AFT_NPF.AFT_NPF",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/wonder_office.wonder_office",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_Office": {
+        "BeginQuest": "q110001",
+        "EndQuest": "q110009",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/wonder_office.wonder_office",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_Frame": {
+        "BeginQuest": "q110010",
+        "EndQuest": "q110012",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_Frame.Wonder_Frame",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "NPF_FrameLoad": {
+        "BeginQuest": "q110005_1",
+        "EndQuest": "q110012",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_Frame.Wonder_Frame",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "BigWorld_Office": {
+        "BeginQuest": "q110026",
+        "EndQuest": "None",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/wonder_office.wonder_office",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "BZCS": {
+        "BeginQuest": "L110001",
+        "EndQuest": "L110052",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/L110001.L110001",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Legend_Lacrimosa": {
+        "BeginQuest": "L110101",
+        "EndQuest": "L110139",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/L110101.L110101",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "MLPS": {
+        "BeginQuest": "q110101",
+        "EndQuest": "q110137",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110101.q110101",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "prologue_data": {
+        "BeginQuest": "q110039",
+        "EndQuest": "q110088",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110040.q110040",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_q110040": {
+        "BeginQuest": "q110072",
+        "EndQuest": "q110084",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_q110040.DLC_FilmOrbit_q110040",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_1_1": {
+        "BeginQuest": "q1100756",
+        "EndQuest": "q110070_f1_5",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_1_new.DLC_FilmOrbit_FlimWorld_1_new",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_1_2_load": {
+        "BeginQuest": "q110070_f1_1",
+        "EndQuest": "q110070_f1_5",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_1_new_2.DLC_FilmOrbit_FlimWorld_1_new_2",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_1_2": {
+        "BeginQuest": "q110070_f1_2",
+        "EndQuest": "q110070_f1_5",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_1_new_2.DLC_FilmOrbit_FlimWorld_1_new_2",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_1_3_load": {
+        "BeginQuest": "q110070_f1_2",
+        "EndQuest": "q1100757",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_1_new_3.DLC_FilmOrbit_FlimWorld_1_new_3",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_1_3": {
+        "BeginQuest": "q110070_f1_6",
+        "EndQuest": "q1100757",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_1_new_3.DLC_FilmOrbit_FlimWorld_1_new_3",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2": {
+        "BeginQuest": "q110079",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2.DLC_FilmOrbit_FlimWorld_2",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_3": {
+        "BeginQuest": "q1100792",
+        "EndQuest": "q1100793",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_3.DLC_FilmOrbit_FlimWorld_3",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_3_louti": {
+        "BeginQuest": "q1100792",
+        "EndQuest": "q110070_f3_1",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_3_1_louti.DLC_FilmOrbit_FlimWorld_3_1_louti",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2_new_1_load": {
+        "BeginQuest": "q110078",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2_new_1.DLC_FilmOrbit_FlimWorld_2_new_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2_new_1": {
+        "BeginQuest": "q110079",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2_new_1.DLC_FilmOrbit_FlimWorld_2_new_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2_new_2_load": {
+        "BeginQuest": "q110079",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2_new_2.DLC_FilmOrbit_FlimWorld_2_new_2",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2_new_2": {
+        "BeginQuest": "q110070_f2_8",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2_new_2.DLC_FilmOrbit_FlimWorld_2_new_2",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2_new_3_load": {
+        "BeginQuest": "q110079",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2_new_3.DLC_FilmOrbit_FlimWorld_2_new_3",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2_new_3": {
+        "BeginQuest": "q110070_f2_3",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2_new_3.DLC_FilmOrbit_FlimWorld_2_new_3",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2_new_4_load": {
+        "BeginQuest": "q110079",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2_new_4.DLC_FilmOrbit_FlimWorld_2_new_4",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_FlimWorld_2_new_4": {
+        "BeginQuest": "q110070_f2_10",
+        "EndQuest": "q1100791",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_FlimWorld_2_new_4.DLC_FilmOrbit_FlimWorld_2_new_4",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DL_Unload_MaxEibon_load": {
+        "BeginQuest": "q110049",
+        "EndQuest": "q110053",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_Unload_MaxEibon.DL_Unload_MaxEibon",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "DL_Unload_MaxEibon": {
+        "BeginQuest": "q110052",
+        "EndQuest": "q110053",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_Unload_MaxEibon.DL_Unload_MaxEibon",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Liking_TofuShop": {
+        "BeginQuest": "q410001",
+        "EndQuest": "q410050",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/K110001.K110001",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Liking_Ailisi_K110201": {
+        "BeginQuest": "K110201",
+        "EndQuest": "K110237",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/K110201.K110201",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Liking_THD_K110301": {
+        "BeginQuest": "K110301",
+        "EndQuest": "K110346",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/K110301.K110301",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Quest_Tayge_q110150": {
+        "BeginQuest": "q110150",
+        "EndQuest": "q110190",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/q110150.q110150",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DLC_FilmOrbit_World_THD_K110301": {
+        "BeginQuest": "K110347",
+        "EndQuest": "K110350",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_FilmOrbit/DLC_FilmOrbit_World_K110301.DLC_FilmOrbit_World_K110301",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "TEST": {
+        "BeginQuest": "q110103",
+        "EndQuest": "q110105",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_1.Test_1",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_10.Test_10",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_100.Test_100",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_1000.Test_1000",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_101.Test_101",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_102.Test_102",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_103.Test_103",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_104.Test_104",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_105.Test_105",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_106.Test_106",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_107.Test_107",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_108.Test_108",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_109.Test_109",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_11.Test_11",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_110.Test_110",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_111.Test_111",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_112.Test_112",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_113.Test_113",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_114.Test_114",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_115.Test_115",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_116.Test_116",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_117.Test_117",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_118.Test_118",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_119.Test_119",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_12.Test_12",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_120.Test_120",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_121.Test_121",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_122.Test_122",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_123.Test_123",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_124.Test_124",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_125.Test_125",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_126.Test_126",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_127.Test_127",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_128.Test_128",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_129.Test_129",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_13.Test_13",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_130.Test_130",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_131.Test_131",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_132.Test_132",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_133.Test_133",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_134.Test_134",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_135.Test_135",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_136.Test_136",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_137.Test_137",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_138.Test_138",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_139.Test_139",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_14.Test_14",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_140.Test_140",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_141.Test_141",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_142.Test_142",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_143.Test_143",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_144.Test_144",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_145.Test_145",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_146.Test_146",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_147.Test_147",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_148.Test_148",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_149.Test_149",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_15.Test_15",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_150.Test_150",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_151.Test_151",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_152.Test_152",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_153.Test_153",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_154.Test_154",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_155.Test_155",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_156.Test_156",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_157.Test_157",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_158.Test_158",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_159.Test_159",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_16.Test_16",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_160.Test_160",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_161.Test_161",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_162.Test_162",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_163.Test_163",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_164.Test_164",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_165.Test_165",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_166.Test_166",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_167.Test_167",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_168.Test_168",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_169.Test_169",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_17.Test_17",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_170.Test_170",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_171.Test_171",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_172.Test_172",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_173.Test_173",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_174.Test_174",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_175.Test_175",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_176.Test_176",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_177.Test_177",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_178.Test_178",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_179.Test_179",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_18.Test_18",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_180.Test_180",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_181.Test_181",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_182.Test_182",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_183.Test_183",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_184.Test_184",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_185.Test_185",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_186.Test_186",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_187.Test_187",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_188.Test_188",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_189.Test_189",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_19.Test_19",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_190.Test_190",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_191.Test_191",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_192.Test_192",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_193.Test_193",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_194.Test_194",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_195.Test_195",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_196.Test_196",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_197.Test_197",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_198.Test_198",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_199.Test_199",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_2.Test_2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_20.Test_20",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_200.Test_200",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_201.Test_201",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_202.Test_202",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_203.Test_203",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_204.Test_204",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_205.Test_205",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_206.Test_206",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_207.Test_207",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_208.Test_208",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_209.Test_209",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_21.Test_21",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_210.Test_210",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_211.Test_211",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_212.Test_212",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_213.Test_213",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_214.Test_214",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_215.Test_215",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_216.Test_216",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_217.Test_217",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_218.Test_218",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_219.Test_219",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_22.Test_22",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_220.Test_220",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_221.Test_221",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_222.Test_222",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_223.Test_223",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_224.Test_224",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_225.Test_225",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_226.Test_226",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_227.Test_227",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_228.Test_228",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_229.Test_229",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_23.Test_23",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_230.Test_230",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_231.Test_231",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_232.Test_232",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_233.Test_233",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_234.Test_234",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_235.Test_235",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_236.Test_236",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_237.Test_237",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_238.Test_238",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_239.Test_239",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_24.Test_24",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_240.Test_240",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_241.Test_241",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_242.Test_242",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_243.Test_243",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_244.Test_244",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_245.Test_245",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_246.Test_246",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_247.Test_247",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_248.Test_248",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_249.Test_249",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_25.Test_25",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_250.Test_250",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_251.Test_251",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_252.Test_252",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_253.Test_253",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_254.Test_254",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_255.Test_255",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_256.Test_256",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_257.Test_257",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_258.Test_258",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_259.Test_259",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_26.Test_26",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_260.Test_260",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_261.Test_261",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_262.Test_262",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_263.Test_263",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_264.Test_264",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_265.Test_265",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_266.Test_266",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_267.Test_267",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_268.Test_268",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_269.Test_269",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_27.Test_27",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_270.Test_270",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_271.Test_271",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_272.Test_272",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_273.Test_273",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_274.Test_274",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_275.Test_275",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_276.Test_276",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_277.Test_277",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_278.Test_278",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_279.Test_279",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_28.Test_28",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_280.Test_280",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_281.Test_281",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_282.Test_282",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_283.Test_283",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_284.Test_284",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_285.Test_285",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_286.Test_286",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_287.Test_287",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_288.Test_288",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_289.Test_289",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_29.Test_29",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_290.Test_290",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_291.Test_291",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_292.Test_292",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_293.Test_293",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_294.Test_294",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_295.Test_295",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_296.Test_296",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_297.Test_297",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_298.Test_298",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_299.Test_299",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_3.Test_3",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_30.Test_30",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_300.Test_300",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_301.Test_301",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_302.Test_302",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_303.Test_303",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_304.Test_304",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_305.Test_305",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_306.Test_306",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_307.Test_307",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_308.Test_308",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_309.Test_309",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_31.Test_31",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_310.Test_310",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_311.Test_311",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_312.Test_312",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_313.Test_313",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_314.Test_314",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_315.Test_315",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_316.Test_316",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_317.Test_317",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_318.Test_318",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_319.Test_319",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_32.Test_32",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_320.Test_320",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_321.Test_321",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_322.Test_322",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_323.Test_323",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_324.Test_324",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_325.Test_325",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_326.Test_326",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_327.Test_327",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_328.Test_328",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_329.Test_329",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_33.Test_33",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_330.Test_330",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_331.Test_331",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_332.Test_332",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_333.Test_333",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_334.Test_334",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_335.Test_335",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_336.Test_336",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_337.Test_337",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_338.Test_338",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_339.Test_339",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_34.Test_34",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_340.Test_340",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_341.Test_341",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_342.Test_342",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_343.Test_343",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_344.Test_344",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_345.Test_345",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_346.Test_346",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_347.Test_347",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_348.Test_348",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_349.Test_349",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_35.Test_35",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_350.Test_350",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_351.Test_351",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_352.Test_352",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_353.Test_353",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_354.Test_354",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_355.Test_355",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_356.Test_356",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_357.Test_357",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_358.Test_358",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_359.Test_359",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_36.Test_36",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_360.Test_360",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_361.Test_361",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_362.Test_362",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_363.Test_363",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_364.Test_364",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_365.Test_365",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_366.Test_366",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_367.Test_367",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_368.Test_368",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_369.Test_369",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_37.Test_37",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_370.Test_370",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_371.Test_371",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_372.Test_372",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_373.Test_373",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_374.Test_374",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_375.Test_375",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_376.Test_376",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_377.Test_377",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_378.Test_378",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_379.Test_379",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_38.Test_38",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_380.Test_380",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_381.Test_381",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_382.Test_382",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_383.Test_383",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_384.Test_384",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_385.Test_385",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_386.Test_386",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_387.Test_387",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_388.Test_388",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_389.Test_389",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_39.Test_39",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_390.Test_390",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_391.Test_391",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_392.Test_392",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_393.Test_393",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_394.Test_394",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_395.Test_395",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_396.Test_396",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_397.Test_397",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_398.Test_398",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_399.Test_399",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_4.Test_4",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_40.Test_40",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_400.Test_400",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_401.Test_401",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_402.Test_402",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_403.Test_403",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_404.Test_404",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_405.Test_405",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_406.Test_406",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_407.Test_407",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_408.Test_408",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_409.Test_409",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_41.Test_41",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_410.Test_410",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_411.Test_411",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_412.Test_412",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_413.Test_413",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_414.Test_414",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_415.Test_415",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_416.Test_416",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_417.Test_417",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_418.Test_418",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_419.Test_419",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_42.Test_42",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_420.Test_420",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_421.Test_421",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_422.Test_422",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_423.Test_423",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_424.Test_424",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_425.Test_425",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_426.Test_426",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_427.Test_427",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_428.Test_428",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_429.Test_429",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_43.Test_43",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_430.Test_430",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_431.Test_431",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_432.Test_432",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_433.Test_433",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_434.Test_434",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_435.Test_435",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_436.Test_436",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_437.Test_437",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_438.Test_438",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_439.Test_439",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_44.Test_44",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_440.Test_440",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_441.Test_441",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_442.Test_442",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_443.Test_443",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_444.Test_444",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_445.Test_445",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_446.Test_446",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_447.Test_447",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_448.Test_448",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_449.Test_449",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_45.Test_45",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_450.Test_450",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_451.Test_451",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_452.Test_452",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_453.Test_453",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_454.Test_454",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_455.Test_455",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_456.Test_456",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_457.Test_457",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_458.Test_458",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_459.Test_459",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_46.Test_46",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_460.Test_460",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_461.Test_461",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_462.Test_462",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_463.Test_463",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_464.Test_464",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_465.Test_465",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_466.Test_466",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_467.Test_467",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_468.Test_468",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_469.Test_469",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_47.Test_47",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_470.Test_470",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_471.Test_471",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_472.Test_472",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_473.Test_473",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_474.Test_474",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_475.Test_475",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_476.Test_476",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_477.Test_477",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_478.Test_478",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_479.Test_479",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_48.Test_48",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_480.Test_480",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_481.Test_481",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_482.Test_482",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_483.Test_483",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_484.Test_484",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_485.Test_485",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_486.Test_486",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_487.Test_487",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_488.Test_488",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_489.Test_489",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_49.Test_49",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_490.Test_490",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_491.Test_491",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_492.Test_492",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_493.Test_493",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_494.Test_494",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_495.Test_495",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_496.Test_496",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_497.Test_497",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_498.Test_498",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_499.Test_499",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_5.Test_5",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_50.Test_50",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_500.Test_500",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_501.Test_501",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_502.Test_502",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_503.Test_503",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_504.Test_504",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_505.Test_505",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_506.Test_506",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_507.Test_507",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_508.Test_508",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_509.Test_509",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_51.Test_51",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_510.Test_510",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_511.Test_511",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_512.Test_512",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_513.Test_513",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_514.Test_514",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_515.Test_515",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_516.Test_516",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_517.Test_517",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_518.Test_518",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_519.Test_519",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_52.Test_52",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_520.Test_520",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_521.Test_521",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_522.Test_522",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_523.Test_523",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_524.Test_524",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_525.Test_525",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_526.Test_526",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_527.Test_527",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_528.Test_528",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_529.Test_529",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_53.Test_53",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_530.Test_530",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_531.Test_531",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_532.Test_532",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_533.Test_533",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_534.Test_534",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_535.Test_535",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_536.Test_536",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_537.Test_537",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_538.Test_538",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_539.Test_539",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_54.Test_54",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_540.Test_540",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_541.Test_541",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_542.Test_542",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_543.Test_543",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_544.Test_544",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_545.Test_545",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_546.Test_546",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_547.Test_547",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_548.Test_548",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_549.Test_549",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_55.Test_55",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_550.Test_550",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_551.Test_551",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_552.Test_552",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_553.Test_553",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_554.Test_554",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_555.Test_555",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_556.Test_556",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_557.Test_557",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_558.Test_558",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_559.Test_559",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_56.Test_56",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_560.Test_560",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_561.Test_561",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_562.Test_562",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_563.Test_563",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_564.Test_564",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_565.Test_565",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_566.Test_566",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_567.Test_567",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_568.Test_568",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_569.Test_569",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_57.Test_57",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_570.Test_570",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_571.Test_571",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_572.Test_572",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_573.Test_573",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_574.Test_574",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_575.Test_575",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_576.Test_576",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_577.Test_577",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_578.Test_578",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_579.Test_579",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_58.Test_58",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_580.Test_580",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_581.Test_581",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_582.Test_582",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_583.Test_583",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_584.Test_584",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_585.Test_585",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_586.Test_586",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_587.Test_587",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_588.Test_588",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_589.Test_589",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_59.Test_59",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_590.Test_590",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_591.Test_591",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_592.Test_592",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_593.Test_593",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_594.Test_594",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_595.Test_595",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_596.Test_596",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_597.Test_597",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_598.Test_598",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_599.Test_599",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_6.Test_6",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_60.Test_60",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_600.Test_600",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_601.Test_601",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_602.Test_602",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_603.Test_603",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_604.Test_604",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_605.Test_605",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_606.Test_606",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_607.Test_607",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_608.Test_608",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_609.Test_609",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_61.Test_61",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_610.Test_610",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_611.Test_611",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_612.Test_612",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_613.Test_613",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_614.Test_614",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_615.Test_615",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_616.Test_616",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_617.Test_617",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_618.Test_618",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_619.Test_619",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_62.Test_62",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_620.Test_620",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_621.Test_621",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_622.Test_622",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_623.Test_623",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_624.Test_624",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_625.Test_625",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_626.Test_626",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_627.Test_627",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_628.Test_628",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_629.Test_629",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_63.Test_63",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_630.Test_630",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_631.Test_631",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_632.Test_632",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_633.Test_633",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_634.Test_634",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_635.Test_635",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_636.Test_636",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_637.Test_637",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_638.Test_638",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_639.Test_639",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_64.Test_64",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_640.Test_640",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_641.Test_641",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_642.Test_642",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_643.Test_643",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_644.Test_644",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_645.Test_645",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_646.Test_646",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_647.Test_647",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_648.Test_648",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_649.Test_649",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_65.Test_65",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_650.Test_650",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_651.Test_651",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_652.Test_652",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_653.Test_653",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_654.Test_654",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_655.Test_655",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_656.Test_656",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_657.Test_657",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_658.Test_658",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_659.Test_659",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_66.Test_66",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_660.Test_660",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_661.Test_661",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_662.Test_662",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_663.Test_663",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_664.Test_664",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_665.Test_665",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_666.Test_666",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_667.Test_667",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_668.Test_668",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_669.Test_669",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_67.Test_67",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_670.Test_670",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_671.Test_671",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_672.Test_672",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_673.Test_673",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_674.Test_674",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_675.Test_675",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_676.Test_676",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_677.Test_677",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_678.Test_678",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_679.Test_679",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_68.Test_68",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_680.Test_680",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_681.Test_681",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_682.Test_682",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_683.Test_683",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_684.Test_684",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_685.Test_685",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_686.Test_686",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_687.Test_687",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_688.Test_688",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_689.Test_689",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_69.Test_69",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_690.Test_690",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_691.Test_691",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_692.Test_692",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_693.Test_693",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_694.Test_694",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_695.Test_695",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_696.Test_696",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_697.Test_697",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_698.Test_698",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_699.Test_699",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_7.Test_7",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_70.Test_70",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_700.Test_700",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_701.Test_701",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_702.Test_702",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_703.Test_703",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_704.Test_704",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_705.Test_705",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_706.Test_706",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_707.Test_707",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_708.Test_708",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_709.Test_709",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_71.Test_71",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_710.Test_710",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_711.Test_711",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_712.Test_712",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_713.Test_713",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_714.Test_714",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_715.Test_715",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_716.Test_716",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_717.Test_717",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_718.Test_718",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_719.Test_719",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_72.Test_72",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_720.Test_720",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_721.Test_721",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_722.Test_722",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_723.Test_723",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_724.Test_724",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_725.Test_725",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_726.Test_726",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_727.Test_727",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_728.Test_728",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_729.Test_729",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_73.Test_73",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_730.Test_730",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_731.Test_731",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_732.Test_732",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_733.Test_733",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_734.Test_734",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_735.Test_735",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_736.Test_736",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_737.Test_737",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_738.Test_738",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_739.Test_739",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_74.Test_74",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_740.Test_740",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_741.Test_741",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_742.Test_742",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_743.Test_743",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_744.Test_744",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_745.Test_745",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_746.Test_746",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_747.Test_747",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_748.Test_748",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_749.Test_749",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_75.Test_75",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_750.Test_750",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_751.Test_751",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_752.Test_752",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_753.Test_753",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_754.Test_754",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_755.Test_755",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_756.Test_756",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_757.Test_757",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_758.Test_758",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_759.Test_759",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_76.Test_76",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_760.Test_760",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_761.Test_761",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_762.Test_762",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_763.Test_763",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_764.Test_764",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_765.Test_765",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_766.Test_766",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_767.Test_767",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_768.Test_768",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_769.Test_769",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_77.Test_77",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_770.Test_770",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_771.Test_771",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_772.Test_772",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_773.Test_773",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_774.Test_774",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_775.Test_775",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_776.Test_776",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_777.Test_777",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_778.Test_778",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_779.Test_779",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_78.Test_78",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_780.Test_780",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_781.Test_781",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_782.Test_782",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_783.Test_783",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_784.Test_784",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_785.Test_785",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_786.Test_786",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_787.Test_787",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_788.Test_788",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_789.Test_789",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_79.Test_79",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_790.Test_790",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_791.Test_791",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_792.Test_792",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_793.Test_793",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_794.Test_794",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_795.Test_795",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_796.Test_796",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_797.Test_797",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_798.Test_798",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_799.Test_799",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_8.Test_8",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_80.Test_80",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_800.Test_800",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_801.Test_801",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_802.Test_802",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_803.Test_803",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_804.Test_804",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_805.Test_805",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_806.Test_806",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_807.Test_807",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_808.Test_808",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_809.Test_809",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_81.Test_81",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_810.Test_810",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_811.Test_811",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_812.Test_812",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_813.Test_813",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_814.Test_814",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_815.Test_815",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_816.Test_816",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_817.Test_817",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_818.Test_818",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_819.Test_819",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_82.Test_82",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_820.Test_820",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_821.Test_821",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_822.Test_822",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_823.Test_823",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_824.Test_824",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_825.Test_825",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_826.Test_826",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_827.Test_827",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_828.Test_828",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_829.Test_829",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_83.Test_83",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_830.Test_830",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_831.Test_831",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_832.Test_832",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_833.Test_833",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_834.Test_834",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_835.Test_835",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_836.Test_836",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_837.Test_837",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_838.Test_838",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_839.Test_839",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_84.Test_84",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_840.Test_840",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_841.Test_841",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_842.Test_842",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_843.Test_843",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_844.Test_844",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_845.Test_845",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_846.Test_846",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_847.Test_847",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_848.Test_848",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_849.Test_849",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_85.Test_85",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_850.Test_850",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_851.Test_851",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_852.Test_852",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_853.Test_853",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_854.Test_854",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_855.Test_855",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_856.Test_856",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_857.Test_857",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_858.Test_858",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_859.Test_859",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_86.Test_86",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_860.Test_860",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_861.Test_861",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_862.Test_862",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_863.Test_863",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_864.Test_864",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_865.Test_865",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_866.Test_866",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_867.Test_867",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_868.Test_868",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_869.Test_869",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_87.Test_87",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_870.Test_870",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_871.Test_871",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_872.Test_872",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_873.Test_873",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_874.Test_874",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_875.Test_875",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_876.Test_876",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_877.Test_877",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_878.Test_878",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_879.Test_879",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_88.Test_88",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_880.Test_880",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_881.Test_881",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_882.Test_882",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_883.Test_883",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_884.Test_884",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_885.Test_885",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_886.Test_886",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_887.Test_887",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_888.Test_888",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_889.Test_889",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_89.Test_89",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_890.Test_890",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_891.Test_891",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_892.Test_892",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_893.Test_893",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_894.Test_894",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_895.Test_895",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_896.Test_896",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_897.Test_897",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_898.Test_898",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_899.Test_899",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_9.Test_9",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_90.Test_90",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_900.Test_900",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_901.Test_901",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_902.Test_902",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_903.Test_903",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_904.Test_904",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_905.Test_905",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_906.Test_906",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_907.Test_907",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_908.Test_908",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_909.Test_909",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_91.Test_91",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_910.Test_910",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_911.Test_911",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_912.Test_912",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_913.Test_913",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_914.Test_914",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_915.Test_915",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_916.Test_916",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_917.Test_917",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_918.Test_918",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_919.Test_919",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_92.Test_92",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_920.Test_920",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_921.Test_921",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_922.Test_922",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_923.Test_923",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_924.Test_924",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_925.Test_925",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_926.Test_926",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_927.Test_927",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_928.Test_928",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_929.Test_929",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_93.Test_93",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_930.Test_930",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_931.Test_931",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_932.Test_932",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_933.Test_933",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_934.Test_934",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_935.Test_935",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_936.Test_936",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_937.Test_937",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_938.Test_938",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_939.Test_939",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_94.Test_94",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_940.Test_940",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_941.Test_941",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_942.Test_942",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_943.Test_943",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_944.Test_944",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_945.Test_945",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_946.Test_946",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_947.Test_947",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_948.Test_948",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_949.Test_949",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_95.Test_95",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_950.Test_950",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_951.Test_951",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_952.Test_952",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_953.Test_953",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_954.Test_954",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_955.Test_955",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_956.Test_956",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_957.Test_957",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_958.Test_958",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_959.Test_959",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_96.Test_96",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_960.Test_960",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_961.Test_961",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_962.Test_962",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_963.Test_963",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_964.Test_964",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_965.Test_965",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_966.Test_966",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_967.Test_967",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_968.Test_968",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_969.Test_969",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_97.Test_97",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_970.Test_970",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_971.Test_971",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_972.Test_972",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_973.Test_973",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_974.Test_974",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_975.Test_975",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_976.Test_976",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_977.Test_977",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_978.Test_978",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_979.Test_979",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_98.Test_98",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_980.Test_980",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_981.Test_981",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_982.Test_982",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_983.Test_983",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_984.Test_984",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_985.Test_985",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_986.Test_986",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_987.Test_987",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_988.Test_988",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_989.Test_989",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_99.Test_99",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_990.Test_990",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_991.Test_991",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_992.Test_992",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_993.Test_993",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_994.Test_994",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_995.Test_995",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_996.Test_996",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_997.Test_997",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_998.Test_998",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/TESTDataLayer/Test_999.Test_999",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "S110300": {
+        "BeginQuest": "S110300",
+        "EndQuest": "S110339",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/S110300.S110300",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "S110400": {
+        "BeginQuest": "S110401",
+        "EndQuest": "S110413",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/S110400.S110400",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      }
+    }
+  }
+]

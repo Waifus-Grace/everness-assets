@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DrumSongDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'DrumSongData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "TestSong": {
+        "SongID": "TestSong",
+        "BPM": 50,
+        "OffsetOneOfSixteenBeat": 0,
+        "EndTime": 105.0,
+        "BeatDistance": 600.0,
+        "MusicId": "HipHop001",
+        "Description": {
+          "Namespace": "",
+          "Key": "866C96164518DA0552FCF8A77E00FB65",
+          "SourceString": "HipHop001",
+          "LocalizedString": "HipHop001"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_item_dcff_gk_01_03.YH_UI_item_dcff_gk_01_03",
+          "SubPathString": ""
+        },
+        "MedalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Requires": [
+          {
+            "ActiveType": "EDrumSongActiveType::EDSAT_None",
+            "MaxValue": 0,
+            "ID": "None"
+          }
+        ],
+        "SpecialTimespan": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 0.0
+          }
+        },
+        "ScoreTimes": 0.0,
+        "LevelInfos": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "House001": {
+        "SongID": "House001",
+        "BPM": 50,
+        "OffsetOneOfSixteenBeat": 0,
+        "EndTime": 186.0,
+        "BeatDistance": 600.0,
+        "MusicId": "House001",
+        "Description": {
+          "Namespace": "",
+          "Key": "946855E9471423F06F4E639F0AA935EB",
+          "SourceString": "House001",
+          "LocalizedString": "House001"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_item_dcff_gk_01_04.YH_UI_item_dcff_gk_01_04",
+          "SubPathString": ""
+        },
+        "MedalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Requires": [
+          {
+            "ActiveType": "EDrumSongActiveType::EDSAT_WorldLevel",
+            "MaxValue": 20,
+            "ID": "None"
+          }
+        ],
+        "SpecialTimespan": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 0.0
+          }
+        },
+        "ScoreTimes": 0.0,
+        "LevelInfos": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "Bass001": {
+        "SongID": "Bass001",
+        "BPM": 50,
+        "OffsetOneOfSixteenBeat": 0,
+        "EndTime": 182.56,
+        "BeatDistance": 600.0,
+        "MusicId": "Bass001",
+        "Description": {
+          "Namespace": "",
+          "Key": "C56BEBF9466969EAB4638AA8C90E0E0B",
+          "SourceString": "Bass001",
+          "LocalizedString": "Bass001"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_item_dcff_gk_01_10.YH_UI_item_dcff_gk_01_10",
+          "SubPathString": ""
+        },
+        "MedalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Requires": [
+          {
+            "ActiveType": "EDrumSongActiveType::EDSAT_SpecifiedQuest",
+            "MaxValue": 1,
+            "ID": "q110117"
+          }
+        ],
+        "SpecialTimespan": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0.0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 0.0
+          }
+        },
+        "ScoreTimes": 3.0,
+        "LevelInfos": [
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    }
+  }
+]

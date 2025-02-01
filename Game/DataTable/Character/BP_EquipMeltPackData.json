@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BP_EquipMeltPackData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'EquipMeltPackData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "melt_01": {
+        "ReturnItems": "CharacterUpMaterial_lv1:1"
+      },
+      "melt_02": {
+        "ReturnItems": "consumable01:1"
+      },
+      "melt_03": {
+        "ReturnItems": "Characterawaken_Mint:1;consumable01:1"
+      },
+      "melt_zero": {
+        "ReturnItems": "None"
+      },
+      "melt_player": {
+        "ReturnItems": "Characterawaken_player:1"
+      },
+      "melt_nanally": {
+        "ReturnItems": "Characterawaken_nanally:1"
+      },
+      "melt_Mint": {
+        "ReturnItems": "Characterawaken_Mint:1"
+      },
+      "melt_Sagirl": {
+        "ReturnItems": "Characterawaken_Sagiri:1"
+      },
+      "melt_Adler": {
+        "ReturnItems": "Characterawaken_Adler:1"
+      },
+      "melt_dafudier": {
+        "ReturnItems": "Characterawaken_dafudier:1"
+      },
+      "melt_skia": {
+        "ReturnItems": "Characterawaken_skia:1"
+      },
+      "melt_lacrimosa": {
+        "ReturnItems": "Characterawaken_lacrimosa:1"
+      },
+      "melt_fadia": {
+        "ReturnItems": "Characterawaken_fadia:1"
+      },
+      "melt_gacha_ssr": {
+        "ReturnItems": "DSDshop_ExchaneTicket_02:3"
+      },
+      "melt_gacha_sr": {
+        "ReturnItems": "DSDshop_ExchaneTicket_01:10;DSDshop_ExchaneTicket_02:1"
+      },
+      "melt_gacha_r": {
+        "ReturnItems": "DSDshop_ExchaneTicket_01:5"
+      }
+    }
+  }
+]

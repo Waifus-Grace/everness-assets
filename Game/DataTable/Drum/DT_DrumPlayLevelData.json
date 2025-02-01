@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DrumPlayLevelData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'DrumPlayLevelData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "bNeedShow": false,
+        "UpgradeNote": 0,
+        "UpgradeWorldLevel": -1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": -1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "None",
+        "BrokenAwardDropID": "None"
+      }
+    }
+  }
+]

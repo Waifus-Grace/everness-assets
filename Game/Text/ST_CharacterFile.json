@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_CharacterFile",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_CharacterFile",
+      "KeysToEntries": {
+        "ui_characterfile_normal_001": "异能系谱：",
+        "ui_characterfile_normal_002": "生日：",
+        "ui_characterfile_normal_003": "身高：",
+        "ui_characterfile_normal_004": "档案信息",
+        "ui_characterfile_normal_005": "语音记录",
+        "ui_characterfile_normal_006": "日常",
+        "ui_characterfile_normal_007": "战斗",
+        "ui_characterfile_normal_008": "解锁条件："
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

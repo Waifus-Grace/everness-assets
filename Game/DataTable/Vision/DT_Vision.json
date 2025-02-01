@@ -1,0 +1,1735 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Vision",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'VisionData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Vision_Boxing_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-5701_NickName",
+          "SourceString": "「后街拳王」",
+          "LocalizedString": "「后街拳王」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-5701_VisionCode",
+          "SourceString": "PObⅡS-5701",
+          "LocalizedString": "PObⅡS-5701"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 2,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 40.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_6.UI_YH_Archive_FileImages_6",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_6.UI_YH_Archive_FileImages_6",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_Boxing",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PObⅡS-5701_RecordAfter02",
+                "SourceString": "为保护大家免受骚扰，我和那两个爱惹事生非的拳头，在擂台上展开了一番较量！\n总结来说，那对拳头最大的特征就是，嗯……闻起来……唔……有了！是像蛋白粉那样的味道！不过说不定是因为热血过头，似乎有点儿烧焦了……\n力气比我想象的要来得强劲！而且不光如此！我打算多绕点圈子寻找破绽的时候，突然感觉从脚底下的擂台传来了一阵强烈的热度……紧接着，刚刚有点疲倦、就快松懈下来的拳头，居然又变得干劲满满了！\n这难道是擂台战的回合规则吗！？真是一分一秒都大意不得呀！我长见识了！下次一定要抓紧时间赢下来——",
+                "LocalizedString": "为保护大家免受骚扰，我和那两个爱惹事生非的拳头，在擂台上展开了一番较量！\n总结来说，那对拳头最大的特征就是，嗯……闻起来……唔……有了！是像蛋白粉那样的味道！不过说不定是因为热血过头，似乎有点儿烧焦了……\n力气比我想象的要来得强劲！而且不光如此！我打算多绕点圈子寻找破绽的时候，突然感觉从脚底下的擂台传来了一阵强烈的热度……紧接着，刚刚有点疲倦、就快松懈下来的拳头，居然又变得干劲满满了！\n这难道是擂台战的回合规则吗！？真是一分一秒都大意不得呀！我长见识了！下次一定要抓紧时间赢下来——"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Archives_MainNPC_001",
+                    "SourceString": "--薄荷",
+                    "LocalizedString": "--薄荷"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Archives_MainOrg_001",
+                    "SourceString": "异象管理局收容二组",
+                    "LocalizedString": "异象管理局收容二组"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -81865.82,
+          "Y": 156441.88,
+          "Z": 4250.0
+        },
+        "VisionTraceLocation": {
+          "X": -81865.82,
+          "Y": 156441.88,
+          "Z": 4250.0
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -81865.82,
+          "Y": 156441.88,
+          "Z": 4250.0
+        },
+        "VisionHoleRange": 5000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_01.map_smallmask_01",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Delete",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_6.UI_YH_Archive_FileImages_6",
+          "SubPathString": ""
+        }
+      },
+      "Vision_Boxing_02": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-5702_NickName",
+          "SourceString": "「天台拳王」",
+          "LocalizedString": "「天台拳王」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-5701_VisionCode",
+          "SourceString": "PObⅡS-5701",
+          "LocalizedString": "PObⅡS-5701"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 2,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 40.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_2.UI_YH_Archive_FileImages_2",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_2.UI_YH_Archive_FileImages_2",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_Boxing",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PObⅡS-5701_RecordAfter01",
+                "SourceString": "这个欧拉拳套，虽说比起一般的那种算是要能打上那么一丢丢吧……但是！也太笨了！笨得要死！\r\n哼，我猜它分辨不出普通人和异能者的战斗力差距，怕不是单看谁个子长得大就向谁约战吧？竟然一上来，把我当成那种手无缚鸡之力的小孩子，拒绝跟我打呢！结果，还得先被我骂几句才行。\r\n把它揍趴之后……不知道是不是因为这家伙待在露天地方风吹雨打久了，还有股脏兮兮的汗臭，连鬼郎丸都不是很想吃……要不带回去丢给娜娜莉随便玩玩算了？",
+                "LocalizedString": "这个欧拉拳套，虽说比起一般的那种算是要能打上那么一丢丢吧……但是！也太笨了！笨得要死！\r\n哼，我猜它分辨不出普通人和异能者的战斗力差距，怕不是单看谁个子长得大就向谁约战吧？竟然一上来，把我当成那种手无缚鸡之力的小孩子，拒绝跟我打呢！结果，还得先被我骂几句才行。\r\n把它揍趴之后……不知道是不是因为这家伙待在露天地方风吹雨打久了，还有股脏兮兮的汗臭，连鬼郎丸都不是很想吃……要不带回去丢给娜娜莉随便玩玩算了？"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Archives_MainNPC_002",
+                    "SourceString": "--早雾",
+                    "LocalizedString": "--早雾"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Archives_MainOrg_002",
+                    "SourceString": "伊波恩古董店",
+                    "LocalizedString": "伊波恩古董店"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -135865.77,
+          "Y": 169107.6,
+          "Z": 10068.344
+        },
+        "VisionTraceLocation": {
+          "X": -135865.77,
+          "Y": 169107.6,
+          "Z": 10068.344
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -135865.77,
+          "Y": 169107.6,
+          "Z": 10068.344
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_03.map_smallmask_03",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Delete",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_2.UI_YH_Archive_FileImages_2",
+          "SubPathString": ""
+        }
+      },
+      "Vision_Projector_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅠS-7605_NickName",
+          "SourceString": "「连环爆炸案」",
+          "LocalizedString": "「连环爆炸案」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅠS-7605_VisionCode",
+          "SourceString": "PObⅠS-7605",
+          "LocalizedString": "PObⅠS-7605"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 1,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 30.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_3.UI_YH_Archive_FileImages_3",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_3.UI_YH_Archive_FileImages_3",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_Projector",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PObⅠS-7605_RecordBefore2",
+                "SourceString": "本人独家心得，关于如何快速找到「时空放映机」中的奇点：\n1.记录「影片」时长\n2.重复观看13遍，记录其中的违和点（PS：13是本人的lucky number）\n3.对记录的违和点时间段进行地毯式搜查\n4.如无任何发现，使用逐帧播放继续调查\n5.进入「影片」前，提前准备好食物与水\n本人保持着「影片」中最长破案记录19小时，至今无人超越。希望我的分享对诸位有所帮助。",
+                "LocalizedString": "本人独家心得，关于如何快速找到「时空放映机」中的奇点：\n1.记录「影片」时长\n2.重复观看13遍，记录其中的违和点（PS：13是本人的lucky number）\n3.对记录的违和点时间段进行地毯式搜查\n4.如无任何发现，使用逐帧播放继续调查\n5.进入「影片」前，提前准备好食物与水\n本人保持着「影片」中最长破案记录19小时，至今无人超越。希望我的分享对诸位有所帮助。"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "ArchivesNpc_003_Name",
+                    "SourceString": "--林",
+                    "LocalizedString": "--林"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "ArchivesNpc_003_Org",
+                    "SourceString": "侦相侦探事务所",
+                    "LocalizedString": "侦相侦探事务所"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -87909.58,
+          "Y": 143882.72,
+          "Z": 4150.5005
+        },
+        "VisionTraceLocation": {
+          "X": -87909.58,
+          "Y": 143882.72,
+          "Z": 4150.5005
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -87909.58,
+          "Y": 143882.72,
+          "Z": 4150.5005
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_02.map_smallmask_02",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Delete",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_3.UI_YH_Archive_FileImages_3",
+          "SubPathString": ""
+        }
+      },
+      "Vision_WorldFilm": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "BObⅡM-3412_NickName",
+          "SourceString": "「品牌纪念日」",
+          "LocalizedString": "「品牌纪念日」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "BObⅡM-3412_VisionCode",
+          "SourceString": "BObⅡM-3412",
+          "LocalizedString": "BObⅡM-3412"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "002",
+        "Difficulty": 2,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 40.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/YH_UI_tupian04.YH_UI_tupian04",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/SmallArchive/YH_UI_dangan_tupian03.YH_UI_dangan_tupian03",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_WorldFilm",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "BObⅡM-3412_RecordAfterContent",
+                "SourceString": "固执的守旧派代表，钟爱老式机械快门的声音。\r\n多年以后，面对新的相机，它仍会想起最后一张胶片被冲洗完成的那个下午，在那个暗房中。",
+                "LocalizedString": "固执的守旧派代表，钟爱老式机械快门的声音。\r\n多年以后，面对新的相机，它仍会想起最后一张胶片被冲洗完成的那个下午，在那个暗房中。"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "BObⅡM-3412_RecordAfterSign",
+                    "SourceString": "--安秀",
+                    "LocalizedString": "--安秀"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "BObⅡM-3412_RecordAfterOrganization",
+                    "SourceString": "海特洛市市民",
+                    "LocalizedString": "海特洛市市民"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -193920.67,
+          "Y": 217636.48,
+          "Z": 6988.4443
+        },
+        "VisionTraceLocation": {
+          "X": -193920.67,
+          "Y": 217636.48,
+          "Z": 6988.4443
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -193920.67,
+          "Y": 217636.48,
+          "Z": 6988.4443
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_03.map_smallmask_03",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Delete",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/VisionAward/YH_UI_containment_04.YH_UI_containment_04",
+          "SubPathString": ""
+        }
+      },
+      "Vision_MagicBox_Cube_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PPhⅠS-13_NickName",
+          "SourceString": "「C的魔方」",
+          "LocalizedString": "「C的魔方」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PPhⅠS-13_VisionCode",
+          "SourceString": "PPhⅠS-13",
+          "LocalizedString": "PPhⅠS-13"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "002",
+        "Difficulty": 1,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 30.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_15.UI_YH_Archive_FileImages_15",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_15.UI_YH_Archive_FileImages_15",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_MagicBox",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PPhⅠS-13_RecordBefore_2",
+                "SourceString": "理论上来说，「增殖的C」是不会对人造成伤害的。它既不会主动对人发起攻击，也不会因为外界的影响而倒塌，哪怕是直接撞在纸箱形成的墙上都不会。但我还是想在这里告诫所有的异象猎人：不要因为「增殖的C」不会伤害人就放下警惕心！因为「增殖的C」会根据人的行为增殖出新的箱子——这就意味着，你的下一步可能畅通无阻，也可能会直接撞在墙上。因此，放慢脚步，看清前路。\r\n顺便，尽管「增殖的C」外表是纸箱，但是实际上非常的坚硬，如果撞上去的话......可能需要了解一下换一个合金鼻梁骨的价格....",
+                "LocalizedString": "理论上来说，「增殖的C」是不会对人造成伤害的。它既不会主动对人发起攻击，也不会因为外界的影响而倒塌，哪怕是直接撞在纸箱形成的墙上都不会。但我还是想在这里告诫所有的异象猎人：不要因为「增殖的C」不会伤害人就放下警惕心！因为「增殖的C」会根据人的行为增殖出新的箱子——这就意味着，你的下一步可能畅通无阻，也可能会直接撞在墙上。因此，放慢脚步，看清前路。\r\n顺便，尽管「增殖的C」外表是纸箱，但是实际上非常的坚硬，如果撞上去的话......可能需要了解一下换一个合金鼻梁骨的价格...."
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "PPhⅠS-13_RecordBeforeSign_2",
+                    "SourceString": "（记录人信息已折叠）",
+                    "LocalizedString": "（记录人信息已折叠）"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "CultureInvariantString": null
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -190100.64,
+          "Y": 192419.77,
+          "Z": 9905.0
+        },
+        "VisionTraceLocation": {
+          "X": -190100.64,
+          "Y": 192419.77,
+          "Z": 9905.0
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -190100.64,
+          "Y": 192419.77,
+          "Z": 9905.0
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_01.map_smallmask_01",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Get",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_15.UI_YH_Archive_FileImages_15",
+          "SubPathString": ""
+        }
+      },
+      "Vision_MagicBox_Tower_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PPhⅠS-14_NickName",
+          "SourceString": "「C的高塔」",
+          "LocalizedString": "「C的高塔」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PPhⅠS-13_VisionCode",
+          "SourceString": "PPhⅠS-13",
+          "LocalizedString": "PPhⅠS-13"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 1,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 30.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_8.UI_YH_Archive_FileImages_8",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_8.UI_YH_Archive_FileImages_8",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_MagicBox",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PPhⅠS-14_RecordBefore",
+                "SourceString": "对于异象「增殖的C」来说，值得讨论的点还很多。最初认为箱子在被「增殖的C」附着后会在原地开始增殖，并生成迷宫，但实际上「增殖的C」出现的场所和迷宫的形状都是随机的，而最近本人的经历也会改变先前对「增殖的C」的认知——普遍认为「增殖的C」增殖出的箱子外观上跟本体完全相同，但在本人最近的一次泯除「增殖的C」的过程中遇到了完全不同的箱子。至于这些箱子是否有其他特殊的作用，还需要对「增殖的C」进行更多的接触才能确认。",
+                "LocalizedString": "对于异象「增殖的C」来说，值得讨论的点还很多。最初认为箱子在被「增殖的C」附着后会在原地开始增殖，并生成迷宫，但实际上「增殖的C」出现的场所和迷宫的形状都是随机的，而最近本人的经历也会改变先前对「增殖的C」的认知——普遍认为「增殖的C」增殖出的箱子外观上跟本体完全相同，但在本人最近的一次泯除「增殖的C」的过程中遇到了完全不同的箱子。至于这些箱子是否有其他特殊的作用，还需要对「增殖的C」进行更多的接触才能确认。"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "Namespace": "",
+                    "Key": "8B99F3E4404390353618DA837D4C492D",
+                    "SourceString": "--",
+                    "LocalizedString": "--"
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "PPhⅠS-14_RecordBeforeSign",
+                    "SourceString": "理奈",
+                    "LocalizedString": "理奈"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "PPhⅠS-14_RecordBeforeOrganization",
+                    "SourceString": "理学会",
+                    "LocalizedString": "理学会"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -123900.05,
+          "Y": 135966.19,
+          "Z": 8377.0
+        },
+        "VisionTraceLocation": {
+          "X": -123900.05,
+          "Y": 135966.19,
+          "Z": 8377.0
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -123900.05,
+          "Y": 135966.19,
+          "Z": 8377.0
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_01.map_smallmask_01",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Get",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_8.UI_YH_Archive_FileImages_8",
+          "SubPathString": ""
+        }
+      },
+      "Vision_TheDoor": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-0026_NickName",
+          "SourceString": "「赤门」",
+          "LocalizedString": "「赤门」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-0026_VisionCode",
+          "SourceString": "PObⅡS-0026",
+          "LocalizedString": "PObⅡS-0026"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 2,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 40.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_7.UI_YH_Archive_FileImages_7",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_7.UI_YH_Archive_FileImages_7",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_TheDoor",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "Anomaly0094_RecordAfterContent_1",
+                "SourceString": "「这位老先生，您在报告单上填写的是：偶遇红色的门的异象，并发现了奇特之处。关于这一点，方便说得更详细些吗？」\r\n「哦吼吼！莫急、莫急。待老夫慢慢道来，那是正正好的正午，老夫为下午的买卖掐指一算，卦象为……呃，天机，泄露不得。总之，收了我的摊子往半角街走着……」\r\n「该异象被目击于白天，半角街附近。」\r\n「正午！正午！年轻人做事毛毛糙糙，得亏有老夫指点。」\r\n「当事人强调遭遇时间为正午，是否为关键因素仍需确定。」\r\n「这路啊，走着走着，可就走不动了。嚯！堵得严严实实，楞是找不到半条缝钻！」\r\n「年轻人有所不知，揣度天机之人呐，最看中的就是脚下所走的这条『路』，遭遇异象，就是注定之『路』。既然天与我此意，怎有不遵从的道理！前面就是刀山火海也得给它闯了！」\r\n「老夫虽比不上你们异象猎人的实力，但自保的能力还是有几分。那门内空间，看似真实，实则彼方世界的投影。稍有不慎则迷失其中，沦为里面怪东西的盘中餐。而老夫能身游虚境脱身而出，靠的就是老夫这珍藏多年，有着明目启智之效的……」\r\n「抱歉打断一下，JTF，指的是联合特遣队。」\r\n「我都半截身子进土的老东西了，认不清你们的这个缩写那个代号不是很正常？刚刚说到了哪儿？」\r\n「您所见到的异象空间并非真实存在。这是个十分新颖的观点。关于它可以展开说说吗？」\r\n「啧……我且问你。这个异象表里分别有红蓝两种门。有何深意呐？嵌在墙上的红色的那个连接着真实世界你们都知道了，但串联其虚拟空间的是蓝色的门……这，就是关键所在！我有一物，可鉴真伪。离这红色的门越近呐，它就颤动得越厉害，就像你的脉搏一样勃勃有力。离蓝色的门越近，就越是静如死水。这能说明什么？里面那个世界，从头到尾都是假的！什么失踪教学楼，重现的校园时光，多半是不想上班的小鬼逃避现实瞎掰扯出来的美梦，恰遂了那个吃人世界的意！要我是它啊，也得披上这么一层假模假样的外衣忽悠人进来……多亏了我这串宝贝手串，我才能在其中化险为夷，没被里面的歧骸生吞喽！今日你我相逢一场，也是命中注定。我观你与它命运遥遥相应，有意忍痛割爱，完善这桩机缘，以你方斯交换此物……（广告内容，已处理）」\r\n「……谢谢您所提供的信息。」\r\n（「赤门」内异象空间疑似教学楼的情景疑为呼应人之所想而显现的「假象」，并非真实存在过的教学楼……虽然这位市民朋友说了很多，但从中能提炼到的有用信息份量并不算重。我怀疑这都是他为推销那串神奇手链胡编的故事……但如果不是呢？比如那串手链真是一个能看破虚伪的异象？呃，我是不是真该买下来？）",
+                "LocalizedString": "「这位老先生，您在报告单上填写的是：偶遇红色的门的异象，并发现了奇特之处。关于这一点，方便说得更详细些吗？」\r\n「哦吼吼！莫急、莫急。待老夫慢慢道来，那是正正好的正午，老夫为下午的买卖掐指一算，卦象为……呃，天机，泄露不得。总之，收了我的摊子往半角街走着……」\r\n「该异象被目击于白天，半角街附近。」\r\n「正午！正午！年轻人做事毛毛糙糙，得亏有老夫指点。」\r\n「当事人强调遭遇时间为正午，是否为关键因素仍需确定。」\r\n「这路啊，走着走着，可就走不动了。嚯！堵得严严实实，楞是找不到半条缝钻！」\r\n「年轻人有所不知，揣度天机之人呐，最看中的就是脚下所走的这条『路』，遭遇异象，就是注定之『路』。既然天与我此意，怎有不遵从的道理！前面就是刀山火海也得给它闯了！」\r\n「老夫虽比不上你们异象猎人的实力，但自保的能力还是有几分。那门内空间，看似真实，实则彼方世界的投影。稍有不慎则迷失其中，沦为里面怪东西的盘中餐。而老夫能身游虚境脱身而出，靠的就是老夫这珍藏多年，有着明目启智之效的……」\r\n「抱歉打断一下，JTF，指的是联合特遣队。」\r\n「我都半截身子进土的老东西了，认不清你们的这个缩写那个代号不是很正常？刚刚说到了哪儿？」\r\n「您所见到的异象空间并非真实存在。这是个十分新颖的观点。关于它可以展开说说吗？」\r\n「啧……我且问你。这个异象表里分别有红蓝两种门。有何深意呐？嵌在墙上的红色的那个连接着真实世界你们都知道了，但串联其虚拟空间的是蓝色的门……这，就是关键所在！我有一物，可鉴真伪。离这红色的门越近呐，它就颤动得越厉害，就像你的脉搏一样勃勃有力。离蓝色的门越近，就越是静如死水。这能说明什么？里面那个世界，从头到尾都是假的！什么失踪教学楼，重现的校园时光，多半是不想上班的小鬼逃避现实瞎掰扯出来的美梦，恰遂了那个吃人世界的意！要我是它啊，也得披上这么一层假模假样的外衣忽悠人进来……多亏了我这串宝贝手串，我才能在其中化险为夷，没被里面的歧骸生吞喽！今日你我相逢一场，也是命中注定。我观你与它命运遥遥相应，有意忍痛割爱，完善这桩机缘，以你方斯交换此物……（广告内容，已处理）」\r\n「……谢谢您所提供的信息。」\r\n（「赤门」内异象空间疑似教学楼的情景疑为呼应人之所想而显现的「假象」，并非真实存在过的教学楼……虽然这位市民朋友说了很多，但从中能提炼到的有用信息份量并不算重。我怀疑这都是他为推销那串神奇手链胡编的故事……但如果不是呢？比如那串手链真是一个能看破虚伪的异象？呃，我是不是真该买下来？）"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Anomaly0094_RecordAfterSign_1",
+                    "SourceString": "--罗伊",
+                    "LocalizedString": "--罗伊"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Anomaly0094_RecordAfterOrganization_1",
+                    "SourceString": "异象管理局联合特遣队",
+                    "LocalizedString": "异象管理局联合特遣队"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -87035.71,
+          "Y": 170735.19,
+          "Z": 3444.3813
+        },
+        "VisionTraceLocation": {
+          "X": -87035.71,
+          "Y": 170735.19,
+          "Z": 3444.3813
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -87919.04,
+          "Y": 173415.61,
+          "Z": 3033.673
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_02.map_smallmask_02",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 5000.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 4000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Delete",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_7.UI_YH_Archive_FileImages_7",
+          "SubPathString": ""
+        }
+      },
+      "Vision_MotoBoss_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "Anomaly0118_NickName",
+          "SourceString": "「铁驭强袭」",
+          "LocalizedString": "「铁驭强袭」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "Anomaly0118_VisionCode",
+          "SourceString": "BOrⅣS-8461",
+          "LocalizedString": "BOrⅣS-8461"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 4,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 75.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_1.UI_YH_Archive_FileImages_1",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_1.UI_YH_Archive_FileImages_1",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_MotoBoss",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "Anomaly0118_RecordAfter",
+                "SourceString": "什么飙车之王……无首铁驭……来之前也不打听打听，这条街，这条道，这个海特洛市，可是我柯林斯家族罩着的，敢在我的地盘上，欺负我的小弟们？\r\n这不，让小弟带着本一代目转上一圈，马上就上钩了，镰刀和摩托出场还挺酷，冒着蓝火看上去热腾腾的，不过也就样子有点唬人，本一代目可是见过大风大浪的异能者，比它恐怖的见得多了！\r\n不过嘛，这个异象还挺对我胃口，没有那么多弯弯绕绕的东西，打起来……额……完全不是我的对手！我有想过把它收入家族，以后骑着机车和镰刀出场，一看就是主角的样子，只是它没法沟通……唉……「暴走族的审判者」想想也挺酷？就这么泯除了好像还怪可惜的……",
+                "LocalizedString": "什么飙车之王……无首铁驭……来之前也不打听打听，这条街，这条道，这个海特洛市，可是我柯林斯家族罩着的，敢在我的地盘上，欺负我的小弟们？\r\n这不，让小弟带着本一代目转上一圈，马上就上钩了，镰刀和摩托出场还挺酷，冒着蓝火看上去热腾腾的，不过也就样子有点唬人，本一代目可是见过大风大浪的异能者，比它恐怖的见得多了！\r\n不过嘛，这个异象还挺对我胃口，没有那么多弯弯绕绕的东西，打起来……额……完全不是我的对手！我有想过把它收入家族，以后骑着机车和镰刀出场，一看就是主角的样子，只是它没法沟通……唉……「暴走族的审判者」想想也挺酷？就这么泯除了好像还怪可惜的……"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Archives_MainNPC_003",
+                    "SourceString": "--娜娜莉",
+                    "LocalizedString": "--娜娜莉"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Archives_MainOrg_002",
+                    "SourceString": "伊波恩古董店",
+                    "LocalizedString": "伊波恩古董店"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -103871.51,
+          "Y": 181596.58,
+          "Z": 5214.0
+        },
+        "VisionTraceLocation": {
+          "X": -103871.51,
+          "Y": 181596.58,
+          "Z": 5214.0
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -117703.41,
+          "Y": 191402.28,
+          "Z": 3033.673
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_03.map_smallmask_03",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 2000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Delete",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_1.UI_YH_Archive_FileImages_1",
+          "SubPathString": ""
+        }
+      },
+      "Vision_Projector_Time_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅠS-7605_NickName_2",
+          "SourceString": "「影像幽宅」",
+          "LocalizedString": "「影像幽宅」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅠS-7605_VisionCode",
+          "SourceString": "PObⅠS-7605",
+          "LocalizedString": "PObⅠS-7605"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "003",
+        "Difficulty": 1,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 30.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_16.UI_YH_Archive_FileImages_16",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_16.UI_YH_Archive_FileImages_16",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_Projector",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PObⅠS-7605_RecordAfter",
+                "SourceString": "哦，这个这个，叫什么来着，会放影片的什么东西。哎呦，算了，这不重要，虽然没有什么战斗力，但是它哪儿来那么多弯弯绕绕的——它应该叫谜语异象！耐心挑战异象！我宁愿和它堂堂正正打一架，也好过看得我直犯困！\n我嘛，反正每次都是一点点地放放影片，把里面能碰见的东西都揍一顿，总能解决问题！\n哦，对了，如果你也想加入未来海特洛市第一帮派柯林斯家族，赶紧来伊波恩古董店！这里不仅有走上传奇之路的机会，还能买到限量……（以下内容涉及商业广告行为已被折叠）",
+                "LocalizedString": "哦，这个这个，叫什么来着，会放影片的什么东西。哎呦，算了，这不重要，虽然没有什么战斗力，但是它哪儿来那么多弯弯绕绕的——它应该叫谜语异象！耐心挑战异象！我宁愿和它堂堂正正打一架，也好过看得我直犯困！\n我嘛，反正每次都是一点点地放放影片，把里面能碰见的东西都揍一顿，总能解决问题！\n哦，对了，如果你也想加入未来海特洛市第一帮派柯林斯家族，赶紧来伊波恩古董店！这里不仅有走上传奇之路的机会，还能买到限量……（以下内容涉及商业广告行为已被折叠）"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Archives_MainNPC_003",
+                    "SourceString": "--娜娜莉",
+                    "LocalizedString": "--娜娜莉"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Archives_MainOrg_002",
+                    "SourceString": "伊波恩古董店",
+                    "LocalizedString": "伊波恩古董店"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -132650.5,
+          "Y": 131027.57,
+          "Z": 6989.543
+        },
+        "VisionTraceLocation": {
+          "X": -132650.5,
+          "Y": 131027.57,
+          "Z": 6989.543
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -132650.5,
+          "Y": 131027.57,
+          "Z": 6989.543
+        },
+        "VisionHoleRange": 5000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_02.map_smallmask_02",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Get",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_16.UI_YH_Archive_FileImages_16",
+          "SubPathString": ""
+        }
+      },
+      "Vision_ColorsWearOff": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "Anomaly0030_NickName",
+          "SourceString": "「灵感终结者」",
+          "LocalizedString": "「灵感终结者」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "Anomaly0030_VisionCode",
+          "SourceString": "POrⅡS-8364",
+          "LocalizedString": "POrⅡS-8364"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 2,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 40.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_13.UI_YH_Archive_FileImages_13",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_13.UI_YH_Archive_FileImages_13",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_ColorsWearOff",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "Anomaly0030_RecordBeforeContent_3",
+                "SourceString": "算不上麻烦的异象，通常情况下冲进去收拾一顿就行。但即使如此，每次接到这种委托，我们组所有人都会变得格外谦让有礼，彼此推辞，最终只能由抽签决定哪个倒霉蛋撞此大运。\r\n你应该知道「灵感终结者」制造的异象空间，是根据它吸取到的灵感夸张变化来的吧？也就是说，那玩意可以说是一个超巨型点子具象化主题乐园。往那儿一站，你就知道被偷点子的那人究竟在想什么。\r\n这可完全称不上有趣，这么跟你说吧：那时我接到了我最崇拜的漫画家下的委托，如果不帮她解决这个大麻烦，连载的结尾可就……总之带着可以帮到偶像的虔诚惶恐的心情，我踏进了异象空间，结果发现那就是由她酝酿的最后一话的「灵感」生成的。猝不及防，我被提前剧透了个干干净净……追连载时的期待，和别人讨论伏笔时的激动，属于这部作品所有的满足感……就这样草率又仓促的碎掉了。本该……我本该和其他朋友们一起庆祝它迎来最后一话，既幸福又不舍地慢慢读完这个故事……\r\n咳咳，扯远了。不管怎么说，这个根据人们灵感生成的异象空间，甚至比其他异象弄出来的还要复杂。如果灵感主人是恐怖片导演，恭喜你将收获一段永生难忘的惊魂体验。我有位同事，差点迷失在推理小说家的灵感空间里，属实把人吓得不轻。这能算工伤吗？\r\n对了，还有最重要的一点。通常我们会被要求签一些保密协议、合同啊什么的。毕竟我们是除了委托人以外唯一知道这个想法的人。虽说可以理解，但条条框框的就是很烦人啊？委托费算不上高，规矩倒一个不少！谁乐意接这种活嘛……",
+                "LocalizedString": "算不上麻烦的异象，通常情况下冲进去收拾一顿就行。但即使如此，每次接到这种委托，我们组所有人都会变得格外谦让有礼，彼此推辞，最终只能由抽签决定哪个倒霉蛋撞此大运。\r\n你应该知道「灵感终结者」制造的异象空间，是根据它吸取到的灵感夸张变化来的吧？也就是说，那玩意可以说是一个超巨型点子具象化主题乐园。往那儿一站，你就知道被偷点子的那人究竟在想什么。\r\n这可完全称不上有趣，这么跟你说吧：那时我接到了我最崇拜的漫画家下的委托，如果不帮她解决这个大麻烦，连载的结尾可就……总之带着可以帮到偶像的虔诚惶恐的心情，我踏进了异象空间，结果发现那就是由她酝酿的最后一话的「灵感」生成的。猝不及防，我被提前剧透了个干干净净……追连载时的期待，和别人讨论伏笔时的激动，属于这部作品所有的满足感……就这样草率又仓促的碎掉了。本该……我本该和其他朋友们一起庆祝它迎来最后一话，既幸福又不舍地慢慢读完这个故事……\r\n咳咳，扯远了。不管怎么说，这个根据人们灵感生成的异象空间，甚至比其他异象弄出来的还要复杂。如果灵感主人是恐怖片导演，恭喜你将收获一段永生难忘的惊魂体验。我有位同事，差点迷失在推理小说家的灵感空间里，属实把人吓得不轻。这能算工伤吗？\r\n对了，还有最重要的一点。通常我们会被要求签一些保密协议、合同啊什么的。毕竟我们是除了委托人以外唯一知道这个想法的人。虽说可以理解，但条条框框的就是很烦人啊？委托费算不上高，规矩倒一个不少！谁乐意接这种活嘛……"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Anomaly0030_RecordBeforeSign_3",
+                    "SourceString": "森纳",
+                    "LocalizedString": "森纳"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Anomaly0030_RecordBeforeOrganization_3",
+                    "SourceString": "异象猎人",
+                    "LocalizedString": "异象猎人"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -115421.06,
+          "Y": 146731.73,
+          "Z": 9574.0
+        },
+        "VisionTraceLocation": {
+          "X": -115421.06,
+          "Y": 146731.73,
+          "Z": 9574.0
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -115421.06,
+          "Y": 146731.73,
+          "Z": 9574.0
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_02.map_smallmask_02",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Get",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "getfork_lingganzhongjiezhe",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_13.UI_YH_Archive_FileImages_13",
+          "SubPathString": ""
+        }
+      },
+      "Vision_Peekaboo": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "Anomaly0163_NickName",
+          "SourceString": "「不可自拔」",
+          "LocalizedString": "「不可自拔」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "Anomaly0163_VisionCode",
+          "SourceString": "PMeⅡS-2830",
+          "LocalizedString": "PMeⅡS-2830"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "003",
+        "Difficulty": 2,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 40.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_14.UI_YH_Archive_FileImages_14",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_14.UI_YH_Archive_FileImages_14",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_Peekaboo",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "Anomaly0163_RecordBeforeContent_3",
+                "SourceString": "「不可自拔」影片时长的异常，我们已经有了点眉目。\r\n就拿最近很火爆的「放学后」来打比方。你可能听说过，那是一个讲述主人公被「玩伴」困在放学后的校舍，经过反复尝试最终成功回家的故事。\r\n一边遵循着「玩伴」们一二三木头人的游戏规则，一边绕过重重阻碍找到离开学校的方法。若忘记时不时回头看看「玩伴」，则会被他们逮回去导致前功尽弃。难怪主人公会一次又一次重返起点，循环往复，直到这部漫长的影片结束……对吧？\r\n然而经过我们研究确认，这部电影正常的片长只有几分钟。社交网络上所流传的异常片长版本，是有人刻意将主人公在校园中反复试错循环往复的部分剪辑拷贝，导致观感上「从头再来」这件事仿佛无穷无尽。\r\n到底是什么人有能力编辑异象影片？这会是他的异能吗？他究竟为什么要这样做？这些疑问都还有待进一步调查。",
+                "LocalizedString": "「不可自拔」影片时长的异常，我们已经有了点眉目。\r\n就拿最近很火爆的「放学后」来打比方。你可能听说过，那是一个讲述主人公被「玩伴」困在放学后的校舍，经过反复尝试最终成功回家的故事。\r\n一边遵循着「玩伴」们一二三木头人的游戏规则，一边绕过重重阻碍找到离开学校的方法。若忘记时不时回头看看「玩伴」，则会被他们逮回去导致前功尽弃。难怪主人公会一次又一次重返起点，循环往复，直到这部漫长的影片结束……对吧？\r\n然而经过我们研究确认，这部电影正常的片长只有几分钟。社交网络上所流传的异常片长版本，是有人刻意将主人公在校园中反复试错循环往复的部分剪辑拷贝，导致观感上「从头再来」这件事仿佛无穷无尽。\r\n到底是什么人有能力编辑异象影片？这会是他的异能吗？他究竟为什么要这样做？这些疑问都还有待进一步调查。"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Anomaly0163_RecordBeforeSign_3",
+                    "SourceString": "毕星",
+                    "LocalizedString": "毕星"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "Anomaly0163_RecordBeforeOrganization_3",
+                    "SourceString": "异象管理局联合特遣队",
+                    "LocalizedString": "异象管理局联合特遣队"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -146186.19,
+          "Y": 166783.94,
+          "Z": 8226.126
+        },
+        "VisionTraceLocation": {
+          "X": -146186.19,
+          "Y": 166783.94,
+          "Z": 8226.126
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -146186.19,
+          "Y": 166783.94,
+          "Z": 8226.126
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_02.map_smallmask_02",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Get",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_14.UI_YH_Archive_FileImages_14",
+          "SubPathString": ""
+        }
+      },
+      "Vision_RainMan_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅢS-1348_NickName",
+          "SourceString": "「未雨绸缪」",
+          "LocalizedString": "「未雨绸缪」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅢS-1348_VisionCode",
+          "SourceString": "PObⅢS-1348",
+          "LocalizedString": "PObⅢS-1348"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "003",
+        "Difficulty": 3,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 55.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_RainMan",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PObⅢS-1348_RecordAfter",
+                "SourceString": "真希望能出台一项规定：禁止涂鸦爱好者在海特洛街头涂鸦可能会引起误会的内容！\r\n有句话怎么说来着？每条看起来很离谱的规矩背后都是更加离谱的现实教训……\r\n究竟是谁——故意——在地上涂画了那么逼真的「水渍」——还有模有样地在上面撑起一把黑伞啊！！！\r\n当时……满怀「抓住你了」的激动心情，我特意整理了下袖口，打算以最灵活最有把握的姿态扑向面前的「雨人」，速战速决来着！\r\n结果却是一个猛扑摔在了地上，灰头土脸险些咬到了舌头，头上还顶着那把和雨人如此酷似，但又如假包换的雨伞！！！制服上蹭得全是模拟水渍画出来的，黏糊糊又黑咕隆咚的涂鸦喷漆！！！\r\n到底是谁干的啊！！！",
+                "LocalizedString": "真希望能出台一项规定：禁止涂鸦爱好者在海特洛街头涂鸦可能会引起误会的内容！\r\n有句话怎么说来着？每条看起来很离谱的规矩背后都是更加离谱的现实教训……\r\n究竟是谁——故意——在地上涂画了那么逼真的「水渍」——还有模有样地在上面撑起一把黑伞啊！！！\r\n当时……满怀「抓住你了」的激动心情，我特意整理了下袖口，打算以最灵活最有把握的姿态扑向面前的「雨人」，速战速决来着！\r\n结果却是一个猛扑摔在了地上，灰头土脸险些咬到了舌头，头上还顶着那把和雨人如此酷似，但又如假包换的雨伞！！！制服上蹭得全是模拟水渍画出来的，黏糊糊又黑咕隆咚的涂鸦喷漆！！！\r\n到底是谁干的啊！！！"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "Namespace": "",
+                    "Key": "2623DE65423870F62C6EE2BEACBC5252",
+                    "SourceString": "--",
+                    "LocalizedString": "--"
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "PObⅢS-1348_RecordAfterSign",
+                    "SourceString": "罗纳德",
+                    "LocalizedString": "罗纳德"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "PObⅢS-1348_RecordAfterOrganization",
+                    "SourceString": "异象管理局联合特遣队",
+                    "LocalizedString": "异象管理局联合特遣队"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -177750.0,
+          "Y": 118862.0,
+          "Z": 7120.0
+        },
+        "VisionTraceLocation": {
+          "X": -177750.0,
+          "Y": 118862.0,
+          "Z": 7120.0
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -177750.0,
+          "Y": 118862.0,
+          "Z": 7120.0
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_01.map_smallmask_01",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Get",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+          "SubPathString": ""
+        }
+      },
+      "Vision_TuyaGuai_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-39_NickName",
+          "SourceString": "「超音速涂鸦」",
+          "LocalizedString": "「超音速涂鸦」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅢS-1348_VisionCode",
+          "SourceString": "PObⅢS-1348",
+          "LocalizedString": "PObⅢS-1348"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 3,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 55.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_10.UI_YH_Archive_FileImages_10",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_10.UI_YH_Archive_FileImages_10",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_TuyaGuai",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PObⅡS-39_RecordBefore3",
+                "SourceString": "（「呗果」上的热帖）\r\n洋子大人Dating实录：这次的嘉宾是——异象波普！\r\n\r\n哟，大噶好，我是你们的洋子！在这午夜时分，Dating系列终于又更新了~ (≧▽≦)\r\n\r\n（一张照片：少女站在天蒙蒙亮的街头，寒风中凌乱的头发，遮住了脸）\r\n别问我在广场东巷被风吹成什么样，为了约会，我也是豁出去了！\r\n\r\n这次的对象，没错，就是内个——波——普！啪嗒啪嗒鼓掌！ヽ(✿ﾟ▽ﾟ)ノ \r\n波普是踏着滑板四处涂鸦的街头潮男，个性顽劣但伤害性不高？被咱们这些「勇敢市民」追寻着～话说回来，它可是神出鬼没，很多人听过名字但压根没见过！ (ﾟдﾟ)\r\n不过就在昨晚，我在呗果上刷到，有人发现油漆还没干的波普涂鸦！一看位置：附近0.9公里？？？咱就是说，这不是最佳CHANCE吗！麻溜地我就换好衣服出门，撞撞运气喽！\r\n\r\n（一张照片：昏暗的路灯底下，波普的涂鸦）\r\n虽然不懂街头艺术什么的，不过站在一大片色彩斑斓的墙底下，还是会被震撼到！涂鸦就出现在我家附近，难道这就是命运打出的信号？就在我美美地摆pose合照时，看到屏幕里身后的墙动了起来！我回头一看，波普本人就在我面前？！啊啊啊……大脑……要宕机了……我和波普的距离不超过50公分，它一抬胳膊就能壁咚我！我还在胡思乱想，它突然在看着我，眼神既冷漠又轻蔑，好像在问我「你谁？」喂，我可是你的头号追随者啊！脑子一热还喊了出来：「波普老师，集个邮呗！」\r\n\r\n其实，其实我也没抱太大希望得到回应，但万一有奇迹呢！结果男嘉宾一个漂亮的鱼跃动作，连人带滑板，就从咱的头上飞、飞过去嘞……我当时一整个呆住，就那样看着它消失在巷子的尽头，只留下一脸彩色颜料..(˘̩̩ε˘̩ƪ)\r\n唉，那一刻心都碎成渣渣了……\r\n\r\n嗯嗯……看官们不要走开，因为事情还没完！\r\n回到家以后，我照镜子，发现脸上的「波普彩妆」还挺好看？诶？诶不是！这也算一种「签名」吧？算吧？？？呜哇，开心！要速速分享给大家！(ˊᗜˋ)\r\n（一张照片：室内，少女脸上有荧光色喷漆的图案，开心比V）",
+                "LocalizedString": "（「呗果」上的热帖）\r\n洋子大人Dating实录：这次的嘉宾是——异象波普！\r\n\r\n哟，大噶好，我是你们的洋子！在这午夜时分，Dating系列终于又更新了~ (≧▽≦)\r\n\r\n（一张照片：少女站在天蒙蒙亮的街头，寒风中凌乱的头发，遮住了脸）\r\n别问我在广场东巷被风吹成什么样，为了约会，我也是豁出去了！\r\n\r\n这次的对象，没错，就是内个——波——普！啪嗒啪嗒鼓掌！ヽ(✿ﾟ▽ﾟ)ノ \r\n波普是踏着滑板四处涂鸦的街头潮男，个性顽劣但伤害性不高？被咱们这些「勇敢市民」追寻着～话说回来，它可是神出鬼没，很多人听过名字但压根没见过！ (ﾟдﾟ)\r\n不过就在昨晚，我在呗果上刷到，有人发现油漆还没干的波普涂鸦！一看位置：附近0.9公里？？？咱就是说，这不是最佳CHANCE吗！麻溜地我就换好衣服出门，撞撞运气喽！\r\n\r\n（一张照片：昏暗的路灯底下，波普的涂鸦）\r\n虽然不懂街头艺术什么的，不过站在一大片色彩斑斓的墙底下，还是会被震撼到！涂鸦就出现在我家附近，难道这就是命运打出的信号？就在我美美地摆pose合照时，看到屏幕里身后的墙动了起来！我回头一看，波普本人就在我面前？！啊啊啊……大脑……要宕机了……我和波普的距离不超过50公分，它一抬胳膊就能壁咚我！我还在胡思乱想，它突然在看着我，眼神既冷漠又轻蔑，好像在问我「你谁？」喂，我可是你的头号追随者啊！脑子一热还喊了出来：「波普老师，集个邮呗！」\r\n\r\n其实，其实我也没抱太大希望得到回应，但万一有奇迹呢！结果男嘉宾一个漂亮的鱼跃动作，连人带滑板，就从咱的头上飞、飞过去嘞……我当时一整个呆住，就那样看着它消失在巷子的尽头，只留下一脸彩色颜料..(˘̩̩ε˘̩ƪ)\r\n唉，那一刻心都碎成渣渣了……\r\n\r\n嗯嗯……看官们不要走开，因为事情还没完！\r\n回到家以后，我照镜子，发现脸上的「波普彩妆」还挺好看？诶？诶不是！这也算一种「签名」吧？算吧？？？呜哇，开心！要速速分享给大家！(ˊᗜˋ)\r\n（一张照片：室内，少女脸上有荧光色喷漆的图案，开心比V）"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "Namespace": "",
+                    "Key": "2623DE65423870F62C6EE2BEACBC5252",
+                    "SourceString": "--",
+                    "LocalizedString": "--"
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "PObⅡS-39_RecordBeforeSign_1",
+                    "SourceString": "铃木",
+                    "LocalizedString": "铃木"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "PObⅡS-39_RecordBeforeOrganization_1",
+                    "SourceString": "无业青年 绰号「金轮」（不良记录：违规驾驶；破坏公物。）",
+                    "LocalizedString": "无业青年 绰号「金轮」（不良记录：违规驾驶；破坏公物。）"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -70198.14,
+          "Y": 137958.0,
+          "Z": 2882.1016
+        },
+        "VisionTraceLocation": {
+          "X": -70198.14,
+          "Y": 137958.0,
+          "Z": 2882.1016
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -70198.14,
+          "Y": 137958.0,
+          "Z": 2882.1016
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_01.map_smallmask_01",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Delete",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_10.UI_YH_Archive_FileImages_10",
+          "SubPathString": ""
+        }
+      },
+      "Vision_YaoDao_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-1113_NickName",
+          "SourceString": "「血染妖刀」",
+          "LocalizedString": "「血染妖刀」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "PObⅡS-1113_VisionCode",
+          "SourceString": "PObⅡS-1113",
+          "LocalizedString": "PObⅡS-1113"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "003",
+        "Difficulty": 2,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 55.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_11.UI_YH_Archive_FileImages_11",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_11.UI_YH_Archive_FileImages_11",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_YaoDao",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "PObⅡS-1113_RecordAfter",
+                "SourceString": "「长闲庭，刀染春樱作雪乱。」是以，此刀名「雪染」。\r\n……\r\n「血染刀」只斩持刀者，是为妖刀。",
+                "LocalizedString": "「长闲庭，刀染春樱作雪乱。」是以，此刀名「雪染」。\r\n……\r\n「血染刀」只斩持刀者，是为妖刀。"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "Namespace": "",
+                    "Key": "2623DE65423870F62C6EE2BEACBC5252",
+                    "SourceString": "--",
+                    "LocalizedString": "--"
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "PObⅡS-1113_RecordAfterSign",
+                    "SourceString": "——摘录自「名剑录-无名篇」",
+                    "LocalizedString": "——摘录自「名剑录-无名篇」"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "CultureInvariantString": null
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -138092.39,
+          "Y": 126145.41,
+          "Z": 6739.8306
+        },
+        "VisionTraceLocation": {
+          "X": -138092.39,
+          "Y": 126145.41,
+          "Z": 6739.8306
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -138092.39,
+          "Y": 126145.41,
+          "Z": 6739.8306
+        },
+        "VisionHoleRange": 5000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_01.map_smallmask_01",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Delete",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_11.UI_YH_Archive_FileImages_11",
+          "SubPathString": ""
+        }
+      },
+      "Vision_LiyuuQi_01": {
+        "VisionName": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "BPhⅡE-0085_NickName",
+          "SourceString": "「替班龙门」",
+          "LocalizedString": "「替班龙门」"
+        },
+        "VisionCode": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "BPhⅡE-0085_VisionCode",
+          "SourceString": "BPhⅡE-0085",
+          "LocalizedString": "BPhⅡE-0085"
+        },
+        "BelongsLevel": "XL_map_bigworld_test",
+        "BelongsAreaID": "001",
+        "Difficulty": 2,
+        "ActiveCondition": null,
+        "ShowInList": true,
+        "IsQuestVision": false,
+        "AddWertheimerValue": 55.0,
+        "DisplayData": {
+          "VisionDraw": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_9.UI_YH_Archive_FileImages_9",
+            "SubPathString": ""
+          },
+          "VisionThumbnail": {
+            "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_9.UI_YH_Archive_FileImages_9",
+            "SubPathString": ""
+          }
+        },
+        "CompletedDisplayDataOverride": null,
+        "VisionCategory": "Vision_LiyuuQi",
+        "CompletedRecordContents": [
+          {
+            "Days": 0,
+            "RecordContent": {
+              "Content": {
+                "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                "Key": "BPhⅡE-0085_Record_3",
+                "SourceString": "关于那个实拍视频被转了很多的鲤鱼旗从天上飞下来的异象……哦或者说河流异象吧。\r\n说实话一点也理解不了说喜欢那异象的人在惊叹些什么，还有人说想特地去现场看。拜托，如果只是觉得那场景很漂亮的话用CG动画技术不是也完全可以做到吗？难道这在电影里还少见吗？\r\n「带来生机」、「感谢恩赐」那类的蠢话看得我差点以为我不是点进评论区而是走进了什么白痴大本营。本来有谁指望过在那些钢筋水泥的楼房最顶上搞什么绿化？确定不是在给人添麻烦？\r\n\r\n而说到那个被津津乐道的「龙门」试炼，更让我觉得被耍了还不自知的人不是一般的多。\r\n首先这些鱼是半透明的，你们仔细看都能看出来，对吧？他们没有实体，对吧？你其实根本阻挡不了他们，因为它们完全有能力从你的身体中直接穿过去，而且绝大多数的攻击手段也是完全不可能伤到他们的，对吧？\r\n它们想跳就能跳过去，想打也可以继续打下去，但非要故意做出能被人类阻挡、能被击中的样子，只为了呈现出就像是真的在接受某种试炼……\r\n嚯？所以咱们就动用一大堆人力费尽心思装腔作势地配合，还要小心别挡得太敷衍让它们成功了——明明只要它们想成功谁也挡不住？门口两个小孩过家家吵起来打闹都算是你来我往胜负难分的较量呢，这算是什么？\r\n不说明白点就没法理解吗？好多人被异象耍着玩回头还要夸一句可爱，给我乐着了，异象眼里你才傻得可爱。\r\n\r\n到头来不还是同样的那套恶性异象的做派吗？强迫人类配合自己的规则、不遵照着去做就给你点颜色看看。\r\n啊我懂了——原来只要把形式做得好看点，再给点甜头尝尝，大家就都会觉得这是个「好」异象啊。\r\n连这异象害死过多少人也是可以抛到脑后的。当然了，你可以回我一句「真相不明的事情别拿出来传播」，挺好的，今后也这样，事事都只看好的一面，从好的角度去解读，这可真是太「好」了。\r\n保持这份纯真直到被坑死为止吧。",
+                "LocalizedString": "关于那个实拍视频被转了很多的鲤鱼旗从天上飞下来的异象……哦或者说河流异象吧。\r\n说实话一点也理解不了说喜欢那异象的人在惊叹些什么，还有人说想特地去现场看。拜托，如果只是觉得那场景很漂亮的话用CG动画技术不是也完全可以做到吗？难道这在电影里还少见吗？\r\n「带来生机」、「感谢恩赐」那类的蠢话看得我差点以为我不是点进评论区而是走进了什么白痴大本营。本来有谁指望过在那些钢筋水泥的楼房最顶上搞什么绿化？确定不是在给人添麻烦？\r\n\r\n而说到那个被津津乐道的「龙门」试炼，更让我觉得被耍了还不自知的人不是一般的多。\r\n首先这些鱼是半透明的，你们仔细看都能看出来，对吧？他们没有实体，对吧？你其实根本阻挡不了他们，因为它们完全有能力从你的身体中直接穿过去，而且绝大多数的攻击手段也是完全不可能伤到他们的，对吧？\r\n它们想跳就能跳过去，想打也可以继续打下去，但非要故意做出能被人类阻挡、能被击中的样子，只为了呈现出就像是真的在接受某种试炼……\r\n嚯？所以咱们就动用一大堆人力费尽心思装腔作势地配合，还要小心别挡得太敷衍让它们成功了——明明只要它们想成功谁也挡不住？门口两个小孩过家家吵起来打闹都算是你来我往胜负难分的较量呢，这算是什么？\r\n不说明白点就没法理解吗？好多人被异象耍着玩回头还要夸一句可爱，给我乐着了，异象眼里你才傻得可爱。\r\n\r\n到头来不还是同样的那套恶性异象的做派吗？强迫人类配合自己的规则、不遵照着去做就给你点颜色看看。\r\n啊我懂了——原来只要把形式做得好看点，再给点甜头尝尝，大家就都会觉得这是个「好」异象啊。\r\n连这异象害死过多少人也是可以抛到脑后的。当然了，你可以回我一句「真相不明的事情别拿出来传播」，挺好的，今后也这样，事事都只看好的一面，从好的角度去解读，这可真是太「好」了。\r\n保持这份纯真直到被坑死为止吧。"
+              },
+              "SignData": [
+                {
+                  "SignTitle": {
+                    "Namespace": "",
+                    "Key": "2623DE65423870F62C6EE2BEACBC5252",
+                    "SourceString": "--",
+                    "LocalizedString": "--"
+                  },
+                  "Sign": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "BPhⅡE-0085_RecordSign_3",
+                    "SourceString": "镜匠",
+                    "LocalizedString": "镜匠"
+                  },
+                  "OrganizationTitle": {
+                    "CultureInvariantString": null
+                  },
+                  "Organization": {
+                    "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                    "Key": "BPhⅡE-0085_RecordOrganization_3",
+                    "SourceString": "活跃「呗果」账号 身份不明",
+                    "LocalizedString": "活跃「呗果」账号 身份不明"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "VisionLocation": {
+          "X": -133249.0,
+          "Y": 176579.0,
+          "Z": 9857.0
+        },
+        "VisionTraceLocation": {
+          "X": -133249.0,
+          "Y": 176579.0,
+          "Z": 9857.0
+        },
+        "VisionShowMapIconLocation": null,
+        "VisionHoleCenterLocation": {
+          "X": -133249.0,
+          "Y": 176579.0,
+          "Z": 9857.0
+        },
+        "VisionHoleRange": 10000.0,
+        "VisionHoleTexture": {
+          "AssetPathName": "/Game/UI/UI/minimap/VisionAreaMaskBetweenBridges/VisionMask/map_smallmask_01.map_smallmask_01",
+          "SubPathString": ""
+        },
+        "VisionHoleTextureDrawSize": {
+          "X": 10000.0,
+          "Y": 10000.0
+        },
+        "VisionShowMapIconDistance": 0.0,
+        "VisionShowMapIconID": "VisionArea",
+        "VisionShowMapIconDrawRange": {
+          "X": 5000.0,
+          "Y": 5000.0
+        },
+        "VisionRadarDimensionDistance": 1000.0,
+        "TraceHideDistance": 0.0,
+        "bTraceActor": false,
+        "TraceActorDistance": 0.0,
+        "VisionTraceImageRenderData": null,
+        "VisionMaskImageRenderData": [],
+        "VisionType": "EVisionType::Get",
+        "VisionCondition": null,
+        "VisionAward": null,
+        "VisionAwardUIDelayTime": 0.0,
+        "VisionSoulID": "None",
+        "VisionIcon": {
+          "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_9.UI_YH_Archive_FileImages_9",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

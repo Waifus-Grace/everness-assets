@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MiniMapArea",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MiniMapAreaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "000": {
+        "AreaName": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Region006",
+          "SourceString": "M10区",
+          "LocalizedString": "M10区"
+        },
+        "MapName": "XL_map_bigworld_test",
+        "BelongsRegionID": "None",
+        "MapAreaCenterLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FogID": "Trinity",
+        "TowerID": "None",
+        "RealEstateMapRenderData": null
+      },
+      "001": {
+        "AreaName": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Area001",
+          "SourceString": "桥间地",
+          "LocalizedString": "桥间地"
+        },
+        "MapName": "XL_map_bigworld_test",
+        "BelongsRegionID": "None",
+        "MapAreaCenterLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FogID": "WertheimerTower_001",
+        "TowerID": "WertheimerTower_001",
+        "RealEstateMapRenderData": null
+      },
+      "002": {
+        "AreaName": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Area002",
+          "SourceString": "未闻浦 ",
+          "LocalizedString": "未闻浦 "
+        },
+        "MapName": "XL_map_bigworld_test",
+        "BelongsRegionID": "None",
+        "MapAreaCenterLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FogID": "WertheimerTower_002",
+        "TowerID": "WertheimerTower_002",
+        "RealEstateMapRenderData": null
+      },
+      "003": {
+        "AreaName": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Area003",
+          "SourceString": "绘空町",
+          "LocalizedString": "绘空町"
+        },
+        "MapName": "XL_map_bigworld_test",
+        "BelongsRegionID": "None",
+        "MapAreaCenterLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FogID": "WertheimerTower_003",
+        "TowerID": "WertheimerTower_003",
+        "RealEstateMapRenderData": null
+      },
+      "test": {
+        "AreaName": {
+          "Namespace": "",
+          "Key": "FBA395FF4958DC5C4D0F2FB3E375B951",
+          "SourceString": "001",
+          "LocalizedString": "001"
+        },
+        "MapName": "Testmap_liuyang",
+        "BelongsRegionID": "None",
+        "MapAreaCenterLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FogID": "WertheimerTower_003",
+        "TowerID": "WertheimerTower_003",
+        "RealEstateMapRenderData": null
+      },
+      "test1": {
+        "AreaName": {
+          "Namespace": "",
+          "Key": "40CFBFB8482E22BF02D6FDA0DE7A01F0",
+          "SourceString": "003",
+          "LocalizedString": "003"
+        },
+        "MapName": "Testmap_liuyang",
+        "BelongsRegionID": "None",
+        "MapAreaCenterLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FogID": "WertheimerTower_003",
+        "TowerID": "WertheimerTower_003",
+        "RealEstateMapRenderData": null
+      },
+      "WertheimerTower_001test": {
+        "AreaName": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Area001",
+          "SourceString": "桥间地",
+          "LocalizedString": "桥间地"
+        },
+        "MapName": "testwyan",
+        "BelongsRegionID": "None",
+        "MapAreaCenterLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FogID": "WertheimerTower_001test",
+        "TowerID": "WertheimerTower_001test",
+        "RealEstateMapRenderData": null
+      },
+      "test_yaoql_2": {
+        "AreaName": {
+          "Namespace": "",
+          "Key": "33BF7FC1408701CE7F8A17BA256E2AB7",
+          "SourceString": "测试区域1",
+          "LocalizedString": "测试区域1"
+        },
+        "MapName": "testmap_yaoql",
+        "BelongsRegionID": "None",
+        "MapAreaCenterLocation": {
+          "X": -1430.0,
+          "Y": 7020.0,
+          "Z": 60.0
+        },
+        "FogID": "test_yaoql_2",
+        "TowerID": "Testyaoql_2",
+        "RealEstateMapRenderData": null
+      }
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GashaponBaseDataConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GashaponBaseDataConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "CurrencyID": "DSDshop_RaffleTickets",
+        "OneCurrencyNum": 1,
+        "TenCurrencyNum": 10,
+        "ReplacementID": "fons",
+        "ReplacementFraction": 500
+      }
+    }
+  }
+]

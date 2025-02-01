@@ -1,0 +1,1006 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FurnitureAttributeDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'FurnitureAttributeConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Attr_disc_0004": {
+        "Comfort": 35,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_disc_0005": {
+        "Comfort": 35,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_disc_0006": {
+        "Comfort": 35,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Flower0000": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 42,
+        "Collect": 5
+      },
+      "Attr_Flower0001": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 42,
+        "Collect": 5
+      },
+      "Attr_Flower0002": {
+        "Comfort": 2,
+        "Fortune": 0,
+        "Love": 30,
+        "Collect": 5
+      },
+      "Attr_Flower0003": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 42,
+        "Collect": 5
+      },
+      "Attr_Flower0004": {
+        "Comfort": 0,
+        "Fortune": 32,
+        "Love": 20,
+        "Collect": 5
+      },
+      "Attr_Flower0005": {
+        "Comfort": 0,
+        "Fortune": 32,
+        "Love": 20,
+        "Collect": 5
+      },
+      "Attr_Flower0006": {
+        "Comfort": 0,
+        "Fortune": 32,
+        "Love": 20,
+        "Collect": 5
+      },
+      "Attr_Flower0007": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 42,
+        "Collect": 5
+      },
+      "Attr_Flower0008": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 42,
+        "Collect": 5
+      },
+      "Attr_Flower0009": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 20,
+        "Collect": 5
+      },
+      "Attr_Flower00010": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 20,
+        "Collect": 5
+      },
+      "Attr_BigFlower0000": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_BigFlower0001": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_BigFlower0002": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_BigFlower0003": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_BigFlower0004": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_BigFlower0005": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Figure_eri_01_001": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 3,
+        "Collect": 10
+      },
+      "Attr_Figure_eri_01_002": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 3,
+        "Collect": 10
+      },
+      "Attr_Figure_maskerrider_01_001": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Figure_maskerrider_01_002": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Figure_maskerrider_02_001": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Figure_maskerrider_02_002": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Figure_maskerrider_03_001": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Figure_maskerrider_03_002": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Figure_miniblack_01_001": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Figure_miniblack_01_002": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_FlowerPot_001": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_FlowerPot_002": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_FlowerPot_003": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_FlowerPot_004": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_FlowerPot_005": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Basin_001": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Basin_002": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Basin_003": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Basin_004": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Basin_005": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Basin_006": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Figues_001": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 30,
+        "Collect": 40
+      },
+      "Attr_Furniture_Figues_002": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 30,
+        "Collect": 40
+      },
+      "Attr_Furniture_Figues_003": {
+        "Comfort": 0,
+        "Fortune": 24,
+        "Love": 0,
+        "Collect": 40
+      },
+      "Attr_Furniture_Figues_004": {
+        "Comfort": 0,
+        "Fortune": 24,
+        "Love": 0,
+        "Collect": 40
+      },
+      "Attr_Furniture_Figues_005": {
+        "Comfort": 0,
+        "Fortune": 24,
+        "Love": 0,
+        "Collect": 40
+      },
+      "Attr_Furniture_Figues_006": {
+        "Comfort": 0,
+        "Fortune": 24,
+        "Love": 0,
+        "Collect": 40
+      },
+      "Attr_Furniture_Figues_007": {
+        "Comfort": 0,
+        "Fortune": 24,
+        "Love": 0,
+        "Collect": 40
+      },
+      "Attr_Furniture_Chair_001": {
+        "Comfort": 20,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_002": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_003": {
+        "Comfort": 13,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_004": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_005": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_006": {
+        "Comfort": 20,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_007": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_008": {
+        "Comfort": 13,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_009": {
+        "Comfort": 20,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_0010": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_0011": {
+        "Comfort": 13,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_0012": {
+        "Comfort": 17,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_0013": {
+        "Comfort": 9,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_0014": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_0015": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_0016": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Chair_0017": {
+        "Comfort": 12,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Light_001": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Light_002": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 11
+      },
+      "Attr_Furniture_Light_003": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 9
+      },
+      "Attr_Furniture_Light_004": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 8
+      },
+      "Attr_Furniture_Light_005": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 8
+      },
+      "Attr_Furniture_Light_006": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 8
+      },
+      "Attr_Furniture_Light_007": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 11
+      },
+      "Attr_Furniture_Light_008": {
+        "Comfort": 15,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_bonsai_001": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_bonsai_002": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_bonsai_003": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_bonsai_004": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_bonsai_005": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_bonsai_006": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_bonsai_007": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_bonsai_008": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_bonsai_009": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 8,
+        "Collect": 5
+      },
+      "Attr_Furniture_shelf_001": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_shelf_002": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_shelf_003": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_shelf_004": {
+        "Comfort": 8,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_cabinet_001": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 30
+      },
+      "Attr_Furniture_cabinet_002": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 30
+      },
+      "Attr_Furniture_teapoy_001": {
+        "Comfort": 20,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_teapoy_002": {
+        "Comfort": 20,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_teapoy_003": {
+        "Comfort": 20,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_teapoy_004": {
+        "Comfort": 20,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 25
+      },
+      "Attr_Furniture_teapoy_005": {
+        "Comfort": 20,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 25
+      },
+      "Attr_Furniture_teapoy_006": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 25
+      },
+      "Attr_Furniture_teapoy_007": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 25
+      },
+      "Attr_Furniture_teapoy_008": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 25
+      },
+      "Attr_Furniture_teapoy_009": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 25
+      },
+      "Attr_Furniture_draw_001": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 30
+      },
+      "Attr_Furniture_draw_002": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_003": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_004": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_005": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_006": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_007": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_008": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_009": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_0010": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_0011": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_draw_0012": {
+        "Comfort": 0,
+        "Fortune": 7,
+        "Love": 0,
+        "Collect": 10
+      },
+      "Attr_Furniture_Jukebox_001": {
+        "Comfort": 0,
+        "Fortune": 12,
+        "Love": 0,
+        "Collect": 50
+      },
+      "Attr_Furniture_Ornament_001": {
+        "Comfort": 0,
+        "Fortune": 18,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Ornament_002": {
+        "Comfort": 0,
+        "Fortune": 18,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Ornament_003": {
+        "Comfort": 0,
+        "Fortune": 18,
+        "Love": 0,
+        "Collect": 15
+      },
+      "Attr_Furniture_Fishtank_001": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 32
+      },
+      "Attr_Furniture_Fishtank_002": {
+        "Comfort": 6,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 32
+      },
+      "Attr_Furniture_landscaping_01": {
+        "Comfort": 0,
+        "Fortune": 49,
+        "Love": 29,
+        "Collect": 22
+      },
+      "Attr_Furniture_landscaping_02": {
+        "Comfort": 0,
+        "Fortune": 49,
+        "Love": 29,
+        "Collect": 22
+      },
+      "Attr_Furniture_landscaping_03": {
+        "Comfort": 0,
+        "Fortune": 49,
+        "Love": 29,
+        "Collect": 22
+      },
+      "Attr_Furniture_landscaping_04": {
+        "Comfort": 0,
+        "Fortune": 49,
+        "Love": 29,
+        "Collect": 22
+      },
+      "Attr_Furniture_landscaping_05": {
+        "Comfort": 0,
+        "Fortune": 51,
+        "Love": 30,
+        "Collect": 22
+      },
+      "Attr_Furniture_landscaping_06": {
+        "Comfort": 0,
+        "Fortune": 51,
+        "Love": 30,
+        "Collect": 22
+      },
+      "Attr_Furniture_landscaping_07": {
+        "Comfort": 0,
+        "Fortune": 51,
+        "Love": 30,
+        "Collect": 22
+      },
+      "Attr_Furniture_landscaping_08": {
+        "Comfort": 0,
+        "Fortune": 51,
+        "Love": 30,
+        "Collect": 22
+      },
+      "Attr_Furniture_Piano_001": {
+        "Comfort": 0,
+        "Fortune": 66,
+        "Love": 28,
+        "Collect": 70
+      },
+      "Attr_Furniture_Bed_001": {
+        "Comfort": 80,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 20
+      },
+      "Attr_Furniture_Bed_002": {
+        "Comfort": 80,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 20
+      },
+      "Attr_Furniture_Bed_003": {
+        "Comfort": 80,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 20
+      },
+      "Attr_BigPoster001": {
+        "Comfort": 0,
+        "Fortune": 15,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_BigPoster002": {
+        "Comfort": 0,
+        "Fortune": 15,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_BigPoster003": {
+        "Comfort": 0,
+        "Fortune": 15,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_BigPoster004": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 15,
+        "Collect": 5
+      },
+      "Attr_BigPoster005": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 15,
+        "Collect": 5
+      },
+      "Attr_BigPoster006": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 15,
+        "Collect": 5
+      },
+      "Attr_SmallPoster001": {
+        "Comfort": 0,
+        "Fortune": 8,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_SmallPoster002": {
+        "Comfort": 0,
+        "Fortune": 8,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_SmallPoster003": {
+        "Comfort": 0,
+        "Fortune": 8,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_SmallPoster004": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 10,
+        "Collect": 5
+      },
+      "Attr_SmallPoster005": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 10,
+        "Collect": 5
+      },
+      "Attr_SmallPoster006": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 10,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Blue_001": {
+        "Comfort": 0,
+        "Fortune": 23,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Blue_002": {
+        "Comfort": 0,
+        "Fortune": 8,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Blue_003": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Blue_004": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Blue_005": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Red_001": {
+        "Comfort": 10,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Red_002": {
+        "Comfort": 5,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Red_003": {
+        "Comfort": 2,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Red_004": {
+        "Comfort": 2,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Red_005": {
+        "Comfort": 2,
+        "Fortune": 0,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Pink_001": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 9,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Pink_002": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 5,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Pink_003": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 2,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Pink_004": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 2,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_Pink_005": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 2,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_eri_001": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 13,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_eri_002": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 6,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_eri_003": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 2,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_eri_004": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 2,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_eri_005": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 2,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_MiniBlack_001": {
+        "Comfort": 0,
+        "Fortune": 20,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_MiniBlack_002": {
+        "Comfort": 0,
+        "Fortune": 6,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_MiniBlack_003": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_MiniBlack_004": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Furniture_Gacha_MiniBlack_005": {
+        "Comfort": 0,
+        "Fortune": 3,
+        "Love": 0,
+        "Collect": 5
+      },
+      "Attr_Flower_sp": {
+        "Comfort": 0,
+        "Fortune": 0,
+        "Love": 90,
+        "Collect": 5
+      }
+    }
+  }
+]

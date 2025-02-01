@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1039AwakenEffect",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1039": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star1_name",
+              "SourceString": "欲盖弥彰的圣洁",
+              "LocalizedString": "欲盖弥彰的圣洁"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_1.1009_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star1_des",
+              "SourceString": "法帝娅的伤害分摊比例提升至<NumGreen>x%</>。",
+              "LocalizedString": "法帝娅的伤害分摊比例提升至<NumGreen>x%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect2",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star2_name",
+              "SourceString": "无可否认的本能",
+              "LocalizedString": "无可否认的本能"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star2_des",
+              "SourceString": "敌方单位通过「破灭体验」承受的伤害比例提升至<NumGreen>x%</>，上限提升至法帝娅生命上限的<NumGreen>x%</>。当「破灭体验」被移除时，立刻造成敌方单位已承受伤害与「破灭体验」造成伤害上限差值的伤害。",
+              "LocalizedString": "敌方单位通过「破灭体验」承受的伤害比例提升至<NumGreen>x%</>，上限提升至法帝娅生命上限的<NumGreen>x%</>。当「破灭体验」被移除时，立刻造成敌方单位已承受伤害与「破灭体验」造成伤害上限差值的伤害。"
+            }
+          },
+          {
+            "EffectID": "Effect3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star3_name",
+              "SourceString": "诅咒祝福之人",
+              "LocalizedString": "诅咒祝福之人"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_3.1009_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star3_des",
+              "SourceString": "进入战斗状态后，法帝娅每秒提升<NumGreen>x</>点生命上限，通过这种方式获得的生命上限不超过固有生命上限的<NumGreen>x%</>,离开战斗状态后失去提升的生命上限。",
+              "LocalizedString": "进入战斗状态后，法帝娅每秒提升<NumGreen>x</>点生命上限，通过这种方式获得的生命上限不超过固有生命上限的<NumGreen>x%</>,离开战斗状态后失去提升的生命上限。"
+            }
+          },
+          {
+            "EffectID": "Effect4",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star4_name",
+              "SourceString": "僭越禁忌之人",
+              "LocalizedString": "僭越禁忌之人"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_4.1009_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star4_des",
+              "SourceString": "「敌神者」状态下法帝娅的回复比例提升至<NumGreen>x%</>生命上限。",
+              "LocalizedString": "「敌神者」状态下法帝娅的回复比例提升至<NumGreen>x%</>生命上限。"
+            }
+          },
+          {
+            "EffectID": "Effect5",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star5_name",
+              "SourceString": "回溯死亡之人",
+              "LocalizedString": "回溯死亡之人"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_5.1009_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star5_des",
+              "SourceString": "「敌神者」状态下法帝娅的暴击率提升<NumGreen>x%</>。",
+              "LocalizedString": "「敌神者」状态下法帝娅的暴击率提升<NumGreen>x%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star6_name",
+              "SourceString": "爱与死的使徒",
+              "LocalizedString": "爱与死的使徒"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_6.1009_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_star6_des",
+              "SourceString": "「存在证明的体验」可为范围内最多<NumGreen>10</>个目标施加「破灭体验」，每个目标单独计算「破灭体验」持续时间及通过「破灭体验」所承受的伤害上限。",
+              "LocalizedString": "「存在证明的体验」可为范围内最多<NumGreen>10</>个目标施加「破灭体验」，每个目标单独计算「破灭体验」持续时间及通过「破灭体验」所承受的伤害上限。"
+            }
+          },
+          {
+            "EffectID": "resonance_3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_starExtra1_name",
+              "SourceString": "不敬的「圣洁」之人",
+              "LocalizedString": "不敬的「圣洁」之人"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null,
+              null,
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_starExtra1_des",
+              "SourceString": "「话语中断的否定」「存在证明的体验」「痛苦让位于狂喜」的技能等级提升<NumGreen>2</>级。",
+              "LocalizedString": "「话语中断的否定」「存在证明的体验」「痛苦让位于狂喜」的技能等级提升<NumGreen>2</>级。"
+            }
+          },
+          {
+            "EffectID": "resonance_6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_starExtra2_name",
+              "SourceString": "归一的「圣洁」之人",
+              "LocalizedString": "归一的「圣洁」之人"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
+              "Key": "GA_Fadia_starExtra2_des",
+              "SourceString": "当法帝娅在队伍中时，全队获得<NumGreen>x%</>最大生命值提升。",
+              "LocalizedString": "当法帝娅在队伍中时，全队获得<NumGreen>x%</>最大生命值提升。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

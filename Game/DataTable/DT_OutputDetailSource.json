@@ -1,0 +1,2017 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OutputDetailSource",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ItemOutputSourceConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "VendingMachine_000": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "VendingMachine_000_name",
+          "SourceString": "塔吉多的售货机",
+          "LocalizedString": "塔吉多的售货机"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "VendingMachine_001": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "VendingMachine_001_name",
+          "SourceString": "售货机",
+          "LocalizedString": "售货机"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "VendingMachine_002": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "VendingMachine_002_name",
+          "SourceString": "畅爽专卖售货机",
+          "LocalizedString": "畅爽专卖售货机"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "VendingMachine_003": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "VendingMachine_003_name",
+          "SourceString": "咕比奇专卖售货机",
+          "LocalizedString": "咕比奇专卖售货机"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "VendingMachine_004": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "VendingMachine_004_name",
+          "SourceString": "鲍勃叔叔专卖售货机",
+          "LocalizedString": "鲍勃叔叔专卖售货机"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "VendingMachine_005": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "VendingMachine_005_name",
+          "SourceString": "噗卡糖果专卖售货机",
+          "LocalizedString": "噗卡糖果专卖售货机"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "VendingMachine_006": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "VendingMachine_006_name",
+          "SourceString": "番茄百分百专卖售货机",
+          "LocalizedString": "番茄百分百专卖售货机"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_001_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_001_01_name",
+          "SourceString": "不二原豆腐店(桥间地东)",
+          "LocalizedString": "不二原豆腐店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "TofuShop_001"
+      },
+      "Shop_001_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_001_02_name",
+          "SourceString": "不二原豆腐店(绘空町)",
+          "LocalizedString": "不二原豆腐店(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "TofuShop_002"
+      },
+      "Shop_002_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_002_01_name",
+          "SourceString": "普利姆叔叔的肉铺(桥间地东)",
+          "LocalizedString": "普利姆叔叔的肉铺(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ButcherShop_001"
+      },
+      "Shop_002_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_002_02_name",
+          "SourceString": "普利姆叔叔的肉铺(桥间地西)",
+          "LocalizedString": "普利姆叔叔的肉铺(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ButcherShop_002"
+      },
+      "Shop_002_03": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_002_03_name",
+          "SourceString": "普利姆叔叔的肉铺(绘空町)",
+          "LocalizedString": "普利姆叔叔的肉铺(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ButcherShop_003"
+      },
+      "Shop_003_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_003_01_name",
+          "SourceString": "蔬菜屋(桥间地东)",
+          "LocalizedString": "蔬菜屋(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "VegetablesShop_001"
+      },
+      "Shop_003_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_003_02_name",
+          "SourceString": "蔬菜屋(桥间地西)",
+          "LocalizedString": "蔬菜屋(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "VegetablesShop_002"
+      },
+      "Shop_003_03": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_003_03_name",
+          "SourceString": "蔬菜屋(绘空町)",
+          "LocalizedString": "蔬菜屋(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "VegetablesShop_003"
+      },
+      "Shop_004_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_004_01_name",
+          "SourceString": "Myosotis水果铺(桥间地东)",
+          "LocalizedString": "Myosotis水果铺(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "FruitStore_001"
+      },
+      "Shop_004_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_004_02_name",
+          "SourceString": "Myosotis水果铺(桥间地西)",
+          "LocalizedString": "Myosotis水果铺(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "FruitStore_002"
+      },
+      "Shop_004_03": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_004_03_name",
+          "SourceString": "Myosotis水果铺(绘空町)",
+          "LocalizedString": "Myosotis水果铺(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "FruitStore_003"
+      },
+      "Shop_005_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_005_01_name",
+          "SourceString": "7-Oceans海鲜店(桥间地东)",
+          "LocalizedString": "7-Oceans海鲜店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "SeafoodShop_001"
+      },
+      "Shop_005_02": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_005_02_name",
+          "SourceString": "7-Oceans海鲜店(桥间地西)",
+          "LocalizedString": "7-Oceans海鲜店(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_005_03": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_005_03_name",
+          "SourceString": "7-Oceans海鲜店(绘空町)",
+          "LocalizedString": "7-Oceans海鲜店(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "SeafoodShop_002"
+      },
+      "Shop_006_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_006_01_name",
+          "SourceString": "卜多力日料店(桥间地东)",
+          "LocalizedString": "卜多力日料店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "Budori"
+      },
+      "Shop_007_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_007_01_name",
+          "SourceString": "便利店(桥间地东)",
+          "LocalizedString": "便利店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "2-FourMart_001"
+      },
+      "Shop_007_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_007_02_name",
+          "SourceString": "便利店(桥间地西)",
+          "LocalizedString": "便利店(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "2-FourMart_004"
+      },
+      "Shop_007_03": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_007_03_name",
+          "SourceString": "便利店(绘空町)",
+          "LocalizedString": "便利店(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "2-FourMart_005"
+      },
+      "Shop_008_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_008_01_name",
+          "SourceString": "噗卡糖果店(桥间地东)",
+          "LocalizedString": "噗卡糖果店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_008_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_008_02_name",
+          "SourceString": "噗卡糖果店(桥间地西)",
+          "LocalizedString": "噗卡糖果店(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "Puka_001"
+      },
+      "Shop_009_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_009_01_name",
+          "SourceString": "咔叽玛快食(桥间地东)",
+          "LocalizedString": "咔叽玛快食(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_009_02": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_009_02_name",
+          "SourceString": "咔叽玛快食(桥间地西)",
+          "LocalizedString": "咔叽玛快食(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_010_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_010_01_name",
+          "SourceString": "集山忘野花店(桥间地东)",
+          "LocalizedString": "集山忘野花店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "FlowerShop_001"
+      },
+      "Shop_010_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_010_02_name",
+          "SourceString": "集山忘野花店(桥间地西)",
+          "LocalizedString": "集山忘野花店(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "FlowerShop_002"
+      },
+      "Shop_010_03": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_010_03_name",
+          "SourceString": "集山忘野花店(绘空町)",
+          "LocalizedString": "集山忘野花店(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_011_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_011_01_name",
+          "SourceString": "蛋糕店(桥间地东)",
+          "LocalizedString": "蛋糕店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "Cake_001"
+      },
+      "Shop_011_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_011_02_name",
+          "SourceString": "蛋糕店(桥间地西)",
+          "LocalizedString": "蛋糕店(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "Cake_002"
+      },
+      "Shop_012_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_012_01_name",
+          "SourceString": "连锁药妆店(桥间地东)",
+          "LocalizedString": "连锁药妆店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "DrugStore_001"
+      },
+      "Shop_012_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_012_02_name",
+          "SourceString": "连锁药妆店(绘空町)",
+          "LocalizedString": "连锁药妆店(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "DrugStore_003"
+      },
+      "Shop_013_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_013_01_name",
+          "SourceString": "唱片店(桥间地东)",
+          "LocalizedString": "唱片店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "CDStore_001"
+      },
+      "Shop_014_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_014_01_name",
+          "SourceString": "金鱼店(桥间地东)",
+          "LocalizedString": "金鱼店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "AquariumStore_001"
+      },
+      "Shop_014_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_014_02_name",
+          "SourceString": "金鱼店(绘空町)",
+          "LocalizedString": "金鱼店(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "AquariumStore_002"
+      },
+      "Shop_015_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_015_01_name",
+          "SourceString": "啤酒Bar()",
+          "LocalizedString": "啤酒Bar()"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_016_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_016_01_name",
+          "SourceString": "奶茶铺(桥间地东)",
+          "LocalizedString": "奶茶铺(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_016_02": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_016_02_name",
+          "SourceString": "奶茶铺(绘空町)",
+          "LocalizedString": "奶茶铺(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_017_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_017_01_name",
+          "SourceString": "冰激凌铺(桥间地东)",
+          "LocalizedString": "冰激凌铺(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "IceCreamShop_001"
+      },
+      "Shop_018_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_018_01_name",
+          "SourceString": "烧烤铺(桥间地东)",
+          "LocalizedString": "烧烤铺(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_018_02": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_018_02_name",
+          "SourceString": "烧烤铺(桥间地西)",
+          "LocalizedString": "烧烤铺(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_018_03": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_018_03_name",
+          "SourceString": "烧烤铺(绘空町)",
+          "LocalizedString": "烧烤铺(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_019_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_019_01_name",
+          "SourceString": "包子铺(桥间地东)",
+          "LocalizedString": "包子铺(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "SteamedBunShop_001"
+      },
+      "Shop_019_02": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_019_02_name",
+          "SourceString": "包子铺(桥间地西)",
+          "LocalizedString": "包子铺(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_019_03": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_019_03_name",
+          "SourceString": "包子铺(绘空町)",
+          "LocalizedString": "包子铺(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "SteamedBunShop_002"
+      },
+      "Shop_020_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_020_01_name",
+          "SourceString": "拉面铺(桥间地东)",
+          "LocalizedString": "拉面铺(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "RamenShop_001"
+      },
+      "Shop_020_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_020_02_name",
+          "SourceString": "拉面铺(绘空町)",
+          "LocalizedString": "拉面铺(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "RamenShop_002"
+      },
+      "Shop_021_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_021_01_name",
+          "SourceString": "西餐厅(桥间地东)",
+          "LocalizedString": "西餐厅(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_022_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_022_01_name",
+          "SourceString": "家庭餐厅(桥间地东)",
+          "LocalizedString": "家庭餐厅(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "FoodFirst_001"
+      },
+      "Shop_023_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_023_01_name",
+          "SourceString": "DSD潮玩(桥间地东)",
+          "LocalizedString": "DSD潮玩(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "DSD_001"
+      },
+      "Shop_023_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_023_02_name",
+          "SourceString": "DSD潮玩(桥间地西)",
+          "LocalizedString": "DSD潮玩(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "DSD_002"
+      },
+      "Shop_024_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_024_01_name",
+          "SourceString": "弧盘商店()",
+          "LocalizedString": "弧盘商店()"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_025_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_025_01_name",
+          "SourceString": "白鲸书店(桥间地东)",
+          "LocalizedString": "白鲸书店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "MobyDisk_001"
+      },
+      "Shop_026_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_026_01_name",
+          "SourceString": "植愈绿植店(桥间地东)",
+          "LocalizedString": "植愈绿植店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_027_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_027_01_name",
+          "SourceString": "烤鸭店(桥间地东)",
+          "LocalizedString": "烤鸭店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "RoastDuckShop_001"
+      },
+      "Shop_027_02": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_027_02_name",
+          "SourceString": "烤鸭店(桥间地西)",
+          "LocalizedString": "烤鸭店(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_028_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_028_01_name",
+          "SourceString": "9度咖啡馆(桥间地东)",
+          "LocalizedString": "9度咖啡馆(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "Coffee_001"
+      },
+      "Shop_028_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_028_02_name",
+          "SourceString": "9度咖啡馆(桥间地西)",
+          "LocalizedString": "9度咖啡馆(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "Coffee_002"
+      },
+      "Shop_029_01": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_029_01_name",
+          "SourceString": "二手电器店(桥间地东)",
+          "LocalizedString": "二手电器店(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ElectronicsStore_001"
+      },
+      "Shop_029_02": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_029_02_name",
+          "SourceString": "二手电器店(桥间地西)",
+          "LocalizedString": "二手电器店(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ElectronicsStore_002"
+      },
+      "Shop_029_03": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_029_03_name",
+          "SourceString": "二手电器店(绘空町)",
+          "LocalizedString": "二手电器店(绘空町)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_030_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_030_01_name",
+          "SourceString": "胖达火锅(桥间地东)",
+          "LocalizedString": "胖达火锅(桥间地东)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "Shop_030_02": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "NPCShop_030_02_name",
+          "SourceString": "胖达火锅(桥间地西)",
+          "LocalizedString": "胖达火锅(桥间地西)"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "clone_equipment_001": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_equipment_001_name",
+          "SourceString": "副本-火焰逃脱",
+          "LocalizedString": "副本-火焰逃脱"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "EquipmentCloneEnter_001"
+      },
+      "clone_equipment_002": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_equipment_002_name",
+          "SourceString": "副本-缠绕逃脱",
+          "LocalizedString": "副本-缠绕逃脱"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "EquipmentCloneEnter_001"
+      },
+      "clone_equipment_003": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_equipment_003_name",
+          "SourceString": "副本-水箱逃脱",
+          "LocalizedString": "副本-水箱逃脱"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "EquipmentCloneEnter_001"
+      },
+      "clone_talent_001": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_talent_001_name",
+          "SourceString": "副本-小心鸽子",
+          "LocalizedString": "副本-小心鸽子"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "TalentCloneEnter_001"
+      },
+      "clone_talent_002": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_talent_002_name",
+          "SourceString": "副本-扑克牌茶会",
+          "LocalizedString": "副本-扑克牌茶会"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "TalentCloneEnter_001"
+      },
+      "clone_forkbreakthrough_001": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_forkbreakthrough_001_name",
+          "SourceString": "副本-泡影罐头·苹果核",
+          "LocalizedString": "副本-泡影罐头·苹果核"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ForkbreakthroughCloneEnter_001"
+      },
+      "clone_forkbreakthrough_002": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_forkbreakthrough_002_name",
+          "SourceString": "副本-泡影罐头·螺旋乐",
+          "LocalizedString": "副本-泡影罐头·螺旋乐"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ForkbreakthroughCloneEnter_001"
+      },
+      "clone_Wpexp": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_Wpexp_name",
+          "SourceString": "副本-魔术师的心灵感应",
+          "LocalizedString": "副本-魔术师的心灵感应"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ResourceCloneEnter_001"
+      },
+      "clone_exp": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_exp_name",
+          "SourceString": "副本-灵魂的召唤",
+          "LocalizedString": "副本-灵魂的召唤"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ResourceCloneEnter_001"
+      },
+      "clone_gold": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_gold_name",
+          "SourceString": "副本-点石成金",
+          "LocalizedString": "副本-点石成金"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "ResourceCloneEnter_001"
+      },
+      "gacha_machines": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "gacha_machines_name",
+          "SourceString": "扭蛋机",
+          "LocalizedString": "扭蛋机"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "link": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "link",
+          "SourceString": "羁遇相关",
+          "LocalizedString": "羁遇相关"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "quest_drop": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "quest_drop",
+          "SourceString": "任务掉落",
+          "LocalizedString": "任务掉落"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "monster_drop": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "monster_drop",
+          "SourceString": "异象掉落",
+          "LocalizedString": "异象掉落"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "worldboss_01_drop": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "worldboss_01_drop",
+          "SourceString": "无首铁驭掉落",
+          "LocalizedString": "无首铁驭掉落"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "worldboss_02_drop": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "worldboss_02_drop",
+          "SourceString": "塞润尼缇掉落",
+          "LocalizedString": "塞润尼缇掉落"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "vision": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "vision",
+          "SourceString": "异象收容",
+          "LocalizedString": "异象收容"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "character_shop": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "character_shop_name",
+          "SourceString": "异能商店",
+          "LocalizedString": "异能商店"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "resource_shop": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "resource_shop_name",
+          "SourceString": "资源商店",
+          "LocalizedString": "资源商店"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      },
+      "clone_drop": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "clone_drop",
+          "SourceString": "副本掉落",
+          "LocalizedString": "副本掉落"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None"
+      }
+    }
+  }
+]

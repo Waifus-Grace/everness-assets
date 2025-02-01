@@ -1,0 +1,1306 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ForkUpgradeStarDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StaticForkUpgradeStarData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "upgradestar_pack_fork_wushoutieyu_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_wutou/Buff_Fork_wutou_1_1.Buff_Fork_wutou_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_name",
+          "SourceString": "焰魂狂飙",
+          "LocalizedString": "焰魂狂飙"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_effect1",
+          "SourceString": "攻击力提升<lv>16%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>20%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。",
+          "LocalizedString": "攻击力提升<lv>16%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>20%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。"
+        }
+      },
+      "upgradestar_pack_fork_wushoutieyu_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_wutou/Buff_Fork_wutou_2.Buff_Fork_wutou_2_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_name",
+          "SourceString": "焰魂狂飙",
+          "LocalizedString": "焰魂狂飙"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_effect2",
+          "SourceString": "攻击力提升<lv>20%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>25%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。",
+          "LocalizedString": "攻击力提升<lv>20%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>25%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。"
+        }
+      },
+      "upgradestar_pack_fork_wushoutieyu_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_wutou/Buff_Fork_wutou_3.Buff_Fork_wutou_3_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_name",
+          "SourceString": "焰魂狂飙",
+          "LocalizedString": "焰魂狂飙"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_effect3",
+          "SourceString": "攻击力提升<lv>24%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>30%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。",
+          "LocalizedString": "攻击力提升<lv>24%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>30%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。"
+        }
+      },
+      "upgradestar_pack_fork_wushoutieyu_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_wutou/Buff_Fork_wutou_4.Buff_Fork_wutou_4_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_name",
+          "SourceString": "焰魂狂飙",
+          "LocalizedString": "焰魂狂飙"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_effect4",
+          "SourceString": "攻击力提升<lv>28%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>35%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。",
+          "LocalizedString": "攻击力提升<lv>28%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>35%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。"
+        }
+      },
+      "upgradestar_pack_fork_wushoutieyu_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_wutou/Buff_Fork_wutou_5.Buff_Fork_wutou_5_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_name",
+          "SourceString": "焰魂狂飙",
+          "LocalizedString": "焰魂狂飙"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wushoutieyu_effect5",
+          "SourceString": "攻击力提升<lv>32%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>40%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。",
+          "LocalizedString": "攻击力提升<lv>32%</>\n释放变轨攻击或极轨攻击后<lv>20</>秒内，装备者普通攻击造成的伤害提升<lv>40%</>，最多叠加<lv>2</>层，每层效果持续时间单独结算。"
+        }
+      },
+      "upgradestar_pack_fork_yuren_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_1.Buff_Fork_Bowen_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_name",
+          "SourceString": "勿忘伞",
+          "LocalizedString": "勿忘伞"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_effect1",
+          "SourceString": "生命值提升<lv>12%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>12%</>护盾强化。",
+          "LocalizedString": "生命值提升<lv>12%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>12%</>护盾强化。"
+        }
+      },
+      "upgradestar_pack_fork_yuren_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_2.Buff_Fork_Bowen_1_2_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_name",
+          "SourceString": "勿忘伞",
+          "LocalizedString": "勿忘伞"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_effect2",
+          "SourceString": "生命值提升<lv>15%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>15%</>护盾强化。",
+          "LocalizedString": "生命值提升<lv>15%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>15%</>护盾强化。"
+        }
+      },
+      "upgradestar_pack_fork_yuren_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_3.Buff_Fork_Bowen_1_3_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_name",
+          "SourceString": "勿忘伞",
+          "LocalizedString": "勿忘伞"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_effect3",
+          "SourceString": "生命值提升<lv>18%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>18%</>护盾强化。",
+          "LocalizedString": "生命值提升<lv>18%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>18%</>护盾强化。"
+        }
+      },
+      "upgradestar_pack_fork_yuren_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_4.Buff_Fork_Bowen_1_4_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_name",
+          "SourceString": "勿忘伞",
+          "LocalizedString": "勿忘伞"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_effect4",
+          "SourceString": "生命值提升<lv>21%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>21%</>护盾强化。",
+          "LocalizedString": "生命值提升<lv>21%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>21%</>护盾强化。"
+        }
+      },
+      "upgradestar_pack_fork_yuren_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_5.Buff_Fork_Bowen_1_5_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_name",
+          "SourceString": "勿忘伞",
+          "LocalizedString": "勿忘伞"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_yuren_effect5",
+          "SourceString": "生命值提升<lv>24%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>24%</>护盾强化。",
+          "LocalizedString": "生命值提升<lv>24%</>，当使用者生命值高于<lv>50%</>的时候获得<lv>24%</>护盾强化。"
+        }
+      },
+      "upgradestar_pack_fork_bopu_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Haokewu/Fork_Haokewu1/Buff_Fork_Haokewu_1_1.Buff_Fork_Haokewu_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_name",
+          "SourceString": "光波眩晕、迷走狂欢",
+          "LocalizedString": "光波眩晕、迷走狂欢"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_effect1",
+          "SourceString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>24%</>。每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>24%</>。每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_bopu_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Haokewu/Fork_Haokewu2/Buff_Fork_Haokewu_2_1.Buff_Fork_Haokewu_2_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_name",
+          "SourceString": "光波眩晕、迷走狂欢",
+          "LocalizedString": "光波眩晕、迷走狂欢"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_effect2",
+          "SourceString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>30%</>。每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>30%</>。每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_bopu_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Haokewu/Fork_Haokewu3/Buff_Fork_Haokewu_3_1.Buff_Fork_Haokewu_3_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_name",
+          "SourceString": "光波眩晕、迷走狂欢",
+          "LocalizedString": "光波眩晕、迷走狂欢"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_effect3",
+          "SourceString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>36%</>。每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>36%</>。每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_bopu_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Haokewu/Fork_Haokewu4/Buff_Fork_Haokewu_4_1.Buff_Fork_Haokewu_4_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_name",
+          "SourceString": "光波眩晕、迷走狂欢",
+          "LocalizedString": "光波眩晕、迷走狂欢"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_effect4",
+          "SourceString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>42%</>。每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>42%</>。每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_bopu_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Haokewu/Fork_Haokewu5/Buff_Fork_Haokewu_5_1.Buff_Fork_Haokewu_5_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_name",
+          "SourceString": "光波眩晕、迷走狂欢",
+          "LocalizedString": "光波眩晕、迷走狂欢"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_bopu_effect5",
+          "SourceString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>48%</>。每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放入轨攻击后<lv>10</>秒内，造成的伤害提高<lv>48%</>。每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_mofeikesi_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_mofeikesi/Buff_Fork_mofeikesi_1_1.Buff_Fork_mofeikesi_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_name",
+          "SourceString": "好狗狗走四方",
+          "LocalizedString": "好狗狗走四方"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_effect1",
+          "SourceString": "蓄质速率提升<lv>24%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>20%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。",
+          "LocalizedString": "蓄质速率提升<lv>24%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>20%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。"
+        }
+      },
+      "upgradestar_pack_fork_mofeikesi_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_mofeikesi/Buff_Fork_mofeikesi_2.Buff_Fork_mofeikesi_2_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_name",
+          "SourceString": "好狗狗走四方",
+          "LocalizedString": "好狗狗走四方"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_effect2",
+          "SourceString": "蓄质速率提升<lv>30%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>25%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。",
+          "LocalizedString": "蓄质速率提升<lv>30%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>25%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。"
+        }
+      },
+      "upgradestar_pack_fork_mofeikesi_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_mofeikesi/Buff_Fork_mofeikesi_3.Buff_Fork_mofeikesi_3_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_name",
+          "SourceString": "好狗狗走四方",
+          "LocalizedString": "好狗狗走四方"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_effect3",
+          "SourceString": "蓄质速率提升<lv>36%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>30%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。",
+          "LocalizedString": "蓄质速率提升<lv>36%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>30%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。"
+        }
+      },
+      "upgradestar_pack_fork_mofeikesi_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_mofeikesi/Buff_Fork_mofeikesi_4.Buff_Fork_mofeikesi_4_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_name",
+          "SourceString": "好狗狗走四方",
+          "LocalizedString": "好狗狗走四方"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_effect4",
+          "SourceString": "蓄质速率提升<lv>42%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>35%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。",
+          "LocalizedString": "蓄质速率提升<lv>42%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>35%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。"
+        }
+      },
+      "upgradestar_pack_fork_mofeikesi_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_mofeikesi/Buff_Fork_mofeikesi_5.Buff_Fork_mofeikesi_5_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_name",
+          "SourceString": "好狗狗走四方",
+          "LocalizedString": "好狗狗走四方"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_mofeikesi_effect5",
+          "SourceString": "蓄质速率提升<lv>48%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>40%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。",
+          "LocalizedString": "蓄质速率提升<lv>48%</>\n装备者释放极轨攻击后<lv>20</>秒内，全队攻击力提升<lv>40%</>；每有一个敌人受到极轨攻击的控制效果，使攻击力提升效果提升<lv>30%</>，最多叠加<lv>3</>次。"
+        }
+      },
+      "upgradestar_pack_fork_jiaojuan_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Quantao/Fork_Quantao1/Buff_Fork_Quantao1.Buff_Fork_Quantao1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_name",
+          "SourceString": "闪耀的每一天",
+          "LocalizedString": "闪耀的每一天"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_effect1",
+          "SourceString": "倾陷强度提升<lv>72</>。攻击倾陷单位造成的伤害提升<lv>16%</>。",
+          "LocalizedString": "倾陷强度提升<lv>72</>。攻击倾陷单位造成的伤害提升<lv>16%</>。"
+        }
+      },
+      "upgradestar_pack_fork_jiaojuan_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Quantao/Fork_Quantao1/Buff_Fork_Quantao2.Buff_Fork_Quantao2_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_name",
+          "SourceString": "闪耀的每一天",
+          "LocalizedString": "闪耀的每一天"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_effect2",
+          "SourceString": "倾陷强度提升<lv>90</>。攻击倾陷单位造成的伤害提升<lv>20%</>。",
+          "LocalizedString": "倾陷强度提升<lv>90</>。攻击倾陷单位造成的伤害提升<lv>20%</>。"
+        }
+      },
+      "upgradestar_pack_fork_jiaojuan_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Quantao/Fork_Quantao1/Buff_Fork_Quantao3.Buff_Fork_Quantao3_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_name",
+          "SourceString": "闪耀的每一天",
+          "LocalizedString": "闪耀的每一天"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_effect3",
+          "SourceString": "倾陷强度提升<lv>108</>。攻击倾陷单位造成的伤害提升<lv>24%</>。",
+          "LocalizedString": "倾陷强度提升<lv>108</>。攻击倾陷单位造成的伤害提升<lv>24%</>。"
+        }
+      },
+      "upgradestar_pack_fork_jiaojuan_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Quantao/Fork_Quantao1/Buff_Fork_Quantao4.Buff_Fork_Quantao4_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_name",
+          "SourceString": "闪耀的每一天",
+          "LocalizedString": "闪耀的每一天"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_effect4",
+          "SourceString": "倾陷强度提升<lv>126</>。攻击倾陷单位造成的伤害提升<lv>28%</>。",
+          "LocalizedString": "倾陷强度提升<lv>126</>。攻击倾陷单位造成的伤害提升<lv>28%</>。"
+        }
+      },
+      "upgradestar_pack_fork_jiaojuan_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Quantao/Fork_Quantao1/Buff_Fork_Quantao5.Buff_Fork_Quantao5_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_name",
+          "SourceString": "闪耀的每一天",
+          "LocalizedString": "闪耀的每一天"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jiaojuan_effect5",
+          "SourceString": "倾陷强度提升<lv>144</>。攻击倾陷单位造成的伤害提升<lv>32%</>。",
+          "LocalizedString": "倾陷强度提升<lv>144</>。攻击倾陷单位造成的伤害提升<lv>32%</>。"
+        }
+      },
+      "upgradestar_pack_fork_wuhuakuang_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Dangao/Buff_Fork_Dangao1.Buff_Fork_Dangao1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_name",
+          "SourceString": "被遗忘者",
+          "LocalizedString": "被遗忘者"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_effect1",
+          "SourceString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>36%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>36%</>。",
+          "LocalizedString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>36%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>36%</>。"
+        }
+      },
+      "upgradestar_pack_fork_wuhuakuang_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Dangao/Buff_Fork_Dangao2.Buff_Fork_Dangao2_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_name",
+          "SourceString": "被遗忘者",
+          "LocalizedString": "被遗忘者"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_effect2",
+          "SourceString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>45%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>45%</>。",
+          "LocalizedString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>45%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>45%</>。"
+        }
+      },
+      "upgradestar_pack_fork_wuhuakuang_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Dangao/Buff_Fork_Dangao3.Buff_Fork_Dangao3_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_name",
+          "SourceString": "被遗忘者",
+          "LocalizedString": "被遗忘者"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_effect3",
+          "SourceString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>54%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>54%</>。",
+          "LocalizedString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>54%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>54%</>。"
+        }
+      },
+      "upgradestar_pack_fork_wuhuakuang_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Dangao/Buff_Fork_Dangao4.Buff_Fork_Dangao4_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_name",
+          "SourceString": "被遗忘者",
+          "LocalizedString": "被遗忘者"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_effect4",
+          "SourceString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>63%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>63%</>。",
+          "LocalizedString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>63%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>63%</>。"
+        }
+      },
+      "upgradestar_pack_fork_wuhuakuang_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Dangao/Buff_Fork_Dangao5.Buff_Fork_Dangao5_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_name",
+          "SourceString": "被遗忘者",
+          "LocalizedString": "被遗忘者"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_wuhuakuang_effect5",
+          "SourceString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>72%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>72%</>。",
+          "LocalizedString": "装备者生命值高于<lv>50%</>的时候攻击力提升<lv>72%</>，生命值低于<lv>50%</>的时候，防御力提升<lv>72%</>。"
+        }
+      },
+      "upgradestar_pack_fork_jingmotingyuan_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Fork/Buff_Fork_serenity_EquipSkill.Buff_Fork_serenity_EquipSkill_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_name",
+          "SourceString": "恶之「话」",
+          "LocalizedString": "恶之「话」"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_effect1",
+          "SourceString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>16%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>24%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>16%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。",
+          "LocalizedString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>16%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>24%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>16%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。"
+        }
+      },
+      "upgradestar_pack_fork_jingmotingyuan_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Fork/Buff_Fork_serenity_EquipSkill2.Buff_Fork_serenity_EquipSkill2_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_name",
+          "SourceString": "恶之「话」",
+          "LocalizedString": "恶之「话」"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_effect2",
+          "SourceString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>20%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>30%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>20%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。",
+          "LocalizedString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>20%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>30%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>20%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。"
+        }
+      },
+      "upgradestar_pack_fork_jingmotingyuan_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Fork/Buff_Fork_serenity_EquipSkill3.Buff_Fork_serenity_EquipSkill3_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_name",
+          "SourceString": "恶之「话」",
+          "LocalizedString": "恶之「话」"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_effect3",
+          "SourceString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>24%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>36%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>24%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。",
+          "LocalizedString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>24%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>36%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>24%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。"
+        }
+      },
+      "upgradestar_pack_fork_jingmotingyuan_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Fork/Buff_Fork_serenity_EquipSkill4.Buff_Fork_serenity_EquipSkill4_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_name",
+          "SourceString": "恶之「话」",
+          "LocalizedString": "恶之「话」"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_effect4",
+          "SourceString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>28%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>42%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>28%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。",
+          "LocalizedString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>28%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>42%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>28%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。"
+        }
+      },
+      "upgradestar_pack_fork_jingmotingyuan_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Fork/Buff_Fork_serenity_EquipSkill5.Buff_Fork_serenity_EquipSkill5_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_name",
+          "SourceString": "恶之「话」",
+          "LocalizedString": "恶之「话」"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_jingmotingyuan_effect5",
+          "SourceString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>32%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>48%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>32%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。",
+          "LocalizedString": "装备者在未受到伤害的情况下降低血量后<lv>5</>秒内获得<lv>32%</>暴击伤害提升，至多叠加<lv>4</>次。\r\n触发调弧时，扣除自身<lv>5%</>当前生命值，随机使用以下一种攻击（冷却时间25秒）：\r\n厉声呵斥：不留情面的呵斥如暴雨中的落叶接二连三，对目标造成<lv>5</>次<lv>48%</>攻击力的咒系伤害。\r\n喋喋不休：尖锐刻薄的话语如荆棘般不断刺穿目标，对目标连续造成<lv>6</>次基础伤害为<lv>32%</>攻击力的咒系伤害，最后一次攻击造成双倍伤害。"
+        }
+      },
+      "upgradestar_pack_fork_oulaquantao_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_JieTI/Buff_Fork_JieTi_1_1.Buff_Fork_JieTi_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_name",
+          "SourceString": "欧拉欧拉！",
+          "LocalizedString": "欧拉欧拉！"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_effect1",
+          "SourceString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>3%</>，最多叠加<lv>10</>层。",
+          "LocalizedString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>3%</>，最多叠加<lv>10</>层。"
+        }
+      },
+      "upgradestar_pack_fork_oulaquantao_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_JieTI/Buff_Fork_JieTi_2_1.Buff_Fork_JieTi_2_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_name",
+          "SourceString": "欧拉欧拉！",
+          "LocalizedString": "欧拉欧拉！"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_effect2",
+          "SourceString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>3.75%</>，最多叠加<lv>10</>层。",
+          "LocalizedString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>3.75%</>，最多叠加<lv>10</>层。"
+        }
+      },
+      "upgradestar_pack_fork_oulaquantao_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_JieTI/Buff_Fork_JieTi_3_1.Buff_Fork_JieTi_3_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_name",
+          "SourceString": "欧拉欧拉！",
+          "LocalizedString": "欧拉欧拉！"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_effect3",
+          "SourceString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>4.5%</>，最多叠加<lv>10</>层。",
+          "LocalizedString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>4.5%</>，最多叠加<lv>10</>层。"
+        }
+      },
+      "upgradestar_pack_fork_oulaquantao_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_JieTI/Buff_Fork_JieTi_4_1.Buff_Fork_JieTi_4_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_name",
+          "SourceString": "欧拉欧拉！",
+          "LocalizedString": "欧拉欧拉！"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_effect4",
+          "SourceString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>5.25%</>，最多叠加<lv>10</>层。",
+          "LocalizedString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>5.25%</>，最多叠加<lv>10</>层。"
+        }
+      },
+      "upgradestar_pack_fork_oulaquantao_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_JieTI/Buff_Fork_JieTi_5_1.Buff_Fork_JieTi_5_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_name",
+          "SourceString": "欧拉欧拉！",
+          "LocalizedString": "欧拉欧拉！"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_oulaquantao_effect5",
+          "SourceString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>6%</>，最多叠加<lv>10</>层。",
+          "LocalizedString": "装备者每次普通攻击后<lv>10</>秒内，普通攻击伤害提升<lv>6%</>，最多叠加<lv>10</>层。"
+        }
+      },
+      "upgradestar_pack_fork_lingganzhongjiezhe_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Xiangdao/Buff_Fork_Xiangdao1/Buff_Fork_xiangdao_1_1.Buff_Fork_xiangdao_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_name",
+          "SourceString": "灵感大逃杀",
+          "LocalizedString": "灵感大逃杀"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_effect1",
+          "SourceString": "装备者释放变轨攻击获得<lv>12</>点场域原质，该效果每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放变轨攻击获得<lv>12</>点场域原质，该效果每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_lingganzhongjiezhe_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Xiangdao/Buff_Fork_Xiangdao2/Buff_Fork_xiangdao_2_1.Buff_Fork_xiangdao_2_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_name",
+          "SourceString": "灵感大逃杀",
+          "LocalizedString": "灵感大逃杀"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_effect2",
+          "SourceString": "装备者释放变轨攻击获得<lv>15</>点场域原质，该效果每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放变轨攻击获得<lv>15</>点场域原质，该效果每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_lingganzhongjiezhe_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Xiangdao/Buff_Fork_Xiangdao3/Buff_Fork_xiangdao_3_1.Buff_Fork_xiangdao_3_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_name",
+          "SourceString": "灵感大逃杀",
+          "LocalizedString": "灵感大逃杀"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_effect3",
+          "SourceString": "装备者释放变轨攻击获得<lv>18</>点场域原质，该效果每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放变轨攻击获得<lv>18</>点场域原质，该效果每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_lingganzhongjiezhe_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Xiangdao/Buff_Fork_Xiangdao4/Buff_Fork_xiangdao_4_1.Buff_Fork_xiangdao_4_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_name",
+          "SourceString": "灵感大逃杀",
+          "LocalizedString": "灵感大逃杀"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_effect4",
+          "SourceString": "装备者释放变轨攻击获得<lv>21</>点场域原质，该效果每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放变轨攻击获得<lv>21</>点场域原质，该效果每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_lingganzhongjiezhe_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Xiangdao/Buff_Fork_Xiangdao5/Buff_Fork_xiangdao_5_1.Buff_Fork_xiangdao_5_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_name",
+          "SourceString": "灵感大逃杀",
+          "LocalizedString": "灵感大逃杀"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_lingganzhongjiezhe_effect5",
+          "SourceString": "装备者释放变轨攻击获得<lv>24</>点场域原质，该效果每<lv>20</>秒最多触发一次。",
+          "LocalizedString": "装备者释放变轨攻击获得<lv>24</>点场域原质，该效果每<lv>20</>秒最多触发一次。"
+        }
+      },
+      "upgradestar_pack_fork_rishi_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_rishi/Buff_Fork_rishi1_Skill.Buff_Fork_rishi1_Skill_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_name",
+          "SourceString": "蚀日之刻",
+          "LocalizedString": "蚀日之刻"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_effect1",
+          "SourceString": "攻击力提升<lv>24%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>2</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)",
+          "LocalizedString": "攻击力提升<lv>24%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>2</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)"
+        }
+      },
+      "upgradestar_pack_fork_rishi_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_rishi/Buff_Fork_rishi1_Skill_Lv2.Buff_Fork_rishi1_Skill_Lv2_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_name",
+          "SourceString": "蚀日之刻",
+          "LocalizedString": "蚀日之刻"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_effect2",
+          "SourceString": "攻击力提升<lv>30%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>2.5</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)",
+          "LocalizedString": "攻击力提升<lv>30%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>2.5</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)"
+        }
+      },
+      "upgradestar_pack_fork_rishi_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_rishi/Buff_Fork_rishi1_Skill_Lv3.Buff_Fork_rishi1_Skill_Lv3_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_name",
+          "SourceString": "蚀日之刻",
+          "LocalizedString": "蚀日之刻"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_effect3",
+          "SourceString": "攻击力提升<lv>36%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>3</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)",
+          "LocalizedString": "攻击力提升<lv>36%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>3</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)"
+        }
+      },
+      "upgradestar_pack_fork_rishi_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_rishi/Buff_Fork_rishi1_Skill_Lv4.Buff_Fork_rishi1_Skill_Lv4_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_name",
+          "SourceString": "蚀日之刻",
+          "LocalizedString": "蚀日之刻"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_effect4",
+          "SourceString": "攻击力提升<lv>42%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>3.5</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)",
+          "LocalizedString": "攻击力提升<lv>42%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>3.5</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)"
+        }
+      },
+      "upgradestar_pack_fork_rishi_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_rishi/Buff_Fork_rishi1_Skill_Lv5.Buff_Fork_rishi1_Skill_Lv5_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_name",
+          "SourceString": "蚀日之刻",
+          "LocalizedString": "蚀日之刻"
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "TableId": "/Game/Text/ST_Fork.ST_Fork",
+          "Key": "buff_fork_rishi_effect5",
+          "SourceString": "攻击力提升<lv>48%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>4</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)",
+          "LocalizedString": "攻击力提升<lv>48%</>\r\n触发调弧时，装备者可暂时利用日蚀的能力创造一场持续<lv>20</>秒的日蚀。在日蚀持续期间，每击杀一名敌方单位，装备者可恢复<lv>4</>点场域原质，持续时间内最多触发<lv>5</>次。(该效果多人游戏中仅对自己生效，冷却时间60秒)"
+        }
+      },
+      "upgradestar_pack_fork_tajiduo_1": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_1.Buff_Fork_Bowen_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "upgradestar_pack_fork_tajiduo_2": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_1.Buff_Fork_Bowen_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "upgradestar_pack_fork_tajiduo_3": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_1.Buff_Fork_Bowen_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "upgradestar_pack_fork_tajiduo_4": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_1.Buff_Fork_Bowen_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "upgradestar_pack_fork_tajiduo_5": {
+        "Buffs": [
+          {
+            "BuffObject": {
+              "AssetPathName": "/Game/Blueprints/Abilities/Buff/Fork/Fork_Bowen/Buff_Fork_Bowen_1_1.Buff_Fork_Bowen_1_1_C",
+              "SubPathString": ""
+            },
+            "IsGlobal": false
+          }
+        ],
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "NeedGolds": "gold:100",
+        "Description": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]

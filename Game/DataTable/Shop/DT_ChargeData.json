@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ChargeData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ChargeConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ProductId": "1",
+        "ChargeType": "EChargeType::Common",
+        "ChargePrice": 600,
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 60,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": ""
+      },
+      "2": {
+        "ProductId": "2",
+        "ChargeType": "EChargeType::Common",
+        "ChargePrice": 3000,
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 300,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_02.UI_YH_Recharge_Icon_02",
+          "SubPathString": ""
+        },
+        "Desc": ""
+      },
+      "3": {
+        "ProductId": "3",
+        "ChargeType": "EChargeType::Common",
+        "ChargePrice": 9800,
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 980,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_03.UI_YH_Recharge_Icon_03",
+          "SubPathString": ""
+        },
+        "Desc": ""
+      },
+      "4": {
+        "ProductId": "4",
+        "ChargeType": "EChargeType::Common",
+        "ChargePrice": 19800,
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 1980,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_04.UI_YH_Recharge_Icon_04",
+          "SubPathString": ""
+        },
+        "Desc": ""
+      },
+      "5": {
+        "ProductId": "5",
+        "ChargeType": "EChargeType::Common",
+        "ChargePrice": 32800,
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 3280,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_05.UI_YH_Recharge_Icon_05",
+          "SubPathString": ""
+        },
+        "Desc": ""
+      },
+      "6": {
+        "ProductId": "6",
+        "ChargeType": "EChargeType::Common",
+        "ChargePrice": 64800,
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 6480,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_06.UI_YH_Recharge_Icon_06",
+          "SubPathString": ""
+        },
+        "Desc": ""
+      }
+    }
+  }
+]

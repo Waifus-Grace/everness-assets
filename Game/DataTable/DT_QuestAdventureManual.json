@@ -1,0 +1,3137 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestAdventureManual",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'QuestData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "chapter_1": {
+        "QuestId": "chapter_1",
+        "QuestName": {
+          "CultureInvariantString": "第一章"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER_REWARD",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "chapter_2": {
+        "QuestId": "chapter_2",
+        "QuestName": {
+          "CultureInvariantString": "第二章"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER_REWARD",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "chapter_3": {
+        "QuestId": "chapter_3",
+        "QuestName": {
+          "CultureInvariantString": "第三章"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER_REWARD",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "chapter_4": {
+        "QuestId": "chapter_4",
+        "QuestName": {
+          "CultureInvariantString": "第四章"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER_REWARD",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "chapter_5": {
+        "QuestId": "chapter_5",
+        "QuestName": {
+          "CultureInvariantString": "第五章"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER_REWARD",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "chapter_6": {
+        "QuestId": "chapter_6",
+        "QuestName": {
+          "CultureInvariantString": "第六章"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER_REWARD",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD10001": {
+        "QuestId": "AD10001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_001",
+          "SourceString": "累计解锁1个维特海默塔",
+          "LocalizedString": "累计解锁1个维特海默塔"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Heterotopia"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD10002": {
+        "QuestId": "AD10002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_002",
+          "SourceString": "魔女之家告谕等级达到2",
+          "LocalizedString": "魔女之家告谕等级达到2"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_4"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD10003": {
+        "QuestId": "AD10003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_003",
+          "SourceString": "累计解锁1个电话亭",
+          "LocalizedString": "累计解锁1个电话亭"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Transfer"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD10004": {
+        "QuestId": "AD10004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_004",
+          "SourceString": "提升1个角色升到10级",
+          "LocalizedString": "提升1个角色升到10级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CharacterLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD20001": {
+        "QuestId": "AD20001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_005",
+          "SourceString": "魔女之家告谕等级达到3",
+          "LocalizedString": "魔女之家告谕等级达到3"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_4"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD20002": {
+        "QuestId": "AD20002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_006",
+          "SourceString": "”一咖舍”咖啡店开业",
+          "LocalizedString": "”一咖舍”咖啡店开业"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_0",
+            "Leon_001"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD20003": {
+        "QuestId": "AD20003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_007",
+          "SourceString": "通关1次'点石成金'异象界域",
+          "LocalizedString": "通关1次'点石成金'异象界域"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CloneEnter",
+          "UIParaming": [
+            "ResourceCloneEnter_001"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD20004": {
+        "QuestId": "AD20004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_008",
+          "SourceString": "提升1个角色到达20级",
+          "LocalizedString": "提升1个角色到达20级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CharacterLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD20005": {
+        "QuestId": "AD20005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_009",
+          "SourceString": "完成1次异象委托",
+          "LocalizedString": "完成1次异象委托"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::7",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD30001": {
+        "QuestId": "AD30001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_010",
+          "SourceString": "累计解锁2个维特海默塔",
+          "LocalizedString": "累计解锁2个维特海默塔"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Heterotopia"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD30002": {
+        "QuestId": "AD30002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_011",
+          "SourceString": "累计解锁2个电话亭",
+          "LocalizedString": "累计解锁2个电话亭"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Transfer"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD30003": {
+        "QuestId": "AD30003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_012",
+          "SourceString": "前往店铺‘新越车行‘与店员对话",
+          "LocalizedString": "前往店铺‘新越车行‘与店员对话"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_1",
+            "NewWay_001"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD30004": {
+        "QuestId": "AD30004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_013",
+          "SourceString": "2个角色到达突破等级1",
+          "LocalizedString": "2个角色到达突破等级1"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CharacterLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD30005": {
+        "QuestId": "AD30005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_014",
+          "SourceString": "提升1个空幕驱动块达到5级",
+          "LocalizedString": "提升1个空幕驱动块达到5级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::8",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD30006": {
+        "QuestId": "AD30006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_015",
+          "SourceString": "提高3个角色的好感等级达到2",
+          "LocalizedString": "提高3个角色的好感等级达到2"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD40001": {
+        "QuestId": "AD40001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_016",
+          "SourceString": "魔女之家告谕等级达到4",
+          "LocalizedString": "魔女之家告谕等级达到4"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_4"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD40002": {
+        "QuestId": "AD40002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_017",
+          "SourceString": "前往店铺’莱昂地产’与店员对话",
+          "LocalizedString": "前往店铺’莱昂地产’与店员对话"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_0",
+            "Leon_001"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD40003": {
+        "QuestId": "AD40003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_018",
+          "SourceString": "前往店铺‘暴走玩家‘与店员对话",
+          "LocalizedString": "前往店铺‘暴走玩家‘与店员对话"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_2",
+            "Regalia"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD40004": {
+        "QuestId": "AD40004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_019",
+          "SourceString": "完成番外-「不言不知秋」",
+          "LocalizedString": "完成番外-「不言不知秋」"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "QuestPanel"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD40005": {
+        "QuestId": "AD40005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_020",
+          "SourceString": "提升3个角色等级到30级",
+          "LocalizedString": "提升3个角色等级到30级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CharacterLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD40006": {
+        "QuestId": "AD40006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_021",
+          "SourceString": "提升2个空幕驱动块达到5级",
+          "LocalizedString": "提升2个空幕驱动块达到5级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::8",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD40007": {
+        "QuestId": "AD40007",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_022",
+          "SourceString": "提升1个弧盘达到20级",
+          "LocalizedString": "提升1个弧盘达到20级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_ForkLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD40008": {
+        "QuestId": "AD40008",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_023",
+          "SourceString": "咖啡店经营有6个可上架菜品",
+          "LocalizedString": "咖啡店经营有6个可上架菜品"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "StoreBrandManager"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50001": {
+        "QuestId": "AD50001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_024",
+          "SourceString": "累计解锁3个维特海默塔",
+          "LocalizedString": "累计解锁3个维特海默塔"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Heterotopia"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50002": {
+        "QuestId": "AD50002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_025",
+          "SourceString": "累计解锁3个电话亭",
+          "LocalizedString": "累计解锁3个电话亭"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Transfer"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50003": {
+        "QuestId": "AD50003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_026",
+          "SourceString": "进行1次同城委托",
+          "LocalizedString": "进行1次同城委托"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "DelegateMissionMain"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50004": {
+        "QuestId": "AD50004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_027",
+          "SourceString": "提升3个角色等级到40级",
+          "LocalizedString": "提升3个角色等级到40级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CharacterLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50005": {
+        "QuestId": "AD50005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_028",
+          "SourceString": "提升3个空幕驱动块达到5级",
+          "LocalizedString": "提升3个空幕驱动块达到5级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::8",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50006": {
+        "QuestId": "AD50006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_029",
+          "SourceString": "提升1个弧盘达到30级",
+          "LocalizedString": "提升1个弧盘达到30级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_ForkLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50007": {
+        "QuestId": "AD50007",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_030",
+          "SourceString": "完成3次异象委托",
+          "LocalizedString": "完成3次异象委托"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::7",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50008": {
+        "QuestId": "AD50008",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_031",
+          "SourceString": "提高4个角色的好感等级达到2",
+          "LocalizedString": "提高4个角色的好感等级达到2"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD50009": {
+        "QuestId": "AD50009",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_032",
+          "SourceString": "累计获得5个家具",
+          "LocalizedString": "累计获得5个家具"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_23"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60001": {
+        "QuestId": "AD60001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_033",
+          "SourceString": "魔女之家告谕等级达到5",
+          "LocalizedString": "魔女之家告谕等级达到5"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_Core_4"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60002": {
+        "QuestId": "AD60002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_034",
+          "SourceString": "完成正篇-「从捏造开始的恋爱大作战」",
+          "LocalizedString": "完成正篇-「从捏造开始的恋爱大作战」"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "QuestPanel"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60003": {
+        "QuestId": "AD60003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_035",
+          "SourceString": "提升4个角色达到50级",
+          "LocalizedString": "提升4个角色达到50级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CharacterLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60004": {
+        "QuestId": "AD60004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_036",
+          "SourceString": "提升4个空幕驱动块达到5级",
+          "LocalizedString": "提升4个空幕驱动块达到5级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::8",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60005": {
+        "QuestId": "AD60005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_037",
+          "SourceString": "提升1个弧盘达到40级",
+          "LocalizedString": "提升1个弧盘达到40级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_ForkLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60006": {
+        "QuestId": "AD60006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_038",
+          "SourceString": "完成异象委托-无首铁驭",
+          "LocalizedString": "完成异象委托-无首铁驭"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::7",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60011": {
+        "QuestId": "AD60011",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_039",
+          "SourceString": "通关异象巡礼-月光当铺",
+          "LocalizedString": "通关异象巡礼-月光当铺"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CloneEnter",
+          "UIParaming": [
+            "WeeklyClone_Boss05"
+          ],
+          "UnlockFunctionID": "AdventureClone"
+        }
+      },
+      "AD60008": {
+        "QuestId": "AD60008",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_040",
+          "SourceString": "完成5次异象委托",
+          "LocalizedString": "完成5次异象委托"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::7",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60009": {
+        "QuestId": "AD60009",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_041",
+          "SourceString": "累计获得10个家具",
+          "LocalizedString": "累计获得10个家具"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_23"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      },
+      "AD60010": {
+        "QuestId": "AD60010",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
+          "Key": "adventurequest_042",
+          "SourceString": "咖啡店经营有10个可上架菜品",
+          "LocalizedString": "咖啡店经营有10个可上架菜品"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_ADVENTURE_CHAPTER",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "StoreBrandManager"
+          ],
+          "UnlockFunctionID": "None"
+        }
+      }
+    }
+  }
+]

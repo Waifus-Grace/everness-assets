@@ -1,0 +1,816 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BigWorldYaHaHaConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'YaHaHaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "YahahaTest_01": {
+        "Index": 0,
+        "YahahaId": "YahahaTest_01",
+        "TableName": "BigWorld",
+        "Type": "Test",
+        "CD": 0,
+        "Location": {
+          "X": 201596.0,
+          "Y": -18201.0,
+          "Z": -3889.0
+        },
+        "Range": 1000.0,
+        "DropID": "None",
+        "CanReset": true,
+        "NeedCheckPos": true
+      },
+      "YahahaTest_02": {
+        "Index": 1,
+        "YahahaId": "YahahaTest_02",
+        "TableName": "BigWorld",
+        "Type": "Test",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Anomaly_018_fruit_test": {
+        "Index": 2,
+        "YahahaId": "Anomaly_018_fruit_test",
+        "TableName": "BigWorld",
+        "Type": "Anomaly_018",
+        "CD": 1,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "drop_VisionReceiveAwardRegion1",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Q310038_Vines": {
+        "Index": 3,
+        "YahahaId": "Q310038_C1_Vines",
+        "TableName": "BigWorld",
+        "Type": "None",
+        "CD": 1,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Eibon_PaintingMan": {
+        "Index": 4,
+        "YahahaId": "Eibon_PaintingMan",
+        "TableName": "BigWorld",
+        "Type": "Eibon_PaintingMan",
+        "CD": 0,
+        "Location": {
+          "X": -90784.164,
+          "Y": 148596.06,
+          "Z": 4253.3833
+        },
+        "Range": 1500.0,
+        "DropID": "drop_Fons_1000",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Anomaly_043_Eden": {
+        "Index": 5,
+        "YahahaId": "Anomaly_043_Eden",
+        "TableName": "None",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": -116987.27,
+          "Y": 170869.05,
+          "Z": 11674.243
+        },
+        "Range": 1000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Danzaburou_QJD_001_SE": {
+        "Index": 6,
+        "YahahaId": "Danzaburou_QJD_001_SE",
+        "TableName": "None",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": -126642.69,
+          "Y": 189433.08,
+          "Z": 7170.879
+        },
+        "Range": 1000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Vision_Boxing001": {
+        "Index": 7,
+        "YahahaId": "Vision_Boxing001",
+        "TableName": "BigWorld",
+        "Type": "Vision_Boxing",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Danzaburou_QJD_001": {
+        "Index": 8,
+        "YahahaId": "Danzaburou_QJD_001",
+        "TableName": "BigWorld",
+        "Type": "Anomaly024_Danzaburou",
+        "CD": 0,
+        "Location": {
+          "X": -126642.69,
+          "Y": 189433.08,
+          "Z": 7170.879
+        },
+        "Range": 1500.0,
+        "DropID": "drop_Bonus_Danzaburou_1",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Danzaburou_QJD_002": {
+        "Index": 9,
+        "YahahaId": "Danzaburou_QJD_002",
+        "TableName": "BigWorld",
+        "Type": "Anomaly024_Danzaburou",
+        "CD": 0,
+        "Location": {
+          "X": -99913.08,
+          "Y": 167942.67,
+          "Z": 4899.195
+        },
+        "Range": 1500.0,
+        "DropID": "drop_Bonus_Danzaburou_2",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Danzaburou_WWP_001": {
+        "Index": 10,
+        "YahahaId": "Danzaburou_WWP_001",
+        "TableName": "BigWorld",
+        "Type": "Anomaly024_Danzaburou",
+        "CD": 0,
+        "Location": {
+          "X": -166293.8,
+          "Y": 202662.7,
+          "Z": 8458.354
+        },
+        "Range": 15000.0,
+        "DropID": "drop_Bonus_Danzaburou_3",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Danzaburou_WWP_002": {
+        "Index": 11,
+        "YahahaId": "Danzaburou_WWP_002",
+        "TableName": "BigWorld",
+        "Type": "Anomaly024_Danzaburou",
+        "CD": 0,
+        "Location": {
+          "X": -184900.67,
+          "Y": 187787.97,
+          "Z": 9742.605
+        },
+        "Range": 15000.0,
+        "DropID": "drop_Bonus_Danzaburou_4",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_01": {
+        "Index": 12,
+        "YahahaId": "Door_Step_01",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -87440.445,
+          "Y": 171432.92,
+          "Z": -1165.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_02": {
+        "Index": 13,
+        "YahahaId": "Door_Step_02",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -87375.695,
+          "Y": 171367.86,
+          "Z": -1425.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_03": {
+        "Index": 14,
+        "YahahaId": "Door_Step_03",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -87797.28,
+          "Y": 171770.8,
+          "Z": -1588.2756
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_04": {
+        "Index": 15,
+        "YahahaId": "Door_Step_04",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -88803.47,
+          "Y": 172598.81,
+          "Z": -1165.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_05": {
+        "Index": 16,
+        "YahahaId": "Door_Step_05",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -89359.734,
+          "Y": 173074.62,
+          "Z": -940.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_06": {
+        "Index": 17,
+        "YahahaId": "Door_Step_06",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -90109.766,
+          "Y": 173706.5,
+          "Z": -990.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_07": {
+        "Index": 18,
+        "YahahaId": "Door_Step_07",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -90974.44,
+          "Y": 174435.6,
+          "Z": -990.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_08": {
+        "Index": 19,
+        "YahahaId": "Door_Step_08",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -93916.4,
+          "Y": 170996.17,
+          "Z": -990.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_09": {
+        "Index": 20,
+        "YahahaId": "Door_Step_09",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -94316.16,
+          "Y": 170528.83,
+          "Z": -990.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Step_10": {
+        "Index": 21,
+        "YahahaId": "Door_Step_10",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": -95319.61,
+          "Y": 169338.05,
+          "Z": -772.0537
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Door_Room1-2_Load": {
+        "Index": 22,
+        "YahahaId": "Door_Room1-2_Load",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Door_Room1-2_Unload": {
+        "Index": 23,
+        "YahahaId": "Door_Room1-2_Unload",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Door_Corridor_Load": {
+        "Index": 24,
+        "YahahaId": "Door_Corridor_Load",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Door_Corridor_Unload": {
+        "Index": 25,
+        "YahahaId": "Door_Corridor_Unload",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Door_Room3_Load": {
+        "Index": 26,
+        "YahahaId": "Door_Room3_Load",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Door_Room3_Unload": {
+        "Index": 27,
+        "YahahaId": "Door_Room3_Unload",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Door_LastCorridor_Load": {
+        "Index": 28,
+        "YahahaId": "Door_LastCorridor_Load",
+        "TableName": "BigWorld",
+        "Type": "Vision_Door",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "MotoBoss01_BattleField_Load": {
+        "Index": 29,
+        "YahahaId": "MotoBoss01_BattleField_Load",
+        "TableName": "BigWorld",
+        "Type": "Vision_MotoBoss",
+        "CD": 0,
+        "Location": {
+          "X": -142493.36,
+          "Y": 225177.36,
+          "Z": 7488.501
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "MotoBoss01_BattleField_Unload": {
+        "Index": 30,
+        "YahahaId": "MotoBoss01_BattleField_Unload",
+        "TableName": "BigWorld",
+        "Type": "Vision_MotoBoss",
+        "CD": 0,
+        "Location": {
+          "X": -159238.7,
+          "Y": 226495.08,
+          "Z": 7218.25
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "Vision_Projector_01_Gameplay_Load": {
+        "Index": 31,
+        "YahahaId": "Vision_Projector_01_Gameplay_Load",
+        "TableName": "BigWorld",
+        "Type": "Vision_Projector_01",
+        "CD": 0,
+        "Location": {
+          "X": -87909.58,
+          "Y": 143882.72,
+          "Z": 4150.5005
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": true,
+        "NeedCheckPos": false
+      },
+      "Vision_Projector_Time_01_Gameplay_Load": {
+        "Index": 32,
+        "YahahaId": "Vision_Projector_Time_01_Gameplay_Load",
+        "TableName": "BigWorld",
+        "Type": "Vision_Projector_Time_01",
+        "CD": 0,
+        "Location": {
+          "X": -133979.22,
+          "Y": 131109.78,
+          "Z": 9170.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": true,
+        "NeedCheckPos": false
+      },
+      "Vision_Projector_Time_01_Step_01": {
+        "Index": 33,
+        "YahahaId": "Vision_Projector_Time_01_Step_01",
+        "TableName": "BigWorld",
+        "Type": "Vision_Projector_Time_01",
+        "CD": 0,
+        "Location": {
+          "X": -133979.22,
+          "Y": 131109.78,
+          "Z": 9170.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": true,
+        "NeedCheckPos": false
+      },
+      "School_Cat": {
+        "Index": 34,
+        "YahahaId": "School_Cat",
+        "TableName": "BigWorld",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": -150759.62,
+          "Y": 96694.66,
+          "Z": 7115.604
+        },
+        "Range": 1500.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Yahaha_WorldFilm": {
+        "Index": 35,
+        "YahahaId": "Yahaha_WorldFilm",
+        "TableName": "BigWorld",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "NPC_S1002_004_Check1": {
+        "Index": 36,
+        "YahahaId": "NPC_S1002_004_Check1",
+        "TableName": "BigWorld",
+        "Type": "NPC_S1002_004_Check1",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "NPC_S1002_004_Check2": {
+        "Index": 37,
+        "YahahaId": "NPC_S1002_004_Check2",
+        "TableName": "BigWorld",
+        "Type": "NPC_S1002_004_Check2",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "NPC_S1002_004_Check3": {
+        "Index": 38,
+        "YahahaId": "NPC_S1002_004_Check3",
+        "TableName": "BigWorld",
+        "Type": "NPC_S1002_004_Check3",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "NPC_001_A_yahaha_finish": {
+        "Index": 39,
+        "YahahaId": "NPC_001_A_yahaha_finish",
+        "TableName": "BigWorld",
+        "Type": "NPC_001_A_yahaha_finish",
+        "CD": 0,
+        "Location": {
+          "X": 2314.3557,
+          "Y": 261666.42,
+          "Z": 7272.719
+        },
+        "Range": 1500.0,
+        "DropID": "drop_fork_rishi",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "NPC_001_A_yahaha_step1": {
+        "Index": 40,
+        "YahahaId": "NPC_001_A_yahaha_step1",
+        "TableName": "BigWorld",
+        "Type": "NPC_001_A_yahaha_step1",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "NPC_001_A_yahaha_step2": {
+        "Index": 41,
+        "YahahaId": "NPC_001_A_yahaha_step2",
+        "TableName": "BigWorld",
+        "Type": "NPC_001_A_yahaha_step2",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "NPC_001_A_yahaha_step3": {
+        "Index": 42,
+        "YahahaId": "NPC_001_A_yahaha_step3",
+        "TableName": "BigWorld",
+        "Type": "NPC_001_A_yahaha_step3",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "NPC_001_A_yahaha_step4": {
+        "Index": 43,
+        "YahahaId": "NPC_001_A_yahaha_step3",
+        "TableName": "BigWorld",
+        "Type": "NPC_001_A_yahaha_step3",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "NPC_001_A_yahaha_step5": {
+        "Index": 44,
+        "YahahaId": "NPC_001_A_yahaha_step5",
+        "TableName": "BigWorld",
+        "Type": "NPC_001_A_yahaha_step5",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Vision_Projector_Time_01_Step_02": {
+        "Index": 45,
+        "YahahaId": "Vision_Projector_Time_01_Step_02",
+        "TableName": "BigWorld",
+        "Type": "Vision_Projector_Time_01",
+        "CD": 0,
+        "Location": {
+          "X": -135947.48,
+          "Y": 127081.09,
+          "Z": 4618.0
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": true,
+        "NeedCheckPos": false
+      },
+      "Trinity_LadyFei_SPcoffee": {
+        "Index": 46,
+        "YahahaId": "Trinity_LadyFei_SPcoffee",
+        "TableName": "BigWorld",
+        "Type": "Trinity_LadyFei_SPcoffee",
+        "CD": 0,
+        "Location": {
+          "X": 5810.4365,
+          "Y": 272988.75,
+          "Z": 7609.4385
+        },
+        "Range": 3000.0,
+        "DropID": "drop_cookbook_13",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "CWO_Recipe": {
+        "Index": 47,
+        "YahahaId": "CWO_Recipe",
+        "TableName": "BigWorld",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": -115453.62,
+          "Y": 146723.86,
+          "Z": 9574.266
+        },
+        "Range": 2000.0,
+        "DropID": "drop_cookbook_08",
+        "CanReset": false,
+        "NeedCheckPos": true
+      },
+      "MotoBoss01_MotoBoss_Load": {
+        "Index": 48,
+        "YahahaId": "MotoBoss01_MotoBoss_Load",
+        "TableName": "BigWorld",
+        "Type": "Vision_MotoBoss",
+        "CD": 0,
+        "Location": {
+          "X": -142493.36,
+          "Y": 225177.36,
+          "Z": 7488.501
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "MotoBoss01_MotoBoss_Unload": {
+        "Index": 49,
+        "YahahaId": "MotoBoss01_MotoBoss_Unload",
+        "TableName": "BigWorld",
+        "Type": "Vision_MotoBoss",
+        "CD": 0,
+        "Location": {
+          "X": -159238.7,
+          "Y": 226495.08,
+          "Z": 7218.25
+        },
+        "Range": 2000.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      }
+    }
+  }
+]

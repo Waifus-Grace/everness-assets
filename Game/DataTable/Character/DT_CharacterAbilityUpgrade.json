@@ -1,0 +1,4024 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterAbilityUpgrade",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UICharacterAbilityUpgradeCostConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "GA_Female_Melee": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Female_Skill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Female_UltraSkill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Female_Passive_1": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 12000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_009_Female/PassiveEffect/Buff_Female009_Passive1.Buff_Female009_Passive1_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Female_Passive_2": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 1
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_009_Female/PassiveEffect/Buff_Female009_Passive2.Buff_Female009_Passive2_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mint019_Melee": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mint019_Skill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mint019_UltraSkill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mint_Passive_1": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 12000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_019_Mint/PassiveEffect/Buff_Mint019_Passive1.Buff_Mint019_Passive1_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mint_Passive_2": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 1
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_019_Mint/PassiveEffect/Buff_Mint019_Passive2.Buff_Mint019_Passive2_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Sagiri_Melee": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Sagiri_Skill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Sagiri_UltraSkill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Sagiri_Passive_1": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 12000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 3
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_003_Sagiri/PassiveEffect/Buff_Sagiri003_Passive1.Buff_Sagiri003_Passive1_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Sagiri_Passive_2": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 1
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_003_Sagiri/PassiveEffect/Buff_Sagiri003_Passive2.Buff_Sagiri003_Passive2_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Nanally_Melee": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Nanally_Skill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Nanally_UltraSkill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Nanally_Passive_1": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 12000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 3
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_010_Nanally/PassiveEffect/Buff_Nanally010_Passive1.Buff_Nanally010_Passive1_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Nanally_Passive_2": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 1
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_010_Nanally/PassiveEffect/Buff_Nanally010_Passive2.Buff_Nanally010_Passive2_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Adler_Melee": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Adler_Skill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Adler_UltraSkill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Adler_Passive_1": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 12000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 3
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_033_Adler/PassiveEffect/Buff_Adler033_Passive1.Buff_Adler033_Passive1_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Adler_Passive_2": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 1
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_033_Adler/PassiveEffect/Buff_Adler033_Passive2.Buff_Adler033_Passive2_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_lacrimosa_Melee": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_lacrimosa_Skill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_lacrimosa_UltraSkill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_lacrimosa_Passive_1": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 12000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_004_Lacrimosa/PassiveEffect/Buff_Lacrimosa004_Passive1.Buff_Lacrimosa004_Passive1_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_lacrimosa_Passive_2": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 1
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_004_Lacrimosa/PassiveEffect/Buff_Lacrimosa004_Passive2.Buff_Lacrimosa004_Passive2_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Skia_Melee": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Skia_Skill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Skia_UltraSkill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Skia_Passive_1": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 12000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_008_Skia/Passivity/Buff_Skia_Passivity1.Buff_Skia_Passivity1_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Skia_Passive_2": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_01_lv3",
+                "ItemCount": 1
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_008_Skia/Passivity/Buff_Skia_Passivity2.Buff_Skia_Passivity2_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Fadia_Melee": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Fadia_Skill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Fadia_UltraSkill": {
+        "LevelsCostItems": [
+          {
+            "Level": 1,
+            "CapitalId": "gold",
+            "CostMoney": 5000,
+            "RequireTupoLevel": 2,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 2,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 3,
+            "CapitalId": "gold",
+            "CostMoney": 40000,
+            "RequireTupoLevel": 3,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv1",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv1",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 4,
+            "CapitalId": "gold",
+            "CostMoney": 60000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 4
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 5,
+            "CapitalId": "gold",
+            "CostMoney": 80000,
+            "RequireTupoLevel": 4,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 6,
+            "CapitalId": "gold",
+            "CostMoney": 100000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 12
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv2",
+                "ItemCount": 12
+              }
+            ]
+          },
+          {
+            "Level": 7,
+            "CapitalId": "gold",
+            "CostMoney": 120000,
+            "RequireTupoLevel": 5,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 3
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 3
+              }
+            ]
+          },
+          {
+            "Level": 8,
+            "CapitalId": "gold",
+            "CostMoney": 160000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 5
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 6
+              }
+            ]
+          },
+          {
+            "Level": 9,
+            "CapitalId": "gold",
+            "CostMoney": 240000,
+            "RequireTupoLevel": 6,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 8
+              },
+              {
+                "ItemID": "OrdinaryMonMaterial_01_lv3",
+                "ItemCount": 12
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Proactive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Fadia_Passive_1": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 12000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv2",
+                "ItemCount": 3
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_039_Fadia/PassiveEffect/Buff_Fadia039_Passive1.Buff_Fadia039_Passive1_C",
+          "SubPathString": ""
+        }
+      },
+      "GA_Fadia_Passive_2": {
+        "LevelsCostItems": [
+          {
+            "Level": 0,
+            "CapitalId": "gold",
+            "CostMoney": 20000,
+            "RequireTupoLevel": 0,
+            "CostItems": [
+              {
+                "ItemID": "SkillUpMaterial_02_lv3",
+                "ItemCount": 1
+              }
+            ]
+          }
+        ],
+        "AbilityType": "EUICharacterAbilityButtonType::Passive",
+        "GameplayEffectToActivate": {
+          "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_039_Fadia/PassiveEffect/Buff_Fadia039_Passive2.Buff_Fadia039_Passive2_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,283 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ActivityLocalDataLayerDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ActivityLocalDataLayerStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "DataLayerAssets": [],
+        "AutoActive": false,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_Projector_01": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_Projector_01.W_Unload_WorldAnomaly_Projector_01",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_TheDoor_Room1-2": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_AnomalyDoorInside_Room01.DL_AnomalyDoorInside_Room01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_PVDoorinside_Room2.W_Unload_PVDoorinside_Room2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_AnomalyDoorInside_Room02.DL_AnomalyDoorInside_Room02",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_TheDoor_Corridor": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_AnomalyDoorInside_corridor.DL_AnomalyDoorInside_corridor",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_PVDoorinside_Corridor.W_Unload_PVDoorinside_Corridor",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_TheDoor_Room3": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_AnomalyDoorInside_Room03.DL_AnomalyDoorInside_Room03",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_PVDoorinside_Room3.W_Unload_PVDoorinside_Room3",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_TheDoor_LastCorridor": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_PVDoorinside_LastCorridor.W_Unload_PVDoorinside_LastCorridor",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_MagicBox_Tower_01": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_MagicBox_Tower_01.W_Unload_WorldAnomaly_MagicBox_Tower_01",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Yahaha_Danzaburou_QJD_001": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/Danzaburou/W_Unload_WorldAnomaly_Dan_QJD_01.W_Unload_WorldAnomaly_Dan_QJD_01",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Yahaha_Danzaburou_QJD_002": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/Danzaburou/W_Unload_WorldAnomaly_Dan_QJD_02.W_Unload_WorldAnomaly_Dan_QJD_02",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Yahaha_Danzaburou_WWP_001": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/Danzaburou/W_Unload_WorldAnomaly_Dan_WWP_01.W_Unload_WorldAnomaly_Dan_WWP_01",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [
+          "002"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Yahaha_Danzaburou_WWP_002": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/Danzaburou/W_Unload_WorldAnomaly_Dan_WWP_02.W_Unload_WorldAnomaly_Dan_WWP_02",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [
+          "002"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_MotoBoss_01_OutSide": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_Boss_OutSideManager.W_Unload_Boss_OutSideManager",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_MotoBoss_01_BattleField": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_Boss_013Battle.W_Unload_Boss_013Battle",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/Wonder_MotoBoss.Wonder_MotoBoss",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "AreaIds": [
+          "002"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_MagicBox_Cube_01": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_MagicBox_Cube_01.W_Unload_WorldAnomaly_MagicBox_Cube_01",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_Projector_Time_01": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_Projector_Time_01.W_Unload_WorldAnomaly_Projector_Time_01",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_Projector_01_Gameplay": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_Projector_01_Gameplay.W_Unload_WorldAnomaly_Projector_01_Gameplay",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_Projector_Time_01_Gameplay": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_Projector_Time_01_Gameplay.W_Unload_WorldAnomaly_Projector_Time_01_Gameplay",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_ColorsWearOff": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_ColorsWearOff.W_Unload_WorldAnomaly_ColorsWearOff",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Vision_WorldFilm": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CamSouvenir.W_Unload_CamSouvenir",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "AreaIds": [
+          "002"
+        ],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      }
+    }
+  }
+]

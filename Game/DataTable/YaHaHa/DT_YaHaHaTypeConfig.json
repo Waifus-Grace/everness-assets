@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_YaHaHaTypeConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'YaHaHaTypeRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Test": {
+        "YaHaHaIDs": [
+          "YahahaTest_01",
+          "YahahaTest_02"
+        ]
+      },
+      "Eibon_PaintingMan": {
+        "YaHaHaIDs": [
+          "Eibon_PaintingMan"
+        ]
+      },
+      "Anomaly024_Danzaburou": {
+        "YaHaHaIDs": [
+          "Danzaburou_QJD_001",
+          "Danzaburou_QJD_002",
+          "Danzaburou_QJD_003",
+          "Danzaburou_QJD_004"
+        ]
+      },
+      "Vision_Door": {
+        "YaHaHaIDs": [
+          "Door_Step_01",
+          "Door_Step_02",
+          "Door_Step_03",
+          "Door_Step_04",
+          "Door_Step_05",
+          "Door_Step_06",
+          "Door_Step_07",
+          "Door_Step_08",
+          "Door_Step_09",
+          "Door_Step_10",
+          "Door_Room1-2_Load",
+          "Door_Room1-2_Unload",
+          "Door_Corridor_Load",
+          "Door_Corridor_Unload",
+          "Door_Room3_Load",
+          "Door_Room3_Unload",
+          "Door_LastCorridor_Load"
+        ]
+      },
+      "Vision_Boxing": {
+        "YaHaHaIDs": [
+          "Vision_Boxing"
+        ]
+      },
+      "Vision_MotoBoss": {
+        "YaHaHaIDs": [
+          "MotoBoss01_BattleField_Load",
+          "MotoBoss01_BattleField_Unload"
+        ]
+      },
+      "Vision_Projector_01": {
+        "YaHaHaIDs": [
+          "Vision_Projector_01_Gameplay_Load"
+        ]
+      },
+      "Vision_Projector_Time_01": {
+        "YaHaHaIDs": [
+          "Vision_Projector_Time_01_Gameplay_Load",
+          "Vision_Projector_Time_01_Step_01",
+          "Vision_Projector_Time_01_Step_02"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestYaHaHaConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'YaHaHaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "drop_mainquest_q1100591_food": {
+        "Index": 10000,
+        "YahahaId": "drop_mainquest_q1100591_food",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "drop_mainquest_q1100591_food",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Quest_NPF_Subway": {
+        "Index": 10001,
+        "YahahaId": "Quest_NPF_Subway",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Quest_L110036_A2": {
+        "Index": 10002,
+        "YahahaId": "Quest_L110036_A2",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Quest_K110334_1": {
+        "Index": 10003,
+        "YahahaId": "Quest_K110334_1",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Quest_K110334_2": {
+        "Index": 10004,
+        "YahahaId": "Quest_K110334_2",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Quest_K110334_3": {
+        "Index": 10005,
+        "YahahaId": "Quest_K110334_3",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "Quest_K110205": {
+        "Index": 10006,
+        "YahahaId": "Quest_K110205",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "L110042_1": {
+        "Index": 10007,
+        "YahahaId": "L110042_1",
+        "TableName": "Quest",
+        "Type": "L110042_1",
+        "CD": 0,
+        "Location": {
+          "X": -158342.25,
+          "Y": 178025.48,
+          "Z": 8453.972
+        },
+        "Range": 0.0,
+        "DropID": "drop_L110042_01",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "L110042_2": {
+        "Index": 10008,
+        "YahahaId": "L110042_2",
+        "TableName": "Quest",
+        "Type": "L110042_2",
+        "CD": 0,
+        "Location": {
+          "X": -161011.78,
+          "Y": 178317.88,
+          "Z": 8328.443
+        },
+        "Range": 0.0,
+        "DropID": "drop_L110042_02",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "L110042_3": {
+        "Index": 10009,
+        "YahahaId": "L110042_3",
+        "TableName": "Quest",
+        "Type": "L110042_3",
+        "CD": 0,
+        "Location": {
+          "X": -161748.17,
+          "Y": 179689.55,
+          "Z": 8531.099
+        },
+        "Range": 0.0,
+        "DropID": "drop_L110042_03",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "L110035_F1": {
+        "Index": 10010,
+        "YahahaId": "L110035_F1",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "L110035_F2": {
+        "Index": 10011,
+        "YahahaId": "L110035_F2",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "L110035_F3": {
+        "Index": 10012,
+        "YahahaId": "L110035_F3",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "L110035_F4": {
+        "Index": 10013,
+        "YahahaId": "L110035_F4",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "L110035_F5": {
+        "Index": 10014,
+        "YahahaId": "L110035_F5",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "S110101_1": {
+        "Index": 10015,
+        "YahahaId": "S110101_1",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      },
+      "S110101_2": {
+        "Index": 10016,
+        "YahahaId": "S110101_2",
+        "TableName": "Quest",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false
+      }
+    }
+  }
+]

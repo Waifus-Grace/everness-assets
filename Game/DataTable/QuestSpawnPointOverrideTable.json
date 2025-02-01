@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestSpawnPointOverrideTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'QuestSpawnPointRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "q310001": {
+        "QuestSpawnPointOverrides": [
+          {
+            "BeginQuestID": "None",
+            "EndQuestID": "None",
+            "SpawnLocation": {
+              "X": -90330.0,
+              "Y": 149510.0,
+              "Z": 4078.8308
+            }
+          }
+        ]
+      },
+      "q110004": {
+        "QuestSpawnPointOverrides": [
+          {
+            "BeginQuestID": "q110004",
+            "EndQuestID": "q110004",
+            "SpawnLocation": {
+              "X": 4001.0332,
+              "Y": 272106.1,
+              "Z": 7752.925
+            }
+          }
+        ]
+      },
+      "q310002": {
+        "QuestSpawnPointOverrides": [
+          {
+            "BeginQuestID": "q310002",
+            "EndQuestID": "q310003",
+            "SpawnLocation": {
+              "X": 3190.0,
+              "Y": -1225.0,
+              "Z": 0.0
+            }
+          }
+        ]
+      }
+    }
+  }
+]

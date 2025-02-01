@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LegendaryQuestEffectDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LegendaryQuestEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "L110003": {
+        "bIsCompleted": false,
+        "MainTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "LegendaryQuest_03",
+          "SourceString": "白藏",
+          "LocalizedString": "白藏"
+        },
+        "Subtitle": {
+          "CultureInvariantString": null
+        },
+        "LogoPhoto": {
+          "AssetPathName": "/Game/UI/UI/Quest/LegendaryQuest/UI_YH_SpinoffSeries_Baicang_Close_Icon.UI_YH_SpinoffSeries_Baicang_Close_Icon",
+          "SubPathString": ""
+        },
+        "CharacterPhoto": {
+          "AssetPathName": "/Game/UI/UI/Quest/LegendaryQuest/UI_YH_SpinoffSeries_Baicang_Close_Role.UI_YH_SpinoffSeries_Baicang_Close_Role",
+          "SubPathString": ""
+        },
+        "DescPhoto": {
+          "AssetPathName": "/Game/UI/UI/Quest/LegendaryQuest/UI_YH_SpinoffSeries_Baicang_Close_Title_oversea.UI_YH_SpinoffSeries_Baicang_Close_Title_oversea",
+          "SubPathString": ""
+        }
+      },
+      "L110052": {
+        "bIsCompleted": true,
+        "MainTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "LegendaryQuest_03",
+          "SourceString": "白藏",
+          "LocalizedString": "白藏"
+        },
+        "Subtitle": {
+          "CultureInvariantString": null
+        },
+        "LogoPhoto": {
+          "AssetPathName": "/Game/UI/UI/Quest/LegendaryQuest/UI_YH_SpinoffSeries_Baicang_Close_Icon.UI_YH_SpinoffSeries_Baicang_Close_Icon",
+          "SubPathString": ""
+        },
+        "CharacterPhoto": {
+          "AssetPathName": "/Game/UI/UI/Quest/LegendaryQuest/UI_YH_SpinoffSeries_Baicang_Close_Role.UI_YH_SpinoffSeries_Baicang_Close_Role",
+          "SubPathString": ""
+        },
+        "DescPhoto": {
+          "AssetPathName": "/Game/UI/UI/Quest/LegendaryQuest/UI_YH_SpinoffSeries_Baicang_Close_Title_oversea.UI_YH_SpinoffSeries_Baicang_Close_Title_oversea",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

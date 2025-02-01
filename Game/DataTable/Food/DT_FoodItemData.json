@@ -1,0 +1,5813 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FoodItemData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StaticItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Food_001": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0001.food_0001",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0001.food_0001",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_001_name",
+          "SourceString": "极点",
+          "LocalizedString": "极点"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0001",
+          "SourceString": "队伍中所有角色攻击力增加135，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加135，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_001_desc",
+          "SourceString": "畅爽系列向前迈出的新一步，来自高峰的雪山融水，畅爽，不仅仅是饮料！",
+          "LocalizedString": "畅爽系列向前迈出的新一步，来自高峰的雪山融水，畅爽，不仅仅是饮料！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_001",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_002": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0002.food_0002",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0002.food_0002",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_002_name",
+          "SourceString": "茶界T-Fusion",
+          "LocalizedString": "茶界T-Fusion"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0002",
+          "SourceString": "队伍中所有角色消耗的体力降低20%，持续900秒。",
+          "LocalizedString": "队伍中所有角色消耗的体力降低20%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_002_desc",
+          "SourceString": "清茶，为你解锁清新篇章。茶界T-Fusion，给你不一样的都市茶语。",
+          "LocalizedString": "清茶，为你解锁清新篇章。茶界T-Fusion，给你不一样的都市茶语。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_002",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_003": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0003.food_0003",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0003.food_0003",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_003_name",
+          "SourceString": "冰点冷萃",
+          "LocalizedString": "冰点冷萃"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0003",
+          "SourceString": "队伍中所有角色体力回复速度提升20%，持续900秒。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升20%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_003_desc",
+          "SourceString": "唤醒感官，启动生活，冰点冷萃，为每一天注入崭新活力。",
+          "LocalizedString": "唤醒感官，启动生活，冰点冷萃，为每一天注入崭新活力。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_003",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_004": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0004.food_0004",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0004.food_0004",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_004_name",
+          "SourceString": "魔法膨胀全麦面包",
+          "LocalizedString": "魔法膨胀全麦面包"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0004",
+          "SourceString": "为选中角色恢复生命值上限的12%，并额外恢复850点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的12%，并额外恢复850点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_004_desc",
+          "SourceString": "饼干大的面包吃不饱？撕开包装，梦幻膨胀！",
+          "LocalizedString": "饼干大的面包吃不饱？撕开包装，梦幻膨胀！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_004",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_005": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0005.food_0005",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0005.food_0005",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_005_name",
+          "SourceString": "坂井蜜瓜包",
+          "LocalizedString": "坂井蜜瓜包"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0005",
+          "SourceString": "为选中角色恢复生命值上限的10%，并在之后的30秒内，每5秒恢复260点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的10%，并在之后的30秒内，每5秒恢复260点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_005_desc",
+          "SourceString": "酥脆的外皮搭配松软香甜的内里，傲娇少女也会对它敞开心房！",
+          "LocalizedString": "酥脆的外皮搭配松软香甜的内里，傲娇少女也会对它敞开心房！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_005",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_006": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0006.food_0006",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0006.food_0006",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_006_name",
+          "SourceString": "酷辣辣辣条",
+          "LocalizedString": "酷辣辣辣条"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0006",
+          "SourceString": "队伍中所有角色暴击率增加10%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加10%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_006_desc",
+          "SourceString": "酷辣辣辣条，潮流新款，大块才够味！",
+          "LocalizedString": "酷辣辣辣条，潮流新款，大块才够味！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_006",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_007": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_007_name",
+          "SourceString": "炫动",
+          "LocalizedString": "炫动"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0007",
+          "SourceString": "队伍中所有角色攻击力增加90，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加90，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_007_desc",
+          "SourceString": "加倍气泡，每一口都是能量释放，劲爽炫动，让活力随心动！",
+          "LocalizedString": "加倍气泡，每一口都是能量释放，劲爽炫动，让活力随心动！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_007",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_008": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_008_name",
+          "SourceString": "炫动「零点」",
+          "LocalizedString": "炫动「零点」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0008",
+          "SourceString": "队伍中所有角色攻击力增加144，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加144，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_008_desc",
+          "SourceString": "气泡与健康，一个都不少！「炫动·零点」，无糖更健康。",
+          "LocalizedString": "气泡与健康，一个都不少！「炫动·零点」，无糖更健康。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_008",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_009": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_009_name",
+          "SourceString": "劲爽「果漾」",
+          "LocalizedString": "劲爽「果漾」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0009",
+          "SourceString": "队伍中所有角色暴击率增加16%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加16%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_009_desc",
+          "SourceString": "气泡与柠檬碰撞，前所未有的酸甜劲爽！冷藏之后风味更佳~",
+          "LocalizedString": "气泡与柠檬碰撞，前所未有的酸甜劲爽！冷藏之后风味更佳~"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_009",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_010": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_010_name",
+          "SourceString": "劲爽「冰川」",
+          "LocalizedString": "劲爽「冰川」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0010",
+          "SourceString": "队伍中所有角色暴击伤害增加32%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加32%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_010_desc",
+          "SourceString": "极致冷感，瞬间爆发，劲爽冰川，激浪一夏。",
+          "LocalizedString": "极致冷感，瞬间爆发，劲爽冰川，激浪一夏。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_010",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_011": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0018_linshi_Oversea.food_0018_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_011_name",
+          "SourceString": "劲爽「谜」",
+          "LocalizedString": "劲爽「谜」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0011",
+          "SourceString": "队伍中所有角色攻击力增加252，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加252，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_011_desc",
+          "SourceString": "畅爽与街头艺术家Enigma的联名之作，唤醒神秘力量，一起来解开未知的「谜」吧！（桥间地限定）",
+          "LocalizedString": "畅爽与街头艺术家Enigma的联名之作，唤醒神秘力量，一起来解开未知的「谜」吧！（桥间地限定）"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_011",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_012": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0012.food_0012",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0012.food_0012",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_012_name",
+          "SourceString": "咕比奇原味薯片",
+          "LocalizedString": "咕比奇原味薯片"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0012",
+          "SourceString": "为选中角色恢复生命值上限的24%。",
+          "LocalizedString": "为选中角色恢复生命值上限的24%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_012_desc",
+          "SourceString": "咔滋咔滋，爱来自咕比奇！",
+          "LocalizedString": "咔滋咔滋，爱来自咕比奇！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_012",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_013": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0013.food_0013",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0013.food_0013",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_013_name",
+          "SourceString": "咕比奇黄瓜薯片",
+          "LocalizedString": "咕比奇黄瓜薯片"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0013",
+          "SourceString": "为选中角色恢复1750点生命值。",
+          "LocalizedString": "为选中角色恢复1750点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_013_desc",
+          "SourceString": "要是因为薯片的口味吵架的话，咕比奇是会伤心的。",
+          "LocalizedString": "要是因为薯片的口味吵架的话，咕比奇是会伤心的。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_013",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_014": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0014.food_0014",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0014.food_0014",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_014_name",
+          "SourceString": "咕比奇黄油薯片",
+          "LocalizedString": "咕比奇黄油薯片"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0014",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复455生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复455生命值"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_014_desc",
+          "SourceString": "脆口解锁桥间地手工黄油的丝滑与奇妙，限定味觉奇遇，让味蕾跳起来~（桥间地限定）",
+          "LocalizedString": "脆口解锁桥间地手工黄油的丝滑与奇妙，限定味觉奇遇，让味蕾跳起来~（桥间地限定）"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_014",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_015": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0015.food_0015",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0015.food_0015",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_015_name",
+          "SourceString": "再来一口！「牛奶味」",
+          "LocalizedString": "再来一口！「牛奶味」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0015",
+          "SourceString": "队伍中所有角色暴击率增加12%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加12%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_015_desc",
+          "SourceString": "快咬一口公司的知名饼干产品，快咬一口，再来一口牛奶味的！",
+          "LocalizedString": "快咬一口公司的知名饼干产品，快咬一口，再来一口牛奶味的！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_015",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_016": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0016.food_0016",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0016.food_0016",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_016_name",
+          "SourceString": "再来一口！「巧克力味」",
+          "LocalizedString": "再来一口！「巧克力味」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0016",
+          "SourceString": "队伍中所有角色暴击伤害增加24%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加24%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_016_desc",
+          "SourceString": "快咬一口公司的知名饼干产品，快咬一口，再来一口巧克力味的！",
+          "LocalizedString": "快咬一口公司的知名饼干产品，快咬一口，再来一口巧克力味的！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_016",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_017": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0017.food_0017",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0017.food_0017",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_017_name",
+          "SourceString": "咕比脆",
+          "LocalizedString": "咕比脆"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0017",
+          "SourceString": "为选中角色恢复生命值上限的20%。",
+          "LocalizedString": "为选中角色恢复生命值上限的20%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_017_desc",
+          "SourceString": "咕比奇最爱的坚果脆零食，营养，美味，我全都要！",
+          "LocalizedString": "咕比奇最爱的坚果脆零食，营养，美味，我全都要！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_017",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_018": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_02_common.food_02_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_02_common.food_02_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_018_name",
+          "SourceString": "鲍勃茶园",
+          "LocalizedString": "鲍勃茶园"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0018",
+          "SourceString": "为选中角色恢复1450点生命值。",
+          "LocalizedString": "为选中角色恢复1450点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_018_desc",
+          "SourceString": "精选优质茶叶，让每一位顾客随时随地喝到最优质的绿茶。",
+          "LocalizedString": "精选优质茶叶，让每一位顾客随时随地喝到最优质的绿茶。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_018",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_019": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_03_common.food_03_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_03_common.food_03_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_019_name",
+          "SourceString": "鲍勃橙意满满",
+          "LocalizedString": "鲍勃橙意满满"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0019",
+          "SourceString": "为选中角色恢复2500点生命值。",
+          "LocalizedString": "为选中角色恢复2500点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_043_desc",
+          "SourceString": "「鲍勃叔叔」推出的橙味果汁饮料，维C每日，橙意满满，粒粒鲜橙吃得到！",
+          "LocalizedString": "「鲍勃叔叔」推出的橙味果汁饮料，维C每日，橙意满满，粒粒鲜橙吃得到！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_019",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_020": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_04_common.food_04_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_04_common.food_04_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_020_name",
+          "SourceString": "鲍勃莓莓相遇",
+          "LocalizedString": "鲍勃莓莓相遇"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0020",
+          "SourceString": "为选中角色恢复生命值上限的34%。",
+          "LocalizedString": "为选中角色恢复生命值上限的34%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_020_desc",
+          "SourceString": "草莓与蓝莓最好的相遇，就在「鲍勃叔叔」果园系列！",
+          "LocalizedString": "草莓与蓝莓最好的相遇，就在「鲍勃叔叔」果园系列！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_020",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_021": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_05_common.food_05_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_05_common.food_05_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_021_name",
+          "SourceString": "鲍勃惊喜果园",
+          "LocalizedString": "鲍勃惊喜果园"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0021",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复650生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复650生命值"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_021_desc",
+          "SourceString": "基于已有的果汁饮料开发出的混合果汁饮料，多种果味定能给你意外惊喜~",
+          "LocalizedString": "基于已有的果汁饮料开发出的混合果汁饮料，多种果味定能给你意外惊喜~"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_021",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_022": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_06_common.food_06_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_06_common.food_06_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_022_name",
+          "SourceString": "鲍勃阳光牧场",
+          "LocalizedString": "鲍勃阳光牧场"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0022",
+          "SourceString": "为选中角色恢复生命值上限的16%，并在之后的30秒内，每5秒恢复299点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的16%，并在之后的30秒内，每5秒恢复299点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_022_desc",
+          "SourceString": "喝牛奶当然会让你长高——不过还需要足够的锻炼和充足的营养！",
+          "LocalizedString": "喝牛奶当然会让你长高——不过还需要足够的锻炼和充足的营养！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_022",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_023": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_07_common.food_07_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_07_common.food_07_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_023_name",
+          "SourceString": "噗卡巧克力「经典系列」",
+          "LocalizedString": "噗卡巧克力「经典系列」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0023",
+          "SourceString": "队伍中所有角色攻击力增加180，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加180，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_023_desc",
+          "SourceString": "经典之选，回味无穷，噗卡，在你舌尖上弹跳！",
+          "LocalizedString": "经典之选，回味无穷，噗卡，在你舌尖上弹跳！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_023",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_024": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_08_common.food_08_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_08_common.food_08_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_024_name",
+          "SourceString": "噗卡巧克力「果仁风暴」",
+          "LocalizedString": "噗卡巧克力「果仁风暴」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Defense",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0024",
+          "SourceString": "队伍中所有角色防御力增加180，持续300秒。",
+          "LocalizedString": "队伍中所有角色防御力增加180，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_024_desc",
+          "SourceString": "果仁与巧克力的完美邂逅，噗卡，每一口都是奢华盛宴。",
+          "LocalizedString": "果仁与巧克力的完美邂逅，噗卡，每一口都是奢华盛宴。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_024",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_025": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_09_common.food_09_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_09_common.food_09_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_025_name",
+          "SourceString": "噗卡巧克力「热辣挑战」",
+          "LocalizedString": "噗卡巧克力「热辣挑战」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0025",
+          "SourceString": "队伍中所有角色暴击率增加15%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加15%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_025_desc",
+          "SourceString": "辣味与甜意的叛逆碰撞，噗卡，给乏味的生活加料！",
+          "LocalizedString": "辣味与甜意的叛逆碰撞，噗卡，给乏味的生活加料！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_025",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_026": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_10_common.food_10_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_10_common.food_10_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_026_name",
+          "SourceString": "噗卡巧克力「绘莉巡演纪念款」",
+          "LocalizedString": "噗卡巧克力「绘莉巡演纪念款」"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0026",
+          "SourceString": "队伍中所有角色攻击力提升315，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力提升315，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_026_desc",
+          "SourceString": "为纪念绘莉在桥间地的首场演出而发售的纪念款。\n每一块都是独家回忆，与你共享不灭的星光。（桥间地限定）",
+          "LocalizedString": "为纪念绘莉在桥间地的首场演出而发售的纪念款。\n每一块都是独家回忆，与你共享不灭的星光。（桥间地限定）"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_026",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_027": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0027.food_0027",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0027.food_0027",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_027_name",
+          "SourceString": "噗卡好梦棉花糖",
+          "LocalizedString": "噗卡好梦棉花糖"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0027",
+          "SourceString": "复活选中角色，并额外恢复2200生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复2200生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_027_desc",
+          "SourceString": "睡前一颗好梦棉花糖，蓬蓬软软，涤净一天的劳累，做个好梦！",
+          "LocalizedString": "睡前一颗好梦棉花糖，蓬蓬软软，涤净一天的劳累，做个好梦！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_027",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_028": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0028.food_0028",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0028.food_0028",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_028_name",
+          "SourceString": "噗卡幸运星",
+          "LocalizedString": "噗卡幸运星"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0028",
+          "SourceString": "队伍中所有角色暴击伤害增加30%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加30%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_028_desc",
+          "SourceString": "感觉诸事不顺？来一颗噗卡幸运星，立刻转运！",
+          "LocalizedString": "感觉诸事不顺？来一颗噗卡幸运星，立刻转运！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_028",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_029": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0029.food_0029",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0029.food_0029",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_029_name",
+          "SourceString": "极品豆腐排",
+          "LocalizedString": "极品豆腐排"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0029",
+          "SourceString": "复活选中角色，并恢复生命值上限的30%。",
+          "LocalizedString": "复活选中角色，并恢复生命值上限的30%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_029_desc",
+          "SourceString": "散发着独特香味的豆制品料理，独家烟熏工艺赋予其浓郁醇厚的香气，入口即化的豆腐带着微微焦香，此即升华！",
+          "LocalizedString": "散发着独特香味的豆制品料理，独家烟熏工艺赋予其浓郁醇厚的香气，入口即化的豆腐带着微微焦香，此即升华！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_029",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_030": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0030.food_0030",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0030.food_0030",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_030_name",
+          "SourceString": "炸豆腐",
+          "LocalizedString": "炸豆腐"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0030",
+          "SourceString": "为选中角色恢复生命值上限的20%，并在之后的30秒内，每5秒恢复182点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的20%，并在之后的30秒内，每5秒恢复182点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_030_desc",
+          "SourceString": "炸到金灿灿的豆制品料理，外壳酥脆，内心柔软，啊！要小心烫口哦！",
+          "LocalizedString": "炸到金灿灿的豆制品料理，外壳酥脆，内心柔软，啊！要小心烫口哦！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_030",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_031": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0031.food_0031",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0031.food_0031",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_031_name",
+          "SourceString": "手磨纯豆乳",
+          "LocalizedString": "手磨纯豆乳"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0031",
+          "SourceString": "为选中角色恢复1450点生命值，并在之后的30秒内，每5秒恢复182点生命值。",
+          "LocalizedString": "为选中角色恢复1450点生命值，并在之后的30秒内，每5秒恢复182点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_031_desc",
+          "SourceString": "散发着浓郁豆子香味的饮品，低热量，高蛋白，健康生活，不二选择！",
+          "LocalizedString": "散发着浓郁豆子香味的饮品，低热量，高蛋白，健康生活，不二选择！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_031",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_032": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0032.food_0032",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0032.food_0032",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_032_name",
+          "SourceString": "白雪豆花",
+          "LocalizedString": "白雪豆花"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0032",
+          "SourceString": "为选中角色恢复生命值上限的10%，并在之后的30秒内，每5秒恢复377点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的10%，并在之后的30秒内，每5秒恢复377点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_032_desc",
+          "SourceString": "洁白柔软的豆制品料理，如白雪一样可爱。虽然咸派和甜派纷争不断，那为什么不试试加辣椒呢？",
+          "LocalizedString": "洁白柔软的豆制品料理，如白雪一样可爱。虽然咸派和甜派纷争不断，那为什么不试试加辣椒呢？"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_032",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_033": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0033.food_0033",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_033_name",
+          "SourceString": "超级豚骨拉面",
+          "LocalizedString": "超级豚骨拉面"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0033",
+          "SourceString": "复活选中角色，并额外恢复2950生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复2950生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_033_desc",
+          "SourceString": "只选用最好的猪骨，精心熬制八小时以上，卜多力大厨亲自拉面，配合秘制酱汁，端到顾客面前时，飘出的水汽是香味的具象化，这才能称得上「超级」。",
+          "LocalizedString": "只选用最好的猪骨，精心熬制八小时以上，卜多力大厨亲自拉面，配合秘制酱汁，端到顾客面前时，飘出的水汽是香味的具象化，这才能称得上「超级」。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_033",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_034": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_01_common.food_01_common",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_01_common.food_01_common",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_034_name",
+          "SourceString": "时令寿司船",
+          "LocalizedString": "时令寿司船"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0034",
+          "SourceString": "为选中角色恢复生命值上限的20%，并额外回复1450点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的20%，并额外回复1450点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_034_desc",
+          "SourceString": "满载各色手握的寿司船，储备着当季的新鲜食材，再带上一小碟承载理想的芥末酱油，向着诗和远方，前进！！！",
+          "LocalizedString": "满载各色手握的寿司船，储备着当季的新鲜食材，再带上一小碟承载理想的芥末酱油，向着诗和远方，前进！！！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_034",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_035": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0035.food_0035",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0035.food_0035",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_035_name",
+          "SourceString": "酥酥酥天丼",
+          "LocalizedString": "酥酥酥天丼"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0035",
+          "SourceString": "为选中角色恢复生命值上限的20%，并在之后的30秒内，每5秒恢复377点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的20%，并在之后的30秒内，每5秒恢复377点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_035_desc",
+          "SourceString": "咔滋——咔滋——咔滋——停……停不下来，这可怕的酥脆地狱！麻烦，请，拜托！再来一碗吧！",
+          "LocalizedString": "咔滋——咔滋——咔滋——停……停不下来，这可怕的酥脆地狱！麻烦，请，拜托！再来一碗吧！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_035",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_036": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0036.food_0036",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_036_name",
+          "SourceString": "蜜汁烧鸟串",
+          "LocalizedString": "蜜汁烧鸟串"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0036",
+          "SourceString": "为选中角色恢复生命值上限的10%，并额外回复1000点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的10%，并额外回复1000点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_036_desc",
+          "SourceString": "鸟鸟这么可爱怎么可以吃……等等这个用的是鸡肉吗？",
+          "LocalizedString": "鸟鸟这么可爱怎么可以吃……等等这个用的是鸡肉吗？"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_036",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_037": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0037.food_0037",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0037.food_0037",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_037_name",
+          "SourceString": "炭烤青花鱼",
+          "LocalizedString": "炭烤青花鱼"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0037",
+          "SourceString": "为选中角色恢复生命值上限的20%，并在之后的30秒内，每5秒恢复299点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的20%，并在之后的30秒内，每5秒恢复299点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_037_desc",
+          "SourceString": "传统炭火慢烤，几十年如一日的经典味道，无论是家庭聚餐，还是好友小酌，均受到除青花鱼外的所有当事人认可。",
+          "LocalizedString": "传统炭火慢烤，几十年如一日的经典味道，无论是家庭聚餐，还是好友小酌，均受到除青花鱼外的所有当事人认可。"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_037",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_038": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0038.food_0038",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0038.food_0038",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_038_name",
+          "SourceString": "千代家自酿生啤",
+          "LocalizedString": "千代家自酿生啤"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0038",
+          "SourceString": "队伍中所有角色消耗的体力降低10%，持续900秒。",
+          "LocalizedString": "队伍中所有角色消耗的体力降低10%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_038_desc",
+          "SourceString": "千代婆婆自酿的植物发酵饮品。老旧的发酵桶，一道道划痕不甚清晰地映照出少女日渐佝偻的身影……\n「喂喂喂！只是麦子啊，甜水都能把你放倒？」",
+          "LocalizedString": "千代婆婆自酿的植物发酵饮品。老旧的发酵桶，一道道划痕不甚清晰地映照出少女日渐佝偻的身影……\n「喂喂喂！只是麦子啊，甜水都能把你放倒？」"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_038",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_039": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0039.food_0039",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0039.food_0039",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_039_name",
+          "SourceString": "番茄百分百",
+          "LocalizedString": "番茄百分百"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0039",
+          "SourceString": "队伍中所有角色体力回复速度提升10%，持续900秒。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升10%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_039_desc",
+          "SourceString": "精选新鲜番茄去籽研磨，经过绝密加工方式，不含精制糖却格外酸甜可口，再加上S级食品认证标志，是海特洛市最受欢迎的「番茄果冻」，百分百的番茄，制造百分百的美味！",
+          "LocalizedString": "精选新鲜番茄去籽研磨，经过绝密加工方式，不含精制糖却格外酸甜可口，再加上S级食品认证标志，是海特洛市最受欢迎的「番茄果冻」，百分百的番茄，制造百分百的美味！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_039",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_040": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0040.food_0040",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0040.food_0040",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_040_name",
+          "SourceString": "咔咔蔬菜三明治",
+          "LocalizedString": "咔咔蔬菜三明治"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0040",
+          "SourceString": "复活选中角色，并额外恢复1150生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复1150生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_040_desc",
+          "SourceString": "鲜美蟹柳，爽脆蔬菜！一口咔嚓，超满足！",
+          "LocalizedString": "鲜美蟹柳，爽脆蔬菜！一口咔嚓，超满足！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_040",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_041": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0041.food_0041",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0041.food_0041",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_041_name",
+          "SourceString": "热辣烤鸡菠萝丼",
+          "LocalizedString": "热辣烤鸡菠萝丼"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0041",
+          "SourceString": "复活选中角色，并恢复生命值上限的40%。",
+          "LocalizedString": "复活选中角色，并恢复生命值上限的40%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_041_desc",
+          "SourceString": "辣味鸡肉与甜蜜菠萝的奇妙碰撞，为你带走疲惫，加满状态！",
+          "LocalizedString": "辣味鸡肉与甜蜜菠萝的奇妙碰撞，为你带走疲惫，加满状态！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_041",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_044": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0044.food_0044",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0044.food_0044",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_044_name",
+          "SourceString": "咔叽玛薯霸",
+          "LocalizedString": "咔叽玛薯霸"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0044",
+          "SourceString": "队伍中所有角色暴击率增加10%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加10%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_044_desc",
+          "SourceString": "咬一口，停不住！\nOnce you chop, you can't stop！",
+          "LocalizedString": "咬一口，停不住！\nOnce you chop, you can't stop！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_044",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_045": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0045.food_0045",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0045.food_0045",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_045_name",
+          "SourceString": "咔叽玛熔岩瀑布堡",
+          "LocalizedString": "咔叽玛熔岩瀑布堡"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Defense",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0045",
+          "SourceString": "队伍中所有角色防御力增加135，持续300秒。",
+          "LocalizedString": "队伍中所有角色防御力增加135，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_045_desc",
+          "SourceString": "浓郁切达芝士，香滑车打芝士，层层熔融在鲜嫩牛肉饼上——一场芝士的角逐即将爆发！",
+          "LocalizedString": "浓郁切达芝士，香滑车打芝士，层层熔融在鲜嫩牛肉饼上——一场芝士的角逐即将爆发！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_045",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_046": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0046.food_0046",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0046.food_0046",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_046_name",
+          "SourceString": "咔叽玛火山哞哞堡",
+          "LocalizedString": "咔叽玛火山哞哞堡"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0046",
+          "SourceString": "队伍中所有角色攻击力增加135，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加135，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_046_desc",
+          "SourceString": "勇敢的斗牛士啊，眼前的斗牛已被注入火山般的热辣能量，正等待迎接你的挑战！快来挥舞你的旗帜，争夺你的辣味勋章吧！",
+          "LocalizedString": "勇敢的斗牛士啊，眼前的斗牛已被注入火山般的热辣能量，正等待迎接你的挑战！快来挥舞你的旗帜，争夺你的辣味勋章吧！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_046",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_047": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0047.food_0047",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0047.food_0047",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_047_name",
+          "SourceString": "咔叽玛浓情蜜翼",
+          "LocalizedString": "咔叽玛浓情蜜翼"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0047",
+          "SourceString": "队伍中所有角色暴击伤害增加30%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加30%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_047_desc",
+          "SourceString": "想要和天空来一次甜蜜接触？用咔叽玛给你的翅膀飞，多远都不累！",
+          "LocalizedString": "想要和天空来一次甜蜜接触？用咔叽玛给你的翅膀飞，多远都不累！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_047",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_048": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0048.food_0048",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0048.food_0048",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_048_name",
+          "SourceString": "青酱培根司康",
+          "LocalizedString": "青酱培根司康"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0048",
+          "SourceString": "为选中角色恢复生命值上限的20%，并额外回复1450点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的20%，并额外回复1450点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_048_desc",
+          "SourceString": "外脆内软的司康，搭配罗勒青酱与香脆培根。是深受咸党喜爱的咸香点心！",
+          "LocalizedString": "外脆内软的司康，搭配罗勒青酱与香脆培根。是深受咸党喜爱的咸香点心！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_048",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_049": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0049.food_0049",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0049.food_0049",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_049_name",
+          "SourceString": "斑斓椰果子",
+          "LocalizedString": "斑斓椰果子"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0049",
+          "SourceString": "为选中角色恢复850点生命值，并在之后的30秒内，每5秒恢复377点生命值。",
+          "LocalizedString": "为选中角色恢复850点生命值，并在之后的30秒内，每5秒恢复377点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_049_desc",
+          "SourceString": "色泽清新斑斓果子，内里是香甜的椰子卡仕达酱，一口咬下去超级柔软！",
+          "LocalizedString": "色泽清新斑斓果子，内里是香甜的椰子卡仕达酱，一口咬下去超级柔软！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_049",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_050": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0050.food_0050",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0050.food_0050",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_050_name",
+          "SourceString": "莓果总汇奶油法棍",
+          "LocalizedString": "莓果总汇奶油法棍"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0050",
+          "SourceString": "为选中角色恢复生命值上限的20%，并额外回复850点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的20%，并额外回复850点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_050_desc",
+          "SourceString": "黄油奶油在新鲜出炉的热法棍包裹下轻微融化，内里酸甜的莓果奶油保持冰凉的口感，为你带来冰火两重天的独特感受！",
+          "LocalizedString": "黄油奶油在新鲜出炉的热法棍包裹下轻微融化，内里酸甜的莓果奶油保持冰凉的口感，为你带来冰火两重天的独特感受！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_050",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_051": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0051.food_0051",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0051.food_0051",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_051_name",
+          "SourceString": "玫瑰荔枝蛋糕",
+          "LocalizedString": "玫瑰荔枝蛋糕"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0051",
+          "SourceString": "为选中角色恢复1600点生命值，并在之后的30秒内，每5秒恢复416点生命值。",
+          "LocalizedString": "为选中角色恢复1600点生命值，并在之后的30秒内，每5秒恢复416点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_051_desc",
+          "SourceString": "玫瑰调味的鲜果啫喱与荔枝果肉奶油层叠交融，呈现出浪漫的花香与清新的果香。是本店的浪漫人气甜品~",
+          "LocalizedString": "玫瑰调味的鲜果啫喱与荔枝果肉奶油层叠交融，呈现出浪漫的花香与清新的果香。是本店的浪漫人气甜品~"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_051",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_052": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0052.food_0052",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0052.food_0052",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_052_name",
+          "SourceString": "奶油柿子千层",
+          "LocalizedString": "奶油柿子千层"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0052",
+          "SourceString": "为选中角色恢复生命值上限的22%，并额外回复1600点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的22%，并额外回复1600点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_052_desc",
+          "SourceString": "这份千层蛋糕的精髓是每日现做的柿子果酱与手剥柿子溏心，店里每天只能供应8份，想要吃到一定要早点来！",
+          "LocalizedString": "这份千层蛋糕的精髓是每日现做的柿子果酱与手剥柿子溏心，店里每天只能供应8份，想要吃到一定要早点来！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_052",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_053": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0053.food_0053",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0053.food_0053",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_053_name",
+          "SourceString": "开心果榛子拿破仑",
+          "LocalizedString": "开心果榛子拿破仑"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0053",
+          "SourceString": "为选中角色恢复生命值上限的22%，并在之后的30秒内，每5秒恢复416点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的22%，并在之后的30秒内，每5秒恢复416点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_053_desc",
+          "SourceString": "层层酥脆的拿破仑，夹杂着香浓的开心果酱与榛子奶油。是不计热量的美味甜点，用它来作为工作日最后一天的奖励吧！",
+          "LocalizedString": "层层酥脆的拿破仑，夹杂着香浓的开心果酱与榛子奶油。是不计热量的美味甜点，用它来作为工作日最后一天的奖励吧！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_053",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_054": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0054.food_0054",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0054.food_0054",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_054_name",
+          "SourceString": "夏日冷萃",
+          "LocalizedString": "夏日冷萃"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0054",
+          "SourceString": "队伍中所有角色消耗的体力降低15%，持续900秒。",
+          "LocalizedString": "队伍中所有角色消耗的体力降低15%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_054_desc",
+          "SourceString": "丝丝沁凉的冷萃咖啡，为您卷走夏日的暑气与班味。",
+          "LocalizedString": "丝丝沁凉的冷萃咖啡，为您卷走夏日的暑气与班味。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_054",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_055": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0055.food_0055",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0055.food_0055",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_055_name",
+          "SourceString": "沸腾炼金术",
+          "LocalizedString": "沸腾炼金术"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Defense",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0055",
+          "SourceString": "队伍中所有角色防御力增加243，持续300秒。",
+          "LocalizedString": "队伍中所有角色防御力增加243，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_055_desc",
+          "SourceString": "牛奶与咖啡在适宜温度下的完美融合，这不是魔法，是现代炼金术！",
+          "LocalizedString": "牛奶与咖啡在适宜温度下的完美融合，这不是魔法，是现代炼金术！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_055",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_056": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0056.food_0056",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0056.food_0056",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_056_name",
+          "SourceString": "可可亚元气弹",
+          "LocalizedString": "可可亚元气弹"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0056",
+          "SourceString": "队伍中所有角色暴击率增加27%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加27%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_056_desc",
+          "SourceString": "由热巧克力、双倍浓缩咖啡、鲜奶油调和而成，既能提神也能供应充足的能量，给你提供满满元气！",
+          "LocalizedString": "由热巧克力、双倍浓缩咖啡、鲜奶油调和而成，既能提神也能供应充足的能量，给你提供满满元气！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_056",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_057": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0057.food_0057",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0057.food_0057",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_057_name",
+          "SourceString": "白胡子拍档",
+          "LocalizedString": "白胡子拍档"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0057",
+          "SourceString": "队伍中所有角色攻击力增加243，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加243，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_057_desc",
+          "SourceString": "让双唇与绵密的奶泡来一次亲密接触吧，要小心奶泡底下滚烫的咖啡哦！",
+          "LocalizedString": "让双唇与绵密的奶泡来一次亲密接触吧，要小心奶泡底下滚烫的咖啡哦！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_057",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_058": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0058.food_0058",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0058.food_0058",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_058_name",
+          "SourceString": "砂海白",
+          "LocalizedString": "砂海白"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0058",
+          "SourceString": "队伍中所有角色体力回复速度提升15%，持续900秒。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升15%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_058_desc",
+          "SourceString": "砂海白的灵感源于店主人生中第一杯拿铁，其中掺杂着家乡的海风，和姥姥亲手研磨的黄冰糖的味道。",
+          "LocalizedString": "砂海白的灵感源于店主人生中第一杯拿铁，其中掺杂着家乡的海风，和姥姥亲手研磨的黄冰糖的味道。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_058",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_059": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0059.food_0059",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0059.food_0059",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_059_name",
+          "SourceString": "海特威",
+          "LocalizedString": "海特威"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0059",
+          "SourceString": "队伍中所有角色攻击力增加180，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加180，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_059_desc",
+          "SourceString": "「抓住今天。」\n从大木桶的水龙头里接出一大杯气泡四溢、深金色的「海特威」，与身边的朋友或是陌生人高举双手，纵情欢笑，将所有的不愉快抛诸脑后，沉浸在此刻的满足之中吧！",
+          "LocalizedString": "「抓住今天。」\n从大木桶的水龙头里接出一大杯气泡四溢、深金色的「海特威」，与身边的朋友或是陌生人高举双手，纵情欢笑，将所有的不愉快抛诸脑后，沉浸在此刻的满足之中吧！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_059",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_060": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0060.food_0060",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0060.food_0060",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_060_name",
+          "SourceString": "心迷宫",
+          "LocalizedString": "心迷宫"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0060",
+          "SourceString": "队伍中所有角色体力回复速度提升30%，持续900秒。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升30%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_060_desc",
+          "SourceString": "柑橘和香料勾勒出回忆的轮廓。人们的过去撕碎又缝补在一起，觥筹交错间分不清那些真心假意，那就不妨不分。",
+          "LocalizedString": "柑橘和香料勾勒出回忆的轮廓。人们的过去撕碎又缝补在一起，觥筹交错间分不清那些真心假意，那就不妨不分。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_060",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_061": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0061.food_0061",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0061.food_0061",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_061_name",
+          "SourceString": "浪人的班卓琴",
+          "LocalizedString": "浪人的班卓琴"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0061",
+          "SourceString": "队伍中所有角色暴击率增加24%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加24%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_061_desc",
+          "SourceString": "带有淡淡的烟熏味和坚果香味，混合一点麦芽的甜香，余味悠长。浪人说，令他心安的地方便是家，新的家人正随着琴声打拍起舞。到天明以前，这里都是流浪的终点。",
+          "LocalizedString": "带有淡淡的烟熏味和坚果香味，混合一点麦芽的甜香，余味悠长。浪人说，令他心安的地方便是家，新的家人正随着琴声打拍起舞。到天明以前，这里都是流浪的终点。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_061",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_062": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0062.food_0062",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0062.food_0062",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_062_name",
+          "SourceString": "角斗士之歌",
+          "LocalizedString": "角斗士之歌"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0062",
+          "SourceString": "队伍中所有角色攻击力增加270，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加270，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_062_desc",
+          "SourceString": "丰富的焦糖味夹杂着恰到好处的苦涩，回味带有一丝橡木的香气。向你致敬，我的朋友，向我们生活中的每一场战斗致敬。",
+          "LocalizedString": "丰富的焦糖味夹杂着恰到好处的苦涩，回味带有一丝橡木的香气。向你致敬，我的朋友，向我们生活中的每一场战斗致敬。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_062",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_063": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0063.food_0063",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0063.food_0063",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_063_name",
+          "SourceString": "猫猫猛锤荔浦芋头布丁奶茶",
+          "LocalizedString": "猫猫猛锤荔浦芋头布丁奶茶"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0063",
+          "SourceString": "队伍中所有角色攻击力增加135，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加135，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_063_desc",
+          "SourceString": "蒸得软软糯糯的荔浦芋头超好欺负喵！左右开弓捶打喵！这次就放过布丁喵！",
+          "LocalizedString": "蒸得软软糯糯的荔浦芋头超好欺负喵！左右开弓捶打喵！这次就放过布丁喵！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_063",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_064": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0064.food_0064",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0064.food_0064",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_064_name",
+          "SourceString": "猫猫噗通噗通黑糖丸子脏脏茶",
+          "LocalizedString": "猫猫噗通噗通黑糖丸子脏脏茶"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Defense",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0064",
+          "SourceString": "队伍中所有角色防御力增加135，持续300秒。",
+          "LocalizedString": "队伍中所有角色防御力增加135，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_064_desc",
+          "SourceString": "猫猫噗通噗通用尽全力喵，每一颗都是爱你的形状喵！",
+          "LocalizedString": "猫猫噗通噗通用尽全力喵，每一颗都是爱你的形状喵！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_064",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_065": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0065.food_0065",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0065.food_0065",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_065_name",
+          "SourceString": "猫猫讨厌柠檬冰茶",
+          "LocalizedString": "猫猫讨厌柠檬冰茶"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0065",
+          "SourceString": "队伍中所有角色暴击率增加15%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加15%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_065_desc",
+          "SourceString": "猫猫大人躲远远喵，酸酸茶都是坏仆人的主意喵！",
+          "LocalizedString": "猫猫大人躲远远喵，酸酸茶都是坏仆人的主意喵！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_065",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_066": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0066.food_0066",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0066.food_0066",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_066_name",
+          "SourceString": "猫猫左兵卫鱼治摸茶",
+          "LocalizedString": "猫猫左兵卫鱼治摸茶"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0066",
+          "SourceString": "队伍中所有角色暴击伤害增加30%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击伤害增加30%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_066_desc",
+          "SourceString": "帅气爪子摸一摸，茶也能变得更美味喵！摸完茶要堂堂正正摸鱼喵！",
+          "LocalizedString": "帅气爪子摸一摸，茶也能变得更美味喵！摸完茶要堂堂正正摸鱼喵！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_066",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_067": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0067.food_0067",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0067.food_0067",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_067_name",
+          "SourceString": "经典提拉米苏",
+          "LocalizedString": "经典提拉米苏"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0067",
+          "SourceString": "为选中角色恢复生命值上限的32%。",
+          "LocalizedString": "为选中角色恢复生命值上限的32%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_067_desc",
+          "SourceString": "咖啡和马斯卡彭奶酪这对老拍档——「Es muss sein？Es muss sein！」",
+          "LocalizedString": "咖啡和马斯卡彭奶酪这对老拍档——「Es muss sein？Es muss sein！」"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_067",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_068": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0068.food_0068",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0068.food_0068",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_068_name",
+          "SourceString": "奶油香草梦",
+          "LocalizedString": "奶油香草梦"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0068",
+          "SourceString": "为选中角色恢复2350点生命值。",
+          "LocalizedString": "为选中角色恢复2350点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_068_desc",
+          "SourceString": "一百万颗香草籽陷入了奶油做的云朵——用你的嘴唇融化这一份绵软的香甜吧！",
+          "LocalizedString": "一百万颗香草籽陷入了奶油做的云朵——用你的嘴唇融化这一份绵软的香甜吧！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_068",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_069": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0069.food_0069",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0069.food_0069",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_069_name",
+          "SourceString": "夏威夷派对",
+          "LocalizedString": "夏威夷派对"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0069",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复611生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复611生命值"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_069_desc",
+          "SourceString": "芒果、菠萝和香蕉的派对，带着你直接飞往热带岛屿，在夏夜晚风中随着尤克里里的节拍，舞！舞！舞！",
+          "LocalizedString": "芒果、菠萝和香蕉的派对，带着你直接飞往热带岛屿，在夏夜晚风中随着尤克里里的节拍，舞！舞！舞！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_069",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_070": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0070.food_0070",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0070.food_0070",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_070_name",
+          "SourceString": "莓莓四重奏",
+          "LocalizedString": "莓莓四重奏"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0070",
+          "SourceString": "为选中角色恢复1150点生命值，并在之后的30秒内，每5秒恢复299点生命值。",
+          "LocalizedString": "为选中角色恢复1150点生命值，并在之后的30秒内，每5秒恢复299点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_070_desc",
+          "SourceString": "草莓、蓝莓、覆盆子和黑莓的组合，仿佛置身清晨的林间，采撷灌木丛中散落的晨星，擦去昨夜的落霜，品尝它们的酸甜青涩。",
+          "LocalizedString": "草莓、蓝莓、覆盆子和黑莓的组合，仿佛置身清晨的林间，采撷灌木丛中散落的晨星，擦去昨夜的落霜，品尝它们的酸甜青涩。"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_070",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_071": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0071.food_0071",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0071.food_0071",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_071_name",
+          "SourceString": "坚果焦糖爆爆杯",
+          "LocalizedString": "坚果焦糖爆爆杯"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0071",
+          "SourceString": "为选中角色恢复生命值上限的16%，并额外回复1150点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的16%，并额外回复1150点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_071_desc",
+          "SourceString": "焦糖与香脆坚果在舌尖上跳跃，好似徜徉在庆祝丰收的金秋盛宴之中。谁此时计算卡路里，就让他永远孤独！",
+          "LocalizedString": "焦糖与香脆坚果在舌尖上跳跃，好似徜徉在庆祝丰收的金秋盛宴之中。谁此时计算卡路里，就让他永远孤独！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_071",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_072": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0072.food_0072",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0072.food_0072",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_072_name",
+          "SourceString": "烤五花肉",
+          "LocalizedString": "烤五花肉"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0072",
+          "SourceString": "复活选中角色，并额外恢复700生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复700生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_072_desc",
+          "SourceString": "五花肉就是五花肉。如果不知道吃什么，就点这个。",
+          "LocalizedString": "五花肉就是五花肉。如果不知道吃什么，就点这个。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_072",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_073": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0073.food_0073",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0073.food_0073",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_073_name",
+          "SourceString": "烤牛肉",
+          "LocalizedString": "烤牛肉"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0073",
+          "SourceString": "复活选中角色，并额外恢复700生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复700生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_073_desc",
+          "SourceString": "牛肉偏瘦。牙口不好的人，您可悠着点儿。",
+          "LocalizedString": "牛肉偏瘦。牙口不好的人，您可悠着点儿。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_073",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_074": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0074.food_0074",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0074.food_0074",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_074_name",
+          "SourceString": "烤羊肉",
+          "LocalizedString": "烤羊肉"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0074",
+          "SourceString": "复活选中角色，并额外恢复700生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复700生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_074_desc",
+          "SourceString": "羊肉有膻味，不可以去膻，接受不了别点。",
+          "LocalizedString": "羊肉有膻味，不可以去膻，接受不了别点。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_074",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_075": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0075.food_0075",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0075.food_0075",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_075_name",
+          "SourceString": "人间土豆",
+          "LocalizedString": "人间土豆"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0075",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复338生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复338生命值"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_075_desc",
+          "SourceString": "刷上油脂，经过炭火的烘烤，变得焦脆，拥有金黄的人生。很难想象这是当初埋在泥土中那颗其貌不扬的土豆。",
+          "LocalizedString": "刷上油脂，经过炭火的烘烤，变得焦脆，拥有金黄的人生。很难想象这是当初埋在泥土中那颗其貌不扬的土豆。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_075",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_076": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0076.food_0076",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0076.food_0076",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_076_name",
+          "SourceString": "烤玉米",
+          "LocalizedString": "烤玉米"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0076",
+          "SourceString": "复活选中角色，并额外恢复100生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复100生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_076_desc",
+          "SourceString": "是大玉米棒子，不是玉米粒。",
+          "LocalizedString": "是大玉米棒子，不是玉米粒。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_076",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_077": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_077_name",
+          "SourceString": "大肉包",
+          "LocalizedString": "大肉包"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0077",
+          "SourceString": "为选中角色恢复生命值上限的20%。",
+          "LocalizedString": "为选中角色恢复生命值上限的20%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_077_desc",
+          "SourceString": "外皮软和，包裹着内里紧实鲜嫩的大肉丸。带着油花的汤汁浸润面皮，滋味鲜美无比！",
+          "LocalizedString": "外皮软和，包裹着内里紧实鲜嫩的大肉丸。带着油花的汤汁浸润面皮，滋味鲜美无比！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_077",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_078": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_078_name",
+          "SourceString": "巨嘴奶黄包",
+          "LocalizedString": "巨嘴奶黄包"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0078",
+          "SourceString": "为选中角色恢复1450点生命值。",
+          "LocalizedString": "为选中角色恢复1450点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_078_desc",
+          "SourceString": "白胖Q萌的巨嘴怪，内里包裹着细腻的奶黄馅。一口咬下，浓浓奶香，香甜爆浆！",
+          "LocalizedString": "白胖Q萌的巨嘴怪，内里包裹着细腻的奶黄馅。一口咬下，浓浓奶香，香甜爆浆！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_078",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_079": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_079_name",
+          "SourceString": "叉烧包",
+          "LocalizedString": "叉烧包"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0079",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复377生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复377生命值"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_079_desc",
+          "SourceString": "使用传统工艺制作的广式叉烧包，老面松软化渣，叉烧嫩滑香浓。黄金配比，甜咸适中，油而不腻！",
+          "LocalizedString": "使用传统工艺制作的广式叉烧包，老面松软化渣，叉烧嫩滑香浓。黄金配比，甜咸适中，油而不腻！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_079",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_080": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_080_name",
+          "SourceString": "蟹粉小笼",
+          "LocalizedString": "蟹粉小笼"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0080",
+          "SourceString": "为选中角色恢复700点生命值，并在之后的30秒内，每5秒恢复182点生命值。",
+          "LocalizedString": "为选中角色恢复700点生命值，并在之后的30秒内，每5秒恢复182点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_080_desc",
+          "SourceString": "推荐吃法：轻轻戳开柔韧的外皮，先品尝金黄咸香的汤汁。推荐搭配本店特调的玫瑰醋，滋味更丰富！",
+          "LocalizedString": "推荐吃法：轻轻戳开柔韧的外皮，先品尝金黄咸香的汤汁。推荐搭配本店特调的玫瑰醋，滋味更丰富！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_080",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_081": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Food_0081.Food_0081",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/Food_0081.Food_0081",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_081_name",
+          "SourceString": "猫丸秘制豚骨拉面",
+          "LocalizedString": "猫丸秘制豚骨拉面"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0081",
+          "SourceString": "为选中角色恢复生命值上限的24%，并在之后的30秒内，每5秒恢复143点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的24%，并在之后的30秒内，每5秒恢复143点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_081_desc",
+          "SourceString": "长时间熬煮的浓郁汤头，超大块厚切的叉烧肉软嫩入味，再佐以海苔、溏心蛋和笋干，是猫丸师傅最为自满的招牌拉面！",
+          "LocalizedString": "长时间熬煮的浓郁汤头，超大块厚切的叉烧肉软嫩入味，再佐以海苔、溏心蛋和笋干，是猫丸师傅最为自满的招牌拉面！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_081",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_082": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Food_0082.Food_0082",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/Food_0082.Food_0082",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_082_name",
+          "SourceString": "猫丸秘制鸡白汤拉面",
+          "LocalizedString": "猫丸秘制鸡白汤拉面"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0082",
+          "SourceString": "为选中角色恢复生命值上限的24%，并在之后的30秒内，每5秒恢复143点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的24%，并在之后的30秒内，每5秒恢复143点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_082_desc",
+          "SourceString": "用洋葱激发出鸡肉的鲜甜，汤底浓郁不腻口。马铃薯泥、奶油、白胡椒碎搅打制成奶泡。再佐以溏心蛋与超细的金黄马铃薯丝，味道绝赞！",
+          "LocalizedString": "用洋葱激发出鸡肉的鲜甜，汤底浓郁不腻口。马铃薯泥、奶油、白胡椒碎搅打制成奶泡。再佐以溏心蛋与超细的金黄马铃薯丝，味道绝赞！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_082",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_083": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Food_0083.Food_0083",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/Food_0083.Food_0083",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_083_name",
+          "SourceString": "猫丸秘制豆乳拉面",
+          "LocalizedString": "猫丸秘制豆乳拉面"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0083",
+          "SourceString": "为选中角色恢复2200点生命值，并在之后的30秒内，每5秒恢复182点生命值。",
+          "LocalizedString": "为选中角色恢复2200点生命值，并在之后的30秒内，每5秒恢复182点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_083_desc",
+          "SourceString": "完全不使用肉类的拉面，素食爱好者特供！汤底使用豆浆加入昆布、松茸熬制而成，佐以手工制作的油炸豆皮，豆香十足，不容错过！（豆制品均为不二原豆腐店特供）",
+          "LocalizedString": "完全不使用肉类的拉面，素食爱好者特供！汤底使用豆浆加入昆布、松茸熬制而成，佐以手工制作的油炸豆皮，豆香十足，不容错过！（豆制品均为不二原豆腐店特供）"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_083",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_084": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0084.food_0084",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0084.food_0084",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_084_name",
+          "SourceString": "猫丸秘制辛红拉面",
+          "LocalizedString": "猫丸秘制辛红拉面"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0084",
+          "SourceString": "为选中角色恢复生命值上限的30%，并额外回复700点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的30%，并额外回复700点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_084_desc",
+          "SourceString": "鸡汤混合香味辣油、特制辣味噌、多种辣椒和新鲜辣椒酱，汤色呈鲜红色，再佐以浅浅炙烤过的超大青色辣椒，光是看一眼都让人冒汗的地狱拉面！",
+          "LocalizedString": "鸡汤混合香味辣油、特制辣味噌、多种辣椒和新鲜辣椒酱，汤色呈鲜红色，再佐以浅浅炙烤过的超大青色辣椒，光是看一眼都让人冒汗的地狱拉面！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_084",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_085": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0086.food_0086",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0086.food_0086",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_085_name",
+          "SourceString": "玛格丽特披萨\nPizza Margherita",
+          "LocalizedString": "玛格丽特披萨\nPizza Margherita"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0085",
+          "SourceString": "为选中角色恢复3250点生命值。",
+          "LocalizedString": "为选中角色恢复3250点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_085_desc",
+          "SourceString": "经典的三重奏：番茄酱、新鲜马苏里拉奶酪和罗勒叶。红番茄酱打底，奶白色的马苏里拉和翠绿的罗勒叶点缀其上，再撒点盐和淋上橄榄油。是最经典的披萨。",
+          "LocalizedString": "经典的三重奏：番茄酱、新鲜马苏里拉奶酪和罗勒叶。红番茄酱打底，奶白色的马苏里拉和翠绿的罗勒叶点缀其上，再撒点盐和淋上橄榄油。是最经典的披萨。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_085",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_086": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0085.food_0085",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0085.food_0085",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_086_name",
+          "SourceString": "帕尔马火腿披萨\nPizza Prosciutto Crudo E Rucola",
+          "LocalizedString": "帕尔马火腿披萨\nPizza Prosciutto Crudo E Rucola"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0086",
+          "SourceString": "为选中角色恢复3250点生命值。",
+          "LocalizedString": "为选中角色恢复3250点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_086_desc",
+          "SourceString": "醇香的奶酪，粉嫩的帕尔玛火腿薄片，微酸的番茄酱，再点缀上樱桃番茄和脆嫩的芝麻菜与罗勒叶。用料十足，色彩饱满，是本店的人气披萨。",
+          "LocalizedString": "醇香的奶酪，粉嫩的帕尔玛火腿薄片，微酸的番茄酱，再点缀上樱桃番茄和脆嫩的芝麻菜与罗勒叶。用料十足，色彩饱满，是本店的人气披萨。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_086",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_087": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0087.food_0087",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0087.food_0087",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_087_name",
+          "SourceString": "番茄罗勒意大利面\nSpaghetti al Pomodoro e Basilico",
+          "LocalizedString": "番茄罗勒意大利面\nSpaghetti al Pomodoro e Basilico"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0087",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复845生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复845生命值"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_087_desc",
+          "SourceString": "经典的意大利面，搭配新鲜的番茄酱和芳香的罗勒叶，撒上帕尔玛奶酪。简单又美味，每一口都是意大利阳光的味道。",
+          "LocalizedString": "经典的意大利面，搭配新鲜的番茄酱和芳香的罗勒叶，撒上帕尔玛奶酪。简单又美味，每一口都是意大利阳光的味道。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_087",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_088": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0088.food_0088",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0088.food_0088",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_088_name",
+          "SourceString": "肉酱千层面\nLasagna alla Bolognese",
+          "LocalizedString": "肉酱千层面\nLasagna alla Bolognese"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0088",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复845生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复845生命值"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_088_desc",
+          "SourceString": "层层叠叠的千层面，夹着浓郁的肉酱和丰富的贝夏梅尔奶油酱，再撒上马苏里拉奶酪，烤至金黄。绝对是肉食爱好者不可错过的佳肴。",
+          "LocalizedString": "层层叠叠的千层面，夹着浓郁的肉酱和丰富的贝夏梅尔奶油酱，再撒上马苏里拉奶酪，烤至金黄。绝对是肉食爱好者不可错过的佳肴。"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_088",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_089": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0089.food_0089",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0089.food_0089",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_089_name",
+          "SourceString": "柠檬气泡水\nAcqua Frizzante al Limone",
+          "LocalizedString": "柠檬气泡水\nAcqua Frizzante al Limone"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0089",
+          "SourceString": "为选中角色恢复生命值上限的22%，并在之后的30秒内，每5秒恢复416点生命值。",
+          "LocalizedString": "为选中角色恢复生命值上限的22%，并在之后的30秒内，每5秒恢复416点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_089_desc",
+          "SourceString": "清新的柠檬片与气泡水的完美结合，再加上一点点薄荷叶，带来清爽的口感。",
+          "LocalizedString": "清新的柠檬片与气泡水的完美结合，再加上一点点薄荷叶，带来清爽的口感。"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_089",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_090": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0090.food_0090",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0090.food_0090",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_090_name",
+          "SourceString": "辣鸡扒咖喱饭",
+          "LocalizedString": "辣鸡扒咖喱饭"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0090",
+          "SourceString": "复活选中角色，并恢复生命值上限的14%。",
+          "LocalizedString": "复活选中角色，并恢复生命值上限的14%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_090_desc",
+          "SourceString": "超大块现炸辣鸡扒，配上香浓咖喱与蛋包饭，再佐以清爽的蔬菜沙拉，分量十足，让你吃得超满足！",
+          "LocalizedString": "超大块现炸辣鸡扒，配上香浓咖喱与蛋包饭，再佐以清爽的蔬菜沙拉，分量十足，让你吃得超满足！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_090",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_091": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0091.food_0091",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0091.food_0091",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_091_name",
+          "SourceString": "巨型汉堡肉",
+          "LocalizedString": "巨型汉堡肉"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 300.0,
+        "ItemEffectType": "EItemEffectType::Revive",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0091",
+          "SourceString": "复活选中角色，并额外恢复1000生命值。",
+          "LocalizedString": "复活选中角色，并额外恢复1000生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_091_desc",
+          "SourceString": "是让人忍不住惊呼的巨大牛肉饼！为肉食爱好者量身打造！",
+          "LocalizedString": "是让人忍不住惊呼的巨大牛肉饼！为肉食爱好者量身打造！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_091",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_092": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0092.food_0092",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0092.food_0092",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_092_name",
+          "SourceString": "缤纷凯撒沙拉",
+          "LocalizedString": "缤纷凯撒沙拉"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0092",
+          "SourceString": "当前角色在之后的30秒内，每5秒回复572生命值",
+          "LocalizedString": "当前角色在之后的30秒内，每5秒回复572生命值"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_092_desc",
+          "SourceString": "经典凯撒沙拉，搭配新鲜的罗马生菜、脆烤面包丁和嫩煎鸡胸肉，再撒上帕尔马干酪，是轻食爱好者的理想选择！",
+          "LocalizedString": "经典凯撒沙拉，搭配新鲜的罗马生菜、脆烤面包丁和嫩煎鸡胸肉，再撒上帕尔马干酪，是轻食爱好者的理想选择！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_092",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_093": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_0093.food_0093",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/food_0093.food_0093",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_093_name",
+          "SourceString": "儿童可乐饼套餐",
+          "LocalizedString": "儿童可乐饼套餐"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0093",
+          "SourceString": "为选中角色恢复生命值上限的30%。",
+          "LocalizedString": "为选中角色恢复生命值上限的30%。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_093_desc",
+          "SourceString": "欢迎来到梦幻岛！当小英雄补充好元气以后，尝试在店内搜寻人气异象的踪影吧！你将会获得一个超酷的异象手办！",
+          "LocalizedString": "欢迎来到梦幻岛！当小英雄补充好元气以后，尝试在店内搜寻人气异象的踪影吧！你将会获得一个超酷的异象手办！"
+        },
+        "ToolDatas": [
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_093",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_094": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_094_name",
+          "SourceString": "清凉凉止痛药",
+          "LocalizedString": "清凉凉止痛药"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0094",
+          "SourceString": "队伍中所有角色体力回复速度提升20%，持续900秒。",
+          "LocalizedString": "队伍中所有角色体力回复速度提升20%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_094_desc",
+          "SourceString": "让疼痛在请凉凉的轻抚下化为乌有，恢复你的战斗力！",
+          "LocalizedString": "让疼痛在请凉凉的轻抚下化为乌有，恢复你的战斗力！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_094",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_095": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_095_name",
+          "SourceString": "净化守护含片",
+          "LocalizedString": "净化守护含片"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::AddHPConstant",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0095",
+          "SourceString": "为选中角色恢复1000点生命值，并在之后的30秒内，每5秒恢复260点生命值。",
+          "LocalizedString": "为选中角色恢复1000点生命值，并在之后的30秒内，每5秒恢复260点生命值。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_095_desc",
+          "SourceString": "警报！警报！炎症来袭，召唤特别行动组！净化炎症因子，全方位守护家人的健康！",
+          "LocalizedString": "警报！警报！炎症来袭，召唤特别行动组！净化炎症因子，全方位守护家人的健康！"
+        },
+        "ToolDatas": [
+          null,
+          null,
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_095",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_096": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_096_name",
+          "SourceString": "明亮~wink大作战！",
+          "LocalizedString": "明亮~wink大作战！"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Explore",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0096",
+          "SourceString": "队伍中所有角色消耗的体力降低20%，持续900秒。",
+          "LocalizedString": "队伍中所有角色消耗的体力降低20%，持续900秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_096_desc",
+          "SourceString": "明亮~wink大作战！双眼瞬间Bling bling，今天的你也是闪闪发光的主角！",
+          "LocalizedString": "明亮~wink大作战！双眼瞬间Bling bling，今天的你也是闪闪发光的主角！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_096",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_097": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_097_name",
+          "SourceString": "大防御家！",
+          "LocalizedString": "大防御家！"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Defense",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0097",
+          "SourceString": "队伍中所有角色防御力增加315，持续300秒。",
+          "LocalizedString": "队伍中所有角色防御力增加315，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_097_desc",
+          "SourceString": "护甲等级Max！这位守护伤口的勇士明明超强却过分谨慎！",
+          "LocalizedString": "护甲等级Max！这位守护伤口的勇士明明超强却过分谨慎！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_097",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_098": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_098_name",
+          "SourceString": "竹本！Vitamin！",
+          "LocalizedString": "竹本！Vitamin！"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Special",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0098",
+          "SourceString": "队伍中所有角色暴击率增加25%，持续300秒。",
+          "LocalizedString": "队伍中所有角色暴击率增加25%，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_098_desc",
+          "SourceString": "每日一颗「竹本！Vitamin！」，与健康生活打出完美Combo！",
+          "LocalizedString": "每日一颗「竹本！Vitamin！」，与健康生活打出完美Combo！"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_098",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Food_099": {
+        "ItemType": "EItemType::ITEM_TYPE_COOK_FOOD",
+        "ItemTags": [
+          "food",
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/food_099.food_099",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/food_99.food_99",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_099_name",
+          "SourceString": "噗卡限定珍珠贝糖",
+          "LocalizedString": "噗卡限定珍珠贝糖"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::Attack",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_food.ST_food",
+          "Key": "Food_usedesc_0057",
+          "SourceString": "队伍中所有角色攻击力增加243，持续300秒。",
+          "LocalizedString": "队伍中所有角色攻击力增加243，持续300秒。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "food_099_desc",
+          "SourceString": "口感爽滑、海洋风味的硬质糖果！每一粒都由定制贝壳装饰包裹，发售数量有限。",
+          "LocalizedString": "口感爽滑、海洋风味的硬质糖果！每一粒都由定制贝壳装饰包裹，发售数量有限。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "Food_099",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": true,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      }
+    }
+  }
+]

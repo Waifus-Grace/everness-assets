@@ -1,0 +1,1954 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MonsterStaticData_BigWorld_Quest",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MonsterStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "mon_03_1_BP_q110020": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 3.2,
+        "Tags": [
+          "mon_03_1_BP_q110020"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 8,
+        "PropModifyID": "mon_03_1_BP_q110020_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "mon_03_1_BP_q110020_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 23,
+            "MonsterWorldLevelPropModifyID": "mon_03_1_BP_q110020_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 33,
+            "MonsterWorldLevelPropModifyID": "mon_03_1_BP_q110020_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 43,
+            "MonsterWorldLevelPropModifyID": "mon_03_1_BP_q110020_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 48,
+            "MonsterWorldLevelPropModifyID": "mon_03_1_BP_q110020_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 53,
+            "MonsterWorldLevelPropModifyID": "mon_03_1_BP_q110020_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 58,
+            "MonsterWorldLevelPropModifyID": "mon_03_1_BP_q110020_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 63,
+            "MonsterWorldLevelPropModifyID": "mon_03_1_BP_q110020_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_016_BP_SeqTest": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_016_BP_SeqTest"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 8,
+        "PropModifyID": "woodenStake",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 8,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 28,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 38,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 48,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 53,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 58,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 63,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 68,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_04_BP_q110013": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_04_BP_q110013"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 3,
+        "PropModifyID": "mon_04_BP_q110013_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110013_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110013_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110013_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110013_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110013_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110013_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110013_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110013_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_01_BP_q1100132": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_01_BP_q1100132"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 3,
+        "PropModifyID": "mon_01_BP_q1100132_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q1100132_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q1100132_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q1100132_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q1100132_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q1100132_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q1100132_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q1100132_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q1100132_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_01_BP_q110022": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_01_BP_q110022"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 3,
+        "PropModifyID": "mon_01_BP_q110022_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q110022_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q110022_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q110022_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q110022_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q110022_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q110022_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q110022_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_01_BP_q110022_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_q1100132": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_02_BP_q1100132"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 3,
+        "PropModifyID": "mon_02_BP_q1100132_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q1100132_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q1100132_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q1100132_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q1100132_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q1100132_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q1100132_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q1100132_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q1100132_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_14_BP_q110022": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_14_BP_q110022"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 4,
+        "PropModifyID": "mon_14_BP_q110022_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_14_BP_q110022_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_BP_q110022_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_BP_q110022_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_BP_q110022_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_BP_q110022_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_BP_q110022_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_BP_q110022_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_BP_q110022_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_14_1_BP_q110022": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_14_1_BP_q110022"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 4,
+        "PropModifyID": "mon_14_1_BP_q110022_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_14_1_BP_q110022_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_1_BP_q110022_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_1_BP_q110022_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_1_BP_q110022_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_1_BP_q110022_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_1_BP_q110022_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_1_BP_q110022_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_14_1_BP_q110022_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_016_BP_q110020": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_016_BP_q110020"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 7,
+        "PropModifyID": "mon_016_BP_q110020_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 7,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_016_BP_q110020_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_04_BP_q110022": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.75,
+        "Tags": [
+          "mon_04_BP_q110022"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 4,
+        "PropModifyID": "mon_04_BP_q110022_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110022_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110022_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110022_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110022_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110022_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110022_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110022_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110022_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "boss_01_BP_q110025": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 3.1,
+        "Tags": [
+          "boss_01_BP_q110025"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 13,
+        "PropModifyID": "boss_01_BP_q110025_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 13,
+            "MonsterWorldLevelPropModifyID": "boss_01_BP_q110025_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_01_BP_q110025_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_01_BP_q110025_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_01_BP_q110025_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_01_BP_q110025_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_01_BP_q110025_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_01_BP_q110025_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_01_BP_q110025_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "boss_04_BP_q110052": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 3.2,
+        "Tags": [
+          "boss_04_BP_q110052"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 13,
+        "PropModifyID": "boss_04_BP_q110052_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 13,
+            "MonsterWorldLevelPropModifyID": "boss_04_BP_q110052_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_04_BP_q110052_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_04_BP_q110052_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_04_BP_q110052_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_04_BP_q110052_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_04_BP_q110052_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_04_BP_q110052_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 3,
+            "MonsterWorldLevelPropModifyID": "boss_04_BP_q110052_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_q110070": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_02_BP_q110070"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 9,
+        "PropModifyID": "mon_02_BP_q110070_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_04_BP_q110070": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 3.2,
+        "Tags": [
+          "mon_04_BP_q110070"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 9,
+        "PropModifyID": "mon_04_BP_q110070_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_04_BP_q1100756": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 3.2,
+        "Tags": [
+          "mon_04_BP_q110070"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 9,
+        "PropModifyID": "mon_04_BP_q1100756_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q1100756_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q1100756_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q1100756_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q1100756_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q1100756_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q1100756_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q1100756_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q1100756_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_q110070_Drop": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_02_BP_q110070"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 9,
+        "PropModifyID": "mon_02_BP_q110070_Drop_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_Drop_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_Drop_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_Drop_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_Drop_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_Drop_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_Drop_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_Drop_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110070_Drop_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_04_BP_q110070_down": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 3.2,
+        "Tags": [
+          "mon_04_BP_q110070"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 9,
+        "PropModifyID": "mon_04_BP_q110070_down_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_down_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_down_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_down_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_down_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_down_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_down_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_down_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_04_BP_q110070_down_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "BP_Boss_06_q110083": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.6,
+        "Tags": [
+          "BP_Boss_06_q110083"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_COSMOS",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 24,
+        "PropModifyID": "BP_Boss_06_q110083_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 24,
+            "MonsterWorldLevelPropModifyID": "BP_Boss_06_q110083_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "BP_Boss_06_q110083_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "BP_Boss_06_q110083_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "BP_Boss_06_q110083_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "BP_Boss_06_q110083_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "BP_Boss_06_q110083_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "BP_Boss_06_q110083_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "BP_Boss_06_q110083_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "Boss_06_Sagiri_BP_q110083": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.6,
+        "Tags": [
+          "Boss_06_Sagiri_BP_q110083"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_COSMOS",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 13,
+        "PropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 13,
+            "MonsterWorldLevelPropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "boss_05_BP_q110131": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "boss_05_BP_q110131"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 40,
+        "PropModifyID": "boss_05_BP_q110131_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 40,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_q110131_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_q110131_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_q110131_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_q110131_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_q110131_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_q110131_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_q110131_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_q110131_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_q110125_5": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_02_BP_q110125_5"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 24,
+        "PropModifyID": "mon_02_BP_q110125_5_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 24,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110125_5_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110125_5_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110125_5_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110125_5_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110125_5_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110125_5_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110125_5_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110125_5_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_q110126_1": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_02_BP_q110126_1"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 24,
+        "PropModifyID": "mon_02_BP_q110126_1_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 24,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_1_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_1_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_1_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_1_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_1_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_1_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_1_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_1_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_q110126_3": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_02_BP_q110126_3"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 24,
+        "PropModifyID": "mon_02_BP_q110126_3_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 24,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_3_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_3_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_3_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_3_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_3_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_3_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_3_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_q110126_3_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_05_BP_q110127_2": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_05_BP_q110127_2"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 28,
+        "PropModifyID": "mon_05_BP_q110127_2_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 28,
+            "MonsterWorldLevelPropModifyID": "mon_05_BP_q110127_2_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_05_BP_q110127_2_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_05_BP_q110127_2_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_05_BP_q110127_2_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_05_BP_q110127_2_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_05_BP_q110127_2_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_05_BP_q110127_2_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_05_BP_q110127_2_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_K110213": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_02_BP_K110213"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": true,
+        "MonsterLevel": 1,
+        "PropModifyID": "mon_02_BP_K110213_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 14,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110213_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 24,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110213_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 34,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110213_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 44,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110213_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 54,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110213_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 64,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110213_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 69,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110213_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 73,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110213_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_K110325": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_02_BP_K110325"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": true,
+        "MonsterLevel": 1,
+        "PropModifyID": "mon_02_BP_K110325_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 14,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110325_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 24,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110325_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 34,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110325_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 44,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110325_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 54,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110325_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 64,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110325_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 69,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110325_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 73,
+            "MonsterWorldLevelPropModifyID": "mon_02_BP_K110325_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_18_2_BP_S1105071": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_18_2_BP_S1105071"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": true,
+        "MonsterLevel": 1,
+        "PropModifyID": "mon_18_2_BP_S1105071_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 15,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 25,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 35,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 45,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 55,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 65,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 70,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 74,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_012_1_BP_s110601": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_012_1_BP_s110601"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": true,
+        "MonsterLevel": 1,
+        "PropModifyID": "mon_012_1_BP_s110601_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 23,
+            "MonsterWorldLevelPropModifyID": "mon_012_1_BP_s110601_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 33,
+            "MonsterWorldLevelPropModifyID": "mon_012_1_BP_s110601_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 43,
+            "MonsterWorldLevelPropModifyID": "mon_012_1_BP_s110601_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 53,
+            "MonsterWorldLevelPropModifyID": "mon_012_1_BP_s110601_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 63,
+            "MonsterWorldLevelPropModifyID": "mon_012_1_BP_s110601_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 73,
+            "MonsterWorldLevelPropModifyID": "mon_012_1_BP_s110601_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 78,
+            "MonsterWorldLevelPropModifyID": "mon_012_1_BP_s110601_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 82,
+            "MonsterWorldLevelPropModifyID": "mon_012_1_BP_s110601_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_012_2_BP_s110601": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_012_2_BP_s110601"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": true,
+        "MonsterLevel": 1,
+        "PropModifyID": "mon_012_2_BP_s110601_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 23,
+            "MonsterWorldLevelPropModifyID": "mon_012_2_BP_s110601_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 33,
+            "MonsterWorldLevelPropModifyID": "mon_012_2_BP_s110601_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 43,
+            "MonsterWorldLevelPropModifyID": "mon_012_2_BP_s110601_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 53,
+            "MonsterWorldLevelPropModifyID": "mon_012_2_BP_s110601_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 63,
+            "MonsterWorldLevelPropModifyID": "mon_012_2_BP_s110601_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 73,
+            "MonsterWorldLevelPropModifyID": "mon_012_2_BP_s110601_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 78,
+            "MonsterWorldLevelPropModifyID": "mon_012_2_BP_s110601_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 82,
+            "MonsterWorldLevelPropModifyID": "mon_012_2_BP_s110601_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_nanally_BP_q110150": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_nanally_BP_q110150"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 44,
+        "PropModifyID": "mon_nanally_BP_q110150_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 44,
+            "MonsterWorldLevelPropModifyID": "mon_nanally_BP_q110150_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_nanally_BP_q110150_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_nanally_BP_q110150_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_nanally_BP_q110150_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_nanally_BP_q110150_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_nanally_BP_q110150_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_nanally_BP_q110150_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 4,
+            "MonsterWorldLevelPropModifyID": "mon_nanally_BP_q110150_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "Boss_016_BP_Child_q110150": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "Boss_016_BP_Child_q110150"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 49,
+        "PropModifyID": "Boss_016_BP_Child_q110150_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 49,
+            "MonsterWorldLevelPropModifyID": "Boss_016_BP_Child_q110150_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "Boss_016_BP_Child_q110150_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "Boss_016_BP_Child_q110150_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "Boss_016_BP_Child_q110150_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "Boss_016_BP_Child_q110150_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "Boss_016_BP_Child_q110150_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "Boss_016_BP_Child_q110150_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "Boss_016_BP_Child_q110150_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_17_BP_S110300": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_17_BP_S110300"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": true,
+        "MonsterLevel": 1,
+        "PropModifyID": "mon_17_BP_S110300_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 15,
+            "MonsterWorldLevelPropModifyID": "mon_17_BP_S110300_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 25,
+            "MonsterWorldLevelPropModifyID": "mon_17_BP_S110300_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 35,
+            "MonsterWorldLevelPropModifyID": "mon_17_BP_S110300_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 45,
+            "MonsterWorldLevelPropModifyID": "mon_17_BP_S110300_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 55,
+            "MonsterWorldLevelPropModifyID": "mon_17_BP_S110300_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 65,
+            "MonsterWorldLevelPropModifyID": "mon_17_BP_S110300_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 70,
+            "MonsterWorldLevelPropModifyID": "mon_17_BP_S110300_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 74,
+            "MonsterWorldLevelPropModifyID": "mon_17_BP_S110300_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_27_BP_L110035_p4": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_27_BP_L110035_p4"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 35,
+        "PropModifyID": "mon_27_BP_L110035_p4_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 35,
+            "MonsterWorldLevelPropModifyID": "mon_27_BP_L110035_p4_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_27_BP_L110035_p4_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_27_BP_L110035_p4_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_27_BP_L110035_p4_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_27_BP_L110035_p4_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_27_BP_L110035_p4_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_27_BP_L110035_p4_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_27_BP_L110035_p4_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_011_BP_L110035_p6": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_011_BP_L110035_p6"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 33,
+        "PropModifyID": "mon_011_BP_L110035_p6_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 33,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p6_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p6_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p6_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p6_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p6_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p6_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p6_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p6_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_011_BP_l110035_p11": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_011_BP_l110035_p11"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 33,
+        "PropModifyID": "mon_011_BP_l110035_p11_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 33,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_l110035_p11_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_l110035_p11_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_l110035_p11_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_l110035_p11_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_l110035_p11_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_l110035_p11_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_l110035_p11_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_l110035_p11_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_011_BP_L110035_p14": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_011_BP_L110035_p14"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 33,
+        "PropModifyID": "mon_011_BP_L110035_p14_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 33,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p14_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p14_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p14_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p14_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p14_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p14_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p14_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110035_p14_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "mon_011_BP_L110038": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_011_BP_L110038"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 33,
+        "PropModifyID": "mon_011_BP_L110038_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 33,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110038_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110038_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110038_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110038_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110038_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110038_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110038_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 1,
+            "MonsterWorldLevelPropModifyID": "mon_011_BP_L110038_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "Boss_07_BP_L110047": {
+        "Comment": "0",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "Boss_07_BP_L110047"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 51,
+        "PropModifyID": "Boss_07_BP_L110047_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 51,
+            "MonsterWorldLevelPropModifyID": "Boss_07_BP_L110047_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 11,
+            "MonsterWorldLevelPropModifyID": "Boss_07_BP_L110047_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 11,
+            "MonsterWorldLevelPropModifyID": "Boss_07_BP_L110047_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 11,
+            "MonsterWorldLevelPropModifyID": "Boss_07_BP_L110047_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 11,
+            "MonsterWorldLevelPropModifyID": "Boss_07_BP_L110047_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 11,
+            "MonsterWorldLevelPropModifyID": "Boss_07_BP_L110047_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 11,
+            "MonsterWorldLevelPropModifyID": "Boss_07_BP_L110047_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 11,
+            "MonsterWorldLevelPropModifyID": "Boss_07_BP_L110047_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      }
+    }
+  }
+]

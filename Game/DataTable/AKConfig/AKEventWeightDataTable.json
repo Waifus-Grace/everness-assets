@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AKEventWeightDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AKEventWeightRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "EventWeight_0": {
+        "ContainsString": "Skill",
+        "EventWeight": 100,
+        "Comments": "技能"
+      },
+      "NewRow": {
+        "ContainsString": "Atk",
+        "EventWeight": 90,
+        "Comments": "普攻"
+      },
+      "NewRow_0": {
+        "ContainsString": "Vo",
+        "EventWeight": 100,
+        "Comments": "语音"
+      },
+      "NewRow_1": {
+        "ContainsString": "Fts",
+        "EventWeight": 70,
+        "Comments": "脚步"
+      },
+      "NewRow_2": {
+        "ContainsString": "Cloth",
+        "EventWeight": 50,
+        "Comments": "衣物"
+      },
+      "NewRow_3": {
+        "ContainsString": "Pendant",
+        "EventWeight": 50,
+        "Comments": "挂件"
+      },
+      "NewRow_4": {
+        "ContainsString": "Impact",
+        "EventWeight": 90,
+        "Comments": "击中"
+      }
+    }
+  }
+]

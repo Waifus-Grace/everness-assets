@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_ItemDialogue",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_ItemDialogue",
+      "KeysToEntries": {
+        "II_SpliceEntity_Car_001": "从车外看貌似没有什么异常！要不到车里再看看？",
+        "II_SpliceEntity_Moto_001": "吓了我一跳！这要怎么关掉？吵到附近的居民了！",
+        "II_SpliceEntity_Car_002": "费力的钻到车里",
+        "II_SpliceEntity_Car_003": "还是再看看别处",
+        "II_SpliceEntity_Vending_001": "这应该是摔坏了吧！里面好像除了吃的好像没有别的。",
+        "II_SpliceEntity_Car_004": "貌似车里也没有什么异常的！！！",
+        "II_SpliceEntity_Car_005": "额~~刚刚为什么有一种被盯着的感觉。",
+        "II_SpliceEntity_RubbishBin_001": "哇！好臭！里面肯定没有线索。",
+        "II_SpliceEntity_Gashapon_001": "机器好像没什么可疑的。但刚刚是不是有什么东西机器里崩了出来！很可疑啊！",
+        "II_SpliceEntity_Rabbit_001": "好可爱的小兔子！应该没有问题。但总有一种离异象很近的感觉！",
+        "II_SpliceEntity_Anomaly_001": "看来异象源头就是这个相机了！要不要马上对它进行收容呢？",
+        "II_SpliceEntity_Anomaly_002": "立即收容",
+        "II_SpliceEntity_Anomaly_003": "容我想想"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

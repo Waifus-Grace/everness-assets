@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DialogSoundTable_World",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MessageDialogSoundData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Danzaburou_CityA_001_Dan_Dlg_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Upset.Play_Vo_Anomaly_024_Upset",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_001_Dan_Dlg_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Happy.Play_Vo_Anomaly_024_Happy",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_001_Dan_Dlg_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Upset.Play_Vo_Anomaly_024_Upset",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_002_Dan_Dlg_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Unwilling.Play_Vo_Anomaly_024_Unwilling",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_002_Dan_Dlg_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Weak.Play_Vo_Anomaly_024_Weak",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_003_Dan_Dlg_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Unwilling.Play_Vo_Anomaly_024_Unwilling",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Dan_Dlg_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Dan_Dlg_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Dan_Dlg_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Confident.Play_Vo_Anomaly_024_Confident",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Dan_Dlg_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Praise.Play_Vo_Anomaly_024_Praise",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Dan_Dlg_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Confident.Play_Vo_Anomaly_024_Confident",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Dan_Dlg_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Praise.Play_Vo_Anomaly_024_Praise",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Danzaburou_CityA_004_Dan_Dlg_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Confident.Play_Vo_Anomaly_024_Confident",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      }
+    }
+  }
+]

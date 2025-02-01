@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ReactionDamageData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ReactionDamageExecutionData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "GE_ActorReaction_1_Damage": {
+        "ProduceReactionType": "EReactionResultType::REACTION_RESULT_TYPE_1",
+        "ReactionDamageArray": [
+          50.0,
+          72.0,
+          94.0,
+          116.0,
+          138.0,
+          160.0,
+          182.0,
+          204.0,
+          226.0,
+          248.0,
+          270.0,
+          292.0,
+          314.0,
+          336.0,
+          358.0,
+          380.0,
+          398.0
+        ]
+      },
+      "GE_ActorReaction_1_1019_Damage": {
+        "ProduceReactionType": "EReactionResultType::REACTION_RESULT_TYPE_1",
+        "ReactionDamageArray": [
+          100.0,
+          144.0,
+          188.0,
+          232.0,
+          276.0,
+          320.0,
+          364.0,
+          408.0,
+          452.0,
+          496.0,
+          540.0,
+          584.0,
+          628.0,
+          672.0,
+          716.0,
+          760.0,
+          795.0
+        ]
+      },
+      "Buff_Reaction_4_new": {
+        "ProduceReactionType": "EReactionResultType::REACTION_RESULT_TYPE_4",
+        "ReactionDamageArray": [
+          100.0,
+          220.0,
+          340.0,
+          460.0,
+          580.0,
+          700.0,
+          820.0,
+          940.0,
+          1060.0,
+          1180.0,
+          1300.0,
+          1420.0,
+          1540.0,
+          1660.0,
+          1780.0,
+          1900.0
+        ]
+      },
+      "Buff_Reaction_5_new": {
+        "ProduceReactionType": "EReactionResultType::REACTION_RESULT_TYPE_3",
+        "ReactionDamageArray": [
+          100.0,
+          220.0,
+          340.0,
+          460.0,
+          580.0,
+          700.0,
+          820.0,
+          940.0,
+          1060.0,
+          1180.0,
+          1300.0,
+          1420.0,
+          1540.0,
+          1660.0,
+          1780.0,
+          1900.0
+        ]
+      },
+      "Buff_Reaction_5_new_1003": {
+        "ProduceReactionType": "EReactionResultType::REACTION_RESULT_TYPE_3",
+        "ReactionDamageArray": [
+          100.0,
+          220.0,
+          340.0,
+          460.0,
+          580.0,
+          700.0,
+          820.0,
+          940.0,
+          1060.0,
+          1180.0,
+          1300.0,
+          1420.0,
+          1540.0,
+          1660.0,
+          1780.0,
+          1900.0
+        ]
+      }
+    }
+  }
+]

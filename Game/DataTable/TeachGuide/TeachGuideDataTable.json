@@ -1,0 +1,994 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TeachGuideDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'TeachGuideData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "MapTransfer": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "MapTransfer_Name",
+          "SourceString": "ReroRero电话亭",
+          "LocalizedString": "ReroRero电话亭"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "MapTransfer_Name",
+              "SourceString": "ReroRero电话亭",
+              "LocalizedString": "ReroRero电话亭"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "MapTransfer_Teach",
+              "SourceString": "遍布世界各地的传送装置，由「环」的直属机关「尤克阿什庭」负责管理。在海特洛市的街头传说中，废弃的红色电话亭里有时会传出诡异的铃声，无辜的过路人就这样消失在茫茫黑雾中……当然，都市传说总是存在一些美好的艺术加工，不过体验过的异能者们多次向「环」提议改良传送方式，毕竟被吞食，消化，然后再排……咳咳，反刍，总之是很糟糕的体验。「尤克阿什庭」暂未回复。",
+              "LocalizedString": "遍布世界各地的传送装置，由「环」的直属机关「尤克阿什庭」负责管理。在海特洛市的街头传说中，废弃的红色电话亭里有时会传出诡异的铃声，无辜的过路人就这样消失在茫茫黑雾中……当然，都市传说总是存在一些美好的艺术加工，不过体验过的异能者们多次向「环」提议改良传送方式，毕竟被吞食，消化，然后再排……咳咳，反刍，总之是很糟糕的体验。「尤克阿什庭」暂未回复。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_10.UI_YH_Guide_Banner_10",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_10.UI_YH_Guide_Banner_10",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "MapTransfer",
+        "IsPSShow": true
+      },
+      "OracleStone": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "OracleStone_Name",
+          "SourceString": "谕石",
+          "LocalizedString": "谕石"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "OracleStone_Name",
+              "SourceString": "谕石",
+              "LocalizedString": "谕石"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "OracleStone_Des",
+              "SourceString": "不知前路、难以落地的盲目乌鸦衔着的宝石，无人知晓它们来自何方。\r\n有传言说捡到「谕石」的人会被厄运缠身，倘若不小心捡到也不用在意，<red>位于各地「魔女之家」中的魔女小姐似乎正在收集这些「谕石」。</>如果将「谕石」交给她的话，她不仅能为你消弭这份厄运，还会有对应的酬劳作为答谢。",
+              "LocalizedString": "不知前路、难以落地的盲目乌鸦衔着的宝石，无人知晓它们来自何方。\r\n有传言说捡到「谕石」的人会被厄运缠身，倘若不小心捡到也不用在意，<red>位于各地「魔女之家」中的魔女小姐似乎正在收集这些「谕石」。</>如果将「谕石」交给她的话，她不仅能为你消弭这份厄运，还会有对应的酬劳作为答谢。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_yushi.teach_yushi",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_yushi.teach_yushi",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "OracleStone",
+        "IsPSShow": true
+      },
+      "VisionRadar": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "Redar_Name",
+          "SourceString": "异象雷达",
+          "LocalizedString": "异象雷达"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Redar_Name",
+              "SourceString": "异象雷达",
+              "LocalizedString": "异象雷达"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Redar_Des",
+              "SourceString": "靠近「待收容异象」至一定距离后，小地图会自动开启雷达标识。当距离不断缩短，雷达的颜色也会发生改变，由远即近分别为：蓝色→绿色→橙色→红色。",
+              "LocalizedString": "靠近「待收容异象」至一定距离后，小地图会自动开启雷达标识。当距离不断缩短，雷达的颜色也会发生改变，由远即近分别为：蓝色→绿色→橙色→红色。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_09.UI_YH_Guide_Banner_09",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_09.UI_YH_Guide_Banner_09",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "VisionRadar",
+        "IsPSShow": true
+      },
+      "TreasureBox": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "TreasureBox_Name",
+          "SourceString": "尤西斯的礼物",
+          "LocalizedString": "尤西斯的礼物"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "TreasureBox_Name",
+              "SourceString": "尤西斯的礼物",
+              "LocalizedString": "尤西斯的礼物"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "TreasureBox_Des",
+              "SourceString": "「咳咳，这就是有史以来最伟大玩具匠尤西斯的最新力作！当然，如果你想要得到它的话——你得自己来拿！」\r\n来自天才玩具匠的最新作品，送给每一位过路人的一份礼物——<red>如果你能通过那些因为作者的恶趣味安排的「考验」的话，礼物便会自动为你解锁。</>",
+              "LocalizedString": "「咳咳，这就是有史以来最伟大玩具匠尤西斯的最新力作！当然，如果你想要得到它的话——你得自己来拿！」\r\n来自天才玩具匠的最新作品，送给每一位过路人的一份礼物——<red>如果你能通过那些因为作者的恶趣味安排的「考验」的话，礼物便会自动为你解锁。</>"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_baoxiang.teach_baoxiang",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_baoxiang.teach_baoxiang",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "TreasureBox",
+        "IsPSShow": true
+      },
+      "Vision_Projector_01": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "PObⅠS-7605_Name",
+          "SourceString": "时空放映机",
+          "LocalizedString": "时空放映机"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "PObⅠS-7605_Name",
+              "SourceString": "时空放映机",
+              "LocalizedString": "时空放映机"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "PObⅠS-7605_Teach",
+              "SourceString": "热衷于在现身场所投映<red>「事故影片」</>的「时空放映机」，在其<red>「进度条」</>不稳定的<red>「波段」</>中，暗藏某些虚实难辨的<red>「蛛丝马迹」</>。参与者可在影片的任意进度中进行探寻，一旦追寻这些蛛丝马迹定位到影片中的「奇点」——多为<red>事故源头</>，「时空放映机」便会自然泯除。",
+              "LocalizedString": "热衷于在现身场所投映<red>「事故影片」</>的「时空放映机」，在其<red>「进度条」</>不稳定的<red>「波段」</>中，暗藏某些虚实难辨的<red>「蛛丝马迹」</>。参与者可在影片的任意进度中进行探寻，一旦追寻这些蛛丝马迹定位到影片中的「奇点」——多为<red>事故源头</>，「时空放映机」便会自然泯除。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_08.UI_YH_Guide_Banner_08",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_08_2.UI_YH_Guide_Banner_08_2",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "Vision_Projector_01",
+        "IsPSShow": true
+      },
+      "Vision_MagicBox": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "PObⅠS-13_Name",
+          "SourceString": "增殖的C",
+          "LocalizedString": "增殖的C"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "PObⅠS-13_Name",
+              "SourceString": "增殖的C",
+              "LocalizedString": "增殖的C"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "PObⅠS-13_Teach",
+              "SourceString": "复制、增长，「增殖的C」从未，也绝对不会停止它的<red>增殖</>。当任何人试图接近它，无数的纸箱就会出现将其保护起来——尽管这些纸箱看起来不堪一击，但却比钢铁更加坚硬，即使有人踩在上面也不会有任何变化。当异象猎人在纸箱的<red>迷宫</>中找到<red>正确的通路</>，最终来到「增殖的C」面前，只需<red>封上纸箱</>那未封的口，对扩张和增殖的执念便会一同消散。",
+              "LocalizedString": "复制、增长，「增殖的C」从未，也绝对不会停止它的<red>增殖</>。当任何人试图接近它，无数的纸箱就会出现将其保护起来——尽管这些纸箱看起来不堪一击，但却比钢铁更加坚硬，即使有人踩在上面也不会有任何变化。当异象猎人在纸箱的<red>迷宫</>中找到<red>正确的通路</>，最终来到「增殖的C」面前，只需<red>封上纸箱</>那未封的口，对扩张和增殖的执念便会一同消散。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_Vision_MagicBox.teach_Vision_MagicBox",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_Vision_MagicBox.teach_Vision_MagicBox",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "Vision_MagicBox",
+        "IsPSShow": true
+      },
+      "Bonus_Danzaburou": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "Danzaburou_Name",
+          "SourceString": "团三郎",
+          "LocalizedString": "团三郎"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Danzaburou_Name",
+              "SourceString": "团三郎",
+              "LocalizedString": "团三郎"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Danzaburou_Des",
+              "SourceString": "名为<red>「团三郎」</>的歧骸，为了获得心爱之物，会化作各种形态潜藏在城市中。但团三郎最喜欢的还是它的<red>「红餐巾」</>，无论变成什么样子，团三郎永远带着红餐巾，也许这是一个识破它的好方法。",
+              "LocalizedString": "名为<red>「团三郎」</>的歧骸，为了获得心爱之物，会化作各种形态潜藏在城市中。但团三郎最喜欢的还是它的<red>「红餐巾」</>，无论变成什么样子，团三郎永远带着红餐巾，也许这是一个识破它的好方法。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_Bonus_Danzaburou.teach_Bonus_Danzaburou",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_Bonus_Danzaburou.teach_Bonus_Danzaburou",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Danzaburou_Name",
+              "SourceString": "团三郎",
+              "LocalizedString": "团三郎"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Danzaburou_Des",
+              "SourceString": "名为<red>「团三郎」</>的歧骸，为了获得心爱之物，会化作各种形态潜藏在城市中。但团三郎最喜欢的还是它的<red>「红餐巾」</>，无论变成什么样子，团三郎永远带着红餐巾，也许这是一个识破它的好方法。",
+              "LocalizedString": "名为<red>「团三郎」</>的歧骸，为了获得心爱之物，会化作各种形态潜藏在城市中。但团三郎最喜欢的还是它的<red>「红餐巾」</>，无论变成什么样子，团三郎永远带着红餐巾，也许这是一个识破它的好方法。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_Bonus_Danzaburou2.teach_Bonus_Danzaburou2",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_Bonus_Danzaburou2.teach_Bonus_Danzaburou2",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Danzaburou_Name",
+              "SourceString": "团三郎",
+              "LocalizedString": "团三郎"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Danzaburou_Des2",
+              "SourceString": "团三郎精通逃跑之术，快被追上时会用分身术四散逃离迷惑对手，<red>多次辨别出它的真身，识破团三郎的诡计吧。</>",
+              "LocalizedString": "团三郎精通逃跑之术，快被追上时会用分身术四散逃离迷惑对手，<red>多次辨别出它的真身，识破团三郎的诡计吧。</>"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_Bonus_Danzaburou3.teach_Bonus_Danzaburou3",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_Bonus_Danzaburou3.teach_Bonus_Danzaburou3",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "Bonus_Danzaburou",
+        "IsPSShow": true
+      },
+      "Vehicle": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "Vehicle_name",
+          "SourceString": "汽车",
+          "LocalizedString": "汽车"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Vehicle_name",
+              "SourceString": "汽车",
+              "LocalizedString": "汽车"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Vehicle_des",
+              "SourceString": "驾驶车辆可以快速在城市中穿梭，驾驶过程中可以通过按键切换视角。",
+              "LocalizedString": "驾驶车辆可以快速在城市中穿梭，驾驶过程中可以通过按键切换视角。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_017.UI_YH_Guide_Banner_017",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_017.UI_YH_Guide_Banner_017",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "InteractVehicle",
+        "IsPSShow": true
+      },
+      "dodge_common": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "dodge_common_name",
+          "SourceString": "闪避",
+          "LocalizedString": "闪避"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "dodge_common_name",
+              "SourceString": "闪避",
+              "LocalizedString": "闪避"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "dodge_common_des",
+              "SourceString": "使用闪避技能可以发动闪避，闪避具有次数限制，当可用的闪避次数为零时则无法使用闪避技能；闪避次数会随时间回复。",
+              "LocalizedString": "使用闪避技能可以发动闪避，闪避具有次数限制，当可用的闪避次数为零时则无法使用闪避技能；闪避次数会随时间回复。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_dodge_common.teach_dodge_common",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_dodge_common2.teach_dodge_common2",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": true,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "None",
+        "IsPSShow": true
+      },
+      "dodge": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "dodge_name",
+          "SourceString": "极限闪避和极限反击",
+          "LocalizedString": "极限闪避和极限反击"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "dodge_name",
+              "SourceString": "极限闪避和极限反击",
+              "LocalizedString": "极限闪避和极限反击"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "dodge_des",
+              "SourceString": "在角色即将受到攻击的时候进行闪避，可以触发<red>「极限闪避」</>并获得短暂的无敌效果。",
+              "LocalizedString": "在角色即将受到攻击的时候进行闪避，可以触发<red>「极限闪避」</>并获得短暂的无敌效果。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_dodge_1_1.teach_dodge_1_1",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_dodge_1_2.teach_dodge_1_2",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "dodge_name",
+              "SourceString": "极限闪避和极限反击",
+              "LocalizedString": "极限闪避和极限反击"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "dodge_des2",
+              "SourceString": "触发<red>「极限闪避」</>后一段时间内进行<red>「常轨攻击」</>可以触发<red>「极限反击」</>，<red>「极限反击」</>可以大幅累积敌人的倾陷值。",
+              "LocalizedString": "触发<red>「极限闪避」</>后一段时间内进行<red>「常轨攻击」</>可以触发<red>「极限反击」</>，<red>「极限反击」</>可以大幅累积敌人的倾陷值。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_dodge_2_1.teach_dodge_2_1",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_dodge_2_2.teach_dodge_2_2",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "dodge",
+        "IsPSShow": true
+      },
+      "combination": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "combination_name",
+          "SourceString": "异能环合",
+          "LocalizedString": "异能环合"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination_name",
+              "SourceString": "异能环合",
+              "LocalizedString": "异能环合"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination_des",
+              "SourceString": "一般情况下，角色在战斗中造成伤害时会累积当前角色的<red>「环合系数」</>；<red>「环合系数」</>充满时，队伍中能与该角色发生<red>「异能环合」</>的角色头像会有特殊显示。",
+              "LocalizedString": "一般情况下，角色在战斗中造成伤害时会累积当前角色的<red>「环合系数」</>；<red>「环合系数」</>充满时，队伍中能与该角色发生<red>「异能环合」</>的角色头像会有特殊显示。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination1.teach_combination1",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination2.teach_combination2",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination_name",
+              "SourceString": "异能环合",
+              "LocalizedString": "异能环合"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination_des2",
+              "SourceString": "当前场上角色<red>「环合系数」</>充满时，切换能够与之发生<red>「异能环合」</>的角色，入场角色会释放<red>「入轨攻击」</>并清空上一位角色的<red>「环合系数」</>；如果入场角色使用的<red>「入轨攻击」</>命中了敌人则会触发对应<red>「异能环合」</>效果。",
+              "LocalizedString": "当前场上角色<red>「环合系数」</>充满时，切换能够与之发生<red>「异能环合」</>的角色，入场角色会释放<red>「入轨攻击」</>并清空上一位角色的<red>「环合系数」</>；如果入场角色使用的<red>「入轨攻击」</>命中了敌人则会触发对应<red>「异能环合」</>效果。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination1_1.teach_combination1_1",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination1_2.teach_combination1_2",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "combination",
+        "IsPSShow": true
+      },
+      "combination1": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "combination1_name",
+          "SourceString": "异能环合:坼绽",
+          "LocalizedString": "异能环合:坼绽"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination1_name",
+              "SourceString": "异能环合:坼绽",
+              "LocalizedString": "异能环合:坼绽"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination1_des",
+              "SourceString": "当光系异能和灵系异能进行<red>「异能环合」</>时会引发<red>「坼绽」</>。",
+              "LocalizedString": "当光系异能和灵系异能进行<red>「异能环合」</>时会引发<red>「坼绽」</>。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination1_1.teach_combination1_1",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination1_2.teach_combination1_2",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination1_name",
+              "SourceString": "异能环合:坼绽",
+              "LocalizedString": "异能环合:坼绽"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination1_des2",
+              "SourceString": "角色附近将出现数株<red>「创生株」</>，每隔一段时间数朵<red>「创生花」</>会陆续飞向射程内的目标并爆炸，造成一定范围伤害。",
+              "LocalizedString": "角色附近将出现数株<red>「创生株」</>，每隔一段时间数朵<red>「创生花」</>会陆续飞向射程内的目标并爆炸，造成一定范围伤害。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination1_3.teach_combination1_3",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination1_3.teach_combination1_3",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "combination1",
+        "IsPSShow": true
+      },
+      "combination2": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "combination2_name",
+          "SourceString": "异能环合:覆纹",
+          "LocalizedString": "异能环合:覆纹"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination2_name",
+              "SourceString": "异能环合:覆纹",
+              "LocalizedString": "异能环合:覆纹"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "combination2_des",
+              "SourceString": "当灵系异能和咒系异能进行<red>「异能环合」</>的时候会引发<red>「覆纹」</>，其后的一段时间内，目标受到灵系或咒系异能伤害时，将额外受到一次等量的<red>「联袂邀击」</>伤害。",
+              "LocalizedString": "当灵系异能和咒系异能进行<red>「异能环合」</>的时候会引发<red>「覆纹」</>，其后的一段时间内，目标受到灵系或咒系异能伤害时，将额外受到一次等量的<red>「联袂邀击」</>伤害。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination3.teach_combination3",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_combination3.teach_combination3",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "combination2",
+        "IsPSShow": true
+      },
+      "balance": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "balance_name",
+          "SourceString": "倾陷",
+          "LocalizedString": "倾陷"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "balance_name",
+              "SourceString": "倾陷",
+              "LocalizedString": "倾陷"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "balance_des",
+              "SourceString": "通常情况下，当敌人收到攻击时会积累<red>「倾陷值」</>，敌人的<red>「倾陷值」</>会显示在生命值的下方；当<red>「倾陷值」</>累积满时敌人会进入<red>「倾陷状态」</>，陷入瘫痪无法行动并受到一次<red>「倾陷伤害」</>，伤害量与队伍中所有角色相关。<red>「倾陷状态」</>会在一段时间后解除。",
+              "LocalizedString": "通常情况下，当敌人收到攻击时会积累<red>「倾陷值」</>，敌人的<red>「倾陷值」</>会显示在生命值的下方；当<red>「倾陷值」</>累积满时敌人会进入<red>「倾陷状态」</>，陷入瘫痪无法行动并受到一次<red>「倾陷伤害」</>，伤害量与队伍中所有角色相关。<red>「倾陷状态」</>会在一段时间后解除。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_balance.teach_balance",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_balance.teach_balance",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "balance",
+        "IsPSShow": true
+      },
+      "balance_special": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "balance_special_name",
+          "SourceString": "特殊倾陷效果",
+          "LocalizedString": "特殊倾陷效果"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "balance_special_name",
+              "SourceString": "特殊倾陷效果",
+              "LocalizedString": "特殊倾陷效果"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "balance_special_des",
+              "SourceString": "部分敌人的<red>「倾陷状态」</>会有特殊效果。",
+              "LocalizedString": "部分敌人的<red>「倾陷状态」</>会有特殊效果。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_balance_special1.teach_balance_special1",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/teach_balance_special2.teach_balance_special2",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "None",
+        "IsPSShow": true
+      },
+      "GashaponActive": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "TeachGuideDataTable_NIudan",
+          "SourceString": "扭蛋",
+          "LocalizedString": "扭蛋"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "TeachGuideDataTable_Niudanji",
+              "SourceString": "扭蛋机",
+              "LocalizedString": "扭蛋机"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "TeachGuideDataTable_Niudanjides",
+              "SourceString": "城市的各个角落都有不同主题的扭蛋机，点击相应的扭蛋机并消费货币即可获得心仪的手办。这些手办既可以用作礼物赠送，也可以摆放在家中！",
+              "LocalizedString": "城市的各个角落都有不同主题的扭蛋机，点击相应的扭蛋机并消费货币即可获得心仪的手办。这些手办既可以用作礼物赠送，也可以摆放在家中！"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_028.UI_YH_Guide_Banner_028",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_028.UI_YH_Guide_Banner_028",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "TeachGuideDataTable_Niudanshoucang",
+              "SourceString": "扭蛋收藏",
+              "LocalizedString": "扭蛋收藏"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "TeachGuideDataTable_NiudanshoucangDes",
+              "SourceString": "首次获得的扭蛋将自动消耗并收藏，可以在房产中的手办柜查看。",
+              "LocalizedString": "首次获得的扭蛋将自动消耗并收藏，可以在房产中的手办柜查看。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_029.UI_YH_Guide_Banner_029",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_029.UI_YH_Guide_Banner_029",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "GashaponActive",
+        "IsPSShow": true
+      },
+      "WorldLevel": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "BPUI_WorldLevelNotifAjust_WorldLevel",
+          "SourceString": "鉴别等级",
+          "LocalizedString": "鉴别等级"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "TeachGuideDataTable_worldLevelUpdate",
+              "SourceString": "鉴别等级提升",
+              "LocalizedString": "鉴别等级提升"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "TeachGuideDataTable_WorldLevelUpdateDes",
+              "SourceString": "鉴别等级是「异能者·零」所特有的「第零感」感知力的等级，左右着遭遇与发现。敌人强度和掉落奖励都将随鉴别等级的提高而提高。当猎人等级到达10/20/30/40/45/50/55级后，会对应提升1级鉴别等级。",
+              "LocalizedString": "鉴别等级是「异能者·零」所特有的「第零感」感知力的等级，左右着遭遇与发现。敌人强度和掉落奖励都将随鉴别等级的提高而提高。当猎人等级到达10/20/30/40/45/50/55级后，会对应提升1级鉴别等级。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_030.UI_YH_Guide_Banner_030",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_030.UI_YH_Guide_Banner_030",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "WorldLevel",
+        "IsPSShow": true
+      },
+      "DivinationHouse": {
+        "GuideName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "minimapicon_name_0049",
+          "SourceString": "魔女之家",
+          "LocalizedString": "魔女之家"
+        },
+        "TeachGuideType": "ETeachGuideType::Basic",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+              "Key": "minimapicon_name_0049",
+              "SourceString": "魔女之家",
+              "LocalizedString": "魔女之家"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "Teach_DivinationHouse",
+              "SourceString": "欢迎来到「魔女之家」，在这里可以将收集到的「谕石」交给魔女小姐。若是陷入了迷茫，魔女小姐也会为你占卜运势，看清前路。",
+              "LocalizedString": "欢迎来到「魔女之家」，在这里可以将收集到的「谕石」交给魔女小姐。若是陷入了迷茫，魔女小姐也会为你占卜运势，看清前路。"
+            },
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_038.UI_YH_Guide_Banner_038",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_038.UI_YH_Guide_Banner_038",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": false,
+        "bDefaultUnLock": true,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnlockId": "DivinationHouse",
+        "IsPSShow": true
+      }
+    }
+  }
+]

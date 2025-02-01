@@ -1,0 +1,3120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterAbilityAttribute",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAbilityAttributeYiNeng'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1009": {
+        "AttributeActivateDataMap": [
+          {
+            "Key": "AtkUp_01",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_01",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_02",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_5",
+                "SourceString": "攻击力提升<NumGreen>3.75%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_01",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_6",
+                "SourceString": "生命值提升<NumGreen>4.50%</>",
+                "LocalizedString": "生命值提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_02",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_4",
+                "SourceString": "生命值提升<NumGreen>3.00%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_03",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_5",
+                "SourceString": "攻击力提升<NumGreen>3.75%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_02",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_04",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_6",
+                "SourceString": "攻击力提升<NumGreen>4.50%</>",
+                "LocalizedString": "攻击力提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_05",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_03",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_03",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_06",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_6",
+                "SourceString": "攻击力提升<NumGreen>4.50%</>",
+                "LocalizedString": "攻击力提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "1019": {
+        "AttributeActivateDataMap": [
+          {
+            "Key": "AtkUp_01",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_01",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpNatureBase_01",
+            "Value": {
+              "AttributeID": "DamageUpNatureBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_ching.Icon_DamageUp_ching",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpNatureBase",
+                "SourceString": "灵系异能伤害强化",
+                "LocalizedString": "灵系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpNatureBase_5",
+                "SourceString": "灵系异能伤害提升<NumGreen>3.75%</>",
+                "LocalizedString": "灵系异能伤害提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_02",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_6",
+                "SourceString": "生命值提升<NumGreen>4.50%</>",
+                "LocalizedString": "生命值提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_03",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_4",
+                "SourceString": "生命值提升<NumGreen>3.00%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_02",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_5",
+                "SourceString": "攻击力提升<NumGreen>3.75%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_04",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpNatureBase_02",
+            "Value": {
+              "AttributeID": "DamageUpNatureBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_ching.Icon_DamageUp_ching",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpNatureBase",
+                "SourceString": "灵系异能伤害强化",
+                "LocalizedString": "灵系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpNatureBase_6",
+                "SourceString": "灵系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "灵系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_03",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_04",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_5",
+                "SourceString": "攻击力提升<NumGreen>3.75%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_05",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpNatureBase_03",
+            "Value": {
+              "AttributeID": "DamageUpNatureBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_ching.Icon_DamageUp_ching",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpNatureBase",
+                "SourceString": "灵系异能伤害强化",
+                "LocalizedString": "灵系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpNatureBase_6",
+                "SourceString": "灵系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "灵系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "1010": {
+        "AttributeActivateDataMap": [
+          {
+            "Key": "AtkUp_01",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_01",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritDamageBase_01",
+            "Value": {
+              "AttributeID": "CritDamageBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baojishanghai.icon_attri_baojishanghai",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase",
+                "SourceString": "暴击伤害强化",
+                "LocalizedString": "暴击伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase_5",
+                "SourceString": "暴击伤害提升<NumGreen>6.00%</>",
+                "LocalizedString": "暴击伤害提升<NumGreen>6.00%</>"
+              },
+              "Value": 0.06,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_02",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_6",
+                "SourceString": "攻击力提升<NumGreen>4.50%</>",
+                "LocalizedString": "攻击力提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_02",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_4",
+                "SourceString": "防御力提升<NumGreen>4.20%</>",
+                "LocalizedString": "防御力提升<NumGreen>4.20%</>"
+              },
+              "Value": 0.042,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritDamageBase_02",
+            "Value": {
+              "AttributeID": "CritDamageBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baojishanghai.icon_attri_baojishanghai",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase",
+                "SourceString": "暴击伤害强化",
+                "LocalizedString": "暴击伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase_5",
+                "SourceString": "暴击伤害提升<NumGreen>6.00%</>",
+                "LocalizedString": "暴击伤害提升<NumGreen>6.00%</>"
+              },
+              "Value": 0.06,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_03",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_5",
+                "SourceString": "攻击力提升<NumGreen>3.75%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritDamageBase_03",
+            "Value": {
+              "AttributeID": "CritDamageBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baojishanghai.icon_attri_baojishanghai",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase",
+                "SourceString": "暴击伤害强化",
+                "LocalizedString": "暴击伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase_6",
+                "SourceString": "暴击伤害提升<NumGreen>7.20%</>",
+                "LocalizedString": "暴击伤害提升<NumGreen>7.20%</>"
+              },
+              "Value": 0.072,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_04",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_03",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritDamageBase_04",
+            "Value": {
+              "AttributeID": "CritDamageBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baojishanghai.icon_attri_baojishanghai",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase",
+                "SourceString": "暴击伤害强化",
+                "LocalizedString": "暴击伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase_5",
+                "SourceString": "暴击伤害提升<NumGreen>6.00%</>",
+                "LocalizedString": "暴击伤害提升<NumGreen>6.00%</>"
+              },
+              "Value": 0.06,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_05",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_6",
+                "SourceString": "攻击力提升<NumGreen>4.50%</>",
+                "LocalizedString": "攻击力提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "1003": {
+        "AttributeActivateDataMap": [
+          {
+            "Key": "AtkUp_01",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_01",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_02",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_5",
+                "SourceString": "攻击力提升<NumGreen>3.75%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_01",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_6",
+                "SourceString": "生命值提升<NumGreen>4.50%</>",
+                "LocalizedString": "生命值提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_02",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_4",
+                "SourceString": "生命值提升<NumGreen>3.00%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_03",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_5",
+                "SourceString": "攻击力提升<NumGreen>3.75%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_02",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_04",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_6",
+                "SourceString": "攻击力提升<NumGreen>4.50%</>",
+                "LocalizedString": "攻击力提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_05",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_03",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_03",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_06",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_6",
+                "SourceString": "攻击力提升<NumGreen>4.50%</>",
+                "LocalizedString": "攻击力提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "1033": {
+        "AttributeActivateDataMap": [
+          {
+            "Key": "DefUp_01",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_4",
+                "SourceString": "防御力提升<NumGreen>4.20%</>",
+                "LocalizedString": "防御力提升<NumGreen>4.20%</>"
+              },
+              "Value": 0.042,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_01",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_02",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpIncantationBase_01",
+            "Value": {
+              "AttributeID": "DamageUpIncantationBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_red.Icon_DamageUp_red",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpIncantationBase",
+                "SourceString": "咒系异能伤害强化",
+                "LocalizedString": "咒系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpIncantationBase_6",
+                "SourceString": "咒系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "咒系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_03",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_4",
+                "SourceString": "防御力提升<NumGreen>4.20%</>",
+                "LocalizedString": "防御力提升<NumGreen>4.20%</>"
+              },
+              "Value": 0.042,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_02",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_04",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpIncantationBase_02",
+            "Value": {
+              "AttributeID": "DamageUpIncantationBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_red.Icon_DamageUp_red",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpIncantationBase",
+                "SourceString": "咒系异能伤害强化",
+                "LocalizedString": "咒系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpIncantationBase_6",
+                "SourceString": "咒系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "咒系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_05",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_4",
+                "SourceString": "防御力提升<NumGreen>4.20%</>",
+                "LocalizedString": "防御力提升<NumGreen>4.20%</>"
+              },
+              "Value": 0.042,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_03",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_06",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_5",
+                "SourceString": "防御力提升<NumGreen>5.25%</>",
+                "LocalizedString": "防御力提升<NumGreen>5.25%</>"
+              },
+              "Value": 0.0525,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpIncantationBase_03",
+            "Value": {
+              "AttributeID": "DamageUpIncantationBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_red.Icon_DamageUp_red",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpIncantationBase",
+                "SourceString": "咒系异能伤害强化",
+                "LocalizedString": "咒系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpIncantationBase_6",
+                "SourceString": "咒系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "咒系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "1004": {
+        "AttributeActivateDataMap": [
+          {
+            "Key": "AtkUp_01",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritDamageBase_01",
+            "Value": {
+              "AttributeID": "CritDamageBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baojishanghai.icon_attri_baojishanghai",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase",
+                "SourceString": "暴击伤害强化",
+                "LocalizedString": "暴击伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritDamageBase_5",
+                "SourceString": "暴击伤害提升<NumGreen>6.00%</>",
+                "LocalizedString": "暴击伤害提升<NumGreen>6.00%</>"
+              },
+              "Value": 0.06,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_01",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpChaosBase_01",
+            "Value": {
+              "AttributeID": "DamageUpChaosBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_black.Icon_DamageUp_black",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpChaosBase",
+                "SourceString": "暗系异能伤害强化",
+                "LocalizedString": "暗系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpChaosBase_6",
+                "SourceString": "暗系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "暗系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_02",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritBase_01",
+            "Value": {
+              "AttributeID": "CritBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baoji.icon_attri_baoji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase",
+                "SourceString": "暴击率强化",
+                "LocalizedString": "暴击率强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase_5",
+                "SourceString": "暴击率提升<NumGreen>3.00%</>",
+                "LocalizedString": "暴击率提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_02",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpChaosBase_02",
+            "Value": {
+              "AttributeID": "DamageUpChaosBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_black.Icon_DamageUp_black",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpChaosBase",
+                "SourceString": "暗系异能伤害强化",
+                "LocalizedString": "暗系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpChaosBase_6",
+                "SourceString": "暗系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "暗系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "UnbalIntensityBase_01",
+            "Value": {
+              "AttributeID": "UnbalIntensityBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_attri_strength_qingxian.Icon_attri_strength_qingxian",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "UnbalIntensityBase",
+                "SourceString": "倾陷强度强化",
+                "LocalizedString": "倾陷强度强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "UnbalIntensityBase_4",
+                "SourceString": "倾陷强度增加<NumGreen>14</>",
+                "LocalizedString": "倾陷强度增加<NumGreen>14</>"
+              },
+              "Value": 14.0,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritBase_02",
+            "Value": {
+              "AttributeID": "CritBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baoji.icon_attri_baoji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase",
+                "SourceString": "暴击率强化",
+                "LocalizedString": "暴击率强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase_5",
+                "SourceString": "暴击率提升<NumGreen>3.00%</>",
+                "LocalizedString": "暴击率提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_03",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpChaosBase_03",
+            "Value": {
+              "AttributeID": "DamageUpChaosBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_black.Icon_DamageUp_black",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpChaosBase",
+                "SourceString": "暗系异能伤害强化",
+                "LocalizedString": "暗系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpChaosBase_6",
+                "SourceString": "暗系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "暗系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "1008": {
+        "AttributeActivateDataMap": [
+          {
+            "Key": "AtkUp_01",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritBase_01",
+            "Value": {
+              "AttributeID": "CritBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baoji.icon_attri_baoji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase",
+                "SourceString": "暴击率强化",
+                "LocalizedString": "暴击率强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase_5",
+                "SourceString": "暴击率提升<NumGreen>3.00%</>",
+                "LocalizedString": "暴击率提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_01",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpLakshanaBase_01",
+            "Value": {
+              "AttributeID": "DamageUpLakshanaBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_yellow.Icon_DamageUp_yellow",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpLakshanaBase",
+                "SourceString": "相系异能伤害强化",
+                "LocalizedString": "相系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpLakshanaBase_6",
+                "SourceString": "相系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "相系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DefUp_01",
+            "Value": {
+              "AttributeID": "DefUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_fangyu.icon_attri_fangyu",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp",
+                "SourceString": "防御力强化",
+                "LocalizedString": "防御力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DefUp_4",
+                "SourceString": "防御力提升<NumGreen>4.20%</>",
+                "LocalizedString": "防御力提升<NumGreen>4.20%</>"
+              },
+              "Value": 0.042,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritBase_02",
+            "Value": {
+              "AttributeID": "CritBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baoji.icon_attri_baoji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase",
+                "SourceString": "暴击率强化",
+                "LocalizedString": "暴击率强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase_5",
+                "SourceString": "暴击率提升<NumGreen>3.00%</>",
+                "LocalizedString": "暴击率提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_02",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpLakshanaBase_02",
+            "Value": {
+              "AttributeID": "DamageUpLakshanaBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_yellow.Icon_DamageUp_yellow",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpLakshanaBase",
+                "SourceString": "相系异能伤害强化",
+                "LocalizedString": "相系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpLakshanaBase_6",
+                "SourceString": "相系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "相系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_02",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_4",
+                "SourceString": "攻击力提升<NumGreen>3.00%</>",
+                "LocalizedString": "攻击力提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_03",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CritBase_03",
+            "Value": {
+              "AttributeID": "CritBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_baoji.icon_attri_baoji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase",
+                "SourceString": "暴击率强化",
+                "LocalizedString": "暴击率强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "CritBase_5",
+                "SourceString": "暴击率提升<NumGreen>3.00%</>",
+                "LocalizedString": "暴击率提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_03",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_6",
+                "SourceString": "攻击力提升<NumGreen>4.50%</>",
+                "LocalizedString": "攻击力提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_01_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "1039": {
+        "AttributeActivateDataMap": [
+          {
+            "Key": "HpMaxUp_01",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_4",
+                "SourceString": "生命值提升<NumGreen>3.00%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "UnbalIntensityBase_01",
+            "Value": {
+              "AttributeID": "UnbalIntensityBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_attri_strength_qingxian.Icon_attri_strength_qingxian",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "UnbalIntensityBase",
+                "SourceString": "倾陷强度强化",
+                "LocalizedString": "倾陷强度强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "UnbalIntensityBase_5",
+                "SourceString": "倾陷强度增加<NumGreen>18</>",
+                "LocalizedString": "倾陷强度增加<NumGreen>18</>"
+              },
+              "Value": 18.0,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_02",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpPsycheBase_01",
+            "Value": {
+              "AttributeID": "DamageUpPsycheBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_bule.Icon_DamageUp_bule",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpPsycheBase",
+                "SourceString": "魂系异能伤害强化",
+                "LocalizedString": "魂系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpPsycheBase_6",
+                "SourceString": "魂系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "魂系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_03",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_4",
+                "SourceString": "生命值提升<NumGreen>3.00%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "UnbalIntensityBase_02",
+            "Value": {
+              "AttributeID": "UnbalIntensityBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_attri_strength_qingxian.Icon_attri_strength_qingxian",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "UnbalIntensityBase",
+                "SourceString": "倾陷强度强化",
+                "LocalizedString": "倾陷强度强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "UnbalIntensityBase_5",
+                "SourceString": "倾陷强度增加<NumGreen>18</>",
+                "LocalizedString": "倾陷强度增加<NumGreen>18</>"
+              },
+              "Value": 18.0,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_04",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "AtkUp_01",
+            "Value": {
+              "AttributeID": "AtkUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_gongji.icon_attri_gongji",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp",
+                "SourceString": "攻击力强化",
+                "LocalizedString": "攻击力强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "AtkUp_6",
+                "SourceString": "攻击力提升<NumGreen>4.50%</>",
+                "LocalizedString": "攻击力提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_05",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_4",
+                "SourceString": "生命值提升<NumGreen>3.00%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.00%</>"
+              },
+              "Value": 0.03,
+              "RequireTupoLevel": 0,
+              "CapitalId": "gold",
+              "CostMoney": 2500,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv1",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "UnbalIntensityBase_03",
+            "Value": {
+              "AttributeID": "UnbalIntensityBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_attri_strength_qingxian.Icon_attri_strength_qingxian",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "UnbalIntensityBase",
+                "SourceString": "倾陷强度强化",
+                "LocalizedString": "倾陷强度强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "UnbalIntensityBase_5",
+                "SourceString": "倾陷强度增加<NumGreen>18</>",
+                "LocalizedString": "倾陷强度增加<NumGreen>18</>"
+              },
+              "Value": 18.0,
+              "RequireTupoLevel": 2,
+              "CapitalId": "gold",
+              "CostMoney": 6000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv2",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "HpMaxUp_06",
+            "Value": {
+              "AttributeID": "HpMaxUp",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/icon_attri_shengming.icon_attri_shengming",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp",
+                "SourceString": "生命值强化",
+                "LocalizedString": "生命值强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "HpMaxUp_5",
+                "SourceString": "生命值提升<NumGreen>3.75%</>",
+                "LocalizedString": "生命值提升<NumGreen>3.75%</>"
+              },
+              "Value": 0.0375,
+              "RequireTupoLevel": 4,
+              "CapitalId": "gold",
+              "CostMoney": 12000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 2
+                }
+              ]
+            }
+          },
+          {
+            "Key": "DamageUpPsycheBase_02",
+            "Value": {
+              "AttributeID": "DamageUpPsycheBase",
+              "Icon": {
+                "AssetPathName": "/Game/UI/UI_Icon/Attribute/Icon_DamageUp_bule.Icon_DamageUp_bule",
+                "SubPathString": ""
+              },
+              "Name": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpPsycheBase",
+                "SourceString": "魂系异能伤害强化",
+                "LocalizedString": "魂系异能伤害强化"
+              },
+              "Description": {
+                "TableId": "/Game/DataTable/PackData/ModifyData/ST_Characterability.ST_Characterability",
+                "Key": "DamageUpPsycheBase_6",
+                "SourceString": "魂系异能伤害提升<NumGreen>4.50%</>",
+                "LocalizedString": "魂系异能伤害提升<NumGreen>4.50%</>"
+              },
+              "Value": 0.045,
+              "RequireTupoLevel": 6,
+              "CapitalId": "gold",
+              "CostMoney": 20000,
+              "ActivateCostItems": [
+                {
+                  "ID": "SkillUpMaterial_02_lv3",
+                  "Number": 4
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+]

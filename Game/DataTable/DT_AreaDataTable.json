@@ -1,0 +1,186 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AreaDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AreaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "-City01": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "City001",
+          "SourceString": "海特洛市",
+          "LocalizedString": "海特洛市"
+        },
+        "AreaPriority": 1,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_000": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Area000",
+          "SourceString": "M10区",
+          "LocalizedString": "M10区"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_001": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Area001",
+          "SourceString": "桥间地",
+          "LocalizedString": "桥间地"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_002": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Area002",
+          "SourceString": "未闻浦 ",
+          "LocalizedString": "未闻浦 "
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_003": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "Area003",
+          "SourceString": "绘空町",
+          "LocalizedString": "绘空町"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_coffee_200": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "SubArea00205",
+          "SourceString": "一咖舍",
+          "LocalizedString": "一咖舍"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_coffee_201": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "SubArea00205",
+          "SourceString": "一咖舍",
+          "LocalizedString": "一咖舍"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_coffee_202": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "SubArea00205",
+          "SourceString": "一咖舍",
+          "LocalizedString": "一咖舍"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_coffee_203": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "SubArea00205",
+          "SourceString": "一咖舍",
+          "LocalizedString": "一咖舍"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "City01_coffee_204": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
+          "Key": "SubArea00205",
+          "SourceString": "一咖舍",
+          "LocalizedString": "一咖舍"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1676 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MonsterSkillDamageData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MonsterSkillDamageExecutionData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "GE_mon_2_act01_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.797342,
+        "TenacityAdd": 0.0
+      },
+      "GE_mon_2_act02_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.435216,
+        "TenacityAdd": 0.0
+      },
+      "GE_mon_2_act02_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.993356,
+        "TenacityAdd": 0.0
+      },
+      "GE_mon_2_act03_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.594684,
+        "TenacityAdd": 0.0
+      },
+      "GE_mon_2_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.790698,
+        "TenacityAdd": 0.0
+      },
+      "GE_mon_01_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.2,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_01_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.8,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_01_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.6,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_01_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.8,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_02_act01_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.36,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_02_act02_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.59,
+        "TenacityAdd": 40.0
+      },
+      "GE_mon_02_act03_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.41,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_02_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.6,
+        "TenacityAdd": 40.0
+      },
+      "GE_mon_02_act04_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 9.0,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_02_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.56,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_02_act05_Dmg02_BP1": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.84,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_02_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.85,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_02_act06_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.7,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_04_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.83,
+        "TenacityAdd": 40.0
+      },
+      "GE_mon_04_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.4,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_04_act02_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.23,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_04_act03_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.55,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_04_act04_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 9.0,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_02_Ghost_act03_Dmg": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 8.99,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_02_Ghost_act04_Dmg": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.12,
+        "TenacityAdd": 160.0
+      },
+      "GE_mon_02_Ghost_act05_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.47,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_02_Ghost_act05_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.65,
+        "TenacityAdd": 40.0
+      },
+      "GE_boss_04_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.75,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.81,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.87,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act02_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.4,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.34,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.12,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.04,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.75,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act06_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.63,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act07_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.87,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act07_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.4,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act08_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.63,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act08_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.62,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act09_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.65,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act09_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.14,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act10_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.25,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act10_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.87,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act11_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.69,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_04_act13_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.04,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_021_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.83,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_021_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.83,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_021_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.83,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_021_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.5,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_021_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.5,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_021_act06_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.5,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_05_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.23,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_05_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.23,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_05_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.35,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_05_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.52,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_05_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.35,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_03_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.68,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_03_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.06,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_03_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.8,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_03_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.4,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_03_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.8,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_03_act04_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.67,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_03_act04_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.8,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_03_act04_Dmg04_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.05,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_03_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.4,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_03_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.75,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_18_2_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.56,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_18_2_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.31,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_18_2_act02_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.63,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_18_2_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.94,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_18_2_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.83,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_18_2_act03_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.78,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_18_2_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.85,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_018_act01_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.58,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_018_act02_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 8.24,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_018_act03_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.81,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_018_act04_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 9.0,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_14_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.8,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_14_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.2,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_14_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 8.41,
+        "TenacityAdd": 120.0
+      },
+      "GE_mon_14_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.01,
+        "TenacityAdd": 120.0
+      },
+      "GE_mon_14_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.33,
+        "TenacityAdd": 60.0
+      },
+      "GE_mon_14_act03_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.33,
+        "TenacityAdd": 120.0
+      },
+      "GE_mon_14_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.67,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_14_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.5,
+        "TenacityAdd": 0.0
+      },
+      "GE_mon_14_act04_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.07,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_14_act04_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.33,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_14_act04_Dmg04_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.7,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_14_act04_Dmg06_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.14,
+        "TenacityAdd": 0.0
+      },
+      "GE_mon_016_act01_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.43,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.92,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act02_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.92,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act02_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.9,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_016_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.87,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_016_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.21,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.6,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act04_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.14,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act04_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.6,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act04_Dmg04_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.21,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act04_Dmg05_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.14,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.39,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_016_act05_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.58,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_016_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.34,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_016_act06_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.51,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.86,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.48,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 9.0,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 9.0,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.2,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act05_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.48,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act05_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.72,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.44,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_13_act06_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.96,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.85,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.03,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act01_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.26,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.26,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act02_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.71,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act02_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.89,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.73,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.95,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act03_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.44,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act03_Dmg04_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.91,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.82,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_019_act04_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.06,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.76,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.84,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act01_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.27,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act01_Dmg04_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.18,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.07,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act02_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.11,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act02_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.18,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.69,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.09,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.41,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act04_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.07,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_020_act04_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.96,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_011_act01_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.98,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_011_act02_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.17,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_011_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.58,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_011_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.78,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_011_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.58,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_011_act04_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.07,
+        "TenacityAdd": 0.0
+      },
+      "GE_mon_08_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.93,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_08_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.22,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_08_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.57,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_08_bullet01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.86,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_08_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.93,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_08_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 8.96,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_17_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.29,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_17_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.88,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_17_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.58,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_17_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.88,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_17_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.72,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_13_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.39,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_13_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.15,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_13_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.23,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_13_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 9.0,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_13_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.73,
+        "TenacityAdd": 100.0
+      },
+      "GE_boss_13_act05_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 9.0,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_13_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.16,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_13_act07_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.39,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_13_act08_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.76,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_13_act08_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.66,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_13_act13_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.87,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_13_act13_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.18,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_13_act10_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.92,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_13_actEs_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.92,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_13_actS2_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.39,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_022_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.06,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_022_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 8.38,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_022_act02_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.58,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_022_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.14,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_022_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.09,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_022_act03_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.58,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_022_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.28,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_022_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.38,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_022_act05_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.76,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_12_Tire_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.57,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_01_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.53,
+        "TenacityAdd": 100.0
+      },
+      "GE_boss_01_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.49,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_01_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.7,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_01_act07_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.01,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_01_act08_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.38,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_01_act09_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.51,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_01_act10_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.38,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_01_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.53,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_01_act11_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.21,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_01_act11_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.1,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_01_act12_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.48,
+        "TenacityAdd": 80.0
+      },
+      "GE_boss_01_act12_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.46,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.93,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.9,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.98,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.43,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act03_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.76,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act04_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.57,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act04_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.76,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.35,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act05_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.26,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act05_Dmg03_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.7,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act06_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.28,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act07_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.42,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act08_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.75,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act09_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.56,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act10_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.11,
+        "TenacityAdd": 200.0
+      },
+      "GE_boss_05_act10_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.41,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act01_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.44,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act01_Dmg_2_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.02,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act02_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.9,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act02_Dmg_2_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.9,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act03_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.89,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act05_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.48,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act06_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 7.46,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act07_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.4,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act08_Dmg_1_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.73,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act08_Dmg_2_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.73,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_Ult_Dmg_01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.92,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_Ult_Dmg_02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.21,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_act11_Dmg_1_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.29,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_06_S_act1_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.68,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_06_S_act2_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.69,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_06_S_act2_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.03,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_06_S_act3_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.47,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_06_S_act4_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.56,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_06_S_act5_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.06,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_06_S_act6_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.34,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_06_S_act7_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.9,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_06_Light_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.33,
+        "TenacityAdd": 40.0
+      },
+      "GE_Boss_07_act01_Dmg_01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.94,
+        "TenacityAdd": 40.0
+      },
+      "GE_Boss_07_act02_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.81,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_07_act03_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.58,
+        "TenacityAdd": 40.0
+      },
+      "GE_Boss_07_act03_Dmg_02BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.38,
+        "TenacityAdd": 60.0
+      },
+      "GE_Boss_07_act04_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.54,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_07_act05_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.99,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_07_act06_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.25,
+        "TenacityAdd": 60.0
+      },
+      "GE_Boss_07_act07_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.73,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_07_act08_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.72,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_07_act09_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.26,
+        "TenacityAdd": 60.0
+      },
+      "GE_Boss_07_act10_1_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.3,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_07_act10_2_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.0,
+        "TenacityAdd": 0.0
+      },
+      "GE_Boss_07_act10_3_Dmg_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.52,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_07_Danmaku_Dmg": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.96,
+        "TenacityAdd": 20.0
+      },
+      "GE_Boss_16_medium_act01_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.58,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act01_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.29,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act02_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.5,
+        "TenacityAdd": 50.0
+      },
+      "GE_Boss_16_medium_act02_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.86,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_16_medium_act03_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.58,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act04_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.43,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act05_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.47,
+        "TenacityAdd": 50.0
+      },
+      "GE_Boss_16_medium_act05_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.23,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act05_Dmg03": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.23,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act06_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.3,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act07_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.7,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act07_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.54,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act08_bullet01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.14,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act08_bullet02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.71,
+        "TenacityAdd": 30.0
+      },
+      "GE_Boss_16_medium_act15_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.28,
+        "TenacityAdd": 50.0
+      },
+      "GE_Boss_16_medium_act15_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.85,
+        "TenacityAdd": 50.0
+      },
+      "GE_Boss_16_medium_act15_Dmg03": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.7,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act15_Dmg04": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.28,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_medium_act15_Dmg05": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.14,
+        "TenacityAdd": 50.0
+      },
+      "GE_Boss_16_medium_act15_Dmg06": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.42,
+        "TenacityAdd": 50.0
+      },
+      "GE_Boss_16_medium_act16_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.42,
+        "TenacityAdd": 50.0
+      },
+      "GE_Boss_16_medium_act16_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.13,
+        "TenacityAdd": 50.0
+      },
+      "GE_Boss_16_medium_act16_Dmg03": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.8,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_medium_act16_Dmg04": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.7,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_small_act01_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.6,
+        "TenacityAdd": 30.0
+      },
+      "GE_Boss_16_small_act01_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.76,
+        "TenacityAdd": 60.0
+      },
+      "GE_Boss_16_small_act02_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.46,
+        "TenacityAdd": 30.0
+      },
+      "GE_Boss_16_small_act02_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.51,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_small_act03_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.86,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_small_act04_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.93,
+        "TenacityAdd": 60.0
+      },
+      "GE_Boss_16_small_break_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.09,
+        "TenacityAdd": 30.0
+      },
+      "GE_Boss_16_act01_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.97,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act01_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.61,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act02_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.62,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_16_act02_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.07,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act03_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.48,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act04_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.79,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act06_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.37,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act08_bullet01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.8,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act08_bullet02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.26,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_act05_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.09,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act05_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.54,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act05_Dmg03": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.54,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_act07_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.62,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act07_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 6.93,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act09_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.47,
+        "TenacityAdd": 80.0
+      },
+      "GE_Boss_16_act09_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.47,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_act09_Dmg03": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.65,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act11_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.85,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act11_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.09,
+        "TenacityAdd": 200.0
+      },
+      "GE_Boss_16_act11_Dmg03": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.47,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_act11_Dmg04": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.23,
+        "TenacityAdd": 100.0
+      },
+      "GE_Boss_16_act11_Dmg05": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.71,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_12_act01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.73,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_12_act01_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.72,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_12_act02_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.18,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_12_act02_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.72,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_12_Tire_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.46,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_12_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.69,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_12_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.94,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_12_Bomb_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.84,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_12_act06_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 5.69,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_12_act07_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.89,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_12_act08_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.7,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_12_act09_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.41,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_25_bullet01_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.99,
+        "TenacityAdd": 50.0
+      },
+      "GE_mon_25_act03_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.57,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_25_act05_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.49,
+        "TenacityAdd": 50.0
+      },
+      "GE_mon_25_act05_Dmg02_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.98,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_25_act06_1_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.6,
+        "TenacityAdd": 80.0
+      },
+      "GE_mon_25_act06_2_Dmg01_BP": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.84,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_27_act01_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.02,
+        "TenacityAdd": 100.0
+      },
+      "GE_mon_27_act01_Dmg02": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.4,
+        "TenacityAdd": 200.0
+      },
+      "GE_mon_27_act02_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.83,
+        "TenacityAdd": 50.0
+      },
+      "GE_mon_27_act03_Dmg01": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 3.72,
+        "TenacityAdd": 200.0
+      },
+      "GE_Mon_Nanally_Melee1_Damage": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.44,
+        "TenacityAdd": 50.0
+      },
+      "GE_Mon_Nanally_Melee2_Damage": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.16,
+        "TenacityAdd": 50.0
+      },
+      "GE_Mon_Nanally_Melee3_Damage": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.9,
+        "TenacityAdd": 80.0
+      },
+      "GE_Mon_Nanally_Melee4_Damage": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.08,
+        "TenacityAdd": 80.0
+      },
+      "GE_Mon_Nanally_Melee5_Damage": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.62,
+        "TenacityAdd": 80.0
+      },
+      "GE_Mon_Nanally_Melee6_Damage": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.29,
+        "TenacityAdd": 100.0
+      },
+      "GE_Mon_Nanally_Melee8_Damage": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.74,
+        "TenacityAdd": 100.0
+      },
+      "GE_Mon_Nanally_Melee9_Damage": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 4.12,
+        "TenacityAdd": 200.0
+      },
+      "GE_Mon_Nanally_skill_Damage1": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.54,
+        "TenacityAdd": 200.0
+      },
+      "GE_Mon_Nanally_skill_Damage2": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.16,
+        "TenacityAdd": 200.0
+      },
+      "GE_Mon_Nanally_ult_Damage1": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 1.08,
+        "TenacityAdd": 200.0
+      },
+      "GE_Mon_Nanally_ult_Damage2": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 0.65,
+        "TenacityAdd": 200.0
+      },
+      "GE_Mon_Nanally_ult_Damage3": {
+        "DamageTypeEX": "EExecutionDamageTypeEX::DAMAGE_TYPE_NORMAL",
+        "AtkRateBase": 2.16,
+        "TenacityAdd": 200.0
+      }
+    }
+  }
+]

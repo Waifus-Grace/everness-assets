@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Clone",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_Clone",
+      "KeysToEntries": {
+        "DLC_Hockshop_Name": "月光当铺",
+        "DLC_Hockshop_Introduce": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。",
+        "ResourceClone_Common001_BattleBegin": "<!>开启失维裂隙",
+        "ResourceClone_Common001_GetTreasure": "领取纪念品",
+        "ResourceClone_Common001_CloneDesTitle": "副本特性",
+        "ResourceClone001_CloneOutput": "<!>扑克牌茶会",
+        "ResourceClone001_Name": "胡迪尼的魔术舞台",
+        "ResourceClone001_Introduce": "尽管破碎维度内部危机四伏，但倘若你足够幸运，或许能带回一些属于其他维度的宝物。",
+        "ResourceClone001_CloneDesBody01": "在已破碎的失落维度中十分少见的稳定碎片，几乎没有空间紊流的影响。",
+        "ResourceClone001_RoleTips01": "提升角色等级",
+        "ResourceClone001_RoleTips02": "提升装备等级",
+        "ResourceClone001_SpecialTips01": "抓住敌人进攻前的动作，在合适的时机的利用闪避规避伤害",
+        "ResourceClone001_SpecialTips02": "在技能真空期与敌人交战并不是一个明智的选择",
+        "ResourceClone001_SpecialTips03": "多切换不同角色攻击触发异能环合可以造成更高的伤害",
+        "ResourceClone001_Des": "<!>异象电话亭连通着已然破碎的失落维度，那里或许曾经也是人声鼎沸、无比繁华的大都市。过去的人们早已不见踪影，失维之人在无尽的死寂与荒凉中永远流离。",
+        "ResourceClone001_CloneTypeDisplayName": "<!>培养材料",
+        "ResourceClone001_CloneDisplayName": "<!>培养材料",
+        "Clonetype_Arcdisk": "<!>弧盘突破本",
+        "Clonetype_roleexp": "<!>角色经验本",
+        "Clonetype_wpexp": "<!>弧盘经验本",
+        "Clonetype_gold": "<!>金币本",
+        "Clonetype_weekly": "<!>周本",
+        "Clonetype_talent": "<!>天赋材料本",
+        "Clonetype_Aircurtain": "<!>空幕本",
+        "EquipmentClone001_Name": "胡迪尼的魔术舞台",
+        "ForkbreakthroughClone001_Name": "胡迪尼的魔术舞台",
+        "TalentClone001_Name": "胡迪尼的魔术舞台",
+        "wpexp_des": "迈达斯弧盘染剂，为您提供伟大助力！仅需999方斯！\r\n仅需0方斯和一场小小的游戏。"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

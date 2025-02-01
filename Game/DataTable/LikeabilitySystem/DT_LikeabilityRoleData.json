@@ -1,0 +1,1509 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LikeabilityRoleData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LikeabilityRoleData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1019": {
+        "SortID": "1",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1001_name",
+          "SourceString": "薄荷",
+          "LocalizedString": "薄荷"
+        },
+        "TitleNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1019_title",
+          "SourceString": "收容行动组二组组员",
+          "LocalizedString": "收容行动组二组组员"
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1019_des",
+          "SourceString": "薄荷说，每个人的味道都是不同的，比起名字，她更喜欢用闻到的味道来称呼他人。奇怪但可爱的称呼，活泼直爽的性格，还有收容工作时教科书级的完成情况，就算是严厉的精英前辈也会对薄荷赞赏有加，不过——\n「嘿嘿，我可是要成为收容骨干的……这次收容条例考试又挂了吗……呜呜……」\n显然，薄荷在实现梦想的路上还缺少一点点好运气。",
+          "LocalizedString": "薄荷说，每个人的味道都是不同的，比起名字，她更喜欢用闻到的味道来称呼他人。奇怪但可爱的称呼，活泼直爽的性格，还有收容工作时教科书级的完成情况，就算是严厉的精英前辈也会对薄荷赞赏有加，不过——\n「嘿嘿，我可是要成为收容骨干的……这次收容条例考试又挂了吗……呜呜……」\n显然，薄荷在实现梦想的路上还缺少一点点好运气。"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_001/BP_NPC_001.BP_NPC_001_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_1019_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_1019_lv6",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_1019_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_1019_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_1019_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_1019_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 2,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "1019",
+        "SubSortLevel": 1,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": 5.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1023": {
+        "SortID": "1",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_023",
+          "SourceString": "白藏",
+          "LocalizedString": "白藏"
+        },
+        "TitleNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1023_title",
+          "SourceString": "禁制机动队四队队长",
+          "LocalizedString": "禁制机动队四队队长"
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1023_des",
+          "SourceString": "被称为「最容易遇见的ETD队长且没有之一」，据说在海特洛市的每个角落都可以发现「悠闲的白藏队长」，就像是会随机刷新的npc一样，一旦靠近就会自动触发：\n「抱歉，正在执行公务，请勿打扰。」\n大概是真的忙于公务，说完台词的白藏队长就会瞬间消失，真是辛苦。",
+          "LocalizedString": "被称为「最容易遇见的ETD队长且没有之一」，据说在海特洛市的每个角落都可以发现「悠闲的白藏队长」，就像是会随机刷新的npc一样，一旦靠近就会自动触发：\n「抱歉，正在执行公务，请勿打扰。」\n大概是真的忙于公务，说完台词的白藏队长就会瞬间消失，真是辛苦。"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/player_036.player_036",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_006/BP_NPC_006.BP_NPC_006_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [
+              "L110052"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_1023_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_1023_lv6",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_1023_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_1023_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_1023_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_1023_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 1,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "1023",
+        "SubSortLevel": 1,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": 25.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1033": {
+        "SortID": "2",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_033",
+          "SourceString": "阿德勒",
+          "LocalizedString": "阿德勒"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1033_des",
+          "SourceString": "明眼人都能看得出的伊波恩古董店真正的顶梁柱，谦逊可靠的老派绅士，据说海特洛市不少异象猎人组织都尝试过私下递橄榄枝，不过直到现在，阿德勒先生仍是伊波恩的管家。\n「您好，欢迎光临伊波恩古董店。」",
+          "LocalizedString": "明眼人都能看得出的伊波恩古董店真正的顶梁柱，谦逊可靠的老派绅士，据说海特洛市不少异象猎人组织都尝试过私下递橄榄枝，不过直到现在，阿德勒先生仍是伊波恩的管家。\n「您好，欢迎光临伊波恩古董店。」"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_010/BP_NPC_010.BP_NPC_010_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [
+              "q110192"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_1033_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_1033_lv6",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_1033_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_1033_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_1033_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_1033_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 1,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "1033",
+        "SubSortLevel": 1,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": 25.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1003": {
+        "SortID": "2",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003",
+          "SourceString": "早雾",
+          "LocalizedString": "早雾"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1003_des",
+          "SourceString": "长有鬼角的白发女孩，身边伴有一只独眼鬼怪，哼着调子奇诡的怪异童谣，却时常因为身高等原因让委托人产生怀疑……呃，为保证您的人身安全，以上这句请勿于本人面前直接表达，谢谢。\n「鬼郎丸！又乱吃东西，快给我吐出来！」\n「小气鬼早雾……哎呦！」",
+          "LocalizedString": "长有鬼角的白发女孩，身边伴有一只独眼鬼怪，哼着调子奇诡的怪异童谣，却时常因为身高等原因让委托人产生怀疑……呃，为保证您的人身安全，以上这句请勿于本人面前直接表达，谢谢。\n「鬼郎丸！又乱吃东西，快给我吐出来！」\n「小气鬼早雾……哎呦！」"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_008/BP_NPC_008.BP_NPC_008_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [
+              "q110137"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_1003_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_1003_lv6",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_1003_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_1003_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_1003_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_1003_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 0,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "1003",
+        "SubSortLevel": 1,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": -30.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1005": {
+        "SortID": "2",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_005",
+          "SourceString": "达芙蒂尔",
+          "LocalizedString": "达芙蒂尔"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1005_des",
+          "SourceString": "谈到达芙蒂尔小姐，多数来访的委托人并无太多印象，「冷漠」，「寡言少语」，「仅仅是和她对视一眼就感觉自己干了什么错事下一秒就要被干掉了啊！」。\n达芙蒂尔本人对于这些言论并不在意，在意这些东西的时间不如用来训练自己。不过，有些不愿付委托费还要胡搅蛮缠的委托人，显然这会成为一次印象深刻的委托。\n「这位亲爱的顾客，你还有什么疑虑吗？」",
+          "LocalizedString": "谈到达芙蒂尔小姐，多数来访的委托人并无太多印象，「冷漠」，「寡言少语」，「仅仅是和她对视一眼就感觉自己干了什么错事下一秒就要被干掉了啊！」。\n达芙蒂尔本人对于这些言论并不在意，在意这些东西的时间不如用来训练自己。不过，有些不愿付委托费还要胡搅蛮缠的委托人，显然这会成为一次印象深刻的委托。\n「这位亲爱的顾客，你还有什么疑虑吗？」"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/player_037.player_037",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_013/BP_NPC_013.BP_NPC_013_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [
+              "q110137"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_1005_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_1005_lv6",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_1005_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_1005_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_1005_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_1005_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 0,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "1005",
+        "SubSortLevel": 1,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": 5.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1021": {
+        "SortID": "2",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_021",
+          "SourceString": "埃德嘉",
+          "LocalizedString": "埃德嘉"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1021_des",
+          "SourceString": "很多时候，埃德嘉的安静只是因为遇到了感兴趣的难题而沉浸其中，更多时候，埃德嘉只是不知道该如何恰当的表现自己。但是在伊波恩——这个怪人聚集地，埃德嘉不会因为少言被规劝，也不会因为沉默被冷落。\n「咳咳，我决定今晚要制定一份柯林斯家族振兴大计。」\n「我不参加。」\n「驳回！早雾你和埃德嘉都要来。」\n「我……」\n「欸——才不要。」\n……也有时候埃德嘉的沉默是因为没有说话的机会。",
+          "LocalizedString": "很多时候，埃德嘉的安静只是因为遇到了感兴趣的难题而沉浸其中，更多时候，埃德嘉只是不知道该如何恰当的表现自己。但是在伊波恩——这个怪人聚集地，埃德嘉不会因为少言被规劝，也不会因为沉默被冷落。\n「咳咳，我决定今晚要制定一份柯林斯家族振兴大计。」\n「我不参加。」\n「驳回！早雾你和埃德嘉都要来。」\n「我……」\n「欸——才不要。」\n……也有时候埃德嘉的沉默是因为没有说话的机会。"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/player_034.player_034",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_012/BP_NPC_012.BP_NPC_012_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [
+              "q110137"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_1021_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_1021_lv6",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_1021_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_1021_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_1021_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_1021_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 1,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "1021",
+        "SubSortLevel": 1,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": -10.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1029": {
+        "SortID": "2",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_029",
+          "SourceString": "浔",
+          "LocalizedString": "浔"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1029_des",
+          "SourceString": "「全桥间地最人美心善的老板，全桥间地最物美价廉的古董店，全桥间地最完美可靠的异象猎人组织，尽在「伊波恩古董店」！！！」\n「浔小姐，这样写你看行吗？」\n「差点意思，就这样吧，下次来伊波恩给你打折。」\n「又是打折……」\n「哦对了，我们可没有折上折。行了，送客。」",
+          "LocalizedString": "「全桥间地最人美心善的老板，全桥间地最物美价廉的古董店，全桥间地最完美可靠的异象猎人组织，尽在「伊波恩古董店」！！！」\n「浔小姐，这样写你看行吗？」\n「差点意思，就这样吧，下次来伊波恩给你打折。」\n「又是打折……」\n「哦对了，我们可没有折上折。行了，送客。」"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/player_035.player_035",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/BP_NPC_009.BP_NPC_009_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_1029_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_1029_lv6",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_1029_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_1029_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_1029_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_1029_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 1,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "1029",
+        "SubSortLevel": 1,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": 15.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1010": {
+        "SortID": "2",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_010",
+          "SourceString": "娜娜莉",
+          "LocalizedString": "娜娜莉"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1010_des",
+          "SourceString": "看起来是会随时掏出一根棒球棍的不良少女，却经常在桥间地的街头扶老奶奶过马路，或者救下被困在树上的小猫，再或者帮助一下被异象困住的倒霉蛋，这在「桥间地最有名望的家族老大」看来，不过是顺手的事情，她仍苦恼于柯林斯的振兴计划。\n「喂，看上面！柯林斯一代目堂堂登……」\n「对不起对不起对不起，砸碎的花盆我会赔的……账单可以不寄到伊波恩吗？」",
+          "LocalizedString": "看起来是会随时掏出一根棒球棍的不良少女，却经常在桥间地的街头扶老奶奶过马路，或者救下被困在树上的小猫，再或者帮助一下被异象困住的倒霉蛋，这在「桥间地最有名望的家族老大」看来，不过是顺手的事情，她仍苦恼于柯林斯的振兴计划。\n「喂，看上面！柯林斯一代目堂堂登……」\n「对不起对不起对不起，砸碎的花盆我会赔的……账单可以不寄到伊波恩吗？」"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010.player_010",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_011/BP_NPC_011.BP_NPC_011_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_1010_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_1010_lv6",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_1010_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_1010_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_1010_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_1010_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 2,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "1010",
+        "SubSortLevel": 1,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": -5.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Tajiduo": {
+        "SortID": "2",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Tajiduo_name",
+          "SourceString": "塔吉多",
+          "LocalizedString": "塔吉多"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Tajiduo_des",
+          "SourceString": "拥有海獭身体的电视机还是长着电视机头的海獭，这是一个问题。但不管是海獭电视机还是电视机海獭，塔吉多就是塔吉多，是伊波恩最可爱的吉祥物和最伟大的维修师！\n「Taygedo，Taygedo。」\n「塔吉多的意思是，它很喜欢你。」",
+          "LocalizedString": "拥有海獭身体的电视机还是长着电视机头的海獭，这是一个问题。但不管是海獭电视机还是电视机海獭，塔吉多就是塔吉多，是伊波恩最可爱的吉祥物和最伟大的维修师！\n「Taygedo，Taygedo。」\n「塔吉多的意思是，它很喜欢你。」"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/tajiduo.tajiduo",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/Anomaly/Anomaly_004/BP_Anomaly_004.BP_Anomaly_004_C",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_Tajiduo_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 7000,
+            "AwardID": "drop_Likeability_Tajiduo_lv6",
+            "Conditions": [
+              "q110192"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 9000,
+            "AwardID": "drop_Likeability_Tajiduo_lv7",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 11000,
+            "AwardID": "drop_Likeability_Tajiduo_lv8",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 13000,
+            "AwardID": "drop_Likeability_Tajiduo_lv9",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 15000,
+            "AwardID": "drop_Likeability_Tajiduo_lv10",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 2,
+        "InitLikeabilityLevelLimit": 10,
+        "MainPlotChatItemID": "None",
+        "GroupId": "None",
+        "SubSortLevel": 0,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": -60.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Aobuli": {
+        "SortID": "3",
+        "AreaId": "1",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "Anomaly_007_Name",
+          "SourceString": "奥布里",
+          "LocalizedString": "奥布里"
+        },
+        "TitleNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Aobuli_item_des2",
+          "SourceString": "钟爱散步遛狗的异象市民",
+          "LocalizedString": "钟爱散步遛狗的异象市民"
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Aobuli_des",
+          "SourceString": "只需要一袋美味大骨头，就可以委托奥布里帮忙遛狗；如果再多加上两袋，奥布里还可以帮您训练犬类，教导基础指令，给众多忙碌的养狗人带来了福音。\n「您……您好，请问您能给我买份美味大骨头吗？」\n「我说要去看电影……什么大骨头！我要榴莲味的！」\n「打扰到您了，他们的话不用在意。当然，如果您确实愿意买一份美味大骨头的话，不胜感激。」",
+          "LocalizedString": "只需要一袋美味大骨头，就可以委托奥布里帮忙遛狗；如果再多加上两袋，奥布里还可以帮您训练犬类，教导基础指令，给众多忙碌的养狗人带来了福音。\n「您……您好，请问您能给我买份美味大骨头吗？」\n「我说要去看电影……什么大骨头！我要榴莲味的！」\n「打扰到您了，他们的话不用在意。当然，如果您确实愿意买一份美味大骨头的话，不胜感激。」"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/Aobuli.Aobuli",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_Aobuli_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 2,
+        "InitLikeabilityLevelLimit": 5,
+        "MainPlotChatItemID": "None",
+        "GroupId": "None",
+        "SubSortLevel": 0,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": 0.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "H_NPC_03404": {
+        "SortID": "3",
+        "AreaId": "1",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_03404_Name",
+          "SourceString": "爱丽丝",
+          "LocalizedString": "爱丽丝"
+        },
+        "TitleNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_03404_Title_Name",
+          "SourceString": "「爱丽丝烘焙坊」店员",
+          "LocalizedString": "「爱丽丝烘焙坊」店员"
+        },
+        "RoleDescText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "H_NPC_03404_des",
+          "SourceString": "作为蛋糕店家夫妇的独生女，从小就非常喜欢蛋糕的爱丽丝有着一个梦想：\n「我想要用蛋糕让有烦恼的大家都开心起来！」\n因此，当你漫步在半角街的街头，有一位热情的少女端着蛋糕来让你试吃时，请接受她的好意，并用微笑作为回礼吧！\n哦对了，请记住，不要乱摸她身边的歧骸菈比，小兔、咳嗯，菈比是会生气的！",
+          "LocalizedString": "作为蛋糕店家夫妇的独生女，从小就非常喜欢蛋糕的爱丽丝有着一个梦想：\n「我想要用蛋糕让有烦恼的大家都开心起来！」\n因此，当你漫步在半角街的街头，有一位热情的少女端着蛋糕来让你试吃时，请接受她的好意，并用微笑作为回礼吧！\n哦对了，请记住，不要乱摸她身边的歧骸菈比，小兔、咳嗯，菈比是会生气的！"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/H_NPC_03404.H_NPC_03404",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 300,
+            "AwardID": "drop_Likeability_general_lv1",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_Likeability_general_lv2",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1000,
+            "AwardID": "drop_Likeability_general_lv3",
+            "Conditions": [],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 3000,
+            "AwardID": "drop_Likeability_general_lv4",
+            "Conditions": [
+              "K110237"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 5000,
+            "AwardID": "drop_Likeability_H_NPC_03404_lv5",
+            "Conditions": [],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 1,
+        "InitLikeabilityLevelLimit": 5,
+        "MainPlotChatItemID": "None",
+        "GroupId": "None",
+        "SubSortLevel": 0,
+        "bIsUnlock": false,
+        "bIsShowMessage": true,
+        "bLockGift": false,
+        "CameraOffset": 0.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Trinity": {
+        "SortID": "3",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "Trinity_name",
+          "SourceString": "异象管理局",
+          "LocalizedString": "异象管理局"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "CultureInvariantString": null
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_024.player_024",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LevelInfo": [],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 0,
+        "InitLikeabilityLevelLimit": 5,
+        "MainPlotChatItemID": "None",
+        "GroupId": "None",
+        "SubSortLevel": 0,
+        "bIsUnlock": false,
+        "bIsShowMessage": false,
+        "bLockGift": false,
+        "CameraOffset": 0.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "H_NPC_014": {
+        "SortID": "3",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_014_Name",
+          "SourceString": "哈尼娅",
+          "LocalizedString": "哈尼娅"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "CultureInvariantString": null
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_012.player_012",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 200,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410002"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410009"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1200,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410016"
+            ],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 0,
+        "InitLikeabilityLevelLimit": 5,
+        "MainPlotChatItemID": "None",
+        "GroupId": "None",
+        "SubSortLevel": 0,
+        "bIsUnlock": false,
+        "bIsShowMessage": false,
+        "bLockGift": false,
+        "CameraOffset": 0.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "H_NPC_1027": {
+        "SortID": "3",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1027_Name",
+          "SourceString": "凛",
+          "LocalizedString": "凛"
+        },
+        "TitleNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1027_Title_Name",
+          "SourceString": "「Star Sign」店员",
+          "LocalizedString": "「Star Sign」店员"
+        },
+        "RoleDescText": {
+          "CultureInvariantString": null
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_012.player_012",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 200,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410002"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410009"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1200,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410016"
+            ],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 0,
+        "InitLikeabilityLevelLimit": 5,
+        "MainPlotChatItemID": "None",
+        "GroupId": "None",
+        "SubSortLevel": 0,
+        "bIsUnlock": false,
+        "bIsShowMessage": false,
+        "bLockGift": false,
+        "CameraOffset": 0.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "H_NPC_01902": {
+        "SortID": "3",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_01902_Name",
+          "SourceString": "速太",
+          "LocalizedString": "速太"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "CultureInvariantString": null
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 200,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410002"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410009"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1200,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410016"
+            ],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 0,
+        "InitLikeabilityLevelLimit": 3,
+        "MainPlotChatItemID": "None",
+        "GroupId": "H_NPC_01902",
+        "SubSortLevel": 2,
+        "bIsUnlock": false,
+        "bIsShowMessage": false,
+        "bLockGift": false,
+        "CameraOffset": 25.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "dai": {
+        "SortID": "3",
+        "AreaId": "None",
+        "RoleNameText": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "dai_name",
+          "SourceString": "袋先生",
+          "LocalizedString": "袋先生"
+        },
+        "TitleNameText": {
+          "CultureInvariantString": null
+        },
+        "RoleDescText": {
+          "CultureInvariantString": null
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/UI/UI/likeability/Icon/npc_dai.npc_dai",
+          "SubPathString": ""
+        },
+        "SoftActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "LevelInfo": [
+          {
+            "MaxValue": 200,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410002"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 600,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410009"
+            ],
+            "ChatItemID": "None"
+          },
+          {
+            "MaxValue": 1200,
+            "AwardID": "drop_monstertest",
+            "Conditions": [
+              "q410016"
+            ],
+            "ChatItemID": "None"
+          }
+        ],
+        "QuestIDs": [],
+        "LikeabilityMapData": null,
+        "UnlockAvatarID": "None",
+        "EpicQuestID": "None",
+        "PlotQuestDatas": [],
+        "AppointQuestIDs": [],
+        "EpicQuestLikeabilityLevel": 0,
+        "InitLikeabilityLevel": 0,
+        "InitLikeabilityLevelLimit": 3,
+        "MainPlotChatItemID": "None",
+        "GroupId": "None",
+        "SubSortLevel": 2,
+        "bIsUnlock": false,
+        "bIsShowMessage": false,
+        "bLockGift": false,
+        "CameraOffset": 25.0,
+        "SoftBornAnim": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

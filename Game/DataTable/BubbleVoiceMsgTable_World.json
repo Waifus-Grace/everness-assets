@@ -1,0 +1,536 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BubbleVoiceMsgTable_World",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'BubbleVoiceMsgDetail'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Danzaburou_CityA_001_Flee_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared_Run.Play_Vo_Anomaly_024_Scared_Run",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_Flee_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_Flee_BB_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_VehFlee_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_HScared.Play_Vo_Anomaly_024_HScared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_VehFlee_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared.Play_Vo_Anomaly_024_Scared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_Jutsu_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_Jutsu_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_HTizzy.Play_Vo_Anomaly_024_HTizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_Jutsu_BB_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_Appear_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_001_VehAppear_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Flee_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Unwilling.Play_Vo_Anomaly_024_Unwilling",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_VehFlee_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared.Play_Vo_Anomaly_024_Scared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Jutsu_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Flee_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_VehFlee_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared.Play_Vo_Anomaly_024_Scared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Flee_BB_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Jutsu_BB_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Jutsu_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Flee_BB_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_VehFlee_BB_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared.Play_Vo_Anomaly_024_Scared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Appear_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_VehAppear_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_002_Jutsu_BB_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_VehFlee_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared.Play_Vo_Anomaly_024_Scared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_Flee_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_Jutsu_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_Flee_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Tizzy.Play_Vo_Anomaly_024_Tizzy",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_VehFlee_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared.Play_Vo_Anomaly_024_Scared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_Flee_BB_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared.Play_Vo_Anomaly_024_Scared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_Jutsu_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Scared.Play_Vo_Anomaly_024_Scared",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_Jutsu_BB_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_Appear_BB": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_003_VehAppear_BB": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Proud.Play_Vo_Anomaly_024_Proud",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_004_Dan_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Praise.Play_Vo_Anomaly_024_Praise",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_004_Flee_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Confident.Play_Vo_Anomaly_024_Confident",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_004_VehFlee_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Praise.Play_Vo_Anomaly_024_Praise",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_004_Jutsu_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Confident.Play_Vo_Anomaly_024_Confident",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_004_Dan_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Praise.Play_Vo_Anomaly_024_Praise",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_004_Appear_BB_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Confident.Play_Vo_Anomaly_024_Confident",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "Danzaburou_CityA_004_Jutsu_BB_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/Anomaly_024/Play_Vo_Anomaly_024_Confident.Play_Vo_Anomaly_024_Confident",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      }
+    }
+  }
+]

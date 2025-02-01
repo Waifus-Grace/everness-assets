@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PropMessageSlot",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PropMessageSlotDataTable'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "ItemType": {
+        "PropMessageSlot": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'BPUI_PropMessageObtainSlot_C'",
+          "ObjectPath": "HT/Content/UI/Blueprints/Message/BPUI_PropMessageObtainSlot.70"
+        }
+      },
+      "VisionAward": {
+        "PropMessageSlot": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'BPUI_VisionAward_C'",
+          "ObjectPath": "HT/Content/UI/Blueprints/Vision/BPUI_VisionAward.349"
+        }
+      }
+    }
+  }
+]

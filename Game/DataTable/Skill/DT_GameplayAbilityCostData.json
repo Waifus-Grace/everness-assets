@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GameplayAbilityCostData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayAbilityCost'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "GA_Mint_UltraSkill": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Female_UltraSkill": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Mint_UltraSkill_New": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Mint016_UltraSkill": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Mint019_UltraSkill": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Mint_UtraSkill_Test1": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Mint_UtraSkill_Test2": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Sagiri_UltraSkill": {
+        "GACost": 60.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Nanally_UltraSkill": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Adler_UltraSkill": {
+        "GACost": 60.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Skia_UltraSkill": {
+        "GACost": 30.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Lacrimosa_UltraSkill": {
+        "GACost": 60.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Fadia_UltraSkill": {
+        "GACost": 60.0,
+        "GAStrengthCost": 0.0
+      }
+    }
+  }
+]

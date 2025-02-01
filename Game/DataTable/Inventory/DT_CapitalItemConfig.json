@@ -1,0 +1,283 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CapitalItemConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StaticItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Fons": {
+        "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Icon_Fonizie.Icon_Fonizie",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Icon_Fonizie.Icon_Fonizie",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Fons_name",
+          "SourceString": "方斯",
+          "LocalizedString": "方斯"
+        },
+        "MaxAmount": 99999999999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Fons_desc",
+          "SourceString": "海特洛市的流通货币。",
+          "LocalizedString": "海特洛市的流通货币。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Fons_usedesc",
+          "SourceString": "有泉水图案的科技感信用卡，作为货币象征经济和文化的源头和起点。",
+          "LocalizedString": "有泉水图案的科技感信用卡，作为货币象征经济和文化的源头和起点。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Annulith": {
+        "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Icon_Ringstone.Icon_Ringstone",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Icon_Ringstone64.Icon_Ringstone64",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Annulith_name",
+          "SourceString": "环石",
+          "LocalizedString": "环石"
+        },
+        "MaxAmount": 999999999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Annulith_desc",
+          "SourceString": "稀有货币",
+          "LocalizedString": "稀有货币"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Annulith_usedesc",
+          "SourceString": "上有神秘环形图腾的天然矿物晶石打造而成，有很珍贵的价值。",
+          "LocalizedString": "上有神秘环形图腾的天然矿物晶石打造而成，有很珍贵的价值。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": true,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Riftcrystal": {
+        "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Riftcrystal_name",
+          "SourceString": "异晶",
+          "LocalizedString": "异晶"
+        },
+        "MaxAmount": 999999999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Riftcrystal_desc",
+          "SourceString": "稀有货币",
+          "LocalizedString": "稀有货币"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Riftcrystal_usedesc",
+          "SourceString": "常落于次元缝隙的晶体异象，折射而生的光径，或是世界间的联结所在。",
+          "LocalizedString": "常落于次元缝隙的晶体异象，折射而生的光径，或是世界间的联结所在。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "Gold": {
+        "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/item_Coin_Beetle.item_Coin_Beetle",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/item_Coin_Beetle_100.item_Coin_Beetle_100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "gold_name",
+          "SourceString": "甲硬币",
+          "LocalizedString": "甲硬币"
+        },
+        "MaxAmount": 999999999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_Gold_usedesc",
+          "SourceString": "养成消耗的基础货币。",
+          "LocalizedString": "养成消耗的基础货币。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "gold_desc",
+          "SourceString": "一种弱小到处在食物链底端的生物类异象，形似一只小小的甲壳虫，为求生存会在城市中拟态成硬币外观与碰撞声响等待被人捡起，在流通中寻找更好的生机。",
+          "LocalizedString": "一种弱小到处在食物链底端的生物类异象，形似一只小小的甲壳虫，为求生存会在城市中拟态成硬币外观与碰撞声响等待被人捡起，在流通中寻找更好的生机。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "cityshopcoin": {
+        "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/cityshop/YH_UI_ICON_Vcoin.YH_UI_ICON_Vcoin",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI/cityshop/YH_UI_ICON_Vcoin.YH_UI_ICON_Vcoin",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "dsdcoin_name",
+          "SourceString": "DSD潮玩店积分",
+          "LocalizedString": "DSD潮玩店积分"
+        },
+        "MaxAmount": 999999999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "DSDvipcard_usedesc",
+          "SourceString": "DSD潮玩店的vip卡，购物可以获得DSD潮玩店积分",
+          "LocalizedString": "DSD潮玩店的vip卡，购物可以获得DSD潮玩店积分"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      }
+    }
+  }
+]

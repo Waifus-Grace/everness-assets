@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VisionReceiveAward",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'VisionReceiveAwardData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_1",
+          "SourceString": "完成<Orange>3</>个异象委托",
+          "LocalizedString": "完成<Orange>3</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": null,
+        "AwardDropID": "drop_VisionReceiveAwardRegion1"
+      },
+      "NewRow_0": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_2",
+          "SourceString": "完成<Orange>6</>个异象委托",
+          "LocalizedString": "完成<Orange>6</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": null,
+        "AwardDropID": "drop_VisionReceiveAwardRegion2"
+      },
+      "NewRow_3": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_3",
+          "SourceString": "完成<Orange>9</>个异象委托",
+          "LocalizedString": "完成<Orange>9</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": null,
+        "AwardDropID": "drop_VisionReceiveAwardRegion3"
+      },
+      "NewRow_4": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_4",
+          "SourceString": "完成<Orange>12</>个异象委托",
+          "LocalizedString": "完成<Orange>12</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": null,
+        "AwardDropID": "drop_VisionReceiveAwardRegion4"
+      }
+    }
+  }
+]

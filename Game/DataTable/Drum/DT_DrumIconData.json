@@ -1,0 +1,268 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DrumIconData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'DrumIconData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "EDMTT_Playlist": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "7F69AA8C48E115E2ACC48486D9F58337",
+          "SourceString": "播放列表",
+          "LocalizedString": "播放列表"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/BPUI_DrumPlaylistModule.BPUI_DrumPlaylistModule_C",
+          "SubPathString": ""
+        }
+      },
+      "EDMTT_Archives": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "D98533554AEBF5516721A098203C30C4",
+          "SourceString": "存档",
+          "LocalizedString": "存档"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/BPUI_DrumSaveModule.BPUI_DrumSaveModule_C",
+          "SubPathString": ""
+        }
+      },
+      "EDMTT_Search": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "D4E811344CC91C867C14B1982909DB50",
+          "SourceString": "搜索",
+          "LocalizedString": "搜索"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/BPUI_DrumSearchModule.BPUI_DrumSearchModule_C",
+          "SubPathString": ""
+        }
+      },
+      "EDMTT_Favorites": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "67C8237C4705070E0EFAB89ECF65EC20",
+          "SourceString": "收藏",
+          "LocalizedString": "收藏"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/BPUI_DrumCollectModule.BPUI_DrumCollectModule_C",
+          "SubPathString": ""
+        }
+      },
+      "Clear": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "98B209974F9D88EED53AC79C96F187C6",
+          "SourceString": "清空",
+          "LocalizedString": "清空"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Share": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "CF57E7C44F2EE6675EC67CA71A80373C",
+          "SourceString": "分享",
+          "LocalizedString": "分享"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SaveAs": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "A515415D4DC42FA6A9259EBC88A460E8",
+          "SourceString": "另存为",
+          "LocalizedString": "另存为"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Import": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "B9668E69438104B3A11AF6B5204FCD99",
+          "SourceString": "导入",
+          "LocalizedString": "导入"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EDSLT_Easy": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "E9CC2C21434356F4875641A5F00770A7",
+          "SourceString": "容易",
+          "LocalizedString": "容易"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EDSLT_Normal": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "FA3E90784B135726E13093BFAD9AD7D7",
+          "SourceString": "正常",
+          "LocalizedString": "正常"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EDSLT_Hard": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "F01DDA0145AC41CBD48C1DA4F509829F",
+          "SourceString": "困难",
+          "LocalizedString": "困难"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EDSLT_Hardest": {
+        "TabName": {
+          "Namespace": "",
+          "Key": "EB910CD54F5792C48D8875831FF654D7",
+          "SourceString": "最难",
+          "LocalizedString": "最难"
+        },
+        "NormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "ModuleUIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

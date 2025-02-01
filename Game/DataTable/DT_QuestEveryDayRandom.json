@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestEveryDayRandom",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'QuestData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "ER10001": {
+        "QuestId": "ER10001",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "33BB93F845718922172D41A166C915B9",
+          "SourceString": "提升1次弧盘等级",
+          "LocalizedString": "提升1次弧盘等级"
+        },
+        "ChapterID": "None",
+        "DisplayMapName": "Test1",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "ObjectivesInfo": [
+          null
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "UIParamString": "",
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "InitLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        }
+      }
+    }
+  }
+]

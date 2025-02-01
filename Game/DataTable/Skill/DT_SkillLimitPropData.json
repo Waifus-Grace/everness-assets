@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SkillLimitPropData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LimitPropertyData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "LimitTag": {
+          "TagName": "State.Property.ImmuneDamage"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantInput"
+      },
+      "2": {
+        "LimitTag": {
+          "TagName": "State.Property.ImmuneAniState"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::OpenHalfHit"
+      },
+      "3": {
+        "LimitTag": {
+          "TagName": "State.Property.IgnoreCantBeDamage"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantBeDamage"
+      },
+      "4": {
+        "LimitTag": {
+          "TagName": "State.Property.CantMove"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantUseMelee"
+      },
+      "5": {
+        "LimitTag": {
+          "TagName": "State.Property.CantJump"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantChangePlayer"
+      },
+      "6": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseMelee"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantUseUltSkill"
+      },
+      "7": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseSkill"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::Min"
+      },
+      "NewRow": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseSkill.HiddenUI"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::IgnoreSuperArmor"
+      },
+      "NewRow_0": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseSkill.ForbidUI"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantHideUISkill"
+      },
+      "NewRow_3": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseSkill.ForbidSpecialUI"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantForbidUISkill"
+      },
+      "8": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseEvade"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantBeSelected"
+      },
+      "9": {
+        "LimitTag": {
+          "TagName": "State.Property.CantInput"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantReduceHP"
+      },
+      "10": {
+        "LimitTag": {
+          "TagName": "State.Property.CantVines"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantSecondJump"
+      },
+      "11": {
+        "LimitTag": {
+          "TagName": "State.Property.CantSurmount"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantGliding"
+      },
+      "12": {
+        "LimitTag": {
+          "TagName": "State.Property.CantBeSelect"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::IgnoreCantBeDamage"
+      },
+      "13": {
+        "LimitTag": {
+          "TagName": "State.Property.CantSecondJump"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantJump"
+      },
+      "14": {
+        "LimitTag": {
+          "TagName": "State.Property.IgnoreDownDamage"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantMoveInTraction"
+      },
+      "15": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseUltSkill"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantUseSkill"
+      },
+      "NewRow_2": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseUltSkill.HiddenUI"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantForbidSkillSpecialUI"
+      },
+      "NewRow_1": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseUltSkill.ForbidUI"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantHideUIUltraSkill"
+      },
+      "NewRow_4": {
+        "LimitTag": {
+          "TagName": "State.Property.CantUseUltSkill.ForbidSpecialUI"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantForbidUIUltraSkill"
+      },
+      "16": {
+        "LimitTag": {
+          "TagName": "State.Property.CantCalcFallDamage"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantMoveInTraction"
+      },
+      "17": {
+        "LimitTag": {
+          "TagName": "State.Property.CantRun"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantCalcFallDamage"
+      },
+      "18": {
+        "LimitTag": {
+          "TagName": "State.Property.IgnoreSuperArmor"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantSprint"
+      },
+      "19": {
+        "LimitTag": {
+          "TagName": "State.Property.CantGliding"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantVines"
+      },
+      "20": {
+        "LimitTag": {
+          "TagName": "State.Property.CantChangePlayer"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantUseEvadeSkill"
+      },
+      "21": {
+        "LimitTag": {
+          "TagName": "State.Property.CantDynamicGravity"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantSurmount"
+      }
+    }
+  }
+]

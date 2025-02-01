@@ -1,0 +1,941 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapPointDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapPointData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Shop_Regalia_001": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.90630794,
+            "W": 0.4226179,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -126959.234,
+            "Y": 189623.39,
+            "Z": 6612.1587
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "BigWorldVisionExploreTest": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -94823.0,
+            "Y": 165376.0,
+            "Z": 4127.992
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "BigWorld_To_FilmOrbit": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -79546.35,
+            "Y": 158547.2,
+            "Z": 3208.3738
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "BigWorld_To_FilmOrbit_World": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -79546.35,
+            "Y": 158547.2,
+            "Z": 3208.3738
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "FilmOrbit_To_BigWorld": {
+        "Comment": "",
+        "BelongsLevel": "DLC_FilmOrbit_map_WP",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 18319.0,
+            "Y": -3250.0,
+            "Z": 430.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "BigWorld_To_Hotel": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -36488.316,
+            "Y": 147138.14,
+            "Z": 3299.4182
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_To_BigWorld": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 2846.7605,
+            "Y": 30.697716,
+            "Z": 85.0928
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "apartment_perfumerHome_to_1L": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -116540.66,
+            "Y": 170623.7,
+            "Z": 9917.441
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "apartment_1L_to_perfumerHome": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -116523.44,
+            "Y": 170596.03,
+            "Z": 6720.763
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "apartment_1L_Exit": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -118779.2,
+            "Y": 172239.58,
+            "Z": 6709.099
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_1_1_exit": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 22863.758,
+            "Y": -19151.281,
+            "Z": 53.32114
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_1_1_enter_1": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 23787.082,
+            "Y": -18920.637,
+            "Z": 53.321136
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_1_1_enter_2": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 23787.082,
+            "Y": -19354.498,
+            "Z": 53.321144
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_1_2_1": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 23787.082,
+            "Y": -18908.943,
+            "Z": 574.80054
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_1_2_2_exit": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 23787.082,
+            "Y": -19327.732,
+            "Z": 1065.1462
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_1_2_2_enter_1": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 22941.547,
+            "Y": -18578.63,
+            "Z": 1065.1462
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_1_2_2_enter_2": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 22941.547,
+            "Y": -19638.508,
+            "Z": 1065.1462
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_2_1_exit": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 21388.852,
+            "Y": -18757.02,
+            "Z": 53.321182
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_2_1_enter": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 20409.834,
+            "Y": -19156.879,
+            "Z": 53.321167
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_2_2_1_exit": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 20409.482,
+            "Y": -19154.256,
+            "Z": 545.4997
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_2_2_1_enter": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 21339.646,
+            "Y": -18453.914,
+            "Z": 545.4997
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTArea_test_wzy_2_2_2_exit": {
+        "Comment": "",
+        "BelongsLevel": "testwyan",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 20419.26,
+            "Y": -19156.0,
+            "Z": 1035.1102
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_area_B2_entrance": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -3374.4607,
+            "Y": 5.29202,
+            "Z": 433.15698
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_area_B2_exit": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -4094.5862,
+            "Y": -2213.7063,
+            "Z": -5507.7285
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_area_B3_entrance": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -220.6639,
+            "Y": 6826.1807,
+            "Z": -5652.4424
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_area_B3_exit": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -1131.8684,
+            "Y": 8652.36,
+            "Z": -5661.785
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_area_L1_exit": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 2846.7605,
+            "Y": 30.697716,
+            "Z": 85.0928
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_area_L6_exit": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -4104.6406,
+            "Y": -2231.0574,
+            "Z": 5187.266
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_area_L10_exit": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -4099.1357,
+            "Y": -2183.0505,
+            "Z": 12227.415
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Hotel_area_L_entrance": {
+        "Comment": "",
+        "BelongsLevel": "DLC_hotel",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -285.19052,
+            "Y": 2233.8167,
+            "Z": 87.7247
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTRoomVolume_TojiHome1F": {
+        "Comment": "",
+        "BelongsLevel": "HTRoomVolume_TojiHome1F",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -118781.1,
+            "Y": 172240.34,
+            "Z": 6644.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTRoomVolume_TojiHome2F": {
+        "Comment": "",
+        "BelongsLevel": "HTRoomVolume_TojiHome2F",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -116580.03,
+            "Y": 170437.1,
+            "Z": 9846.06
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "HTRoomVolume_TojiHome3F": {
+        "Comment": "",
+        "BelongsLevel": "HTRoomVolume_TojiHome3F",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -116580.03,
+            "Y": 170437.1,
+            "Z": 11546.646
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "FilmOrbit_World_To_BigWorld": {
+        "Comment": "",
+        "BelongsLevel": "FilmOrbit_map_WP_World",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 18319.0,
+            "Y": -3250.0,
+            "Z": 430.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "DLC_Hockshop": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -112436.414,
+            "Y": 129628.36,
+            "Z": 12382.714
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Shop_Core_1": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -133215.36,
+            "Y": 176633.61,
+            "Z": 6623.033
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      },
+      "Shop_Core_0": {
+        "Comment": "",
+        "BelongsLevel": "XL_map_bigworld_test",
+        "PointTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -130155.48,
+            "Y": 183908.22,
+            "Z": 6626.701
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      }
+    }
+  }
+]

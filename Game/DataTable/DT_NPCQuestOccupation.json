@@ -1,0 +1,204 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NPCQuestOccupation",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'NPCQuestOccupation'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NPC_001": {
+        "LockQuests": []
+      },
+      "NPC_002": {
+        "LockQuests": []
+      },
+      "NPC_003": {
+        "LockQuests": []
+      },
+      "NPC_004": {
+        "LockQuests": []
+      },
+      "NPC_005": {
+        "LockQuests": []
+      },
+      "NPC_006": {
+        "LockQuests": []
+      },
+      "NPC_007": {
+        "LockQuests": []
+      },
+      "NPC_008": {
+        "LockQuests": [
+          {
+            "BeginQuest": "q110040",
+            "EndQuest": "q110087"
+          },
+          {
+            "BeginQuest": "q110106",
+            "EndQuest": "q110137"
+          },
+          {
+            "BeginQuest": "q110151",
+            "EndQuest": "q110192"
+          },
+          {
+            "BeginQuest": "S110409",
+            "EndQuest": "S110412"
+          }
+        ]
+      },
+      "NPC_009": {
+        "LockQuests": [
+          {
+            "BeginQuest": "q110040",
+            "EndQuest": "q110087"
+          },
+          {
+            "BeginQuest": "q110106",
+            "EndQuest": "q110107"
+          },
+          {
+            "BeginQuest": "q110119",
+            "EndQuest": "q110120_1"
+          },
+          {
+            "BeginQuest": "q110136",
+            "EndQuest": "q110136"
+          },
+          {
+            "BeginQuest": "q110151",
+            "EndQuest": "q110192"
+          }
+        ]
+      },
+      "NPC_010": {
+        "LockQuests": [
+          {
+            "BeginQuest": "q110040",
+            "EndQuest": "q110087"
+          },
+          {
+            "BeginQuest": "L110101",
+            "EndQuest": "L110139"
+          },
+          {
+            "BeginQuest": "q110106",
+            "EndQuest": "q110107"
+          },
+          {
+            "BeginQuest": "q110101",
+            "EndQuest": "q110105"
+          },
+          {
+            "BeginQuest": "q110119",
+            "EndQuest": "q110120_1"
+          },
+          {
+            "BeginQuest": "q110136",
+            "EndQuest": "q110136"
+          },
+          {
+            "BeginQuest": "L110001",
+            "EndQuest": "L110003"
+          },
+          {
+            "BeginQuest": "q110150",
+            "EndQuest": "q110192"
+          }
+        ]
+      },
+      "NPC_011": {
+        "LockQuests": [
+          {
+            "BeginQuest": "q110040",
+            "EndQuest": "q110087"
+          },
+          {
+            "BeginQuest": "q110106",
+            "EndQuest": "q110137"
+          },
+          {
+            "BeginQuest": "q110151",
+            "EndQuest": "q110192"
+          }
+        ]
+      },
+      "NPC_012": {
+        "LockQuests": [
+          {
+            "BeginQuest": "q110040",
+            "EndQuest": "q110087"
+          },
+          {
+            "BeginQuest": "q110106",
+            "EndQuest": "q110137"
+          },
+          {
+            "BeginQuest": "q110150",
+            "EndQuest": "q110192"
+          }
+        ]
+      },
+      "NPC_013": {
+        "LockQuests": [
+          {
+            "BeginQuest": "q110040",
+            "EndQuest": "q110087"
+          },
+          {
+            "BeginQuest": "q110131",
+            "EndQuest": "q110134"
+          },
+          {
+            "BeginQuest": "q110150",
+            "EndQuest": "q110192"
+          }
+        ]
+      },
+      "NPC_014": {
+        "LockQuests": []
+      },
+      "NPC_015": {
+        "LockQuests": [
+          {
+            "BeginQuest": "q110114",
+            "EndQuest": "q110117"
+          }
+        ]
+      },
+      "Anomaly_004": {
+        "LockQuests": [
+          {
+            "BeginQuest": "q110040",
+            "EndQuest": "q110087"
+          },
+          {
+            "BeginQuest": "L110101",
+            "EndQuest": "L110139"
+          },
+          {
+            "BeginQuest": "q110101",
+            "EndQuest": "q110137"
+          },
+          {
+            "BeginQuest": "q110150",
+            "EndQuest": "q110192"
+          }
+        ]
+      },
+      "NPC_06001": {
+        "LockQuests": [
+          {
+            "BeginQuest": "S110513",
+            "EndQuest": "S110517"
+          }
+        ]
+      }
+    }
+  }
+]

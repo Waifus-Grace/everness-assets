@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_IntroduceMsg_World",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_IntroduceMsg_World",
+      "KeysToEntries": {
+        "PObⅡS-0026_Tip_001_Player": "这个地方……还是小心为妙。",
+        "PObⅡS-0026_Tip_002_Player": "歧骸的气息……",
+        "PObⅡS-0026_Tip_003_Player": "那扇红门可能就是关键。",
+        "PObⅡS-0026_Tip_004_Player": "「校园」观光该结束了。",
+        "PObⅡS-0026_Tip_005_Player": "委托所说的异象，看来就在这附近。",
+        "PObⅡS-0026_Tip_006_Player": "紊乱的气息越来越强烈了。",
+        "PObⅡS-0026_Tip_007_Player": "新的空间？",
+        "Danzaburou_CityA_001_Tip_01": "（呜哇，对、对不起！）",
+        "Danzaburou_CityA_002_Tip_01": "（住手！我认输了……）",
+        "Danzaburou_CityA_003_Tip_01": "（可恶，已经没力气再分身了……）",
+        "Danzaburou_CityA_004_Tip_01": "（呜哇……点，点到为止！）",
+        "Danzaburou_CityA_004_Tip_02_Player": "漫画书里全是落叶，是什么恶作剧吗？",
+        "Danzaburou_CityA_004_Tip_03_Player": "好多奇怪的爪印，把骑士的名字都盖住了。",
+        "Danzaburou_CityA_004_Tip_04_Player": "武侠小说，忍者漫画，勇士大战恶龙，甚至还有一本猎人指南？好丰富的阅读量。",
+        "Danzaburou_CityA_004_Tip_05": "（好眼力！）",
+        "Danzaburou_CityA_Leaf": "<!>这些树叶有歧骸的气息……那家伙应该就在附近。",
+        "Danzaburou_CityA_Food": "<!>食物上有小型动物的牙印，还有……歧骸的气息。",
+        "City_A_Mobydisk_Tip_01": "主角：是少女漫呢……该说真不愧是《月刊罗曼史》吗？",
+        "Mon_021_TrickWin_01": "（你的光辉还需打磨，更多地燃烧自己之后再来吧！）",
+        "Mon_021_TrickWin_02": "（贫弱贫弱！连站稳都做不到的话就不用再比了！）",
+        "PObⅠS-7605_Tip_001_Player": "连续的爆炸，那团<blue>诡异的时空波动</>，似乎与<blue>影片的奇点</>有着某种不可名状的联系……",
+        "PObⅠS-7605_Tip_002_Player": "再 <blue>回去调查下放映机</>吧，是时候「落幕」了。",
+        "Projector_Time_01_Tip_001_Player": "空间向前延展，幽暗的走廊逐渐拉长，周围的环境透着一股沉寂的老旧气息。",
+        "Projector_Time_01_Tip_002_Player": "放映机让破旧的楼梯「还原」了，它好像在「引导」着我……去楼上看看吧。",
+        "Projector_Time_01_Tip_003_Player": "放映机启动后似乎没有反应……等等，如果「开启」会改变环境，那么「关闭」是否会有同样的效果呢？",
+        "Projector_TIme_01_Tip_004_Player": "安静的房间里传来了一阵压抑沉重的声音，这声音并非来自楼下，而是「楼上」的深处……",
+        "Peekaboo_01_Notes_1": "皱巴巴的小纸条",
+        "Peekaboo_01_Notes_2": "ABDCB",
+        "Peekaboo_01_Notes_3": "用完钥匙记得放回后门架子上的花盆里！！！",
+        "Peekaboo_01_Notes_4": "不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？不留下来吗？你、说、过、要、陪、我、们、玩、的、留下来。留下来。留下来。留下来。留下来。留下来留下来留下来留下来留下来不准走不许走没法走",
+        "Peekaboo_01_Notes_5": "我们说好要一起玩的吧？一二三、木头人！我们是木头人噢！放学后来玩一二三、木头人吧？我们是你的木头人朋友噢！我们是你的朋友噢！我们是最好的玩伴噢！玩伴就要永远一起玩吧？一起玩吧？一起玩一起玩一起玩一起玩一起玩",
+        "Projector_Time_01_Tip_000_Player": "放映机发出低沉的嗡鸣，空气里弥漫着一股扭曲、诡异的气息，██缓缓地说道：电影，开场了……",
+        "Projector_Time_01_Tip_005_Player": "时间的奇点里，放着另一台放映机？或许可以通过它，找到前往「关闭房间」的线索。",
+        "Projector_Time_01_Tip_006_Player": "一个书架……？不对，它散发着阴冷的气息。",
+        "Projector_Time_01_Tip_007_Player": "又一个放映机……周围的空气似乎变得凝滞了……",
+        "Projector_Time_01_Tip_008_Player": "闪烁的光线中，影片渐渐变得清晰，齿轮的转动声中混杂着撕裂感……",
+        "Projector_Time_01_Tip_009_Player": "「这份从未现世的影像，因为你的参演，呈现了比以往更鲜活的片段，这是██最后的光景。」——Final Shot,Scene██,Shot██",
+        "Peekaboo_01_Notes_6": "教职工室钥匙神秘失窃！凶手尚未自首！走廊上鬼鬼祟祟的家伙都要小心了！有我在这里，谁敢偷走期中考试的考卷？\r\n——你们愤怒的学生会长",
+        "Peekaboo_01_Notes_7": "你要走了吗？不要走不准走不许走没法走"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

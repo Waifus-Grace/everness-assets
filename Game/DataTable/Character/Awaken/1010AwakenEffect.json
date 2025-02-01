@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1010AwakenEffect",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1010": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star1_name",
+              "SourceString": "帮派初建成",
+              "LocalizedString": "帮派初建成"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_1.1009_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star1_des",
+              "SourceString": "在「一代目的权柄」状态下，队伍中任意角色每对敌人造成<NumGreen>1</>次异能环合伤害，娜娜莉将额外对单体敌人施加<NumGreen>1</>次联袂邀击，造成<NumGreen>90%</>*攻击力的灵系异能伤害，该效果每<NumGreen>2</>秒触发<NumGreen>1</>次。",
+              "LocalizedString": "在「一代目的权柄」状态下，队伍中任意角色每对敌人造成<NumGreen>1</>次异能环合伤害，娜娜莉将额外对单体敌人施加<NumGreen>1</>次联袂邀击，造成<NumGreen>90%</>*攻击力的灵系异能伤害，该效果每<NumGreen>2</>秒触发<NumGreen>1</>次。"
+            }
+          },
+          {
+            "EffectID": "Effect2",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star2_name",
+              "SourceString": "第二位成员",
+              "LocalizedString": "第二位成员"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star2_des",
+              "SourceString": "「副手」的持续时间延长<NumGreen>6</>秒。",
+              "LocalizedString": "「副手」的持续时间延长<NumGreen>6</>秒。"
+            }
+          },
+          {
+            "EffectID": "Effect3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star3_name",
+              "SourceString": "要叫大姐头",
+              "LocalizedString": "要叫大姐头"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_3.1009_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star3_des",
+              "SourceString": "在「一代目的权柄」状态下，娜娜莉对敌人造成伤害时，将额外对单体敌人施加<NumGreen>1</>次联袂邀击，造成<NumGreen>22.5%</>*攻击力的灵系异能伤害，该效果<NumGreen>0.5</>每秒触发<NumGreen>1</>次。",
+              "LocalizedString": "在「一代目的权柄」状态下，娜娜莉对敌人造成伤害时，将额外对单体敌人施加<NumGreen>1</>次联袂邀击，造成<NumGreen>22.5%</>*攻击力的灵系异能伤害，该效果<NumGreen>0.5</>每秒触发<NumGreen>1</>次。"
+            }
+          },
+          {
+            "EffectID": "Effect4",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star4_name",
+              "SourceString": "不是闯祸精",
+              "LocalizedString": "不是闯祸精"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_4.1009_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star4_des",
+              "SourceString": "「副手」造成的伤害提升<NumGreen>30%</>。",
+              "LocalizedString": "「副手」造成的伤害提升<NumGreen>30%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect5",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star5_name",
+              "SourceString": "小弟遍天下",
+              "LocalizedString": "小弟遍天下"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_5.1009_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star5_des",
+              "SourceString": "每造成<NumGreen>1</>次联袂邀击，都使得娜娜莉自身攻击力提高<NumGreen>2%</>，至多可提升<NumGreen>20%</>，该效果将在娜娜莉退场或脱离战斗状态后消失。",
+              "LocalizedString": "每造成<NumGreen>1</>次联袂邀击，都使得娜娜莉自身攻击力提高<NumGreen>2%</>，至多可提升<NumGreen>20%</>，该效果将在娜娜莉退场或脱离战斗状态后消失。"
+            }
+          },
+          {
+            "EffectID": "Effect6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star6_name",
+              "SourceString": "因为是家人",
+              "LocalizedString": "因为是家人"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_6.1009_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_star6_des",
+              "SourceString": "「一代目的权柄」状态的持续时间延长至<NumGreen>15</>秒，非战斗状态下额外延长至<NumGreen>20</>秒。",
+              "LocalizedString": "「一代目的权柄」状态的持续时间延长至<NumGreen>15</>秒，非战斗状态下额外延长至<NumGreen>20</>秒。"
+            }
+          },
+          {
+            "EffectID": "resonance_3",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_starExtra1_name",
+              "SourceString": "「柯林斯秘辛·上」",
+              "LocalizedString": "「柯林斯秘辛·上」"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null,
+              null,
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_starExtra1_des",
+              "SourceString": "「柯林斯秘传技法」、「柯林斯·黑喵术」和「柯林斯·终极术」的技能等级提升<NumGreen>2</>级。",
+              "LocalizedString": "「柯林斯秘传技法」、「柯林斯·黑喵术」和「柯林斯·终极术」的技能等级提升<NumGreen>2</>级。"
+            }
+          },
+          {
+            "EffectID": "resonance_6",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_starExtra2_name",
+              "SourceString": "「柯林斯秘辛·下」",
+              "LocalizedString": "「柯林斯秘辛·下」"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              null
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_starExtra2_des",
+              "SourceString": "「副手」对远距离目标造成伤害额外提升<NumGreen>15%</>。",
+              "LocalizedString": "「副手」对远距离目标造成伤害额外提升<NumGreen>15%</>。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

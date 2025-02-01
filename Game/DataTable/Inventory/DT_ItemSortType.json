@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemSortType",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ItemSortTypeData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Quality": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_07",
+          "SourceString": "品质",
+          "LocalizedString": "品质"
+        },
+        "MapID": "None"
+      },
+      "Level": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "bag_08",
+          "SourceString": "等级",
+          "LocalizedString": "等级"
+        },
+        "MapID": "None"
+      }
+    }
+  }
+]

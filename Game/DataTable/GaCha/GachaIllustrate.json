@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GachaIllustrate",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LotteryPortraitData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1010": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon2.YH_UI_banshu10lian_icon2",
+          "SubPathString": ""
+        }
+      },
+      "1019": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon4.YH_UI_banshu10lian_icon4",
+          "SubPathString": ""
+        }
+      },
+      "1003": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon1.YH_UI_banshu10lian_icon1",
+          "SubPathString": ""
+        }
+      },
+      "fork_banshu01": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon8.YH_UI_banshu10lian_icon8",
+          "SubPathString": ""
+        }
+      },
+      "fork_banshu02": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon9.YH_UI_banshu10lian_icon9",
+          "SubPathString": ""
+        }
+      },
+      "fork_banshu03": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon10.YH_UI_banshu10lian_icon10",
+          "SubPathString": ""
+        }
+      },
+      "fork_banshu04": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon11.YH_UI_banshu10lian_icon11",
+          "SubPathString": ""
+        }
+      },
+      "fork_banshu05": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon12.YH_UI_banshu10lian_icon12",
+          "SubPathString": ""
+        }
+      },
+      "fork_banshu06": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon8.YH_UI_banshu10lian_icon8",
+          "SubPathString": ""
+        }
+      },
+      "fork_banshu07": {
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_UI_banshu10lian_icon8.YH_UI_banshu10lian_icon8",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

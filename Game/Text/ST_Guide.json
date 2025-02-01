@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Guide",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_Guide",
+      "KeysToEntries": {
+        "Guide20001": "当头像出现律动时，<img id=\"1001\"/>切换到该角色进行「入轨攻击」",
+        "Guide10008": "攻击命中敌人会累计敌人的「倾陷值」，「倾陷值」累积满时敌人会进入「倾陷状态」",
+        "Guide10007": "攻击可以积攒「环合系数」",
+        "Guide10006": "新成员加入队伍，按<img id=\"1001\"/>切换角色战斗",
+        "Guide10009": "「极限反击」命中后可以快速积攒目标的「倾陷值」",
+        "Guide20002_1": "红光出现的瞬间，使用<img id=\"1001\"/>「闪避」可触发「极限闪避」",
+        "Guide20002_2": "触发「极限闪避」后一段时间内，使用<img id=\"1001\"/>可以触发「极限反击」",
+        "Guide20001_2": "「入轨攻击」命中后会触发「异能环合」",
+        "Guide10005_1": "按住<img id=\"1001\"/>后可以显示光标，用来点击主界面按钮",
+        "Guide10005_2": "按住<img id=\"1001\"/>可以打开轮盘，以打开相关功能",
+        "Guide10011_3": "查看已拥有的弧盘",
+        "Guide10011_2": "切换到弧盘菜单查看弧盘",
+        "Guide10011_4": "装备当前选择的弧盘",
+        "Guide10011": "按<img id=\"1001\"/>打开角色界面"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

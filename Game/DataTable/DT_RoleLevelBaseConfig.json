@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RoleLevelBaseConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'RoleLevelBaseConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "InitMaxWorldLevel": 0,
+        "RoleLevelLimit": 60,
+        "ConversionCapitalID": "Gold",
+        "ConversionRatio": 10.0,
+        "MinRestorWorldLevel": 5,
+        "AjustWorldLevelCD": 86400
+      }
+    }
+  }
+]

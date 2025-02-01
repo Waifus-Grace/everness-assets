@@ -1,0 +1,169 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestTypeDetailData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'QuestTypeDetailData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "EQT_EVERYDAY": {
+        "TypeImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_richang.UI_mission_richang",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_zhixian04.UI_mission_zhixian04",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "quest_EQT",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        },
+        "bCanTrack": false,
+        "bShowInQuestPanel": false
+      },
+      "EQT_LEGEND": {
+        "TypeImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_haogandu.UI_mission_haogandu",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_haogandu.UI_mission_haogandu",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "quest_LegendQuest",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        },
+        "bCanTrack": true,
+        "bShowInQuestPanel": true
+      },
+      "EOT_MULT_SHOP": {
+        "TypeImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_shangdian.UI_mission_shangdian",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_zhixian02.UI_mission_zhixian02",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "quest_MultShop",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        },
+        "bCanTrack": true,
+        "bShowInQuestPanel": true
+      },
+      "EQT_LIKING": {
+        "TypeImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_haogandu.UI_mission_haogandu",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_zhixian03.UI_mission_zhixian03",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "quest_LikingQuest",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        },
+        "bCanTrack": true,
+        "bShowInQuestPanel": true
+      },
+      "EQT_SIDE": {
+        "TypeImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_shangdian.UI_mission_shangdian",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_zhixian02.UI_mission_zhixian02",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "quest_SideQuest",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        },
+        "bCanTrack": true,
+        "bShowInQuestPanel": true
+      },
+      "EQT_MAIN": {
+        "TypeImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_zhuxian.UI_mission_zhuxian",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "/Game/UI/UI/Quest/QuestMain/mission/UI_mission_zhixian.UI_mission_zhixian",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "quest_MainQuest",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        },
+        "bCanTrack": true,
+        "bShowInQuestPanel": true
+      },
+      "EQT_EVERYDAY_RANDOM": {
+        "TypeImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "CultureInvariantString": null
+        },
+        "bCanTrack": false,
+        "bShowInQuestPanel": true
+      },
+      "EQT_ADVENTURE_CHAPTER": {
+        "TypeImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "CultureInvariantString": null
+        },
+        "bCanTrack": false,
+        "bShowInQuestPanel": false
+      },
+      "EQT_ADVENTURE_CHAPTER_REWARD": {
+        "TypeImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TypeTrackImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TypeText": {
+          "CultureInvariantString": null
+        },
+        "bCanTrack": false,
+        "bShowInQuestPanel": false
+      }
+    }
+  }
+]

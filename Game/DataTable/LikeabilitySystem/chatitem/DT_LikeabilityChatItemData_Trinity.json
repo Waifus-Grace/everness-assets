@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LikeabilityChatItemData_Trinity",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LikeabilityChatItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Trinity_a_1": {
+        "ChatID": "Trinity_a",
+        "RoleId": "Trinity",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": true,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "Namespace": "",
+          "Key": "C7B7F1294E73BDE20CEA0286B9DB3AF2",
+          "SourceString": "通知市民！在桥间地出现了「苦蛋糕」，喜欢吃甜食的市民请多多注意。",
+          "LocalizedString": "通知市民！在桥间地出现了「苦蛋糕」，喜欢吃甜食的市民请多多注意。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "Trinity_a_2",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::Notice"
+      },
+      "Trinity_a_2": {
+        "ChatID": "Trinity_a",
+        "RoleId": "Trinity",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": true,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": true,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "Namespace": "",
+          "Key": "C7B7F1294E73BDE20CEA0286B9DB3AF2",
+          "SourceString": "通知市民！在桥间地出现了「苦蛋糕」，喜欢吃甜食的市民请多多注意。",
+          "LocalizedString": "通知市民！在桥间地出现了「苦蛋糕」，喜欢吃甜食的市民请多多注意。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "ChatPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::Notice"
+      }
+    }
+  }
+]

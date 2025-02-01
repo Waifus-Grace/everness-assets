@@ -1,0 +1,308 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CloneEnter",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CloneSystemContain'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "ResourceCloneEnter_001": {
+        "CloneSystemContainID": "ResourceCloneEnter_001",
+        "BelongLevelName": "XL_map_bigworld_test",
+        "MiniMapKeyWorld": "CloneSystem",
+        "CloneSystemIDs": [
+          "Trailclone_Wpexp",
+          "Trailclone_gold",
+          "Trailclone_exp"
+        ],
+        "UnlockLevel": 6,
+        "AwardDropID": "None",
+        "VisionID": "None",
+        "QuestId": "None",
+        "bWeeklyClone": false,
+        "ClientShowDropIDs": [
+          "drop_wpexpClone_mapshow",
+          "drop_GoldClone_mapshow",
+          "drop_expClone_mapshow"
+        ],
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_HuDiNiName",
+          "SourceString": "胡迪尼的魔术舞台",
+          "LocalizedString": "胡迪尼的魔术舞台"
+        },
+        "CloneDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_HuDiNiDes",
+          "SourceString": "这是上世纪，本世纪，乃至下世纪，全世界最伟大的「魔术师」胡迪尼先生精心准备的彩蛋表演！\r\n「哦可怜的——我是说，可爱的，可爱的幸运儿，挑选你喜欢的剧目吧，毕竟这是唯一你能自己决定的事情了。」",
+          "LocalizedString": "这是上世纪，本世纪，乃至下世纪，全世界最伟大的「魔术师」胡迪尼先生精心准备的彩蛋表演！\r\n「哦可怜的——我是说，可爱的，可爱的幸运儿，挑选你喜欢的剧目吧，毕竟这是唯一你能自己决定的事情了。」"
+        },
+        "WeeklyIconTips": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExitCloneTransferID": "ResourceCloneExit_001",
+        "EnterTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -77589.7,
+            "Y": 189498.89,
+            "Z": 2395.8357
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MinimapTransferID": "ResourceCloneTransfer_001",
+        "StaminaCount": 30
+      },
+      "TalentCloneEnter_001": {
+        "CloneSystemContainID": "TalentCloneEnter_001",
+        "BelongLevelName": "XL_map_bigworld_test",
+        "MiniMapKeyWorld": "CloneSystem",
+        "CloneSystemIDs": [
+          "DLC_talent_001",
+          "DLC_talent_002"
+        ],
+        "UnlockLevel": 6,
+        "AwardDropID": "None",
+        "VisionID": "None",
+        "QuestId": "None",
+        "bWeeklyClone": false,
+        "ClientShowDropIDs": [
+          "drop_weaponClone_01_mapshow",
+          "drop_weaponClone_02_mapshow"
+        ],
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_HuDiNiName",
+          "SourceString": "胡迪尼的魔术舞台",
+          "LocalizedString": "胡迪尼的魔术舞台"
+        },
+        "CloneDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_HuDiNiDes",
+          "SourceString": "这是上世纪，本世纪，乃至下世纪，全世界最伟大的「魔术师」胡迪尼先生精心准备的彩蛋表演！\r\n「哦可怜的——我是说，可爱的，可爱的幸运儿，挑选你喜欢的剧目吧，毕竟这是唯一你能自己决定的事情了。」",
+          "LocalizedString": "这是上世纪，本世纪，乃至下世纪，全世界最伟大的「魔术师」胡迪尼先生精心准备的彩蛋表演！\r\n「哦可怜的——我是说，可爱的，可爱的幸运儿，挑选你喜欢的剧目吧，毕竟这是唯一你能自己决定的事情了。」"
+        },
+        "WeeklyIconTips": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExitCloneTransferID": "TalentCloneExit_001",
+        "EnterTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -90466.414,
+            "Y": 131885.0,
+            "Z": 9457.465
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MinimapTransferID": "TalentCloneTransfer_001",
+        "StaminaCount": 30
+      },
+      "ForkbreakthroughCloneEnter_001": {
+        "CloneSystemContainID": "ForkbreakthroughCloneEnter_001",
+        "BelongLevelName": "XL_map_bigworld_test",
+        "MiniMapKeyWorld": "CloneSystem",
+        "CloneSystemIDs": [
+          "DLC_forkbreakthrough_001",
+          "DLC_forkbreakthrough_002"
+        ],
+        "UnlockLevel": 6,
+        "AwardDropID": "None",
+        "VisionID": "None",
+        "QuestId": "None",
+        "bWeeklyClone": false,
+        "ClientShowDropIDs": [
+          "drop_SkillClone_01_mapshow",
+          "drop_SkillClone_02_mapshow"
+        ],
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_HuDiNiName",
+          "SourceString": "胡迪尼的魔术舞台",
+          "LocalizedString": "胡迪尼的魔术舞台"
+        },
+        "CloneDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_HuDiNiDes",
+          "SourceString": "这是上世纪，本世纪，乃至下世纪，全世界最伟大的「魔术师」胡迪尼先生精心准备的彩蛋表演！\r\n「哦可怜的——我是说，可爱的，可爱的幸运儿，挑选你喜欢的剧目吧，毕竟这是唯一你能自己决定的事情了。」",
+          "LocalizedString": "这是上世纪，本世纪，乃至下世纪，全世界最伟大的「魔术师」胡迪尼先生精心准备的彩蛋表演！\r\n「哦可怜的——我是说，可爱的，可爱的幸运儿，挑选你喜欢的剧目吧，毕竟这是唯一你能自己决定的事情了。」"
+        },
+        "WeeklyIconTips": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExitCloneTransferID": "ForkbreakthroughCloneExit_001",
+        "EnterTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -128547.234,
+            "Y": 113457.055,
+            "Z": 6690.2583
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MinimapTransferID": "ForkbreakthroughCloneTransfer_001",
+        "StaminaCount": 30
+      },
+      "EquipmentCloneEnter_001": {
+        "CloneSystemContainID": "EquipmentCloneEnter_001",
+        "BelongLevelName": "XL_map_bigworld_test",
+        "MiniMapKeyWorld": "CloneSystem",
+        "CloneSystemIDs": [
+          "DLC_equipment_001",
+          "DLC_equipment_002",
+          "DLC_equipment_003"
+        ],
+        "UnlockLevel": 11,
+        "AwardDropID": "None",
+        "VisionID": "None",
+        "QuestId": "None",
+        "bWeeklyClone": false,
+        "ClientShowDropIDs": [
+          "drop_equipmentclone_01_mapshow",
+          "drop_equipmentclone_02_mapshow",
+          "drop_equipmentclone_03_mapshow"
+        ],
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_HuDiNiName",
+          "SourceString": "胡迪尼的魔术舞台",
+          "LocalizedString": "胡迪尼的魔术舞台"
+        },
+        "CloneDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_HuDiNiDes",
+          "SourceString": "这是上世纪，本世纪，乃至下世纪，全世界最伟大的「魔术师」胡迪尼先生精心准备的彩蛋表演！\r\n「哦可怜的——我是说，可爱的，可爱的幸运儿，挑选你喜欢的剧目吧，毕竟这是唯一你能自己决定的事情了。」",
+          "LocalizedString": "这是上世纪，本世纪，乃至下世纪，全世界最伟大的「魔术师」胡迪尼先生精心准备的彩蛋表演！\r\n「哦可怜的——我是说，可爱的，可爱的幸运儿，挑选你喜欢的剧目吧，毕竟这是唯一你能自己决定的事情了。」"
+        },
+        "WeeklyIconTips": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ExitCloneTransferID": "EquipmentCloneExit_001",
+        "EnterTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -163971.42,
+            "Y": 113191.89,
+            "Z": 7104.388
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MinimapTransferID": "EquipmentCloneTransfer_001",
+        "StaminaCount": 30
+      },
+      "WeeklyClone_Boss05": {
+        "CloneSystemContainID": "WeeklyClone_Boss05",
+        "BelongLevelName": "XL_map_bigworld_test",
+        "MiniMapKeyWorld": "WeeklyClone_Boss05",
+        "CloneSystemIDs": [
+          "WeeklyClone_Boss05"
+        ],
+        "UnlockLevel": 1,
+        "AwardDropID": "None",
+        "VisionID": "None",
+        "QuestId": "q110137",
+        "bWeeklyClone": true,
+        "ClientShowDropIDs": [
+          "drop_weeklyclone01_mapshow"
+        ],
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Hockshop_Name",
+          "SourceString": "月光当铺",
+          "LocalizedString": "月光当铺"
+        },
+        "CloneDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CloneEnter_YueguangdangpuDes",
+          "SourceString": "传闻中每月在月光掩映下悄然现身的当铺，是「只要付出足够的代价，能够实现人的一切愿望」的神秘之处。循着震颤人心的犬类吼叫步入，将发现其真实面目是一个与「等价交换」极不搭调的……狗窝？！",
+          "LocalizedString": "传闻中每月在月光掩映下悄然现身的当铺，是「只要付出足够的代价，能够实现人的一切愿望」的神秘之处。循着震颤人心的犬类吼叫步入，将发现其真实面目是一个与「等价交换」极不搭调的……狗窝？！"
+        },
+        "WeeklyIconTips": {
+          "AssetPathName": "/Game/UI/UI/SystematicGameFeatureUnlock/UnlockIcon/UI_YH_FB_FunctionUnLockIcon_1.UI_YH_FB_FunctionUnLockIcon_1",
+          "SubPathString": ""
+        },
+        "ExitCloneTransferID": "WeeklyCloneExit_Boss05",
+        "EnterTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -112436.414,
+            "Y": 129628.36,
+            "Z": 12182.714
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "MinimapTransferID": "WeeklyCloneTransfer_Boss05",
+        "StaminaCount": 60
+      }
+    }
+  }
+]

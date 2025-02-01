@@ -1,0 +1,349 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CityShopLevelDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CityShopLevelData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "DSD_1": {
+        "BrandUnqiueID": "DSDShop001",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_1",
+          "SourceString": "DSD潮玩",
+          "LocalizedString": "DSD潮玩"
+        },
+        "CityShopLevel": 1,
+        "TotalExp": 300,
+        "AwardInfos": [
+          {
+            "ItemID": "Furniture_Gacha_Blue_003",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "Annulith",
+            "Amount": 50,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_2",
+          "SourceString": "解锁新的购买权益，可购买新的稀有商品",
+          "LocalizedString": "解锁新的购买权益，可购买新的稀有商品"
+        }
+      },
+      "DSD_2": {
+        "BrandUnqiueID": "DSDShop001",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_1",
+          "SourceString": "DSD潮玩",
+          "LocalizedString": "DSD潮玩"
+        },
+        "CityShopLevel": 2,
+        "TotalExp": 600,
+        "AwardInfos": [
+          {
+            "ItemID": "Furniture_Gacha_Blue_004",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "Annulith",
+            "Amount": 50,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_2",
+          "SourceString": "解锁新的购买权益，可购买新的稀有商品",
+          "LocalizedString": "解锁新的购买权益，可购买新的稀有商品"
+        }
+      },
+      "DSD_3": {
+        "BrandUnqiueID": "DSDShop001",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_1",
+          "SourceString": "DSD潮玩",
+          "LocalizedString": "DSD潮玩"
+        },
+        "CityShopLevel": 3,
+        "TotalExp": 1000,
+        "AwardInfos": [
+          {
+            "ItemID": "Furniture_Gacha_Blue_005",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "Annulith",
+            "Amount": 50,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_2",
+          "SourceString": "解锁新的购买权益，可购买新的稀有商品",
+          "LocalizedString": "解锁新的购买权益，可购买新的稀有商品"
+        }
+      },
+      "DSD_4": {
+        "BrandUnqiueID": "DSDShop001",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_1",
+          "SourceString": "DSD潮玩",
+          "LocalizedString": "DSD潮玩"
+        },
+        "CityShopLevel": 4,
+        "TotalExp": 2000,
+        "AwardInfos": [
+          {
+            "ItemID": "Figure_eri_01_001",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "Annulith",
+            "Amount": 50,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_2",
+          "SourceString": "解锁新的购买权益，可购买新的稀有商品",
+          "LocalizedString": "解锁新的购买权益，可购买新的稀有商品"
+        }
+      },
+      "DSD_5": {
+        "BrandUnqiueID": "DSDShop001",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_1",
+          "SourceString": "DSD潮玩",
+          "LocalizedString": "DSD潮玩"
+        },
+        "CityShopLevel": 5,
+        "TotalExp": 3000,
+        "AwardInfos": [
+          {
+            "ItemID": "Furniture_Figues_001",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "Annulith",
+            "Amount": 100,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "vipshop01_desc1",
+          "SourceString": "获得限定超大手办",
+          "LocalizedString": "获得限定超大手办"
+        }
+      },
+      "9ducafei_1": {
+        "BrandUnqiueID": "002",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_3",
+          "SourceString": "9度咖啡",
+          "LocalizedString": "9度咖啡"
+        },
+        "CityShopLevel": 1,
+        "TotalExp": 100,
+        "AwardInfos": [
+          {
+            "ItemID": "2001",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "2002",
+            "Amount": 5,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_2",
+          "SourceString": "解锁新的购买权益，可购买新的稀有商品",
+          "LocalizedString": "解锁新的购买权益，可购买新的稀有商品"
+        }
+      },
+      "9ducafei_2": {
+        "BrandUnqiueID": "002",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_3",
+          "SourceString": "9度咖啡",
+          "LocalizedString": "9度咖啡"
+        },
+        "CityShopLevel": 2,
+        "TotalExp": 200,
+        "AwardInfos": [
+          {
+            "ItemID": "2001",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "2002",
+            "Amount": 5,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_2",
+          "SourceString": "解锁新的购买权益，可购买新的稀有商品",
+          "LocalizedString": "解锁新的购买权益，可购买新的稀有商品"
+        }
+      },
+      "9ducafei_3": {
+        "BrandUnqiueID": "002",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_3",
+          "SourceString": "9度咖啡",
+          "LocalizedString": "9度咖啡"
+        },
+        "CityShopLevel": 3,
+        "TotalExp": 300,
+        "AwardInfos": [
+          {
+            "ItemID": "2001",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "2002",
+            "Amount": 5,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_2",
+          "SourceString": "解锁新的购买权益，可购买新的稀有商品",
+          "LocalizedString": "解锁新的购买权益，可购买新的稀有商品"
+        }
+      },
+      "9ducafei_4": {
+        "BrandUnqiueID": "002",
+        "NewBrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_3",
+          "SourceString": "9度咖啡",
+          "LocalizedString": "9度咖啡"
+        },
+        "CityShopLevel": 4,
+        "TotalExp": 400,
+        "AwardInfos": [
+          {
+            "ItemID": "2001",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          },
+          {
+            "ItemID": "2002",
+            "Amount": 5,
+            "bHiddenAmount": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            }
+          }
+        ],
+        "FriendlyTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_2",
+          "SourceString": "解锁新的购买权益，可购买新的稀有商品",
+          "LocalizedString": "解锁新的购买权益，可购买新的稀有商品"
+        }
+      }
+    }
+  }
+]

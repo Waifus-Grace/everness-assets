@@ -1,0 +1,431 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MonsterStaticData_Clone",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MonsterStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "mon_01_BP_ResourceClone_lv1": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 5,
+        "PropModifyID": "mon_01_BP_ResourceClone_lv1",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_01_BP_ResourceClone_lv2": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 12,
+        "PropModifyID": "mon_01_BP_ResourceClone_lv2",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_01_BP_ResourceClone_lv3": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 25,
+        "PropModifyID": "mon_01_BP_ResourceClone_lv3",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_01_BP_ResourceClone_lv4": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 30,
+        "PropModifyID": "mon_01_BP_ResourceClone_lv4",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_ResourceClone_lv2": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 12,
+        "PropModifyID": "mon_02_BP_ResourceClone_lv2",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_ResourceClone_lv4": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 30,
+        "PropModifyID": "mon_02_BP_ResourceClone_lv4",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_02_BP_ResourceClone_lv5": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 35,
+        "PropModifyID": "mon_02_BP_ResourceClone_lv5",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_04_BP_ResourceClone_lv1": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 5,
+        "PropModifyID": "mon_04_BP_ResourceClone_lv1",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_04_BP_ResourceClone_lv3": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 25,
+        "PropModifyID": "mon_04_BP_ResourceClone_lv3",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "mon_04_BP_ResourceClone_lv5": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 35,
+        "PropModifyID": "mon_04_BP_ResourceClone_lv5",
+        "WorldLevelArray": [],
+        "IsTestMonster": false
+      },
+      "boss_05_BP_Weekly_Lv1": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "boss_05_BP_Weekly_Lv1"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "getfork_mofeikesi",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 40,
+        "PropModifyID": "boss_05_BP_Weekly_Lv1_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 40,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv1_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv1_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv1_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv1_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv1_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv1_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv1_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv1_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "boss_05_BP_Weekly_Lv2": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "boss_05_BP_Weekly_Lv2"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "getfork_mofeikesi",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 45,
+        "PropModifyID": "boss_05_BP_Weekly_Lv2_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 50,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv2_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv2_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv2_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv2_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv2_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv2_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv2_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv2_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "boss_05_BP_Weekly_Lv3": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "boss_05_BP_Weekly_Lv3"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "getfork_mofeikesi",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 50,
+        "PropModifyID": "boss_05_BP_Weekly_Lv3_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 60,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv3_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv3_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv3_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv3_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv3_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv3_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv3_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv3_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "boss_05_BP_Weekly_Lv4": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "boss_05_BP_Weekly_Lv4"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "getfork_mofeikesi",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 55,
+        "PropModifyID": "boss_05_BP_Weekly_Lv4_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 65,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv4_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv4_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv4_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv4_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv4_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv4_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv4_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv4_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      },
+      "boss_05_BP_Weekly_Lv5": {
+        "Comment": "",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "boss_05_BP_Weekly_Lv5"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "getfork_mofeikesi",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 60,
+        "PropModifyID": "boss_05_BP_Weekly_Lv5_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 70,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv5_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv5_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv5_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv5_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv5_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv5_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv5_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 10,
+            "MonsterWorldLevelPropModifyID": "boss_05_BP_Weekly_Lv5_DataPack7"
+          }
+        ],
+        "IsTestMonster": false
+      }
+    }
+  }
+]

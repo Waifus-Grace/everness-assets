@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestMusic",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'QuestMusicData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "q110111_1": {
+        "BeginQuestID": "q110111_1",
+        "EndQuestID": "q110111_1",
+        "MusicEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "MusicStateGroup": "Music_Talk",
+        "MusicState": "Music_Talk_Daily_03",
+        "Desc": "月光当铺抓鸟任务"
+      }
+    }
+  }
+]

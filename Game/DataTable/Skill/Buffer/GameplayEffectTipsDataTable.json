@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GameplayEffectTipsDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayEffectTips'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Buff_PlayerEleReaction": {
+        "Name": {
+          "Namespace": "",
+          "Key": "78FA217C497BCB99640CA18A1D5E19FB",
+          "SourceString": "玩家常驻buff",
+          "LocalizedString": "玩家常驻buff"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "4BCC7129419A76F9FAC0A683D38B2135",
+          "SourceString": "这是玩家常驻的 Buff",
+          "LocalizedString": "这是玩家常驻的 Buff"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "IsShowInBuffMaganger": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mint019_Passive1": {
+        "Name": {
+          "Namespace": "",
+          "Key": "9CA07E8D47CFF8A467DE2BB9335AD808",
+          "SourceString": "薄荷被动1",
+          "LocalizedString": "薄荷被动1"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "FE4B9B9C4B1355F78D2BDEBB5079F05B",
+          "SourceString": "薄荷触发光灵反应后，攻击力提高20%，持续10秒",
+          "LocalizedString": "薄荷触发光灵反应后，攻击力提高20%，持续10秒"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mint019_Passive2": {
+        "Name": {
+          "Namespace": "",
+          "Key": "3CC5795B46B92252C896F6B454AB99F3",
+          "SourceString": "薄荷被动2",
+          "LocalizedString": "薄荷被动2"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "B7A42AC44145394EB4B1308667AA6DF5",
+          "SourceString": "对落单的敌人造成的伤害（目标附近X米内无其他敌人），暴击率提高15%",
+          "LocalizedString": "对落单的敌人造成的伤害（目标附近X米内无其他敌人），暴击率提高15%"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      }
+    }
+  }
+]

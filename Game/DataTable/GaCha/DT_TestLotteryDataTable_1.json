@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TestLotteryDataTable_1",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LotteryProbabilityItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "SSRItems": [
+          {
+            "ItemID": "1003",
+            "bIsShowIconTip": true
+          },
+          {
+            "ItemID": "1010",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_jianang",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_wuhuakuang",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_rishi",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_huixianglieche",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_tajiduo",
+            "bIsShowIconTip": false
+          }
+        ],
+        "SRItems": [
+          {
+            "ItemID": "1019",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_qiaoqiao",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_pangxienaozhong",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_dianhuating",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_jiaojuan",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_caihuishijie",
+            "bIsShowIconTip": false
+          }
+        ],
+        "RItems": [
+          {
+            "ItemID": "fork_banshu01",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_banshu02",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_banshu03",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_banshu04",
+            "bIsShowIconTip": false
+          },
+          {
+            "ItemID": "fork_banshu05",
+            "bIsShowIconTip": false
+          }
+        ]
+      }
+    }
+  }
+]

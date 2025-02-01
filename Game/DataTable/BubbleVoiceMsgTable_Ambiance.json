@@ -1,0 +1,1615 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BubbleVoiceMsgTable_Ambiance",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'BubbleVoiceMsgDetail'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "AM_City_A_banjiaojie_SecondPhase_025_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_067.Play_Vo_AM_bubble_solo_067",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_025_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_068.Play_Vo_AM_bubble_solo_068",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_069.Play_Vo_AM_bubble_A_069",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_070.Play_Vo_AM_bubble_B_070",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_071.Play_Vo_AM_bubble_A_071",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_072.Play_Vo_AM_bubble_B_072",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_073.Play_Vo_AM_bubble_A_073",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_074.Play_Vo_AM_bubble_A_074",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_075.Play_Vo_AM_bubble_B_075",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_008": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_076.Play_Vo_AM_bubble_A_076",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_009": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_077.Play_Vo_AM_bubble_B_077",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_026_bubble_010": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_078.Play_Vo_AM_bubble_A_078",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_027_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_107.Play_Vo_AM_bubble_A_107",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_027_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_108.Play_Vo_AM_bubble_B_108",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_027_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_109.Play_Vo_AM_bubble_A_109",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_027_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_110.Play_Vo_AM_bubble_B_110",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_027_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_111.Play_Vo_AM_bubble_A_111",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_027_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_112.Play_Vo_AM_bubble_B_112",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_027_bubble_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_113.Play_Vo_AM_bubble_A_113",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_033_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_091.Play_Vo_AM_bubble_A_091",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_033_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_092.Play_Vo_AM_bubble_B_092",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_033_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_093.Play_Vo_AM_bubble_B_093",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_033_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_094.Play_Vo_AM_bubble_A_094",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_033_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_095.Play_Vo_AM_bubble_B_095",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_033_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_096.Play_Vo_AM_bubble_A_096",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_033_bubble_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_097.Play_Vo_AM_bubble_B_097",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_033_bubble_008": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_098.Play_Vo_AM_bubble_A_098",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_034_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_099.Play_Vo_AM_bubble_A_099",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_034_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_100.Play_Vo_AM_bubble_B_100",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_034_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_101.Play_Vo_AM_bubble_A_101",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_034_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_102.Play_Vo_AM_bubble_B_102",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_034_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_103.Play_Vo_AM_bubble_A_103",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_034_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_104.Play_Vo_AM_bubble_B_104",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_034_bubble_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_105.Play_Vo_AM_bubble_A_105",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_035_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_106.Play_Vo_AM_bubble_solo_106",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_002_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_001.Play_Vo_AM_bubble_solo_001",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_004_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_011.Play_Vo_AM_bubble_solo_011",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_002.Play_Vo_AM_bubble_A_002",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_003.Play_Vo_AM_bubble_A_003",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_004.Play_Vo_AM_bubble_B_004",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_005.Play_Vo_AM_bubble_B_005",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_006.Play_Vo_AM_bubble_A_006",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_007.Play_Vo_AM_bubble_B_007",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_008.Play_Vo_AM_bubble_B_008",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_008": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_009.Play_Vo_AM_bubble_A_009",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_013_bubble_009": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_010.Play_Vo_AM_bubble_B_010",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_019_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_023.Play_Vo_AM_bubble_A_023",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_019_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_024.Play_Vo_AM_bubble_B_024",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_019_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_025.Play_Vo_AM_bubble_A_025",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_019_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_026.Play_Vo_AM_bubble_B_026",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_019_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_027.Play_Vo_AM_bubble_A_027",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_019_bubble_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_028.Play_Vo_AM_bubble_A_028",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_019_bubble_008": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_029.Play_Vo_AM_bubble_B_029",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_020_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_017.Play_Vo_AM_bubble_A_017",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_020_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_018.Play_Vo_AM_bubble_B_018",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_020_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_019.Play_Vo_AM_bubble_A_019",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_020_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_020.Play_Vo_AM_bubble_B_020",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_020_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_021.Play_Vo_AM_bubble_A_021",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_020_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_022.Play_Vo_AM_bubble_B_022",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_030.Play_Vo_AM_bubble_A_030",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_031.Play_Vo_AM_bubble_B_031",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_032.Play_Vo_AM_bubble_B_032",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_033.Play_Vo_AM_bubble_B_033",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_034.Play_Vo_AM_bubble_B_034",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_035.Play_Vo_AM_bubble_B_035",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_036.Play_Vo_AM_bubble_A_036",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_008": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_037.Play_Vo_AM_bubble_B_037",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_009": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_038.Play_Vo_AM_bubble_B_038",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_010": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_039.Play_Vo_AM_bubble_A_039",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_011": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_040.Play_Vo_AM_bubble_B_040",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_012": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_041.Play_Vo_AM_bubble_A_041",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_021_bubble_013": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_042.Play_Vo_AM_bubble_B_042",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_022_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_012.Play_Vo_AM_bubble_solo_012",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_022_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_013.Play_Vo_AM_bubble_solo_013",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_022_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_014.Play_Vo_AM_bubble_solo_014",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_022_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_015.Play_Vo_AM_bubble_solo_015",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_Trinity_TrinityDlg_022_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_016.Play_Vo_AM_bubble_solo_016",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Baihuixiang_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_066.Play_Vo_AM_bubble_solo_066",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_057.Play_Vo_AM_bubble_A_057",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_058.Play_Vo_AM_bubble_B_058",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_059.Play_Vo_AM_bubble_A_059",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_060.Play_Vo_AM_bubble_B_060",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_061.Play_Vo_AM_bubble_A_061",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_062.Play_Vo_AM_bubble_B_062",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_063.Play_Vo_AM_bubble_A_063",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_008": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_064.Play_Vo_AM_bubble_B_064",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_001_bubble_009": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_065.Play_Vo_AM_bubble_A_065",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_coffeetalk_002_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_114.Play_Vo_AM_bubble_A_114",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_coffeetalk_002_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_115.Play_Vo_AM_bubble_B_115",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_coffeetalk_002_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_116.Play_Vo_AM_bubble_A_116",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_coffeetalk_002_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_117.Play_Vo_AM_bubble_B_117",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_coffeetalk_002_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_118.Play_Vo_AM_bubble_A_118",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_coffeetalk_002_bubble_006": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_119.Play_Vo_AM_bubble_B_119",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_buyfood_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_079.Play_Vo_AM_bubble_A_079",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_buyfood_001_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_080.Play_Vo_AM_bubble_B_080",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_buyfood_001_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_081.Play_Vo_AM_bubble_B_081",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_buyfood_001_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_082.Play_Vo_AM_bubble_A_082",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_buyfood_001_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_083.Play_Vo_AM_bubble_B_083",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Graffitistreet_003_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_084.Play_Vo_AM_bubble_solo_084",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Graffitistreet_003_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_085.Play_Vo_AM_bubble_solo_085",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Graffitistreet_003_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_086.Play_Vo_AM_bubble_solo_086",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Graffitistreet_003_bubble_004": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_087.Play_Vo_AM_bubble_solo_087",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Graffitistreet_003_bubble_005": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_088.Play_Vo_AM_bubble_solo_088",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Graffitistreet_006_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_089.Play_Vo_AM_bubble_solo_089",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_noisybill_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_120.Play_Vo_AM_bubble_solo_120",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_noisybill_001_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_121.Play_Vo_AM_bubble_solo_121",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_noisybill_002_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_122.Play_Vo_AM_bubble_solo_122",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_noisybill_002_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_123.Play_Vo_AM_bubble_solo_123",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_boduoli_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_043.Play_Vo_AM_bubble_solo_043",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_boduoli_002_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_044.Play_Vo_AM_bubble_solo_044",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_shoubandian_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_049.Play_Vo_AM_bubble_solo_049",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_shoubandian_002_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_050.Play_Vo_AM_bubble_solo_050",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_bookstore_003_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_055.Play_Vo_AM_bubble_solo_055",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_DSD_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_048.Play_Vo_AM_bubble_solo_048",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_candystore_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_051.Play_Vo_AM_bubble_solo_051",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_candystore_002_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_052.Play_Vo_AM_bubble_solo_052",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_candystore_003_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_053.Play_Vo_AM_bubble_solo_053",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_fastfood_001_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_054.Play_Vo_AM_bubble_solo_054",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_Garbagestreet_004_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_056.Play_Vo_AM_bubble_solo_056",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_023_bubble_001": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_045.Play_Vo_AM_bubble_A_045",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_023_bubble_002": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/B/Play_Vo_AM_bubble_B_046.Play_Vo_AM_bubble_B_046",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_023_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/A/Play_Vo_AM_bubble_A_047.Play_Vo_AM_bubble_A_047",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      },
+      "AM_City_A_banjiaojie_SecondPhase_031_bubble_003": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Solo/Play_Vo_AM_bubble_solo_090.Play_Vo_AM_bubble_solo_090",
+          "SubPathString": ""
+        },
+        "RTPCConfig": [
+          {
+            "Key": "RTPC_Voice_Enable_3D",
+            "Value": 1.0
+          }
+        ],
+        "Delay": 0.0
+      }
+    }
+  }
+]

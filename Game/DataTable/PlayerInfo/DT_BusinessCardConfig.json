@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BusinessCardConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'HTBusinessConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": {
+          "Namespace": "",
+          "Key": "3A873E954237C4DC782456ACE506910F",
+          "SourceString": "海特洛夜景1",
+          "LocalizedString": "海特洛夜景1"
+        },
+        "bIsDefault": true,
+        "bAutoUnlock": true,
+        "UnlockDescription": {
+          "Namespace": "",
+          "Key": "187717F54CA7BAFA513D73938B5C010A",
+          "SourceString": "预约游戏获得",
+          "LocalizedString": "预约游戏获得"
+        },
+        "Description": {
+          "Namespace": "",
+          "Key": "4235F3F1402B29F682F206B117C418F2",
+          "SourceString": "美丽炫酷的海特洛",
+          "LocalizedString": "美丽炫酷的海特洛"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/YH_UI_calling_card_01.YH_UI_calling_card_01",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/YH_UI_personal_info_bg_calling_card_01.YH_UI_personal_info_bg_calling_card_01",
+          "SubPathString": ""
+        }
+      },
+      "1_0": {
+        "Name": {
+          "CultureInvariantString": "海特洛夜景2"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "Namespace": "",
+          "Key": "BA9978454C46598C3F3369A23833B764",
+          "SourceString": "预约游戏获得",
+          "LocalizedString": "预约游戏获得"
+        },
+        "Description": {
+          "Namespace": "",
+          "Key": "9148B061447A90DAD34A6F8C9AA84232",
+          "SourceString": "美丽炫酷的海特洛",
+          "LocalizedString": "美丽炫酷的海特洛"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/YH_UI_calling_card_01.YH_UI_calling_card_01",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/YH_UI_personal_info_bg_calling_card_01.YH_UI_personal_info_bg_calling_card_01",
+          "SubPathString": ""
+        }
+      },
+      "1_1": {
+        "Name": {
+          "CultureInvariantString": "海特洛夜景3"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": true,
+        "UnlockDescription": {
+          "Namespace": "",
+          "Key": "E1420F104BD45CF0974C22B15C1DAF24",
+          "SourceString": "预约游戏获得",
+          "LocalizedString": "预约游戏获得"
+        },
+        "Description": {
+          "Namespace": "",
+          "Key": "3A0D350245BD63EC764A23B55A9484AB",
+          "SourceString": "美丽炫酷的海特洛",
+          "LocalizedString": "美丽炫酷的海特洛"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/YH_UI_calling_card_01.YH_UI_calling_card_01",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/YH_UI_personal_info_bg_calling_card_01.YH_UI_personal_info_bg_calling_card_01",
+          "SubPathString": ""
+        }
+      },
+      "1_2": {
+        "Name": {
+          "CultureInvariantString": "海特洛夜景4"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": true,
+        "UnlockDescription": {
+          "Namespace": "",
+          "Key": "C3BE6B474BFED5DA0A8DB188B985E257",
+          "SourceString": "预约游戏获得",
+          "LocalizedString": "预约游戏获得"
+        },
+        "Description": {
+          "Namespace": "",
+          "Key": "1D86431B4A69958F716003967CAE6942",
+          "SourceString": "美丽炫酷的海特洛",
+          "LocalizedString": "美丽炫酷的海特洛"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/YH_UI_calling_card_01.YH_UI_calling_card_01",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/YH_UI_personal_info_bg_calling_card_01.YH_UI_personal_info_bg_calling_card_01",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1006 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VoiceCaptionDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'VoiceCaptionData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "q110002": {
+        "Captions": [
+          {
+            "StartTime": 4032,
+            "EndTime": 8121,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_Prologue_MainSQC003_Zero_00001",
+              "SourceString": "这些数字，跟这座城市的异象波动状况有关？",
+              "LocalizedString": "这些数字，跟这座城市的异象波动状况有关？"
+            }
+          },
+          {
+            "StartTime": 8294,
+            "EndTime": 13334,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_Prologue_MainSQC003_Nelly_00001",
+              "SourceString": "对，<blue>「维特海默值」</>——衡量目标对象背离现实浓度的数值。",
+              "LocalizedString": "对，<blue>「维特海默值」</>——衡量目标对象背离现实浓度的数值。"
+            }
+          },
+          {
+            "StartTime": 13996,
+            "EndTime": 20217,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_Prologue_MainSQC003_Nelly_00002",
+              "SourceString": "持续监测城市各区域维特海默值的变化，我们便能对新出现的异象快速作出反应。",
+              "LocalizedString": "持续监测城市各区域维特海默值的变化，我们便能对新出现的异象快速作出反应。"
+            }
+          },
+          {
+            "StartTime": 24019,
+            "EndTime": 29980,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_Prologue_MainSQC003_Skia_00001",
+              "SourceString": "——半港区的维特海默值预估会稳定在-5区间，收容六组的人，撑不了多久。",
+              "LocalizedString": "——半港区的维特海默值预估会稳定在-5区间，收容六组的人，撑不了多久。"
+            }
+          },
+          {
+            "StartTime": 31017,
+            "EndTime": 35712,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_Prologue_MainSQC003_Fadia_00001",
+              "SourceString": "啊呀，还以为终于能大闹一场了呢……区区Ⅴ级异象……",
+              "LocalizedString": "啊呀，还以为终于能大闹一场了呢……区区Ⅴ级异象……"
+            }
+          },
+          {
+            "StartTime": 36518,
+            "EndTime": 39254,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_Prologue_MainSQC003_Skia_00002",
+              "SourceString": "……先走一步，现场见。",
+              "LocalizedString": "……先走一步，现场见。"
+            }
+          },
+          {
+            "StartTime": 48384,
+            "EndTime": 50342,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_Prologue_MainSQC003_Fadia_00002",
+              "SourceString": "怎么，熟人？",
+              "LocalizedString": "怎么，熟人？"
+            }
+          },
+          {
+            "StartTime": 51091,
+            "EndTime": 53395,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_Prologue_MainSQC003_Cang_00001",
+              "SourceString": "不告诉你。",
+              "LocalizedString": "不告诉你。"
+            }
+          }
+        ]
+      },
+      "q110048": {
+        "Captions": [
+          {
+            "StartTime": 1780,
+            "EndTime": 3147,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_01_Player_001",
+              "SourceString": "你好？",
+              "LocalizedString": "你好？"
+            }
+          },
+          {
+            "StartTime": 6984,
+            "EndTime": 8496,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_01_Player_003",
+              "SourceString": "请问有人在吗？",
+              "LocalizedString": "请问有人在吗？"
+            }
+          },
+          {
+            "StartTime": 35499,
+            "EndTime": 36973,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_01_NPC021A_001",
+              "SourceString": "看这里！",
+              "LocalizedString": "看这里！"
+            }
+          },
+          {
+            "StartTime": 37198,
+            "EndTime": 39694,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_01_Player_002",
+              "SourceString": "……你好？",
+              "LocalizedString": "……你好？"
+            }
+          },
+          {
+            "StartTime": 43375,
+            "EndTime": 46456,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_01_NPC021A_002",
+              "SourceString": "喂——在这里！",
+              "LocalizedString": "喂——在这里！"
+            }
+          },
+          {
+            "StartTime": 48320,
+            "EndTime": 50752,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_01_NPC021A_003",
+              "SourceString": "把书扶起来。",
+              "LocalizedString": "把书扶起来。"
+            }
+          },
+          {
+            "StartTime": 61819,
+            "EndTime": 68103,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_01_NPC021A_004",
+              "SourceString": "按我，要找人就按我……记得不要太用力！",
+              "LocalizedString": "按我，要找人就按我……记得不要太用力！"
+            }
+          }
+        ]
+      },
+      "q110053": {
+        "Captions": [
+          {
+            "StartTime": 3693,
+            "EndTime": 6700,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC001_001",
+              "SourceString": "最后一击——决一胜负吧，小海獭！",
+              "LocalizedString": "最后一击——决一胜负吧，小海獭！"
+            }
+          },
+          {
+            "StartTime": 9442,
+            "EndTime": 15806,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC009_001",
+              "SourceString": "……一大早就哐啷哐啷吵死了……塔吉多你在干嘛？",
+              "LocalizedString": "……一大早就哐啷哐啷吵死了……塔吉多你在干嘛？"
+            }
+          },
+          {
+            "StartTime": 21637,
+            "EndTime": 29376,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC009_002",
+              "SourceString": "可恶，昨晚就不该把最后一瓶也喝了……解酒药……解酒药在哪儿来着……",
+              "LocalizedString": "可恶，昨晚就不该把最后一瓶也喝了……解酒药……解酒药在哪儿来着……"
+            }
+          },
+          {
+            "StartTime": 42264,
+            "EndTime": 45777,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC009_003",
+              "SourceString": "哪儿来的脏东西？！给我死！",
+              "LocalizedString": "哪儿来的脏东西？！给我死！"
+            }
+          },
+          {
+            "StartTime": 49780,
+            "EndTime": 54725,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC009_004",
+              "SourceString": "这位是新加入的鉴定师，伊波恩的古董鉴定就靠{Gender}|gender(他,她)了！",
+              "LocalizedString": "这位是新加入的鉴定师，伊波恩的古董鉴定就靠{Gender}|gender(他,她)了！"
+            }
+          },
+          {
+            "StartTime": 54989,
+            "EndTime": 58151,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_Player_001",
+              "SourceString": "今后就麻烦大家了，我会认真工作的。",
+              "LocalizedString": "今后就麻烦大家了，我会认真工作的。"
+            }
+          },
+          {
+            "StartTime": 59873,
+            "EndTime": 61353,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC011_001",
+              "SourceString": "嘿嘿，以后我会罩你的！",
+              "LocalizedString": "嘿嘿，以后我会罩你的！"
+            }
+          },
+          {
+            "StartTime": 61738,
+            "EndTime": 66299,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC008_001",
+              "SourceString": "有了鉴定师，浔总算可以少收点假货了吧？",
+              "LocalizedString": "有了鉴定师，浔总算可以少收点假货了吧？"
+            }
+          },
+          {
+            "StartTime": 67008,
+            "EndTime": 68285,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC009_005",
+              "SourceString": "臭小鬼！",
+              "LocalizedString": "臭小鬼！"
+            }
+          },
+          {
+            "StartTime": 70717,
+            "EndTime": 78480,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC010_001",
+              "SourceString": "我再来依次介绍下吧。我和塔吉多主要负责店里的古董维护和生活后勤。",
+              "LocalizedString": "我再来依次介绍下吧。我和塔吉多主要负责店里的古董维护和生活后勤。"
+            }
+          },
+          {
+            "StartTime": 78764,
+            "EndTime": 80710,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC004A_001",
+              "SourceString": "（刚才真对不起！）",
+              "LocalizedString": "（刚才真对不起！）"
+            }
+          },
+          {
+            "StartTime": 81075,
+            "EndTime": 84662,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC010_002",
+              "SourceString": "达芙蒂尔小姐负责店内与四周的安全事务。",
+              "LocalizedString": "达芙蒂尔小姐负责店内与四周的安全事务。"
+            }
+          },
+          {
+            "StartTime": 85007,
+            "EndTime": 85537,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC013_001",
+              "SourceString": "你好。",
+              "LocalizedString": "你好。"
+            }
+          },
+          {
+            "StartTime": 86560,
+            "EndTime": 93824,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC010_003",
+              "SourceString": "娜娜莉、早雾和埃德嘉，店里承接的低级异象事件大部分由他们外出处理。",
+              "LocalizedString": "娜娜莉、早雾和埃德嘉，店里承接的低级异象事件大部分由他们外出处理。"
+            }
+          },
+          {
+            "StartTime": 94128,
+            "EndTime": 94979,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC012_001",
+              "SourceString": "你好。",
+              "LocalizedString": "你好。"
+            }
+          },
+          {
+            "StartTime": 96580,
+            "EndTime": 99803,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC011_002",
+              "SourceString": "手上没什么工作的时候，可以跟我们一起行动！",
+              "LocalizedString": "手上没什么工作的时候，可以跟我们一起行动！"
+            }
+          },
+          {
+            "StartTime": 101283,
+            "EndTime": 109816,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC008_002",
+              "SourceString": "什么嘛，我们又不是处理不了……哼，当然啦，如果你想见见世面，也不是不可以带上你。",
+              "LocalizedString": "什么嘛，我们又不是处理不了……哼，当然啦，如果你想见见世面，也不是不可以带上你。"
+            }
+          },
+          {
+            "StartTime": 110647,
+            "EndTime": 113302,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_Player_002",
+              "SourceString": "嗯，我对异象事件也很感兴趣。",
+              "LocalizedString": "嗯，我对异象事件也很感兴趣。"
+            }
+          },
+          {
+            "StartTime": 113606,
+            "EndTime": 116302,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC010_004",
+              "SourceString": "浔小姐，伊波恩的店主——",
+              "LocalizedString": "浔小姐，伊波恩的店主——"
+            }
+          },
+          {
+            "StartTime": 116910,
+            "EndTime": 125814,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC008_003",
+              "SourceString": "负责每天酩酊大醉！好酒……好酒……干杯！",
+              "LocalizedString": "负责每天酩酊大醉！好酒……好酒……干杯！"
+            }
+          },
+          {
+            "StartTime": 137320,
+            "EndTime": 144313,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_03_NPC009_006",
+              "SourceString": "塔吉多给我抓住她！晚饭加十颗海胆——我要教训这个小矮子！",
+              "LocalizedString": "塔吉多给我抓住她！晚饭加十颗海胆——我要教训这个小矮子！"
+            }
+          }
+        ]
+      },
+      "q110084": {
+        "Captions": [
+          {
+            "StartTime": 18849,
+            "EndTime": 23486,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_04_NPC009_001",
+              "SourceString": "收工，找老板结账然后拍照~",
+              "LocalizedString": "收工，找老板结账然后拍照~"
+            }
+          },
+          {
+            "StartTime": 23601,
+            "EndTime": 29044,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_04_NPC004A_001",
+              "SourceString": "（塔吉多很会摆pose！）",
+              "LocalizedString": "（塔吉多很会摆pose！）"
+            }
+          },
+          {
+            "StartTime": 29476,
+            "EndTime": 35208,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_04_NPC011_001",
+              "SourceString": "埃德嘉、早雾，拍照的时候允许你们轮流亲吻我的左手！",
+              "LocalizedString": "埃德嘉、早雾，拍照的时候允许你们轮流亲吻我的左手！"
+            }
+          },
+          {
+            "StartTime": 35366,
+            "EndTime": 37728,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_04_NPC012_001",
+              "SourceString": "呃……",
+              "LocalizedString": "呃……"
+            }
+          },
+          {
+            "StartTime": 37843,
+            "EndTime": 40204,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U00C00_04_NPC008_001",
+              "SourceString": "……我才不要！",
+              "LocalizedString": "……我才不要！"
+            }
+          }
+        ]
+      },
+      "q110127_3": {
+        "Captions": [
+          {
+            "StartTime": 1000,
+            "EndTime": 3500,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "MT01_01_NPC008_001",
+              "SourceString": "装神弄鬼的家伙！交易？我的愿望可不是那么便宜的东西！",
+              "LocalizedString": "装神弄鬼的家伙！交易？我的愿望可不是那么便宜的东西！"
+            }
+          },
+          {
+            "StartTime": 3700,
+            "EndTime": 7500,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "MT01_01_NPC019_001",
+              "SourceString": "像您这样不由分说上来就动手的客人，本店可是……会感到困扰的啊……",
+              "LocalizedString": "像您这样不由分说上来就动手的客人，本店可是……会感到困扰的啊……"
+            }
+          }
+        ]
+      },
+      "q1101711": {
+        "Captions": [
+          {
+            "StartTime": 1512,
+            "EndTime": 3643,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC004A_001",
+              "SourceString": "（……）",
+              "LocalizedString": "（……）"
+            }
+          },
+          {
+            "StartTime": 4800,
+            "EndTime": 6300,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC034A_001",
+              "SourceString": "呀~！",
+              "LocalizedString": "呀~！"
+            }
+          },
+          {
+            "StartTime": 14086,
+            "EndTime": 17329,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC034A_002",
+              "SourceString": "莫非……你是、塔吉多？",
+              "LocalizedString": "莫非……你是、塔吉多？"
+            }
+          },
+          {
+            "StartTime": 17431,
+            "EndTime": 20228,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC004A_002",
+              "SourceString": "（完了完了完了……怎么办！）",
+              "LocalizedString": "（完了完了完了……怎么办！）"
+            }
+          },
+          {
+            "StartTime": 25619,
+            "EndTime": 26268,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC03802_001",
+              "SourceString": "老大！",
+              "LocalizedString": "老大！"
+            }
+          },
+          {
+            "StartTime": 26430,
+            "EndTime": 28133,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_Player_001",
+              "SourceString": "嚯……",
+              "LocalizedString": "嚯……"
+            }
+          },
+          {
+            "StartTime": 32835,
+            "EndTime": 34821,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC011_001",
+              "SourceString": "老大，您原来在这里……！",
+              "LocalizedString": "老大，您原来在这里……！"
+            }
+          },
+          {
+            "StartTime": 35146,
+            "EndTime": 41023,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC011_002",
+              "SourceString": "只带两个保镖外出太危险了，请随我们回去！",
+              "LocalizedString": "只带两个保镖外出太危险了，请随我们回去！"
+            }
+          },
+          {
+            "StartTime": 42686,
+            "EndTime": 43821,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC004A_003",
+              "SourceString": "（你们……）",
+              "LocalizedString": "（你们……）"
+            }
+          },
+          {
+            "StartTime": 44469,
+            "EndTime": 47509,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC004A_004",
+              "SourceString": "（哼……啰嗦！今天，不准打扰！）",
+              "LocalizedString": "（哼……啰嗦！今天，不准打扰！）"
+            }
+          },
+          {
+            "StartTime": 47793,
+            "EndTime": 50266,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC004A_005",
+              "SourceString": "（都给塔吉多退下！）",
+              "LocalizedString": "（都给塔吉多退下！）"
+            }
+          },
+          {
+            "StartTime": 50388,
+            "EndTime": 52171,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC011_003",
+              "SourceString": "呃、是！老大！",
+              "LocalizedString": "呃、是！老大！"
+            }
+          },
+          {
+            "StartTime": 61900,
+            "EndTime": 63684,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC034A_003",
+              "SourceString": "哇~~！",
+              "LocalizedString": "哇~~！"
+            }
+          },
+          {
+            "StartTime": 65143,
+            "EndTime": 66400,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC004A_006",
+              "SourceString": "（呼……）",
+              "LocalizedString": "（呼……）"
+            }
+          },
+          {
+            "StartTime": 71508,
+            "EndTime": 74507,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC004A_007",
+              "SourceString": "（亲爱的塔可小姐，初次见面——）",
+              "LocalizedString": "（亲爱的塔可小姐，初次见面——）"
+            }
+          },
+          {
+            "StartTime": 74670,
+            "EndTime": 79331,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_01_NPC034A_004",
+              "SourceString": "塔吉多！比咱想象的还要酷！",
+              "LocalizedString": "塔吉多！比咱想象的还要酷！"
+            }
+          }
+        ]
+      },
+      "q110112": {
+        "Captions": [
+          {
+            "StartTime": 0,
+            "EndTime": 5330,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_01_NPC008_002",
+              "SourceString": "站住！你们都不准出手，这只臭鸟，看我怎么抓住它！",
+              "LocalizedString": "站住！你们都不准出手，这只臭鸟，看我怎么抓住它！"
+            }
+          },
+          {
+            "StartTime": 12505,
+            "EndTime": 17654,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_01_NPC008_003",
+              "SourceString": "你给我……站住！不准跑！",
+              "LocalizedString": "你给我……站住！不准跑！"
+            }
+          },
+          {
+            "StartTime": 22937,
+            "EndTime": 24021,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_01_NPC008_001",
+              "SourceString": "抓住它！",
+              "LocalizedString": "抓住它！"
+            }
+          },
+          {
+            "StartTime": 28761,
+            "EndTime": 37152,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_01_NPC02501_001",
+              "SourceString": "这是什么？我们之前来调查都没有看到这东西！果然冬司的失踪是和这个异象有关吧？",
+              "LocalizedString": "这是什么？我们之前来调查都没有看到这东西！果然冬司的失踪是和这个异象有关吧？"
+            }
+          },
+          {
+            "StartTime": 40638,
+            "EndTime": 44246,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_01_NPC012_001",
+              "SourceString": "抱歉……我也没有查到这个异象的资料。",
+              "LocalizedString": "抱歉……我也没有查到这个异象的资料。"
+            }
+          },
+          {
+            "StartTime": 44368,
+            "EndTime": 50367,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_01_NPC011_002",
+              "SourceString": "连我的智囊团第一人都不知道这个异象？你脑袋里可是装着一个图书馆诶！",
+              "LocalizedString": "连我的智囊团第一人都不知道这个异象？你脑袋里可是装着一个图书馆诶！"
+            }
+          },
+          {
+            "StartTime": 106988,
+            "EndTime": 108244,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_01_NPC008_004",
+              "SourceString": "喂！",
+              "LocalizedString": "喂！"
+            }
+          }
+        ]
+      },
+      "q110130": {
+        "Captions": [
+          {
+            "StartTime": 3758,
+            "EndTime": 8366,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_02_NPC009A_001",
+              "SourceString": "呕——",
+              "LocalizedString": "呕——"
+            }
+          },
+          {
+            "StartTime": 8683,
+            "EndTime": 15624,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_02_NPC008_001",
+              "SourceString": "这个东西！怎么又被你吞进去了！呆子！不是让你把这个收好吗！",
+              "LocalizedString": "这个东西！怎么又被你吞进去了！呆子！不是让你把这个收好吗！"
+            }
+          },
+          {
+            "StartTime": 16718,
+            "EndTime": 24062,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_02_NPC011_001",
+              "SourceString": "那个——有谁来解释一下，它这又是在生哪门子气啊？\r\n（……看起来……它应该是觉得……鬼郎丸把它的主人也吃掉了……）",
+              "LocalizedString": "那个——有谁来解释一下，它这又是在生哪门子气啊？\r\n（……看起来……它应该是觉得……鬼郎丸把它的主人也吃掉了……）"
+            }
+          }
+        ]
+      },
+      "q110134": {
+        "Captions": [
+          {
+            "StartTime": 6998,
+            "EndTime": 14198,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_NPC02201_001",
+              "SourceString": "咳咳咳咳……咳咳咳咳……这、这是哪里……",
+              "LocalizedString": "咳咳咳咳……咳咳咳咳……这、这是哪里……"
+            }
+          },
+          {
+            "StartTime": 14371,
+            "EndTime": 15552,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_NPC013A_001",
+              "SourceString": "汪！",
+              "LocalizedString": "汪！"
+            }
+          },
+          {
+            "StartTime": 15753,
+            "EndTime": 18316,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_NPC02201_002",
+              "SourceString": "蒲、蒲公英……？",
+              "LocalizedString": "蒲、蒲公英……？"
+            }
+          },
+          {
+            "StartTime": 18950,
+            "EndTime": 21168,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_NPC013A_002",
+              "SourceString": "汪！汪！",
+              "LocalizedString": "汪！汪！"
+            }
+          },
+          {
+            "StartTime": 21571,
+            "EndTime": 24912,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_NPC02201_003",
+              "SourceString": "是蒲公英！我就知道是你！",
+              "LocalizedString": "是蒲公英！我就知道是你！"
+            }
+          },
+          {
+            "StartTime": 24998,
+            "EndTime": 26323,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_NPC013A_003",
+              "SourceString": "汪！汪汪汪！",
+              "LocalizedString": "汪！汪汪汪！"
+            }
+          },
+          {
+            "StartTime": 26438,
+            "EndTime": 39715,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_NPC02201_004",
+              "SourceString": "蒲公英，这段时间你到底跑到哪里去了你这只坏狗！呜呜呜呜……我怎么都找不到你……吓死我了呜呜呜呜………",
+              "LocalizedString": "蒲公英，这段时间你到底跑到哪里去了你这只坏狗！呜呜呜呜……我怎么都找不到你……吓死我了呜呜呜呜………"
+            }
+          },
+          {
+            "StartTime": 39816,
+            "EndTime": 42436,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_Player_001",
+              "SourceString": "多亏你及时赶到，谢谢。",
+              "LocalizedString": "多亏你及时赶到，谢谢。"
+            }
+          },
+          {
+            "StartTime": 42523,
+            "EndTime": 46180,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C01_03_NPC013_001",
+              "SourceString": "客气。塔吉多说，你照顾他们很多。",
+              "LocalizedString": "客气。塔吉多说，你照顾他们很多。"
+            }
+          }
+        ]
+      },
+      "q110189": {
+        "Captions": [
+          {
+            "StartTime": 15058,
+            "EndTime": 18833,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC004A_001",
+              "SourceString": "（塔吉多在此奉上——特别表演！）",
+              "LocalizedString": "（塔吉多在此奉上——特别表演！）"
+            }
+          },
+          {
+            "StartTime": 19518,
+            "EndTime": 20734,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC034A_001",
+              "SourceString": "哇——",
+              "LocalizedString": "哇——"
+            }
+          },
+          {
+            "StartTime": 20856,
+            "EndTime": 22072,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC04310_001",
+              "SourceString": "好厉害！",
+              "LocalizedString": "好厉害！"
+            }
+          },
+          {
+            "StartTime": 29369,
+            "EndTime": 31436,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC004A_002",
+              "SourceString": "Tayge！",
+              "LocalizedString": "Tayge！"
+            }
+          },
+          {
+            "StartTime": 34436,
+            "EndTime": 36828,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC034A_002",
+              "SourceString": "哇~！是咱们俩！",
+              "LocalizedString": "哇~！是咱们俩！"
+            }
+          },
+          {
+            "StartTime": 37598,
+            "EndTime": 41490,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_Player_001",
+              "SourceString": "（塔吉多……居然能做到这种地步吗？）",
+              "LocalizedString": "（塔吉多……居然能做到这种地步吗？）"
+            }
+          },
+          {
+            "StartTime": 41611,
+            "EndTime": 47368,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC004A_002",
+              "SourceString": "Tayge！",
+              "LocalizedString": "Tayge！"
+            }
+          },
+          {
+            "StartTime": 49719,
+            "EndTime": 52881,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC004A_004",
+              "SourceString": "（这个！送给塔可小姐！）",
+              "LocalizedString": "（这个！送给塔可小姐！）"
+            }
+          },
+          {
+            "StartTime": 56448,
+            "EndTime": 60000,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC004A_005",
+              "SourceString": "（塔、塔吉多想要告诉……塔可小姐……）",
+              "LocalizedString": "（塔、塔吉多想要告诉……塔可小姐……）"
+            }
+          },
+          {
+            "StartTime": 60421,
+            "EndTime": 65380,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC034A_003",
+              "SourceString": "塔吉多……欸、咦？",
+              "LocalizedString": "塔吉多……欸、咦？"
+            }
+          },
+          {
+            "StartTime": 68326,
+            "EndTime": 69000,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC004A_006",
+              "SourceString": "Ta？",
+              "LocalizedString": "Ta？"
+            }
+          },
+          {
+            "StartTime": 77203,
+            "EndTime": 79798,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC004A_007",
+              "SourceString": "（怎怎怎么回事！）",
+              "LocalizedString": "（怎怎怎么回事！）"
+            }
+          },
+          {
+            "StartTime": 81987,
+            "EndTime": 85676,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC011_001",
+              "SourceString": "不是？刚刚不还好好的吗！发生什么事了！",
+              "LocalizedString": "不是？刚刚不还好好的吗！发生什么事了！"
+            }
+          },
+          {
+            "StartTime": 86811,
+            "EndTime": 93013,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC012_001",
+              "SourceString": "糟了……难道是塔吉多的能力，促成本是异象的「随心泥」失控了……",
+              "LocalizedString": "糟了……难道是塔吉多的能力，促成本是异象的「随心泥」失控了……"
+            }
+          },
+          {
+            "StartTime": 93540,
+            "EndTime": 94756,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC034A_004",
+              "SourceString": "呀！",
+              "LocalizedString": "呀！"
+            }
+          },
+          {
+            "StartTime": 95810,
+            "EndTime": 97715,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_NPC010_001",
+              "SourceString": "塔可小姐，危险！",
+              "LocalizedString": "塔可小姐，危险！"
+            }
+          },
+          {
+            "StartTime": 104201,
+            "EndTime": 105417,
+            "Text": {
+              "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
+              "Key": "HM_U01C02_03_Player_002",
+              "SourceString": "老大！",
+              "LocalizedString": "老大！"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

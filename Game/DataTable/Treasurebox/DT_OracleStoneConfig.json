@@ -1,0 +1,996 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OracleStoneConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'OracleStoneConfigData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "OracleStone_001_035": {
+        "Index": 0,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -131036.48,
+          "Y": 152725.6,
+          "Z": 13785.362
+        }
+      },
+      "OracleStone_001_022": {
+        "Index": 1,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -116066.57,
+          "Y": 145152.84,
+          "Z": 9819.261
+        }
+      },
+      "OracleStone_001_009": {
+        "Index": 2,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -102499.0,
+          "Y": 149948.0,
+          "Z": 5673.0
+        }
+      },
+      "OracleStone_001_029": {
+        "Index": 3,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -142392.55,
+          "Y": 171451.83,
+          "Z": 8039.6147
+        }
+      },
+      "OracleStone_001_017": {
+        "Index": 4,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -149692.0,
+          "Y": 168469.0,
+          "Z": 9354.0
+        }
+      },
+      "OracleStone_001_028": {
+        "Index": 5,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -140277.0,
+          "Y": 169506.0,
+          "Z": 6961.0
+        }
+      },
+      "OracleStone_001_034": {
+        "Index": 6,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -137665.36,
+          "Y": 157526.05,
+          "Z": 11651.601
+        }
+      },
+      "OracleStone_001_015": {
+        "Index": 7,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -130857.0,
+          "Y": 161267.0,
+          "Z": 7525.0
+        }
+      },
+      "OracleStone_001_027": {
+        "Index": 8,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -117095.17,
+          "Y": 157598.0,
+          "Z": 12013.755
+        }
+      },
+      "OracleStone_001_020": {
+        "Index": 9,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -127183.0,
+          "Y": 154240.0,
+          "Z": 6258.5
+        }
+      },
+      "OracleStone_001_001": {
+        "Index": 10,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -125937.54,
+          "Y": 179339.36,
+          "Z": 7225.6787
+        }
+      },
+      "OracleStone_001_025": {
+        "Index": 11,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -113871.0,
+          "Y": 154463.0,
+          "Z": 7027.0
+        }
+      },
+      "OracleStone_001_019": {
+        "Index": 12,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -110071.0,
+          "Y": 160827.0,
+          "Z": 6090.0
+        }
+      },
+      "OracleStone_001_002": {
+        "Index": 13,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -107013.56,
+          "Y": 162858.1,
+          "Z": 6475.337
+        }
+      },
+      "OracleStone_001_016": {
+        "Index": 14,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -114098.7,
+          "Y": 173173.73,
+          "Z": 6426.15
+        }
+      },
+      "OracleStone_001_024": {
+        "Index": 15,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -112773.33,
+          "Y": 176376.19,
+          "Z": 8148.4683
+        }
+      },
+      "OracleStone_001_010": {
+        "Index": 16,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -111253.03,
+          "Y": 169412.64,
+          "Z": 6477.455
+        }
+      },
+      "OracleStone_001_033": {
+        "Index": 17,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -122637.836,
+          "Y": 186806.0,
+          "Z": 11229.049
+        }
+      },
+      "OracleStone_001_014": {
+        "Index": 18,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -125619.0,
+          "Y": 189709.0,
+          "Z": 7189.0
+        }
+      },
+      "OracleStone_001_013": {
+        "Index": 19,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -104913.0,
+          "Y": 186397.0,
+          "Z": 3996.0
+        }
+      },
+      "OracleStone_001_023": {
+        "Index": 20,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -109102.0,
+          "Y": 191163.0,
+          "Z": 2364.0
+        }
+      },
+      "OracleStone_001_030": {
+        "Index": 21,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -91447.53,
+          "Y": 134185.34,
+          "Z": 9538.518
+        }
+      },
+      "OracleStone_001_018": {
+        "Index": 22,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -90423.0,
+          "Y": 151268.0,
+          "Z": 5408.0
+        }
+      },
+      "OracleStone_001_011": {
+        "Index": 23,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -99024.0,
+          "Y": 151754.0,
+          "Z": 5656.0
+        }
+      },
+      "OracleStone_001_031": {
+        "Index": 24,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -92454.36,
+          "Y": 141694.48,
+          "Z": 6796.4326
+        }
+      },
+      "OracleStone_001_032": {
+        "Index": 25,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -76879.555,
+          "Y": 139668.62,
+          "Z": 7183.0
+        }
+      },
+      "OracleStone_001_021": {
+        "Index": 26,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -79186.0,
+          "Y": 150001.0,
+          "Z": 4348.0
+        }
+      },
+      "OracleStone_001_012": {
+        "Index": 27,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -68440.0,
+          "Y": 139543.0,
+          "Z": 2965.0
+        }
+      },
+      "OracleStone_001_026": {
+        "Index": 28,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -99113.0,
+          "Y": 177529.0,
+          "Z": 5492.0
+        }
+      },
+      "OracleStone_001_007": {
+        "Index": 29,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -91059.0,
+          "Y": 173489.0,
+          "Z": 4219.0
+        }
+      },
+      "OracleStone_001_006": {
+        "Index": 30,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -90957.81,
+          "Y": 167637.62,
+          "Z": 5232.312
+        }
+      },
+      "OracleStone_001_008": {
+        "Index": 31,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -86269.0,
+          "Y": 157747.0,
+          "Z": 3741.0
+        }
+      },
+      "OracleStone_001_004": {
+        "Index": 32,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -76731.81,
+          "Y": 170987.55,
+          "Z": 3126.1929
+        }
+      },
+      "OracleStone_001_003": {
+        "Index": 33,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -77426.0,
+          "Y": 190178.0,
+          "Z": 2484.0
+        }
+      },
+      "OracleStone_001_005": {
+        "Index": 34,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "Location": {
+          "X": -72258.586,
+          "Y": 161143.34,
+          "Z": 2494.5693
+        }
+      },
+      "OracleStone_002_018": {
+        "Index": 35,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -212995.64,
+          "Y": 200541.48,
+          "Z": 7087.891
+        }
+      },
+      "OracleStone_002_019": {
+        "Index": 36,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -207346.72,
+          "Y": 229982.02,
+          "Z": 6141.882
+        }
+      },
+      "OracleStone_002_010": {
+        "Index": 37,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -186463.36,
+          "Y": 173244.31,
+          "Z": 3957.1555
+        }
+      },
+      "OracleStone_002_004": {
+        "Index": 38,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -203999.84,
+          "Y": 199232.69,
+          "Z": 7723.63
+        }
+      },
+      "OracleStone_002_023": {
+        "Index": 39,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -190791.38,
+          "Y": 195167.69,
+          "Z": 11964.202
+        }
+      },
+      "OracleStone_002_003": {
+        "Index": 40,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -164505.19,
+          "Y": 179711.78,
+          "Z": 11277.0
+        }
+      },
+      "OracleStone_002_009": {
+        "Index": 41,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -171068.0,
+          "Y": 193977.0,
+          "Z": 8885.0
+        }
+      },
+      "OracleStone_002_021": {
+        "Index": 42,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -157643.81,
+          "Y": 182174.45,
+          "Z": 9283.286
+        }
+      },
+      "OracleStone_002_022": {
+        "Index": 43,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -156185.3,
+          "Y": 192253.7,
+          "Z": 10184.64
+        }
+      },
+      "OracleStone_002_008": {
+        "Index": 44,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -160348.7,
+          "Y": 204747.98,
+          "Z": 7124.5
+        }
+      },
+      "OracleStone_002_002": {
+        "Index": 45,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -140430.89,
+          "Y": 197408.98,
+          "Z": 10571.85
+        }
+      },
+      "OracleStone_002_013": {
+        "Index": 46,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -134926.45,
+          "Y": 200284.98,
+          "Z": 14706.509
+        }
+      },
+      "OracleStone_002_012": {
+        "Index": 47,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -112008.71,
+          "Y": 203854.31,
+          "Z": 3244.0
+        }
+      },
+      "OracleStone_002_025": {
+        "Index": 48,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -201358.8,
+          "Y": 216432.95,
+          "Z": 8000.1533
+        }
+      },
+      "OracleStone_002_005": {
+        "Index": 49,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -191440.62,
+          "Y": 210139.53,
+          "Z": 18019.422
+        }
+      },
+      "OracleStone_002_011": {
+        "Index": 50,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -182783.11,
+          "Y": 227498.89,
+          "Z": 8415.0
+        }
+      },
+      "OracleStone_002_006": {
+        "Index": 51,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -187311.22,
+          "Y": 221215.0,
+          "Z": 16225.0
+        }
+      },
+      "OracleStone_002_024": {
+        "Index": 52,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -168811.2,
+          "Y": 211179.86,
+          "Z": 8974.879
+        }
+      },
+      "OracleStone_002_017": {
+        "Index": 53,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -160477.67,
+          "Y": 212046.45,
+          "Z": 4552.019
+        }
+      },
+      "OracleStone_002_016": {
+        "Index": 54,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -160294.98,
+          "Y": 225552.16,
+          "Z": 8447.076
+        }
+      },
+      "OracleStone_002_020": {
+        "Index": 55,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -157268.94,
+          "Y": 234224.25,
+          "Z": 5008.276
+        }
+      },
+      "OracleStone_002_015": {
+        "Index": 56,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -149534.67,
+          "Y": 213946.23,
+          "Z": 10178.277
+        }
+      },
+      "OracleStone_002_007": {
+        "Index": 57,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -148783.0,
+          "Y": 225275.0,
+          "Z": 11642.5
+        }
+      },
+      "OracleStone_002_014": {
+        "Index": 58,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -137842.95,
+          "Y": 212022.17,
+          "Z": 10911.071
+        }
+      },
+      "OracleStone_003_033": {
+        "Index": 59,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -185510.75,
+          "Y": 114515.55,
+          "Z": 8488.091
+        }
+      },
+      "OracleStone_003_029": {
+        "Index": 60,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -182057.52,
+          "Y": 121913.914,
+          "Z": 10088.591
+        }
+      },
+      "OracleStone_003_035": {
+        "Index": 61,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -185288.11,
+          "Y": 135750.39,
+          "Z": 8933.389
+        }
+      },
+      "OracleStone_003_034": {
+        "Index": 62,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -191295.92,
+          "Y": 134733.33,
+          "Z": 7428.0645
+        }
+      },
+      "OracleStone_003_027": {
+        "Index": 63,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -167172.4,
+          "Y": 111014.195,
+          "Z": 8228.341
+        }
+      },
+      "OracleStone_003_031": {
+        "Index": 64,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -169644.27,
+          "Y": 103052.914,
+          "Z": 7408.0957
+        }
+      },
+      "OracleStone_003_032": {
+        "Index": 65,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -177563.06,
+          "Y": 108995.5,
+          "Z": 7450.246
+        }
+      },
+      "OracleStone_003_024": {
+        "Index": 66,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -169431.12,
+          "Y": 124757.125,
+          "Z": 7962.5786
+        }
+      },
+      "OracleStone_003_028": {
+        "Index": 67,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -177530.92,
+          "Y": 119408.875,
+          "Z": 7409.1953
+        }
+      },
+      "OracleStone_003_026": {
+        "Index": 68,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -166089.0,
+          "Y": 120673.77,
+          "Z": 13438.097
+        }
+      },
+      "OracleStone_003_008": {
+        "Index": 69,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -158694.0,
+          "Y": 124042.0,
+          "Z": 8294.0
+        }
+      },
+      "OracleStone_003_030": {
+        "Index": 70,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -176408.92,
+          "Y": 140226.97,
+          "Z": 6752.797
+        }
+      },
+      "OracleStone_003_006": {
+        "Index": 71,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -171885.73,
+          "Y": 135278.83,
+          "Z": 7890.9946
+        }
+      },
+      "OracleStone_003_025": {
+        "Index": 72,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -173025.1,
+          "Y": 130767.805,
+          "Z": 7447.5913
+        }
+      },
+      "OracleStone_003_007": {
+        "Index": 73,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -166377.17,
+          "Y": 131662.5,
+          "Z": 11341.781
+        }
+      },
+      "OracleStone_003_022": {
+        "Index": 74,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -166841.86,
+          "Y": 152737.64,
+          "Z": 7605.478
+        }
+      },
+      "OracleStone_003_021": {
+        "Index": 75,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -168781.0,
+          "Y": 142492.0,
+          "Z": 7748.0
+        }
+      },
+      "OracleStone_003_020": {
+        "Index": 76,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -177296.0,
+          "Y": 151140.0,
+          "Z": 5693.0
+        }
+      },
+      "OracleStone_003_016": {
+        "Index": 77,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -156876.0,
+          "Y": 130737.0,
+          "Z": 6786.0
+        }
+      },
+      "OracleStone_003_019": {
+        "Index": 78,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -165062.0,
+          "Y": 135665.0,
+          "Z": 7107.0
+        }
+      },
+      "OracleStone_003_014": {
+        "Index": 79,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -155374.0,
+          "Y": 143061.0,
+          "Z": 6792.0
+        }
+      },
+      "OracleStone_003_013": {
+        "Index": 80,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -159213.0,
+          "Y": 154219.0,
+          "Z": 6419.0
+        }
+      },
+      "OracleStone_003_023": {
+        "Index": 81,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -151960.2,
+          "Y": 114371.266,
+          "Z": 8994.4795
+        }
+      },
+      "OracleStone_003_009": {
+        "Index": 82,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -143120.67,
+          "Y": 123867.72,
+          "Z": 7019.914
+        }
+      },
+      "OracleStone_003_002": {
+        "Index": 83,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -147998.06,
+          "Y": 121081.91,
+          "Z": 11876.398
+        }
+      },
+      "OracleStone_003_010": {
+        "Index": 84,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -130016.54,
+          "Y": 116913.36,
+          "Z": 6959.0
+        }
+      },
+      "OracleStone_003_001": {
+        "Index": 85,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -139013.72,
+          "Y": 125522.89,
+          "Z": 7212.2236
+        }
+      },
+      "OracleStone_003_005": {
+        "Index": 86,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -141566.0,
+          "Y": 144448.0,
+          "Z": 7625.0
+        }
+      },
+      "OracleStone_003_003": {
+        "Index": 87,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -129037.0,
+          "Y": 139671.0,
+          "Z": 7101.0
+        }
+      },
+      "OracleStone_003_015": {
+        "Index": 88,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -128962.0,
+          "Y": 135546.0,
+          "Z": 6937.5
+        }
+      },
+      "OracleStone_003_004": {
+        "Index": 89,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -135393.17,
+          "Y": 139225.06,
+          "Z": 8880.169
+        }
+      },
+      "OracleStone_003_018": {
+        "Index": 90,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -138018.08,
+          "Y": 133091.86,
+          "Z": 6905.0015
+        }
+      },
+      "OracleStone_003_011": {
+        "Index": 91,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -105993.0,
+          "Y": 121030.0,
+          "Z": 14585.0
+        }
+      },
+      "OracleStone_003_012": {
+        "Index": 92,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -111959.67,
+          "Y": 131164.67,
+          "Z": 12177.363
+        }
+      },
+      "OracleStone_003_017": {
+        "Index": 93,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "Location": {
+          "X": -85589.0,
+          "Y": 108175.0,
+          "Z": 4573.0
+        }
+      },
+      "OracleStone_002_001": {
+        "Index": 94,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "Location": {
+          "X": -145012.6,
+          "Y": 250278.0,
+          "Z": 2769.3604
+        }
+      },
+      "BP_OracleStone_450": {
+        "Index": 95,
+        "LevelName": "TestMap_Moxy",
+        "AreaId": "002",
+        "Location": {
+          "X": 4190.0,
+          "Y": 1635.0,
+          "Z": 210.0
+        }
+      },
+      "BP_OracleStone_451": {
+        "Index": 96,
+        "LevelName": "TestMap_Moxy",
+        "AreaId": "002",
+        "Location": {
+          "X": 4660.0,
+          "Y": 1640.0,
+          "Z": 215.0
+        }
+      },
+      "BP_OracleStone_456": {
+        "Index": 97,
+        "LevelName": "TestMap_Moxy",
+        "AreaId": "002",
+        "Location": {
+          "X": 5190.0,
+          "Y": 1675.0,
+          "Z": 305.0
+        }
+      }
+    }
+  }
+]

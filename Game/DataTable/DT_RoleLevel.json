@@ -1,0 +1,1385 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RoleLevel",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'RoleLevelData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "bNeedShow": false,
+        "UpgradeExp": 450,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "None",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 20
+          }
+        }
+      },
+      "2": {
+        "bNeedShow": true,
+        "UpgradeExp": 510,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv2",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 20
+          }
+        }
+      },
+      "3": {
+        "bNeedShow": true,
+        "UpgradeExp": 570,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv3",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "4": {
+        "bNeedShow": true,
+        "UpgradeExp": 640,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv4",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "5": {
+        "bNeedShow": true,
+        "UpgradeExp": 710,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv5",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "6": {
+        "bNeedShow": true,
+        "UpgradeExp": 780,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv6",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "7": {
+        "bNeedShow": true,
+        "UpgradeExp": 860,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv7",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "8": {
+        "bNeedShow": true,
+        "UpgradeExp": 930,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv8",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "9": {
+        "bNeedShow": true,
+        "UpgradeExp": 1010,
+        "UpgradeWorldLevel": 0,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 0,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv9",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "10": {
+        "bNeedShow": true,
+        "UpgradeExp": 1090,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [
+          {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "worldlevel_1_unlock",
+            "SourceString": "解锁世界等级1",
+            "LocalizedString": "解锁世界等级1"
+          }
+        ],
+        "AwardDropID": "drop_hunterlevelreward_lv10",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "11": {
+        "bNeedShow": true,
+        "UpgradeExp": 1170,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv11",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "12": {
+        "bNeedShow": true,
+        "UpgradeExp": 1260,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv12",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "13": {
+        "bNeedShow": true,
+        "UpgradeExp": 1350,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv13",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "14": {
+        "bNeedShow": true,
+        "UpgradeExp": 1440,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv14",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "15": {
+        "bNeedShow": true,
+        "UpgradeExp": 1530,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv15",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "16": {
+        "bNeedShow": true,
+        "UpgradeExp": 1630,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv16",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "17": {
+        "bNeedShow": true,
+        "UpgradeExp": 1720,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv17",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "18": {
+        "bNeedShow": true,
+        "UpgradeExp": 1830,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv18",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "19": {
+        "bNeedShow": true,
+        "UpgradeExp": 1930,
+        "UpgradeWorldLevel": 1,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 1,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv19",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "20": {
+        "bNeedShow": true,
+        "UpgradeExp": 2040,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [
+          {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "worldlevel_2_unlock",
+            "SourceString": "解锁世界等级2",
+            "LocalizedString": "解锁世界等级2"
+          }
+        ],
+        "AwardDropID": "drop_hunterlevelreward_lv20",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "21": {
+        "bNeedShow": true,
+        "UpgradeExp": 2150,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv21",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "22": {
+        "bNeedShow": true,
+        "UpgradeExp": 2270,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv22",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "23": {
+        "bNeedShow": true,
+        "UpgradeExp": 2380,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv23",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "24": {
+        "bNeedShow": true,
+        "UpgradeExp": 2510,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv24",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "25": {
+        "bNeedShow": true,
+        "UpgradeExp": 2630,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv25",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "26": {
+        "bNeedShow": true,
+        "UpgradeExp": 2760,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv26",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "27": {
+        "bNeedShow": true,
+        "UpgradeExp": 2890,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv27",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "28": {
+        "bNeedShow": true,
+        "UpgradeExp": 3030,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv28",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "29": {
+        "bNeedShow": true,
+        "UpgradeExp": 3170,
+        "UpgradeWorldLevel": 2,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 2,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv29",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "30": {
+        "bNeedShow": true,
+        "UpgradeExp": 3320,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [
+          {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "worldlevel_3_unlock",
+            "SourceString": "解锁世界等级3",
+            "LocalizedString": "解锁世界等级3"
+          }
+        ],
+        "AwardDropID": "drop_hunterlevelreward_lv30",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "31": {
+        "bNeedShow": true,
+        "UpgradeExp": 3470,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv31",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "32": {
+        "bNeedShow": true,
+        "UpgradeExp": 3620,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv32",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "33": {
+        "bNeedShow": true,
+        "UpgradeExp": 3780,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv33",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "34": {
+        "bNeedShow": true,
+        "UpgradeExp": 3940,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv34",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "35": {
+        "bNeedShow": true,
+        "UpgradeExp": 4110,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv35",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "36": {
+        "bNeedShow": true,
+        "UpgradeExp": 4280,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv36",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "37": {
+        "bNeedShow": true,
+        "UpgradeExp": 4460,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv37",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "38": {
+        "bNeedShow": true,
+        "UpgradeExp": 4650,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv38",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "39": {
+        "bNeedShow": true,
+        "UpgradeExp": 4840,
+        "UpgradeWorldLevel": 3,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 3,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv39",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "40": {
+        "bNeedShow": true,
+        "UpgradeExp": 5030,
+        "UpgradeWorldLevel": 4,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 4,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [
+          {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "worldlevel_4_unlock",
+            "SourceString": "解锁世界等级4",
+            "LocalizedString": "解锁世界等级4"
+          }
+        ],
+        "AwardDropID": "drop_hunterlevelreward_lv40",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "41": {
+        "bNeedShow": true,
+        "UpgradeExp": 6540,
+        "UpgradeWorldLevel": 4,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 4,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv41",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "42": {
+        "bNeedShow": true,
+        "UpgradeExp": 8190,
+        "UpgradeWorldLevel": 4,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 4,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv42",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "43": {
+        "bNeedShow": true,
+        "UpgradeExp": 10010,
+        "UpgradeWorldLevel": 4,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 4,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv43",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "44": {
+        "bNeedShow": true,
+        "UpgradeExp": 12010,
+        "UpgradeWorldLevel": 4,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 4,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv44",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "45": {
+        "bNeedShow": true,
+        "UpgradeExp": 14210,
+        "UpgradeWorldLevel": 5,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 5,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [
+          {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "worldlevel_5_unlock",
+            "SourceString": "解锁世界等级5",
+            "LocalizedString": "解锁世界等级5"
+          }
+        ],
+        "AwardDropID": "drop_hunterlevelreward_lv45",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "46": {
+        "bNeedShow": true,
+        "UpgradeExp": 17630,
+        "UpgradeWorldLevel": 5,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 5,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv46",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "47": {
+        "bNeedShow": true,
+        "UpgradeExp": 21400,
+        "UpgradeWorldLevel": 5,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 5,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv47",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "48": {
+        "bNeedShow": true,
+        "UpgradeExp": 25540,
+        "UpgradeWorldLevel": 5,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 5,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv48",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "49": {
+        "bNeedShow": true,
+        "UpgradeExp": 30090,
+        "UpgradeWorldLevel": 5,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 5,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv49",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "50": {
+        "bNeedShow": true,
+        "UpgradeExp": 52000,
+        "UpgradeWorldLevel": 6,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 6,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [
+          {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "worldlevel_6_unlock",
+            "SourceString": "解锁世界等级6",
+            "LocalizedString": "解锁世界等级6"
+          }
+        ],
+        "AwardDropID": "drop_hunterlevelreward_lv50",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "51": {
+        "bNeedShow": true,
+        "UpgradeExp": 65200,
+        "UpgradeWorldLevel": 6,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 6,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv51",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "52": {
+        "bNeedShow": true,
+        "UpgradeExp": 79720,
+        "UpgradeWorldLevel": 6,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 6,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv52",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "53": {
+        "bNeedShow": true,
+        "UpgradeExp": 95690,
+        "UpgradeWorldLevel": 6,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 6,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv53",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "54": {
+        "bNeedShow": true,
+        "UpgradeExp": 113260,
+        "UpgradeWorldLevel": 6,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 6,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv54",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "55": {
+        "bNeedShow": true,
+        "UpgradeExp": 132580,
+        "UpgradeWorldLevel": 7,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 7,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [
+          {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "worldlevel_7_unlock",
+            "SourceString": "解锁世界等级7",
+            "LocalizedString": "解锁世界等级7"
+          }
+        ],
+        "AwardDropID": "drop_hunterlevelreward_lv55",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "56": {
+        "bNeedShow": true,
+        "UpgradeExp": 153840,
+        "UpgradeWorldLevel": 7,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 7,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv56",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "57": {
+        "bNeedShow": true,
+        "UpgradeExp": 177230,
+        "UpgradeWorldLevel": 7,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 7,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv57",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "58": {
+        "bNeedShow": true,
+        "UpgradeExp": 202950,
+        "UpgradeWorldLevel": 7,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 7,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv58",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "59": {
+        "bNeedShow": true,
+        "UpgradeExp": 231240,
+        "UpgradeWorldLevel": 7,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 7,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv59",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      },
+      "60": {
+        "bNeedShow": true,
+        "UpgradeExp": 0,
+        "UpgradeWorldLevel": 7,
+        "UpgradeLevelLimit": -1,
+        "UpgradeWorldLevelLimit": 7,
+        "BrokenQuestID": "None",
+        "DescArray": [],
+        "BrokenDescArray": [],
+        "AwardDropID": "drop_hunterlevelreward_lv60",
+        "BrokenAwardDropID": "None",
+        "RecommendLevel": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        }
+      }
+    }
+  }
+]

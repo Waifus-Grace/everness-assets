@@ -1,0 +1,2442 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Character",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StaticItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019x100.player_019x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "Namespace": "",
+          "Key": "F552D39F4DD7EA499842C29A9DB0BF92",
+          "SourceString": "个性活泼开朗，热情大方，富有人情味，对一切未知都充满好奇，语言习惯坦诚而直接，喜欢和不喜欢都会明显地表现出来。在某些方面意想不到地迟钝，一紧张就会进入语无伦次的状态。学习天赋非常差劲，直觉也出人意料地糟糕，每次管理局内的学习考试都会连蒙带猜避开所有正确答案光荣垫底。",
+          "LocalizedString": "个性活泼开朗，热情大方，富有人情味，对一切未知都充满好奇，语言习惯坦诚而直接，喜欢和不喜欢都会明显地表现出来。在某些方面意想不到地迟钝，一紧张就会进入语无伦次的状态。学习天赋非常差劲，直觉也出人意料地糟糕，每次管理局内的学习考试都会连蒙带猜避开所有正确答案光荣垫底。"
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1003": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003x100.player_003x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003",
+          "SourceString": "早雾",
+          "LocalizedString": "早雾"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_Sagirl",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Sagiri_tag_0",
+              "SourceString": "<Mainwhite>辅助</>",
+              "LocalizedString": "<Mainwhite>辅助</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_fuzhu01.YH_UI_icon_Tag_fuzhu01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Sagiri_tag_1",
+              "SourceString": "<white>控制</>",
+              "LocalizedString": "<white>控制</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_kongzhi.YH_UI_icon_Tag_kongzhi",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Sagiri_tag_2",
+              "SourceString": "<white>即瞬环合</>",
+              "LocalizedString": "<white>即瞬环合</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1004": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004.player_004",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004x100.player_004x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_004",
+          "SourceString": "安魂曲",
+          "LocalizedString": "安魂曲"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "Namespace": "",
+          "Key": "F2A2360C4769BE04A37FEF8294F979D0",
+          "SourceString": "性格天然，语言组织能力很差，看起来傻乎乎的且有点迟钝，缺乏常识，生活自理能力很差，经常出现走路碰到玻璃门、被自己的鞋带绊倒等小问题，有着令周围的人不知不觉的就照顾她的天赋，应变能力为零。缺乏干劲，对于出任务完全提不起兴趣，偷懒放水的时候经常被队友抓个正着。被队友吐槽后本着尽快结束尽快休息的原则，下手总是会突然变重，有时候会影响到市民的正常生活，因此是异象管理局接到投诉最多的成员之一。不擅长与人争执，当周围人关系紧张，虽然想要靠自己来让气氛缓和下来，但因为不擅长观察他人的心情，基本上难以收到好的效果。",
+          "LocalizedString": "性格天然，语言组织能力很差，看起来傻乎乎的且有点迟钝，缺乏常识，生活自理能力很差，经常出现走路碰到玻璃门、被自己的鞋带绊倒等小问题，有着令周围的人不知不觉的就照顾她的天赋，应变能力为零。缺乏干劲，对于出任务完全提不起兴趣，偷懒放水的时候经常被队友抓个正着。被队友吐槽后本着尽快结束尽快休息的原则，下手总是会突然变重，有时候会影响到市民的正常生活，因此是异象管理局接到投诉最多的成员之一。不擅长与人争执，当周围人关系紧张，虽然想要靠自己来让气氛缓和下来，但因为不擅长观察他人的心情，基本上难以收到好的效果。"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_lacrimosa",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0",
+              "SourceString": "<Mainwhite>攻击</>",
+              "LocalizedString": "<Mainwhite>攻击</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_1",
+              "SourceString": "<white>主力输出</>",
+              "LocalizedString": "<white>主力输出</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_2",
+              "SourceString": "<white>持续伤害</>",
+              "LocalizedString": "<white>持续伤害</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_chixu.YH_UI_icon_Tag_chixu",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1005": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_005.player_005",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_005",
+          "SourceString": "达芙蒂尔",
+          "LocalizedString": "达芙蒂尔"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_dafudier",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1008": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008x100.player_008x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_008",
+          "SourceString": "翳",
+          "LocalizedString": "翳"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_skia",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0",
+              "SourceString": "<Mainwhite>攻击</>",
+              "LocalizedString": "<Mainwhite>攻击</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_1",
+              "SourceString": "<white>主力输出</>",
+              "LocalizedString": "<white>主力输出</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1009": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009x100.player_009x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_009",
+          "SourceString": "零",
+          "LocalizedString": "零"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_player",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0",
+              "SourceString": "<Mainwhite>攻击</>",
+              "LocalizedString": "<Mainwhite>攻击</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_1",
+              "SourceString": "<white>爆发输出</>",
+              "LocalizedString": "<white>爆发输出</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_2",
+              "SourceString": "<white>即瞬环合</>",
+              "LocalizedString": "<white>即瞬环合</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1010": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010.player_010",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010x100.player_010x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_010",
+          "SourceString": "娜娜莉",
+          "LocalizedString": "娜娜莉"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_010_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_010_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_nanally",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0",
+              "SourceString": "<Mainwhite>攻击</>",
+              "LocalizedString": "<Mainwhite>攻击</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_1",
+              "SourceString": "<white>主力输出</>",
+              "LocalizedString": "<white>主力输出</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Nanally_tag_2",
+              "SourceString": "<white>联袂邀击</>",
+              "LocalizedString": "<white>联袂邀击</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_yaoji.YH_UI_icon_Tag_yaoji",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1014": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_014",
+          "SourceString": "九原",
+          "LocalizedString": "九原"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1018": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_018.player_018",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_018",
+          "SourceString": "艾尔菲德",
+          "LocalizedString": "艾尔菲德"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1019": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019x100.player_019x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_019",
+          "SourceString": "薄荷",
+          "LocalizedString": "薄荷"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_019_des",
+          "SourceString": "异象管理局-收容二组组员",
+          "LocalizedString": "异象管理局-收容二组组员"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_019_des",
+          "SourceString": "异象管理局-收容二组组员",
+          "LocalizedString": "异象管理局-收容二组组员"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_Mint",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0",
+              "SourceString": "<Mainwhite>攻击</>",
+              "LocalizedString": "<Mainwhite>攻击</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_1",
+              "SourceString": "<white>主力输出</>",
+              "LocalizedString": "<white>主力输出</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1020": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_020.player_020",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_020",
+          "SourceString": "哈尼娅",
+          "LocalizedString": "哈尼娅"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1021": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_021.player_021",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_021x100.player_021x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_021",
+          "SourceString": "埃德嘉",
+          "LocalizedString": "埃德嘉"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1023": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_028.player_028",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_023",
+          "SourceString": "白藏",
+          "LocalizedString": "白藏"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1024": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_024.player_024",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_024",
+          "SourceString": "简森",
+          "LocalizedString": "简森"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1025": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003x100.player_003x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_025",
+          "SourceString": "哈索尔",
+          "LocalizedString": "哈索尔"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1026": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_026.player_026",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_026",
+          "SourceString": "伊利卡",
+          "LocalizedString": "伊利卡"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1029": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013.player_013",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013x100.player_013x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_029",
+          "SourceString": "浔",
+          "LocalizedString": "浔"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_029",
+          "SourceString": "浔",
+          "LocalizedString": "浔"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1030": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013.player_013",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013x100.player_013x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_030",
+          "SourceString": "依斯克拉",
+          "LocalizedString": "依斯克拉"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_029",
+          "SourceString": "浔",
+          "LocalizedString": "浔"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1031": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013.player_013",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013x100.player_013x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_031",
+          "SourceString": "帕洛米诺",
+          "LocalizedString": "帕洛米诺"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_031",
+          "SourceString": "帕洛米诺",
+          "LocalizedString": "帕洛米诺"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1032": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013.player_013",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013x100.player_013x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_032",
+          "SourceString": "安捏拉",
+          "LocalizedString": "安捏拉"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_029",
+          "SourceString": "浔",
+          "LocalizedString": "浔"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1033": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015x100.player_015x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_033",
+          "SourceString": "阿德勒",
+          "LocalizedString": "阿德勒"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_Adler",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Adler_tag_0",
+              "SourceString": "<Mainwhite>生存</>",
+              "LocalizedString": "<Mainwhite>生存</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag02.YH_UI_icon_MainTag02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Adler_tag_1",
+              "SourceString": "<white>护盾</>",
+              "LocalizedString": "<white>护盾</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_hudun.YH_UI_icon_Tag_hudun",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Adler_tag_2",
+              "SourceString": "<white>持续伤害</>",
+              "LocalizedString": "<white>持续伤害</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_chixu.YH_UI_icon_Tag_chixu",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1036": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013.player_013",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013x100.player_013x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_036",
+          "SourceString": "残虹",
+          "LocalizedString": "残虹"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_036",
+          "SourceString": "残虹",
+          "LocalizedString": "残虹"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1037": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013.player_013",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013x100.player_013x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_037",
+          "SourceString": "男主角",
+          "LocalizedString": "男主角"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_037",
+          "SourceString": "男主角",
+          "LocalizedString": "男主角"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1038": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013.player_013",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013x100.player_013x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_038",
+          "SourceString": "戈尔沐",
+          "LocalizedString": "戈尔沐"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_038",
+          "SourceString": "戈尔沐",
+          "LocalizedString": "戈尔沐"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1039": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_039",
+          "SourceString": "法帝娅",
+          "LocalizedString": "法帝娅"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "melt_fadia",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Adler_tag_0",
+              "SourceString": "<Mainwhite>生存</>",
+              "LocalizedString": "<Mainwhite>生存</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag02.YH_UI_icon_MainTag02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Fadia_tag_1",
+              "SourceString": "<white>伤害分摊</>",
+              "LocalizedString": "<white>伤害分摊</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_fentan.YH_UI_icon_Tag_fentan",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Fadia_tag_2",
+              "SourceString": "<white>即瞬环合</>",
+              "LocalizedString": "<white>即瞬环合</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1040": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_040",
+          "SourceString": "弥斯墨",
+          "LocalizedString": "弥斯墨"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1041": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_041",
+          "SourceString": "EXE",
+          "LocalizedString": "EXE"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1042": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_042",
+          "SourceString": "黑羽",
+          "LocalizedString": "黑羽"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1043": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_043",
+          "SourceString": "艾尔菲德",
+          "LocalizedString": "艾尔菲德"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1044": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_044",
+          "SourceString": "绘莉",
+          "LocalizedString": "绘莉"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1045": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_045",
+          "SourceString": "阿多尼丝",
+          "LocalizedString": "阿多尼丝"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": []
+      },
+      "1903": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003x100.player_003x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003",
+          "SourceString": "早雾",
+          "LocalizedString": "早雾"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_003_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Sagiri_tag_0",
+              "SourceString": "<Mainwhite>辅助</>",
+              "LocalizedString": "<Mainwhite>辅助</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_fuzhu02.YH_UI_icon_Tag_fuzhu02",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Sagiri_tag_1",
+              "SourceString": "<white>控制</>",
+              "LocalizedString": "<white>控制</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_kongzhi.YH_UI_icon_Tag_kongzhi",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Sagiri_tag_2",
+              "SourceString": "<white>即瞬环合</>",
+              "LocalizedString": "<white>即瞬环合</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1909": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009x100.player_009x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_009",
+          "SourceString": "零",
+          "LocalizedString": "零"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [],
+        "bAutoUseWhenAdd": false,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1910": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010.player_010",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010x100.player_010x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_010",
+          "SourceString": "娜娜莉",
+          "LocalizedString": "娜娜莉"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_010_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_010_des",
+          "SourceString": "伊波恩古董店成员",
+          "LocalizedString": "伊波恩古董店成员"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1919": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019x100.player_019x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_019",
+          "SourceString": "薄荷",
+          "LocalizedString": "薄荷"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_019_des",
+          "SourceString": "异象管理局-收容二组组员",
+          "LocalizedString": "异象管理局-收容二组组员"
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "1933": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015x100.player_015x100",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_033",
+          "SourceString": "阿德勒",
+          "LocalizedString": "阿德勒"
+        },
+        "MaxAmount": 1,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
+        "ItemCD": 0.0,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "ToolDatas": [
+          null
+        ],
+        "bAutoUseWhenAdd": true,
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": true,
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "MeltPackID": "None",
+        "ActiveBoxItemID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "SubstituteData": null,
+        "bCanAddToQuickBar": false,
+        "bAutoAddToQuickBar": false,
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "CultureInvariantString": null
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        ]
+      }
+    }
+  }
+]

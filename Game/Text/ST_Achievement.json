@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Achievement",
+    "Class": "UScriptClass'StringTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "StringTable": {
+      "TableNamespace": "ST_Achievement",
+      "KeysToEntries": {
+        "Ach_0": "{0}",
+        "DefaultKey_1": "完成进度",
+        "DefaultKey_2": "完成以下所有成就既可获得最终成就奖励",
+        "DefaultKey_3": "进行中",
+        "DefaultKey_4": "已领取",
+        "DefaultKey_5": "领取",
+        "DefaultKey_6": "已完成"
+      },
+      "KeysToMetaData": {}
+    }
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CityShopBrandData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CityShopBrandData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "BrandUnqiueID": "DSDShop001",
+        "BrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_1",
+          "SourceString": "DSD潮玩",
+          "LocalizedString": "DSD潮玩"
+        },
+        "VipItemID": "DSD_VipCard",
+        "VipItemDes": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopBrandData_1",
+          "SourceString": "<!>「DSD潮玩」连锁品牌会员卡，记录每位顾客的消费积分于权限等级，权限等级提高后可以使用积分购买特株的物品",
+          "LocalizedString": "<!>「DSD潮玩」连锁品牌会员卡，记录每位顾客的消费积分于权限等级，权限等级提高后可以使用积分购买特株的物品"
+        },
+        "VipItemIcon": {
+          "AssetPathName": "/Game/UI/UI/cityshop/YH_UI_icon_itemS_vip1.YH_UI_icon_itemS_vip1",
+          "SubPathString": ""
+        },
+        "CurrencyItemID": "cityshopcoin",
+        "bShowIntegral": true,
+        "VipLevelTips": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopBrandData_3",
+          "SourceString": "知名潮玩品牌专卖店，与「特工Z世代」、「月光～妄想圆舞会」等多个ip均有联动，也因此备受年轻人们追捧，但即便喜欢的ip联动了，各位也要先吃饭再吃谷！",
+          "LocalizedString": "知名潮玩品牌专卖店，与「特工Z世代」、「月光～妄想圆舞会」等多个ip均有联动，也因此备受年轻人们追捧，但即便喜欢的ip联动了，各位也要先吃饭再吃谷！"
+        }
+      },
+      "NewRow_0": {
+        "BrandUnqiueID": "002",
+        "BrandName": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopLevelDataTable_3",
+          "SourceString": "9度咖啡",
+          "LocalizedString": "9度咖啡"
+        },
+        "VipItemID": "2002",
+        "VipItemDes": {
+          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
+          "Key": "CityShopBrandData_2",
+          "SourceString": "<!>「9度咖啡」连锁品牌会员卡，记录每位顾客的消费积分于权限等级，权限等级提高后可以使用积分购买特株的物品",
+          "LocalizedString": "<!>「9度咖啡」连锁品牌会员卡，记录每位顾客的消费积分于权限等级，权限等级提高后可以使用积分购买特株的物品"
+        },
+        "VipItemIcon": {
+          "AssetPathName": "/Game/UI/UI/cityshop/YH_UI_icon_itemS_vip1.YH_UI_icon_itemS_vip1",
+          "SubPathString": ""
+        },
+        "CurrencyItemID": "fons",
+        "bShowIntegral": true,
+        "VipLevelTips": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]

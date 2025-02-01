@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CurrencySlotDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CurrencySlotData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Fons": {
+        "bShowAddIcon": false,
+        "OpenUIName": ""
+      },
+      "Annulith": {
+        "bShowAddIcon": false,
+        "OpenUIName": ""
+      },
+      "Riftcrystal": {
+        "bShowAddIcon": false,
+        "OpenUIName": ""
+      },
+      "ExchangeTicket": {
+        "bShowAddIcon": false,
+        "OpenUIName": ""
+      },
+      "OracleStone": {
+        "bShowAddIcon": false,
+        "OpenUIName": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_StorySequenceData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StorySequenceAndVedioData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "q110001": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110005_1": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110002": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110009": {
+        "Desc": "",
+        "SequenceInfo": [
+          null,
+          null
+        ]
+      },
+      "q110024": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110026": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110048": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110051": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110053": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110082": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q1100821": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110084": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110112": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110127_3": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110128": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110130": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110134": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110124": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110327": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110360": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110388": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "TempVedio": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110022_2": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110111_2": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "L110011": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "L110046": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "L110048": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q1101711": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110137": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q1101801": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q1101811": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      },
+      "q110189": {
+        "Desc": "",
+        "SequenceInfo": [
+          null
+        ]
+      }
+    }
+  }
+]
